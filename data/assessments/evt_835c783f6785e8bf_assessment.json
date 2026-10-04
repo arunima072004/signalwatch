@@ -1,0 +1,788 @@
+{
+  "assessment_id": "asmnt_9db377858b2f",
+  "event_id": "evt_835c783f6785e8bf",
+  "assessed_at": "2026-10-01T06:52:20.755752+00:00",
+  "hypotheses": [
+    {
+      "hypothesis_id": "hyp_3b09e7d90d1a",
+      "event_id": "evt_835c783f6785e8bf",
+      "hypothesis_type": "PROMOTION",
+      "signal_score": 0.752,
+      "rationale": "Hypothesis type PROMOTION generated from signals: price decrease -26.7%; offer URL present.",
+      "signals_matched": [
+        "price decrease -26.7%",
+        "offer URL present"
+      ],
+      "assigned_agents": [
+        "PromotionAgent",
+        "RetailerEventAgent"
+      ],
+      "requires_external_evidence": false,
+      "generated_at": "2026-10-01T06:52:20.755976+00:00"
+    },
+    {
+      "hypothesis_id": "hyp_647ed374417c",
+      "event_id": "evt_835c783f6785e8bf",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "signal_score": 0.4,
+      "rationale": "Hypothesis type INVENTORY_LIQUIDATION generated from signals: large price decrease -26.7%. Note: requires external web evidence; availability field alone is insufficient.",
+      "signals_matched": [
+        "large price decrease -26.7%"
+      ],
+      "assigned_agents": [
+        "SupplyAgent"
+      ],
+      "requires_external_evidence": true,
+      "generated_at": "2026-10-01T06:52:20.755976+00:00"
+    },
+    {
+      "hypothesis_id": "hyp_e9286796279b",
+      "event_id": "evt_835c783f6785e8bf",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "signal_score": 0.4,
+      "rationale": "Hypothesis type PRODUCT_EVENT generated from signals: extreme price change -26.7%.",
+      "signals_matched": [
+        "extreme price change -26.7%"
+      ],
+      "assigned_agents": [
+        "ProductEventAgent"
+      ],
+      "requires_external_evidence": true,
+      "generated_at": "2026-10-01T06:52:20.755976+00:00"
+    },
+    {
+      "hypothesis_id": "hyp_154f9ea965ab",
+      "event_id": "evt_835c783f6785e8bf",
+      "hypothesis_type": "SEASONAL_EVENT",
+      "signal_score": 0.4,
+      "rationale": "Hypothesis type SEASONAL_EVENT generated from signals: event in August/September (back-to-school period).",
+      "signals_matched": [
+        "event in August/September (back-to-school period)"
+      ],
+      "assigned_agents": [
+        "NewsAgent",
+        "RetailerEventAgent"
+      ],
+      "requires_external_evidence": false,
+      "generated_at": "2026-10-01T06:52:20.755976+00:00"
+    }
+  ],
+  "queries_generated": 20,
+  "results_retrieved": 40,
+  "evidence": [
+    {
+      "evidence_id": "evd_e7c9fec0f06d",
+      "event_id": "evt_835c783f6785e8bf",
+      "hypothesis_type": "PROMOTION",
+      "query_id": "q_9d54dccae3",
+      "result_id": "res_966ca74d3ae2",
+      "source_url": "https://www.bestbuy.com/site/promotions/summer-sale",
+      "source_domain": "bestbuy.com",
+      "source_title": "Best Buy Summer Sale: Up to 30% off Apple MacBooks",
+      "retrieved_at": "2026-10-01T06:52:20.756501+00:00",
+      "claim": "Best Buy is offering up to 30% off select MacBook models during the Summer 2017 sale event running August 13-20.",
+      "evidence_text": "Best Buy is offering up to 30% off select MacBook models during the Summer 2017 sale event running August 13-20.",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.452,
+      "investigator": "PromotionAgent",
+      "publication_date": "2017-08-13",
+      "strategy": "PromotionStrategy",
+      "shared_source_hypotheses": [
+        "SEASONAL_EVENT"
+      ]
+    },
+    {
+      "evidence_id": "evd_3f24c71c3d16",
+      "event_id": "evt_835c783f6785e8bf",
+      "hypothesis_type": "PROMOTION",
+      "query_id": "q_9d54dccae3",
+      "result_id": "res_f5042535f762",
+      "source_url": "https://www.bestbuy.com/site/apple/macbook/deals",
+      "source_domain": "bestbuy.com",
+      "source_title": "Apple MacBook Deals August 2017 - Best Buy",
+      "retrieved_at": "2026-10-01T06:52:20.881404+00:00",
+      "claim": "Save on the Apple MacBook 12-inch.",
+      "evidence_text": "Save on the Apple MacBook 12-inch. Price reduced from $1499.99 to $1099.99 for a limited time.",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.24,
+      "investigator": "PromotionAgent",
+      "publication_date": "2017-08-14",
+      "strategy": "PromotionStrategy",
+      "shared_source_hypotheses": [
+        "SEASONAL_EVENT"
+      ]
+    },
+    {
+      "evidence_id": "evd_0193628181cc",
+      "event_id": "evt_835c783f6785e8bf",
+      "hypothesis_type": "PROMOTION",
+      "query_id": "q_5a58fe696d",
+      "result_id": "res_5dd45b207b4b",
+      "source_url": "https://9to5mac.com/2017/08/macbook-discount-bestbuy",
+      "source_domain": "9to5mac.com",
+      "source_title": "Apple MacBook 12 Discounted at Best Buy",
+      "retrieved_at": "2026-10-01T06:52:20.881974+00:00",
+      "claim": "Best Buy is discounting the Apple MacBook 12-inch (MLHF2LL/A) by $400, bringing the price to $1099.99.",
+      "evidence_text": "Best Buy is discounting the Apple MacBook 12-inch (MLHF2LL/A) by $400, bringing the price to $1099.99.",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.328,
+      "investigator": "PromotionAgent",
+      "publication_date": "2017-08-15",
+      "strategy": "PromotionStrategy",
+      "shared_source_hypotheses": [
+        "SEASONAL_EVENT"
+      ]
+    },
+    {
+      "evidence_id": "evd_faa1101091a0",
+      "event_id": "evt_835c783f6785e8bf",
+      "hypothesis_type": "PROMOTION",
+      "query_id": "q_0b602d2fad",
+      "result_id": "res_b2e20b0a58e7",
+      "source_url": "https://www.bestbuy.com/back-to-school-2017",
+      "source_domain": "bestbuy.com",
+      "source_title": "Best Buy Back to School Promotions 2017",
+      "retrieved_at": "2026-10-01T06:52:20.882450+00:00",
+      "claim": "Best Buy launches back-to-school promotions with discounts on laptops and tablets through August 2017.",
+      "evidence_text": "Best Buy launches back-to-school promotions with discounts on laptops and tablets through August 2017.",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.332,
+      "investigator": "PromotionAgent",
+      "publication_date": "2017-08-01",
+      "strategy": "PromotionStrategy",
+      "shared_source_hypotheses": []
+    },
+    {
+      "evidence_id": "evd_70314655e04e",
+      "event_id": "evt_835c783f6785e8bf",
+      "hypothesis_type": "PROMOTION",
+      "query_id": "q_99626aa61e",
+      "result_id": "res_265b75457b24",
+      "source_url": "https://www.bestbuy.com/site/promotions/summer-sale",
+      "source_domain": "bestbuy.com",
+      "source_title": "Best Buy Summer Sale: Up to 30% off Apple MacBooks",
+      "retrieved_at": "2026-10-01T06:52:20.882868+00:00",
+      "claim": "Best Buy is offering up to 30% off select MacBook models during the Summer 2017 sale event running August 13-20.",
+      "evidence_text": "Best Buy is offering up to 30% off select MacBook models during the Summer 2017 sale event running August 13-20.",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.452,
+      "investigator": "PromotionAgent",
+      "publication_date": "2017-08-13",
+      "strategy": "PromotionStrategy",
+      "shared_source_hypotheses": [
+        "SEASONAL_EVENT"
+      ]
+    },
+    {
+      "evidence_id": "evd_3a7e50437ad3",
+      "event_id": "evt_835c783f6785e8bf",
+      "hypothesis_type": "PROMOTION",
+      "query_id": "q_99626aa61e",
+      "result_id": "res_08faf6e56e2e",
+      "source_url": "https://www.bestbuy.com/site/apple/macbook/deals",
+      "source_domain": "bestbuy.com",
+      "source_title": "Apple MacBook Deals August 2017 - Best Buy",
+      "retrieved_at": "2026-10-01T06:52:20.883072+00:00",
+      "claim": "Save on the Apple MacBook 12-inch.",
+      "evidence_text": "Save on the Apple MacBook 12-inch. Price reduced from $1499.99 to $1099.99 for a limited time.",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.24,
+      "investigator": "PromotionAgent",
+      "publication_date": "2017-08-14",
+      "strategy": "PromotionStrategy",
+      "shared_source_hypotheses": [
+        "SEASONAL_EVENT"
+      ]
+    },
+    {
+      "evidence_id": "evd_10fdfaac62f1",
+      "event_id": "evt_835c783f6785e8bf",
+      "hypothesis_type": "PROMOTION",
+      "query_id": "q_99626aa61e",
+      "result_id": "res_ea2ed661a7a1",
+      "source_url": "https://9to5mac.com/2017/08/macbook-discount-bestbuy",
+      "source_domain": "9to5mac.com",
+      "source_title": "Apple MacBook 12 Discounted at Best Buy",
+      "retrieved_at": "2026-10-01T06:52:20.883276+00:00",
+      "claim": "Best Buy is discounting the Apple MacBook 12-inch (MLHF2LL/A) by $400, bringing the price to $1099.99.",
+      "evidence_text": "Best Buy is discounting the Apple MacBook 12-inch (MLHF2LL/A) by $400, bringing the price to $1099.99.",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.328,
+      "investigator": "PromotionAgent",
+      "publication_date": "2017-08-15",
+      "strategy": "PromotionStrategy",
+      "shared_source_hypotheses": [
+        "SEASONAL_EVENT"
+      ]
+    },
+    {
+      "evidence_id": "evd_0de7c6cb0083",
+      "event_id": "evt_835c783f6785e8bf",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "query_id": "q_707fadcd1a",
+      "result_id": "res_51320f77c080",
+      "source_url": "https://www.macrumors.com/2019/07/09/apple-discontinues-12-inch-macbook/",
+      "source_domain": "macrumors.com",
+      "source_title": "Apple MacBook 12-inch Discontinued by Apple",
+      "retrieved_at": "2026-10-01T06:52:20.886372+00:00",
+      "claim": "Apple has discontinued the 12-inch MacBook from its lineup.",
+      "evidence_text": "Apple has discontinued the 12-inch MacBook from its lineup. The product page has been removed from Apple's website.",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.229,
+      "investigator": "ProductEventAgent",
+      "publication_date": "2019-07-09",
+      "strategy": "ProductEventStrategy",
+      "shared_source_hypotheses": []
+    },
+    {
+      "evidence_id": "evd_da4c3edef0f2",
+      "event_id": "evt_835c783f6785e8bf",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "query_id": "q_707fadcd1a",
+      "result_id": "res_4c4492beb062",
+      "source_url": "https://9to5mac.com/2019/07/10/macbook-12-discontinued-clearance",
+      "source_domain": "9to5mac.com",
+      "source_title": "MacBook 12 Discontinued Stock Clearance at Best Buy",
+      "retrieved_at": "2026-10-01T06:52:20.886575+00:00",
+      "claim": "Following Apple's discontinuation of the MacBook 12-inch, Best Buy is clearing remaining inventory at reduced prices.",
+      "evidence_text": "Following Apple's discontinuation of the MacBook 12-inch, Best Buy is clearing remaining inventory at reduced prices.",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.229,
+      "investigator": "ProductEventAgent",
+      "publication_date": "2019-07-10",
+      "strategy": "ProductEventStrategy",
+      "shared_source_hypotheses": []
+    },
+    {
+      "evidence_id": "evd_044f5426f621",
+      "event_id": "evt_835c783f6785e8bf",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "query_id": "q_41729eea6a",
+      "result_id": "res_98a1af6bb62b",
+      "source_url": "https://www.theverge.com/2018/10/30/18044962/apple-macbook-air-2018-announced",
+      "source_domain": "theverge.com",
+      "source_title": "Apple MacBook Air Successor Announced at WWDC",
+      "retrieved_at": "2026-10-01T06:52:20.886982+00:00",
+      "claim": "Apple announced the new MacBook Air as the successor to the MacBook 12-inch, replacing the older model in the lineup.",
+      "evidence_text": "Apple announced the new MacBook Air as the successor to the MacBook 12-inch, replacing the older model in the lineup.",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.339,
+      "investigator": "ProductEventAgent",
+      "publication_date": "2018-10-30",
+      "strategy": "ProductEventStrategy",
+      "shared_source_hypotheses": []
+    },
+    {
+      "evidence_id": "evd_13f9cd908f68",
+      "event_id": "evt_835c783f6785e8bf",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "query_id": "q_5ea7ca61e6",
+      "result_id": "res_f2abb649417b",
+      "source_url": "https://9to5mac.com/2017/06/apple-macbook-new-release-2017",
+      "source_domain": "9to5mac.com",
+      "source_title": "Apple New MacBook Release Date and Price",
+      "retrieved_at": "2026-10-01T06:52:20.887587+00:00",
+      "claim": "Apple's new MacBook release in 2017 features a refreshed processor lineup.",
+      "evidence_text": "Apple's new MacBook release in 2017 features a refreshed processor lineup. The 12-inch model is available in three configurations.",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "DESCRIPTIVE",
+      "relevance_score": 0.299,
+      "investigator": "ProductEventAgent",
+      "publication_date": "2017-06-05",
+      "strategy": "ProductEventStrategy",
+      "shared_source_hypotheses": []
+    },
+    {
+      "evidence_id": "evd_fff28205bdb3",
+      "event_id": "evt_835c783f6785e8bf",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "query_id": "q_70504661e6",
+      "result_id": "res_53171a0665e6",
+      "source_url": "https://www.macrumors.com/2019/07/09/apple-discontinues-12-inch-macbook/",
+      "source_domain": "macrumors.com",
+      "source_title": "Apple MacBook 12-inch Discontinued by Apple",
+      "retrieved_at": "2026-10-01T06:52:20.888195+00:00",
+      "claim": "Apple has discontinued the 12-inch MacBook from its lineup.",
+      "evidence_text": "Apple has discontinued the 12-inch MacBook from its lineup. The product page has been removed from Apple's website.",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.229,
+      "investigator": "ProductEventAgent",
+      "publication_date": "2019-07-09",
+      "strategy": "ProductEventStrategy",
+      "shared_source_hypotheses": []
+    },
+    {
+      "evidence_id": "evd_6a6f5f9752fe",
+      "event_id": "evt_835c783f6785e8bf",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "query_id": "q_70504661e6",
+      "result_id": "res_7846978dd3c7",
+      "source_url": "https://9to5mac.com/2019/07/10/macbook-12-discontinued-clearance",
+      "source_domain": "9to5mac.com",
+      "source_title": "MacBook 12 Discontinued Stock Clearance at Best Buy",
+      "retrieved_at": "2026-10-01T06:52:20.888394+00:00",
+      "claim": "Following Apple's discontinuation of the MacBook 12-inch, Best Buy is clearing remaining inventory at reduced prices.",
+      "evidence_text": "Following Apple's discontinuation of the MacBook 12-inch, Best Buy is clearing remaining inventory at reduced prices.",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.229,
+      "investigator": "ProductEventAgent",
+      "publication_date": "2019-07-10",
+      "strategy": "ProductEventStrategy",
+      "shared_source_hypotheses": []
+    },
+    {
+      "evidence_id": "evd_869059383043",
+      "event_id": "evt_835c783f6785e8bf",
+      "hypothesis_type": "SEASONAL_EVENT",
+      "query_id": "q_235169713d",
+      "result_id": "res_e3fed13a110e",
+      "source_url": "https://www.bestbuy.com/site/promotions/summer-sale",
+      "source_domain": "bestbuy.com",
+      "source_title": "Best Buy Summer Sale: Up to 30% off Apple MacBooks",
+      "retrieved_at": "2026-10-01T06:52:20.889008+00:00",
+      "claim": "Best Buy is offering up to 30% off select MacBook models during the Summer 2017 sale event running August 13-20.",
+      "evidence_text": "Best Buy is offering up to 30% off select MacBook models during the Summer 2017 sale event running August 13-20.",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.315,
+      "investigator": "NewsAgent",
+      "publication_date": "2017-08-13",
+      "strategy": "RetailerEventStrategy",
+      "shared_source_hypotheses": [
+        "PROMOTION"
+      ]
+    },
+    {
+      "evidence_id": "evd_dc1769f9310e",
+      "event_id": "evt_835c783f6785e8bf",
+      "hypothesis_type": "SEASONAL_EVENT",
+      "query_id": "q_235169713d",
+      "result_id": "res_82d3df6501c9",
+      "source_url": "https://www.bestbuy.com/site/apple/macbook/deals",
+      "source_domain": "bestbuy.com",
+      "source_title": "Apple MacBook Deals August 2017 - Best Buy",
+      "retrieved_at": "2026-10-01T06:52:20.889403+00:00",
+      "claim": "Save on the Apple MacBook 12-inch.",
+      "evidence_text": "Save on the Apple MacBook 12-inch. Price reduced from $1499.99 to $1099.99 for a limited time.",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.24,
+      "investigator": "NewsAgent",
+      "publication_date": "2017-08-14",
+      "strategy": "RetailerEventStrategy",
+      "shared_source_hypotheses": [
+        "PROMOTION"
+      ]
+    },
+    {
+      "evidence_id": "evd_390790c707c1",
+      "event_id": "evt_835c783f6785e8bf",
+      "hypothesis_type": "SEASONAL_EVENT",
+      "query_id": "q_c09573fa0b",
+      "result_id": "res_383308f528db",
+      "source_url": "https://9to5mac.com/2017/08/macbook-discount-bestbuy",
+      "source_domain": "9to5mac.com",
+      "source_title": "Apple MacBook 12 Discounted at Best Buy",
+      "retrieved_at": "2026-10-01T06:52:20.890834+00:00",
+      "claim": "Best Buy is discounting the Apple MacBook 12-inch (MLHF2LL/A) by $400, bringing the price to $1099.99.",
+      "evidence_text": "Best Buy is discounting the Apple MacBook 12-inch (MLHF2LL/A) by $400, bringing the price to $1099.99.",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.24,
+      "investigator": "NewsAgent",
+      "publication_date": "2017-08-15",
+      "strategy": "RetailerEventStrategy",
+      "shared_source_hypotheses": [
+        "PROMOTION"
+      ]
+    }
+  ],
+  "evidence_verifications": [
+    {
+      "evidence_id": "evd_e7c9fec0f06d",
+      "hypothesis_type": "PROMOTION",
+      "support_level": "CONSISTENT_WITH",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.85,
+        "temporal_alignment": 0.8,
+        "product_match": 0.0,
+        "merchant_match": 0.5,
+        "specificity": 1.0,
+        "source_independence": 0.3,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.85 (domain: bestbuy.com); temporal_alignment=0.80; product_match=0.00 (text-based, product='Apple MacBook - 12 - Core m5 - 8 GB RAM - 512 GB flash storage - English\"'); merchant_match=0.50; specificity=1.00; source_independence=0.30 (SYNDICATED); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_3f24c71c3d16",
+      "hypothesis_type": "PROMOTION",
+      "support_level": "CONSISTENT_WITH",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.85,
+        "temporal_alignment": 0.8,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.4,
+        "source_independence": 0.3,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.85 (domain: bestbuy.com); temporal_alignment=0.80; product_match=0.60 (text-based, product='Apple MacBook - 12 - Core m5 - 8 GB RAM - 512 GB flash storage - English\"'); merchant_match=0.00; specificity=0.40; source_independence=0.30 (SYNDICATED); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_0193628181cc",
+      "hypothesis_type": "PROMOTION",
+      "support_level": "CONSISTENT_WITH",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.85,
+        "temporal_alignment": 0.8,
+        "product_match": 0.6,
+        "merchant_match": 0.5,
+        "specificity": 0.5,
+        "source_independence": 0.3,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.85 (domain: 9to5mac.com); temporal_alignment=0.80; product_match=0.60 (text-based, product='Apple MacBook - 12 - Core m5 - 8 GB RAM - 512 GB flash storage - English\"'); merchant_match=0.50; specificity=0.50; source_independence=0.30 (SYNDICATED); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_faa1101091a0",
+      "hypothesis_type": "PROMOTION",
+      "support_level": "CONSISTENT_WITH",
+      "independence_class": "INDEPENDENCE_UNCERTAIN",
+      "component_scores": {
+        "source_quality": 0.85,
+        "temporal_alignment": 0.6,
+        "product_match": 0.0,
+        "merchant_match": 0.5,
+        "specificity": 0.3,
+        "source_independence": 0.5,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.85 (domain: bestbuy.com); temporal_alignment=0.60; product_match=0.00 (text-based, product='Apple MacBook - 12 - Core m5 - 8 GB RAM - 512 GB flash storage - English\"'); merchant_match=0.50; specificity=0.30; source_independence=0.50 (INDEPENDENCE_UNCERTAIN); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_70314655e04e",
+      "hypothesis_type": "PROMOTION",
+      "support_level": "CONSISTENT_WITH",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.85,
+        "temporal_alignment": 0.8,
+        "product_match": 0.0,
+        "merchant_match": 0.5,
+        "specificity": 1.0,
+        "source_independence": 0.3,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.85 (domain: bestbuy.com); temporal_alignment=0.80; product_match=0.00 (text-based, product='Apple MacBook - 12 - Core m5 - 8 GB RAM - 512 GB flash storage - English\"'); merchant_match=0.50; specificity=1.00; source_independence=0.30 (SYNDICATED); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_3a7e50437ad3",
+      "hypothesis_type": "PROMOTION",
+      "support_level": "CONSISTENT_WITH",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.85,
+        "temporal_alignment": 0.8,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.4,
+        "source_independence": 0.3,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.85 (domain: bestbuy.com); temporal_alignment=0.80; product_match=0.60 (text-based, product='Apple MacBook - 12 - Core m5 - 8 GB RAM - 512 GB flash storage - English\"'); merchant_match=0.00; specificity=0.40; source_independence=0.30 (SYNDICATED); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_10fdfaac62f1",
+      "hypothesis_type": "PROMOTION",
+      "support_level": "CONSISTENT_WITH",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.85,
+        "temporal_alignment": 0.8,
+        "product_match": 0.6,
+        "merchant_match": 0.5,
+        "specificity": 0.5,
+        "source_independence": 0.3,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.85 (domain: 9to5mac.com); temporal_alignment=0.80; product_match=0.60 (text-based, product='Apple MacBook - 12 - Core m5 - 8 GB RAM - 512 GB flash storage - English\"'); merchant_match=0.50; specificity=0.50; source_independence=0.30 (SYNDICATED); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_0de7c6cb0083",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "support_level": "INSUFFICIENT_EVIDENCE",
+      "independence_class": "INDEPENDENCE_UNCERTAIN",
+      "component_scores": {
+        "source_quality": 0.85,
+        "temporal_alignment": 0.2,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.4,
+        "source_independence": 0.5,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.85 (domain: macrumors.com); temporal_alignment=0.20; product_match=0.60 (text-based, product='Apple MacBook - 12 - Core m5 - 8 GB RAM - 512 GB flash storage - English\"'); merchant_match=0.00; specificity=0.40; source_independence=0.50 (INDEPENDENCE_UNCERTAIN); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_da4c3edef0f2",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "support_level": "INSUFFICIENT_EVIDENCE",
+      "independence_class": "INDEPENDENCE_UNCERTAIN",
+      "component_scores": {
+        "source_quality": 0.85,
+        "temporal_alignment": 0.2,
+        "product_match": 0.6,
+        "merchant_match": 0.5,
+        "specificity": 0.1,
+        "source_independence": 0.5,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.85 (domain: 9to5mac.com); temporal_alignment=0.20; product_match=0.60 (text-based, product='Apple MacBook - 12 - Core m5 - 8 GB RAM - 512 GB flash storage - English\"'); merchant_match=0.50; specificity=0.10; source_independence=0.50 (INDEPENDENCE_UNCERTAIN); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_044f5426f621",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "support_level": "INSUFFICIENT_EVIDENCE",
+      "independence_class": "INDEPENDENCE_UNCERTAIN",
+      "component_scores": {
+        "source_quality": 0.85,
+        "temporal_alignment": 0.2,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.1,
+        "source_independence": 0.5,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.85 (domain: theverge.com); temporal_alignment=0.20; product_match=0.60 (text-based, product='Apple MacBook - 12 - Core m5 - 8 GB RAM - 512 GB flash storage - English\"'); merchant_match=0.00; specificity=0.10; source_independence=0.50 (INDEPENDENCE_UNCERTAIN); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_13f9cd908f68",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "support_level": "INSUFFICIENT_EVIDENCE",
+      "independence_class": "INDEPENDENCE_UNCERTAIN",
+      "component_scores": {
+        "source_quality": 0.85,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.1,
+        "source_independence": 0.5,
+        "causal_strength": 0.25,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.85 (domain: 9to5mac.com); temporal_alignment=0.40; product_match=0.60 (text-based, product='Apple MacBook - 12 - Core m5 - 8 GB RAM - 512 GB flash storage - English\"'); merchant_match=0.00; specificity=0.10; source_independence=0.50 (INDEPENDENCE_UNCERTAIN); causal_strength=0.25 (relationship=DESCRIPTIVE); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_fff28205bdb3",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "support_level": "INSUFFICIENT_EVIDENCE",
+      "independence_class": "INDEPENDENCE_UNCERTAIN",
+      "component_scores": {
+        "source_quality": 0.85,
+        "temporal_alignment": 0.2,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.4,
+        "source_independence": 0.5,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.85 (domain: macrumors.com); temporal_alignment=0.20; product_match=0.60 (text-based, product='Apple MacBook - 12 - Core m5 - 8 GB RAM - 512 GB flash storage - English\"'); merchant_match=0.00; specificity=0.40; source_independence=0.50 (INDEPENDENCE_UNCERTAIN); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_6a6f5f9752fe",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "support_level": "INSUFFICIENT_EVIDENCE",
+      "independence_class": "INDEPENDENCE_UNCERTAIN",
+      "component_scores": {
+        "source_quality": 0.85,
+        "temporal_alignment": 0.2,
+        "product_match": 0.6,
+        "merchant_match": 0.5,
+        "specificity": 0.1,
+        "source_independence": 0.5,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.85 (domain: 9to5mac.com); temporal_alignment=0.20; product_match=0.60 (text-based, product='Apple MacBook - 12 - Core m5 - 8 GB RAM - 512 GB flash storage - English\"'); merchant_match=0.50; specificity=0.10; source_independence=0.50 (INDEPENDENCE_UNCERTAIN); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_869059383043",
+      "hypothesis_type": "SEASONAL_EVENT",
+      "support_level": "CONSISTENT_WITH",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.85,
+        "temporal_alignment": 0.8,
+        "product_match": 0.0,
+        "merchant_match": 0.5,
+        "specificity": 1.0,
+        "source_independence": 0.3,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.85 (domain: bestbuy.com); temporal_alignment=0.80; product_match=0.00 (text-based, product='Apple MacBook - 12 - Core m5 - 8 GB RAM - 512 GB flash storage - English\"'); merchant_match=0.50; specificity=1.00; source_independence=0.30 (SYNDICATED); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_dc1769f9310e",
+      "hypothesis_type": "SEASONAL_EVENT",
+      "support_level": "CONSISTENT_WITH",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.85,
+        "temporal_alignment": 0.8,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.4,
+        "source_independence": 0.3,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.85 (domain: bestbuy.com); temporal_alignment=0.80; product_match=0.60 (text-based, product='Apple MacBook - 12 - Core m5 - 8 GB RAM - 512 GB flash storage - English\"'); merchant_match=0.00; specificity=0.40; source_independence=0.30 (SYNDICATED); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_390790c707c1",
+      "hypothesis_type": "SEASONAL_EVENT",
+      "support_level": "CONSISTENT_WITH",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.85,
+        "temporal_alignment": 0.8,
+        "product_match": 0.6,
+        "merchant_match": 0.5,
+        "specificity": 0.5,
+        "source_independence": 0.3,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.85 (domain: 9to5mac.com); temporal_alignment=0.80; product_match=0.60 (text-based, product='Apple MacBook - 12 - Core m5 - 8 GB RAM - 512 GB flash storage - English\"'); merchant_match=0.50; specificity=0.50; source_independence=0.30 (SYNDICATED); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    }
+  ],
+  "hypothesis_assessments": [
+    {
+      "hypothesis_id": "hyp_3b09e7d90d1a",
+      "hypothesis_type": "PROMOTION",
+      "support_level": "CONSISTENT_WITH",
+      "supporting_evidence_ids": [],
+      "contradicting_evidence_ids": [],
+      "independent_source_count": 0,
+      "duplicated_source_count": 6,
+      "component_scores": {
+        "source_quality": 0.85,
+        "temporal_alignment": 0.771,
+        "product_match": 0.343,
+        "merchant_match": 0.357,
+        "specificity": 0.586,
+        "source_independence": 0.329,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "explanation": "Evidence is consistent with the PROMOTION hypothesis. Source independence could not be confirmed."
+    },
+    {
+      "hypothesis_id": "hyp_647ed374417c",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "support_level": "INSUFFICIENT_EVIDENCE",
+      "supporting_evidence_ids": [],
+      "contradicting_evidence_ids": [],
+      "independent_source_count": 0,
+      "duplicated_source_count": 0,
+      "component_scores": {
+        "source_quality": 0.0,
+        "temporal_alignment": 0.0,
+        "product_match": 0.0,
+        "merchant_match": 0.0,
+        "specificity": 0.0,
+        "source_independence": 0.0,
+        "causal_strength": 0.0,
+        "contradiction_penalty": 0.0
+      },
+      "explanation": "No evidence was retrieved for this hypothesis."
+    },
+    {
+      "hypothesis_id": "hyp_e9286796279b",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "support_level": "INSUFFICIENT_EVIDENCE",
+      "supporting_evidence_ids": [],
+      "contradicting_evidence_ids": [],
+      "independent_source_count": 0,
+      "duplicated_source_count": 0,
+      "component_scores": {
+        "source_quality": 0.85,
+        "temporal_alignment": 0.233,
+        "product_match": 0.6,
+        "merchant_match": 0.167,
+        "specificity": 0.2,
+        "source_independence": 0.5,
+        "causal_strength": 0.125,
+        "contradiction_penalty": 0.0
+      },
+      "explanation": "Insufficient evidence to assess the PRODUCT_EVENT hypothesis. Source independence could not be confirmed."
+    },
+    {
+      "hypothesis_id": "hyp_154f9ea965ab",
+      "hypothesis_type": "SEASONAL_EVENT",
+      "support_level": "CONSISTENT_WITH",
+      "supporting_evidence_ids": [],
+      "contradicting_evidence_ids": [],
+      "independent_source_count": 0,
+      "duplicated_source_count": 3,
+      "component_scores": {
+        "source_quality": 0.85,
+        "temporal_alignment": 0.8,
+        "product_match": 0.4,
+        "merchant_match": 0.333,
+        "specificity": 0.633,
+        "source_independence": 0.3,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "explanation": "Evidence is consistent with the SEASONAL_EVENT hypothesis. Source independence could not be confirmed."
+    }
+  ],
+  "independent_source_count": 0,
+  "duplicated_source_count": 9,
+  "uncertainty_factors": [
+    "Source independence could not be confirmed for any evidence."
+  ],
+  "summary": "Event evt_835c783f6785e8bf: Apple MacBook - 12 - Core m5 - 8 GB RAM - 512 GB flash storage - English\" at Bestbuy.com. Observed decrease of 26.7% on 2017-08-19. Hypothesis assessments:   PROMOTION: CONSISTENT_WITH   INVENTORY_LIQUIDATION: INSUFFICIENT_EVIDENCE   PRODUCT_EVENT: INSUFFICIENT_EVIDENCE   SEASONAL_EVENT: CONSISTENT_WITH 16 evidence item(s) collected.",
+  "event_summary": {
+    "event_id": "evt_835c783f6785e8bf",
+    "product_name": "Apple MacBook - 12 - Core m5 - 8 GB RAM - 512 GB flash storage - English\"",
+    "brand": "Apple",
+    "merchant": "Bestbuy.com",
+    "previous_price": 1499.99,
+    "current_price": 1099.99,
+    "price_change_pct": -26.666844,
+    "change_direction": "decrease",
+    "observed_at": "2017-08-19T08:00:00+00:00",
+    "category": "Electronics"
+  },
+  "agent_failures": [],
+  "search_failures": []
+}

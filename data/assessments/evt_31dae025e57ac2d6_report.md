@@ -1,0 +1,116 @@
+# SignalWatch Investigation Report
+
+**Event:** evt_31dae025e57ac2d6  
+**Assessed:** 2026-10-03 05:24:37 UTC  
+**Provider:** see assessment
+
+---
+
+## Event Summary
+
+| Field | Value |
+|---|---|
+| Product | Sherwood - 200W 2.0-Ch. A/V Home Theater Receiver - Black |
+| Merchant | Walmart.com |
+| Date | 2017-12-14 |
+| Price change |  ↑  (+44.9%) |
+| Category | Electronics |
+| Brand | Sherwood |
+
+**Queries generated:** 10  
+**Search results retrieved:** 50  
+**Evidence items extracted:** 13  
+**Independent sources:** 0  
+**Duplicated/syndicated:** 0  
+
+---
+
+## Hypothesis Assessments
+
+### 🔵 PRODUCT_EVENT — CONSISTENT_WITH
+
+Evidence is consistent with the PRODUCT_EVENT hypothesis. Source independence could not be confirmed.
+
+<details>
+<summary>Component scores</summary>
+
+| Dimension | Score |
+|---|---|
+| Source Quality | 0.900 |
+| Temporal Alignment | 0.400 |
+| Product Match | 0.600 |
+| Merchant Match | 0.000 |
+| Specificity | 0.300 |
+| Source Independence | 0.500 |
+| Causal Strength | 0.100 |
+| Contradiction Penalty | 0.000 |
+
+</details>
+
+*No evidence items reached supporting or contradicting threshold.*
+
+### ❌ PROMOTION — CONTRADICTS
+
+Evidence contradicts the PROMOTION hypothesis. 12 contradicting evidence item(s) found. Source independence could not be confirmed.
+
+<details>
+<summary>Component scores</summary>
+
+| Dimension | Score |
+|---|---|
+| Source Quality | 0.533 |
+| Temporal Alignment | 0.400 |
+| Product Match | 0.250 |
+| Merchant Match | 0.150 |
+| Specificity | 0.450 |
+| Source Independence | 0.000 |
+| Causal Strength | 0.150 |
+| Contradiction Penalty | 1.000 |
+
+</details>
+
+**Contradicting evidence (12 item(s)):**
+
+- **[www.youtube.com]** [music] What sits at Walmart today under that name is a 200 W stereo receiver with Bluetooth.  
+  [Source](https://www.youtube.com/watch?v=vX09X7Ax3HA)
+
+- **[finance.yahoo.com]** Perfect for picking up best-in-class products for less than retail value, this Walmart sale offers markdowns on home ess  
+  [Source](https://finance.yahoo.com/news/85-best-early-black-friday-195029396.html)
+
+- **[www.yelp.com]** AL’S GARDEN & HOME - Updated December 2025 - 245 Photos & 105 Reviews - 16920 SW Roy Rogers Rd, Sherwood, Oregon - Nurse  
+  [Source](https://www.yelp.com/biz/als-garden-and-home-sherwood-3?start=40)
+
+---
+
+## Uncertainty Factors
+
+- Source independence could not be confirmed for any evidence.
+
+---
+
+## All Evidence Sources
+
+| # | Hypothesis | Domain | Published | Independence | Relevance | Claim |
+|---|---|---|---|---|---|---|
+| 1 | PRODUCT_EVENT | [www.sec.gov](https://www.sec.gov/divisions/enforce/claims/bivona.htm) | ? | uncertain | 0.30 | Title: SEC v. |
+| 2 | PROMOTION | [www.youtube.com](https://www.youtube.com/watch?v=vX09X7Ax3HA) | ? | contradicting | 0.32 | [music] What sits at Walmart today under that name is a 200  |
+| 3 | PROMOTION | [finance.yahoo.com](https://finance.yahoo.com/news/85-best-early-black-friday-195029396.html) | ? | contradicting | 0.55 | Perfect for picking up best-in-class products for less than  |
+| 4 | PROMOTION | [www.yelp.com](https://www.yelp.com/biz/als-garden-and-home-sherwood-3?start=40) | ? | contradicting | 0.36 | AL’S GARDEN & HOME - Updated December 2025 - 245 Photos & 10 |
+| 5 | PROMOTION | [www.yelp.com](https://www.yelp.com/biz/als-garden-and-home-sherwood-3?start=40) | ? | contradicting | 0.36 | AL’S GARDEN & HOME - Updated December 2025 - 245 Photos & 10 |
+| 6 | PROMOTION | [www.indeed.com](https://www.indeed.com/q-sherwood-food-distributors-jobs.html) | ? | contradicting | 0.28 | Sherwood Food Distributors Jobs, Employment / Indeed. |
+| 7 | PROMOTION | [www.mapquest.com](https://www.mapquest.com/us/ohio/discount-drug-mart-5711289) | ? | contradicting | 0.54 | Title: Discount Drug Mart, 4208 Liberty Ave, Vermilion, OH 4 |
+| 8 | PROMOTION | [rocketreach.co](https://rocketreach.co/rx-discount-pharmacy-profile_b47260f7fc5cd174) | ? | contradicting | 0.45 | Title: Rx Discount Pharmacy Information
+Image 5: Rx Discount |
+| 9 | PROMOTION | [www.mapquest.com](https://www.mapquest.com/us/michigan/discount-rx-pharmacy-428364517) | ? | contradicting | 0.33 | Title: Discount Rx Pharmacy, 4129 S Saginaw St, Flint, MI 48 |
+| 10 | PROMOTION | [www.yelp.com](https://www.yelp.com/biz/canada-rx-drug-discount-new-port-richey) | ? | contradicting | 0.24 | CANADA RX DRUG DISCOUNT - Updated December 2025 - 5713 Gulf  |
+| 11 | PROMOTION | [www.mapquest.com](https://www.mapquest.com/us/kentucky/rx-discount-pharmacy-inc-272334581) | ? | contradicting | 0.33 | Title: Rx Discount Pharmacy Inc, 500 Morton Blvd, Hazard, KY |
+| 12 | PROMOTION | [www.accessories4less.com](https://www.accessories4less.com) | ? | contradicting | 0.29 | Skip to navigation
+
+Skip to the main content
+
+Skip to footer |
+| 13 | PROMOTION | [www.indeed.com](https://www.indeed.com/q-sherwood-food-distributors-jobs.html) | ? | contradicting | 0.28 | Sherwood Food Distributors Jobs, Employment / Indeed. |
+
+---
+
+*Report generated by SignalWatch. Assessment ID: asmnt_5eafd039c76a.*

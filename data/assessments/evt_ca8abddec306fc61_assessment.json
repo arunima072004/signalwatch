@@ -1,0 +1,1167 @@
+{
+  "assessment_id": "asmnt_986ca0941478",
+  "event_id": "evt_ca8abddec306fc61",
+  "assessed_at": "2026-10-03T05:35:07.557593+00:00",
+  "hypotheses": [
+    {
+      "hypothesis_id": "hyp_644aeb82ee88",
+      "event_id": "evt_ca8abddec306fc61",
+      "hypothesis_type": "PROMOTION",
+      "signal_score": 0.752,
+      "rationale": "Hypothesis type PROMOTION generated from signals: price decrease -25.0%; offer URL present.",
+      "signals_matched": [
+        "price decrease -25.0%",
+        "offer URL present"
+      ],
+      "assigned_agents": [
+        "PromotionAgent",
+        "RetailerEventAgent"
+      ],
+      "requires_external_evidence": false,
+      "generated_at": "2026-10-03T05:35:07.558008+00:00"
+    },
+    {
+      "hypothesis_id": "hyp_e3182576ec50",
+      "event_id": "evt_ca8abddec306fc61",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "signal_score": 0.61,
+      "rationale": "Hypothesis type PRODUCT_EVENT generated from signals: extreme price change -25.0%; short run length (1) suggests new regime.",
+      "signals_matched": [
+        "extreme price change -25.0%",
+        "short run length (1) suggests new regime"
+      ],
+      "assigned_agents": [
+        "ProductEventAgent"
+      ],
+      "requires_external_evidence": true,
+      "generated_at": "2026-10-03T05:35:07.558008+00:00"
+    },
+    {
+      "hypothesis_id": "hyp_b3cfca659ebd",
+      "event_id": "evt_ca8abddec306fc61",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "signal_score": 0.4,
+      "rationale": "Hypothesis type INVENTORY_LIQUIDATION generated from signals: large price decrease -25.0%. Note: requires external web evidence; availability field alone is insufficient.",
+      "signals_matched": [
+        "large price decrease -25.0%"
+      ],
+      "assigned_agents": [
+        "SupplyAgent"
+      ],
+      "requires_external_evidence": true,
+      "generated_at": "2026-10-03T05:35:07.558008+00:00"
+    }
+  ],
+  "queries_generated": 15,
+  "results_retrieved": 75,
+  "evidence": [
+    {
+      "evidence_id": "evd_63e76c9466c9",
+      "event_id": "evt_ca8abddec306fc61",
+      "hypothesis_type": "PROMOTION",
+      "query_id": "q_1259b72f3a",
+      "result_id": "res_871c45814584",
+      "source_url": "https://havecamerawilltravel.com/mevo-camera-review",
+      "source_domain": "havecamerawilltravel.com",
+      "source_title": "Mevo, the Live-Action and Live-Editing Camera Test & Review",
+      "retrieved_at": "2026-10-03T05:35:13.442237+00:00",
+      "claim": "#### Accessories\n\nThere are a couple of optional-extra accessories that can come in very handy.",
+      "evidence_text": "#### Accessories\n\nThere are a couple of optional-extra accessories that can come in very handy. One is a stand. Mevo offers one as a \u201cPro Accessory,\u201d but it\u2019s just a regular microphone stand by Konig & Meyer without any Mevo-specific alterations. Pretty much any tripod or microphone stand will work\u2013it has a standard tripod attachment on the bottom. The other is the Mevo Boost. It has an MSRP of $249 and is available directly from Livestream. It adds several features, including: [...] one. First, you turn on Bluetooth on your device. It\u2019ll then walk you through the simple steps to set up the wifi network and connect to it, and it only takes 20 seconds or so, if that. (It is possible to use the Mevo with Ethernet or an LTE cellular network, but those require an optional extra accessory, the ",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "DESCRIPTIVE",
+      "relevance_score": 0.415,
+      "investigator": "PromotionAgent",
+      "publication_date": null,
+      "strategy": "PromotionStrategy",
+      "shared_source_hypotheses": []
+    },
+    {
+      "evidence_id": "evd_a8bcd18c0985",
+      "event_id": "evt_ca8abddec306fc61",
+      "hypothesis_type": "PROMOTION",
+      "query_id": "q_1259b72f3a",
+      "result_id": "res_f5a172dd4c1e",
+      "source_url": "https://rocketreach.co/mevo-profile_b5489fdff6688113",
+      "source_domain": "rocketreach.co",
+      "source_title": "MEVO Information",
+      "retrieved_at": "2026-10-03T05:35:13.547143+00:00",
+      "claim": "When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies.",
+      "evidence_text": "When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences, or your device, and is mostly used to make the site work as you expect. The information does not usually identify you directly, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. Click on the different category headings to learn more [...] More information [...] to learn more and change our default settings. Blocking some types of cookies may impact your experience of the site and the services we are able to offer.",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "CAUSAL",
+      "relevance_score": 0.245,
+      "investigator": "PromotionAgent",
+      "publication_date": null,
+      "strategy": "PromotionStrategy",
+      "shared_source_hypotheses": []
+    },
+    {
+      "evidence_id": "evd_85ab36af47e1",
+      "event_id": "evt_ca8abddec306fc61",
+      "hypothesis_type": "PROMOTION",
+      "query_id": "q_1259b72f3a",
+      "result_id": "res_c6c97e90cb64",
+      "source_url": "https://www.stocktitan.net/news/LOGI/game-changer-partners-with-logitech-s-mevo-to-enhance-live-video-hhwq30l0j7oa.html",
+      "source_domain": "www.stocktitan.net",
+      "source_title": "GameChanger Partners With Logitech's Mevo to Enhance Live Video Streaming for Youth Sports | LOGI Stock News",
+      "retrieved_at": "2026-10-03T05:35:13.547430+00:00",
+      "claim": "Suggested retail price for Mevo Start is $399.99 and Mevo Start 3-Pack is $999.99.",
+      "evidence_text": "Suggested retail price for Mevo Start is $399.99 and Mevo Start 3-Pack is $999.99. To find out more about the integration and how to use GameChanger and Mevo at your next youth sports event, visit www.gc.com/home/live-video\n\n\\requires ethernet adapter, sold separately\n\nAbout GameChanger [...] Founded in 1981, and headquartered in Lausanne, Switzerland, Logitech International is a Swiss public company listed on the SIX Swiss Exchange (LOGN) and on the Nasdaq Global Select Market (LOGI). Find Mevo at mevo.com and on Facebook, Instagram and Twitter on @MevoCamera. Find Logitech For Creators at www.logitech.com/creators, the company blog or Instagram, TikTok and Twitter on @Logitech. [...] Designed for live streaming and recording from anywhere, coaches and parents can use Mevo Start to stream",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.24,
+      "investigator": "PromotionAgent",
+      "publication_date": null,
+      "strategy": "PromotionStrategy",
+      "shared_source_hypotheses": [
+        "PRODUCT_EVENT",
+        "INVENTORY_LIQUIDATION"
+      ]
+    },
+    {
+      "evidence_id": "evd_a638f42af8b2",
+      "event_id": "evt_ca8abddec306fc61",
+      "hypothesis_type": "PROMOTION",
+      "query_id": "q_1259b72f3a",
+      "result_id": "res_680958bbbf73",
+      "source_url": "https://www.cbinsights.com/company/mevo/financials",
+      "source_domain": "www.cbinsights.com",
+      "source_title": "Mevo Stock Price, Funding, Valuation, Revenue & Financial Statements",
+      "retrieved_at": "2026-10-03T05:35:13.547780+00:00",
+      "claim": "Title: Mevo Stock Price, Funding, Valuation, Revenue & Financial Statements\n# Mevo.",
+      "evidence_text": "Title: Mevo Stock Price, Funding, Valuation, Revenue & Financial Statements\n# Mevo. Mevo has **raised $2.65M** over **7 rounds**. Mevo's **latest funding round** was a **Asset Sale for** on **May 20, 2026**. | Date | Round | Amount | Investors | Valuation Valuations are submitted by companies, mined from state filings or news, provided by VentureSource, or based on a comparables valuation model. | 5/20/2026 | Asset Sale | Carbn | $XXM | 0  FY undefined | 1 |. | 5/7/2026 | Bankrupt/Liquidation | $XXM | 0  FY undefined | 10 |. | 3/30/2026 | Bankrupt/Admin | $XXM | 0  FY undefined | 10 |. | 2/22/2026 | Angel | $XXM | Subscribe to see more | $XXM | 0  FY undefined | 10 |. | 7/20/2018 | Corporate Minority - II | $XXM | Subscribe to see more | $XXM | 0  FY undefined | 10 |. | Date | 5/20/2026 | ",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.572,
+      "investigator": "PromotionAgent",
+      "publication_date": null,
+      "strategy": "PromotionStrategy",
+      "shared_source_hypotheses": [
+        "INVENTORY_LIQUIDATION"
+      ]
+    },
+    {
+      "evidence_id": "evd_8ab7d31ec261",
+      "event_id": "evt_ca8abddec306fc61",
+      "hypothesis_type": "PROMOTION",
+      "query_id": "q_7537190425",
+      "result_id": "res_f42fd283843a",
+      "source_url": "https://www.stocktitan.net/news/LOGI/new-logitech-mevo-core-4k-camera-enables-seamless-wireless-live-mje1ekva9pvq.html",
+      "source_domain": "www.stocktitan.net",
+      "source_title": "New Logitech Mevo Core 4K Camera Enables Seamless Wireless Live Streaming of Any Event, Anywhere | LOGI Stock News",
+      "retrieved_at": "2026-10-03T05:35:16.205860+00:00",
+      "claim": "to focus and start streaming.",
+      "evidence_text": "to focus and start streaming. [...] About Logitech\n\nLogitech helps all people pursue their passions and is committed to doing so in a way that is good for people and the planet. We design hardware and software solutions that help businesses thrive and bring people together when working, creating, gaming and streaming. Brands of Logitech include Logitech, Logitech G, Streamlabs and Ultimate Ears. [...] Mevo Core is available now for $999 (camera body only) at Mevo.com, B&H Photo Video and Amazon in the US and Canada, and will be offered with lens bundles at select retailers. For more information and to view our video, please visit our company blog or www.logitech.com.\n\nAbout Logitech",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "DESCRIPTIVE",
+      "relevance_score": 0.415,
+      "investigator": "PromotionAgent",
+      "publication_date": null,
+      "strategy": "PromotionStrategy",
+      "shared_source_hypotheses": [
+        "INVENTORY_LIQUIDATION"
+      ]
+    },
+    {
+      "evidence_id": "evd_1123063b254c",
+      "event_id": "evt_ca8abddec306fc61",
+      "hypothesis_type": "PROMOTION",
+      "query_id": "q_7537190425",
+      "result_id": "res_641b63e3f18a",
+      "source_url": "https://www.stocktitan.net/news/LOGI/game-changer-partners-with-logitech-s-mevo-to-enhance-live-video-hhwq30l0j7oa.html",
+      "source_domain": "www.stocktitan.net",
+      "source_title": "GameChanger Partners With Logitech's Mevo to Enhance Live Video Streaming for Youth Sports | LOGI Stock News",
+      "retrieved_at": "2026-10-03T05:35:16.206749+00:00",
+      "claim": "Founded in 1981, and headquartered in Lausanne, Switzerland, Logitech International is a Swiss public company listed on the SIX Swiss Exchange (LOGN) and on the Nasdaq Global Select Market (LOGI).",
+      "evidence_text": "Founded in 1981, and headquartered in Lausanne, Switzerland, Logitech International is a Swiss public company listed on the SIX Swiss Exchange (LOGN) and on the Nasdaq Global Select Market (LOGI). Find Mevo at mevo.com and on Facebook, Instagram and Twitter on @MevoCamera. Find Logitech For Creators at www.logitech.com/creators, the company blog or Instagram, TikTok and Twitter on @Logitech. [...] Suggested retail price for Mevo Start is $399.99 and Mevo Start 3-Pack is $999.99. To find out more about the integration and how to use GameChanger and Mevo at your next youth sports event, visit www.gc.com/home/live-video\n\n\\requires ethernet adapter, sold separately\n\nAbout GameChanger [...] Designed for live streaming and recording from anywhere, coaches and parents can use Mevo Start to stream",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.24,
+      "investigator": "PromotionAgent",
+      "publication_date": null,
+      "strategy": "PromotionStrategy",
+      "shared_source_hypotheses": [
+        "PRODUCT_EVENT",
+        "INVENTORY_LIQUIDATION"
+      ]
+    },
+    {
+      "evidence_id": "evd_96f9196b37d7",
+      "event_id": "evt_ca8abddec306fc61",
+      "hypothesis_type": "PROMOTION",
+      "query_id": "q_d3fbbe506b",
+      "result_id": "res_4ab06315b31f",
+      "source_url": "https://www.stocktitan.net/news/LOGI/new-logitech-mevo-core-4k-camera-enables-seamless-wireless-live-mje1ekva9pvq.html",
+      "source_domain": "www.stocktitan.net",
+      "source_title": "New Logitech Mevo Core 4K Camera Enables Seamless Wireless Live Streaming of Any Event, Anywhere | LOGI Stock News",
+      "retrieved_at": "2026-10-03T05:35:17.647737+00:00",
+      "claim": "Mevo Core is available now for $999 (camera body only) at Mevo.com, B&H Photo Video and Amazon in the US and Canada, and will be offered with lens bundles at select retailers.",
+      "evidence_text": "Mevo Core is available now for $999 (camera body only) at Mevo.com, B&H Photo Video and Amazon in the US and Canada, and will be offered with lens bundles at select retailers. For more information and to view our video, please visit our company blog or www.logitech.com.\n\nAbout Logitech [...] to focus and start streaming. [...] About Logitech\n\nLogitech helps all people pursue their passions and is committed to doing so in a way that is good for people and the planet. We design hardware and software solutions that help businesses thrive and bring people together when working, creating, gaming and streaming. Brands of Logitech include Logitech, Logitech G, Streamlabs and Ultimate Ears.",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "DESCRIPTIVE",
+      "relevance_score": 0.415,
+      "investigator": "PromotionAgent",
+      "publication_date": null,
+      "strategy": "PromotionStrategy",
+      "shared_source_hypotheses": [
+        "INVENTORY_LIQUIDATION"
+      ]
+    },
+    {
+      "evidence_id": "evd_cad110e8758c",
+      "event_id": "evt_ca8abddec306fc61",
+      "hypothesis_type": "PROMOTION",
+      "query_id": "q_d3fbbe506b",
+      "result_id": "res_1d34d91744a1",
+      "source_url": "https://podcastage.com/rev/mevo",
+      "source_domain": "podcastage.com",
+      "source_title": "Mevo Live Event Camera Review / Test \u2014 Podcastage",
+      "retrieved_at": "2026-10-03T05:35:17.648486+00:00",
+      "claim": "Not only does this camera allow you to live stream in 720p, but it allows you to record your video directly to an internal SD card.",
+      "evidence_text": "Not only does this camera allow you to live stream in 720p, but it allows you to record your video directly to an internal SD card. I should note that this camera is only compatible with iOS devices, so for the time being any android users are out of luck.\n\nIf you are interested in this live streaming camera, it will set you back $400 on Amazon\n\n## What's In the Box\n\n1. MEVO Camera\n2. MEVO Mount\n3. 16GB Micro SD Card & Adapter\n4. Power Brick\n5. 10-Foot (3m) USB Cable\n\n## Specifications [...] live streaming camera. [...] The build quality of this camera is all plastic, but it feels pretty sturdy like it would be able to handle travel decently. However, I do wish that it had come with some travel case to ensure that it is adequately protected. The entire top of the camera acts as the power b",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.328,
+      "investigator": "PromotionAgent",
+      "publication_date": null,
+      "strategy": "PromotionStrategy",
+      "shared_source_hypotheses": [
+        "PRODUCT_EVENT",
+        "INVENTORY_LIQUIDATION"
+      ]
+    },
+    {
+      "evidence_id": "evd_157ea3ce51bb",
+      "event_id": "evt_ca8abddec306fc61",
+      "hypothesis_type": "PROMOTION",
+      "query_id": "q_e57d0c509c",
+      "result_id": "res_b0a07b8b702c",
+      "source_url": "https://mevo.com/pages/reseller-policy",
+      "source_domain": "mevo.com",
+      "source_title": "Mevo | Reseller Policy",
+      "retrieved_at": "2026-10-03T05:35:20.101271+00:00",
+      "claim": "If a Reseller wishes to advertise a Product, it must display the MAP or no price in any advertisement.",
+      "evidence_text": "If a Reseller wishes to advertise a Product, it must display the MAP or no price in any advertisement.  If Mevo authorizes a discount, provides a rebate, or offers a Product at a discount on its owned-and-operated websites, a Reseller may advertise the Product at the discounted price, but only for the period of the discount and with the conditions attached to the discount (if any), which must be disclosed in the advertisement.\n\n2.2 Advertisement [...] 1. Pricing\n\nResellers are free to set the retail prices of the Products they sell. Mevo maintains a manufacturer's suggested retail price (\" MSRP\") for each Product. The MSRP is equal to the Product's non-discounted price as stated on Mevo's owned-and-operated websites (such as mevo.com). Mevo also maintains a minimum/maximum advertised price",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "CORRELATIONAL",
+      "relevance_score": 0.54,
+      "investigator": "PromotionAgent",
+      "publication_date": null,
+      "strategy": "PromotionStrategy",
+      "shared_source_hypotheses": []
+    },
+    {
+      "evidence_id": "evd_f2b4b66ac3f9",
+      "event_id": "evt_ca8abddec306fc61",
+      "hypothesis_type": "PROMOTION",
+      "query_id": "q_e57d0c509c",
+      "result_id": "res_c3d1db22e68b",
+      "source_url": "https://www.stocktitan.net/sec-filings/BL/page-2.html",
+      "source_domain": "www.stocktitan.net",
+      "source_title": "BL SEC Filings, May-Aug 2026 - BLACKLINE, INC. Filing Archive",
+      "retrieved_at": "2026-10-03T05:35:20.102664+00:00",
+      "claim": "Rhea-AI Summary\n\nBLACKLINE, INC.",
+      "evidence_text": "Rhea-AI Summary\n\nBLACKLINE, INC. Chief Accounting Officer Michelle D. Stalick reported an open-market sale of 780 shares of Common Stock at $30.93 per share. After this transaction, she directly holds 36,363 shares of the company\u2019s stock.\n\nRhea-AI Impact\n\nRhea-AI Sentiment\n\nEnd-of-Day\n\n-- %\n\nTags\n\ninsider\n\n-\n\nFiling\n\n## Director at BlackLine (BL) sells 1,637 shares under 10b5-1 plan\n\nRhea-AI Summary [...] insider\n\nFiling\n\n## [ BLACKLINE, INC. SEC Filing](/sec-filings/BL/144-blackline-inc-sec-filing-8edd8dfb65e2.html)\n\nRhea-AI Impact\n\nRhea-AI Sentiment\n\nEnd-of-Day\n\n-- %\n\nTags\n\nother\n\n-\n\nFiling\n\n## BlackLine (BL) Chief Accounting Officer sells 780 shares at $30.93\n\nRhea-AI Summary [...] Rhea-AI Summary\n\nBLACKLINE, INC. director Gregory Hughes reported an open-market sale of 1,637 shares of C",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.365,
+      "investigator": "PromotionAgent",
+      "publication_date": null,
+      "strategy": "PromotionStrategy",
+      "shared_source_hypotheses": []
+    },
+    {
+      "evidence_id": "evd_fb91e0c2b295",
+      "event_id": "evt_ca8abddec306fc61",
+      "hypothesis_type": "PROMOTION",
+      "query_id": "q_adc6020999",
+      "result_id": "res_3388a93e3db4",
+      "source_url": "https://podcastage.com/rev/mevo",
+      "source_domain": "podcastage.com",
+      "source_title": "Mevo Live Event Camera Review / Test \u2014 Podcastage",
+      "retrieved_at": "2026-10-03T05:35:21.446932+00:00",
+      "claim": "The build quality of this camera is all plastic, but it feels pretty sturdy like it would be able to handle travel decently.",
+      "evidence_text": "The build quality of this camera is all plastic, but it feels pretty sturdy like it would be able to handle travel decently. However, I do wish that it had come with some travel case to ensure that it is adequately protected. The entire top of the camera acts as the power button. You'll need to hold the button down a few seconds to power on/off the device. All around this power button you will find an indicator light to let you know if the camera is getting power, charged, connected to wifi, [...] Not only does this camera allow you to live stream in 720p, but it allows you to record your video directly to an internal SD card. I should note that this camera is only compatible with iOS devices, so for the time being any android users are out of luck.\n\nIf you are interested in this live stre",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.328,
+      "investigator": "PromotionAgent",
+      "publication_date": null,
+      "strategy": "PromotionStrategy",
+      "shared_source_hypotheses": [
+        "PRODUCT_EVENT",
+        "INVENTORY_LIQUIDATION"
+      ]
+    },
+    {
+      "evidence_id": "evd_6a00b17e326b",
+      "event_id": "evt_ca8abddec306fc61",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "query_id": "q_119ab9a27a",
+      "result_id": "res_42947254f725",
+      "source_url": "https://podcastage.com/rev/mevo",
+      "source_domain": "podcastage.com",
+      "source_title": "Mevo Live Event Camera Review / Test \u2014 Podcastage",
+      "retrieved_at": "2026-10-03T05:35:23.684550+00:00",
+      "claim": "The build quality of this camera is all plastic, but it feels pretty sturdy like it would be able to handle travel decently.",
+      "evidence_text": "The build quality of this camera is all plastic, but it feels pretty sturdy like it would be able to handle travel decently. However, I do wish that it had come with some travel case to ensure that it is adequately protected. The entire top of the camera acts as the power button. You'll need to hold the button down a few seconds to power on/off the device. All around this power button you will find an indicator light to let you know if the camera is getting power, charged, connected to wifi, [...] live streaming camera. [...] Not only does this camera allow you to live stream in 720p, but it allows you to record your video directly to an internal SD card. I should note that this camera is only compatible with iOS devices, so for the time being any android users are out of luck.\n\nIf you are",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.24,
+      "investigator": "ProductEventAgent",
+      "publication_date": null,
+      "strategy": "ProductEventStrategy",
+      "shared_source_hypotheses": [
+        "PROMOTION",
+        "INVENTORY_LIQUIDATION"
+      ]
+    },
+    {
+      "evidence_id": "evd_dd269bfb2969",
+      "event_id": "evt_ca8abddec306fc61",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "query_id": "q_90b7a39920",
+      "result_id": "res_f0a5609c592a",
+      "source_url": "https://www.stocktitan.net/news/LOGI/game-changer-partners-with-logitech-s-mevo-to-enhance-live-video-hhwq30l0j7oa.html",
+      "source_domain": "www.stocktitan.net",
+      "source_title": "GameChanger Partners With Logitech's Mevo to Enhance Live Video Streaming for Youth Sports | LOGI Stock News",
+      "retrieved_at": "2026-10-03T05:35:27.075809+00:00",
+      "claim": "Founded in 1981, and headquartered in Lausanne, Switzerland, Logitech International is a Swiss public company listed on the SIX Swiss Exchange (LOGN) and on the Nasdaq Global Select Market (LOGI).",
+      "evidence_text": "Founded in 1981, and headquartered in Lausanne, Switzerland, Logitech International is a Swiss public company listed on the SIX Swiss Exchange (LOGN) and on the Nasdaq Global Select Market (LOGI). Find Mevo at mevo.com and on Facebook, Instagram and Twitter on @MevoCamera. Find Logitech For Creators at www.logitech.com/creators, the company blog or Instagram, TikTok and Twitter on @Logitech. [...] Logitech and other Logitech marks are trademarks or registered trademarks of Logitech Europe S.A and/or its affiliates in the U.S. and other countries. All other trademarks are the property of their respective owners. For more information about Logitech and its products, visit the company's website at www.logitech.com.\n\nContact: Cameron Papp, cameron@gc.com\n\nCision View original content to downlo",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.24,
+      "investigator": "ProductEventAgent",
+      "publication_date": null,
+      "strategy": "ProductEventStrategy",
+      "shared_source_hypotheses": [
+        "PROMOTION",
+        "INVENTORY_LIQUIDATION"
+      ]
+    },
+    {
+      "evidence_id": "evd_01427076bb1c",
+      "event_id": "evt_ca8abddec306fc61",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "query_id": "q_90b7a39920",
+      "result_id": "res_9c280982eaa0",
+      "source_url": "https://tracxn.com/d/legal-entities/new-zealand/mevo-limited/__nCMnFxWJWh-8M3QCG1-KAvctnu5f7WAamb2DR9jGzbc",
+      "source_domain": "tracxn.com",
+      "source_title": "Mevo Limited - 2026 Company Profile & Shareholding - Tracxn",
+      "retrieved_at": "2026-10-03T05:35:27.076259+00:00",
+      "claim": "Title: Mevo Limited - 2026 Company Profile & Shareholding - Tracxn\n# Mevo Limited - Company Profile.",
+      "evidence_text": "Title: Mevo Limited - 2026 Company Profile & Shareholding - Tracxn\n# Mevo Limited - Company Profile. ## About Mevo Limited. ## Brands associated with Mevo Limited. | Name | Short Description | Founded Year | Location | Current Stage |. | Logo for Mevo Mevo | On-demand electric car rental company | 2014 | New Zealand | Seed |. ## Latest cap tables and shareholding of Mevo Limited. ## Board of Directors and Signatories of Mevo Limited. ### Board of Directors of Mevo Limited. | Erik Morgan ZYDERVELT | - | Current | Apr 14, 2015 | 11 Years 3 Months |. | Finnian James LAWRENCE | - | Current | Apr 14, 2015 | 11 Years 3 Months |. ## Competitors & Alternates of Mevo Limited. | Rank | Company Details | Short Description | Total Funding | Investors | Tracxn Score |. | 2nd | Logo for TIER  TIER 2018,",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.31,
+      "investigator": "ProductEventAgent",
+      "publication_date": null,
+      "strategy": "ProductEventStrategy",
+      "shared_source_hypotheses": [
+        "INVENTORY_LIQUIDATION"
+      ]
+    },
+    {
+      "evidence_id": "evd_b177264d52b8",
+      "event_id": "evt_ca8abddec306fc61",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "query_id": "q_fca346ec0d",
+      "result_id": "res_d1118203ccf9",
+      "source_url": "https://breakingeighty.com/flightscope-mevo-plus-review",
+      "source_domain": "breakingeighty.com",
+      "source_title": "FlightScope Mevo Plus Review: Is it Still Worth Buying in 2026?",
+      "retrieved_at": "2026-10-03T05:35:30.230931+00:00",
+      "claim": "And now, FlightScope has officially discontinued the Mevo Plus and replaced it with the new Mevo Gen 2.",
+      "evidence_text": "And now, FlightScope has officially discontinued the Mevo Plus and replaced it with the new Mevo Gen 2.\n\nThe Gen 2 does everything the Mevo Plus did, but with a 6-hour battery, a slightly larger radar for better indoor tracking, USB-C charging, and access to the Pro Package and Face Impact Location upgrades.\n\nThe Gen 2 retails for $1,299. The Mevo Plus, while remaining inventory lasts, is available for $1,099 (or $1,044 with code BREAKINGEIGHTYPLUS). [...] Jaaba on\n\n    A great review thanks!  \n     Mevo Plus seems to be at a half price nowadays. Are they going to cease manufacturing it? There are still some features that the Mevo Gen 2 doesn\u2019t have yet.\n\n    Reply\n\n     \n\n      Sean Ogle on\n\n      Yeah they are winding down sales of the Mevo Plus and the new Gen 2 will replace it. Now tha",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "DESCRIPTIVE",
+      "relevance_score": 0.529,
+      "investigator": "ProductEventAgent",
+      "publication_date": null,
+      "strategy": "ProductEventStrategy",
+      "shared_source_hypotheses": []
+    },
+    {
+      "evidence_id": "evd_ce076b9338e7",
+      "event_id": "evt_ca8abddec306fc61",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "query_id": "q_fca346ec0d",
+      "result_id": "res_1ab4886a80e2",
+      "source_url": "https://tracxn.com/d/legal-entities/new-zealand/mevo-limited/__nCMnFxWJWh-8M3QCG1-KAvctnu5f7WAamb2DR9jGzbc",
+      "source_domain": "tracxn.com",
+      "source_title": "Mevo Limited - 2026 Company Profile & Shareholding - Tracxn",
+      "retrieved_at": "2026-10-03T05:35:30.231537+00:00",
+      "claim": "Title: Mevo Limited - 2026 Company Profile & Shareholding - Tracxn\n# Mevo Limited - Company Profile.",
+      "evidence_text": "Title: Mevo Limited - 2026 Company Profile & Shareholding - Tracxn\n# Mevo Limited - Company Profile. ## About Mevo Limited. ## Brands associated with Mevo Limited. | Name | Short Description | Founded Year | Location | Current Stage |. | Logo for Mevo Mevo | On-demand electric car rental company | 2014 | New Zealand | Seed |. ## Latest cap tables and shareholding of Mevo Limited. ## Board of Directors and Signatories of Mevo Limited. ### Board of Directors of Mevo Limited. | Erik Morgan ZYDERVELT | - | Current | Apr 14, 2015 | 11 Years 3 Months |. | Finnian James LAWRENCE | - | Current | Apr 14, 2015 | 11 Years 3 Months |. ## Competitors & Alternates of Mevo Limited. | Rank | Company Details | Short Description | Total Funding | Investors | Tracxn Score |. | 2nd | Logo for TIER  TIER 2018,",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.31,
+      "investigator": "ProductEventAgent",
+      "publication_date": null,
+      "strategy": "ProductEventStrategy",
+      "shared_source_hypotheses": [
+        "INVENTORY_LIQUIDATION"
+      ]
+    },
+    {
+      "evidence_id": "evd_5ce716cde70f",
+      "event_id": "evt_ca8abddec306fc61",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "query_id": "q_ae4ef563c2",
+      "result_id": "res_31f1b891f4c9",
+      "source_url": "https://www.stocktitan.net/news/LOGI/game-changer-partners-with-logitech-s-mevo-to-enhance-live-video-hhwq30l0j7oa.html",
+      "source_domain": "www.stocktitan.net",
+      "source_title": "GameChanger Partners With Logitech's Mevo to Enhance Live Video Streaming for Youth Sports | LOGI Stock News",
+      "retrieved_at": "2026-10-03T05:35:31.979435+00:00",
+      "claim": "Founded in 1981, and headquartered in Lausanne, Switzerland, Logitech International is a Swiss public company listed on the SIX Swiss Exchange (LOGN) and on the Nasdaq Global Select Market (LOGI).",
+      "evidence_text": "Founded in 1981, and headquartered in Lausanne, Switzerland, Logitech International is a Swiss public company listed on the SIX Swiss Exchange (LOGN) and on the Nasdaq Global Select Market (LOGI). Find Mevo at mevo.com and on Facebook, Instagram and Twitter on @MevoCamera. Find Logitech For Creators at www.logitech.com/creators, the company blog or Instagram, TikTok and Twitter on @Logitech. [...] Suggested retail price for Mevo Start is $399.99 and Mevo Start 3-Pack is $999.99. To find out more about the integration and how to use GameChanger and Mevo at your next youth sports event, visit www.gc.com/home/live-video\n\n\\requires ethernet adapter, sold separately\n\nAbout GameChanger [...] Logitech and other Logitech marks are trademarks or registered trademarks of Logitech Europe S.A and/or i",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.24,
+      "investigator": "SupplyAgent",
+      "publication_date": null,
+      "strategy": "SupplyStrategy",
+      "shared_source_hypotheses": [
+        "PROMOTION",
+        "PRODUCT_EVENT"
+      ]
+    },
+    {
+      "evidence_id": "evd_d3551e53d89d",
+      "event_id": "evt_ca8abddec306fc61",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "query_id": "q_06b321f995",
+      "result_id": "res_12540bbef7d9",
+      "source_url": "https://podcastage.com/rev/mevo",
+      "source_domain": "podcastage.com",
+      "source_title": "Mevo Live Event Camera Review / Test \u2014 Podcastage",
+      "retrieved_at": "2026-10-03T05:35:35.330075+00:00",
+      "claim": "The build quality of this camera is all plastic, but it feels pretty sturdy like it would be able to handle travel decently.",
+      "evidence_text": "The build quality of this camera is all plastic, but it feels pretty sturdy like it would be able to handle travel decently. However, I do wish that it had come with some travel case to ensure that it is adequately protected. The entire top of the camera acts as the power button. You'll need to hold the button down a few seconds to power on/off the device. All around this power button you will find an indicator light to let you know if the camera is getting power, charged, connected to wifi, [...] Not only does this camera allow you to live stream in 720p, but it allows you to record your video directly to an internal SD card. I should note that this camera is only compatible with iOS devices, so for the time being any android users are out of luck.\n\nIf you are interested in this live stre",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.24,
+      "investigator": "SupplyAgent",
+      "publication_date": null,
+      "strategy": "SupplyStrategy",
+      "shared_source_hypotheses": [
+        "PROMOTION",
+        "PRODUCT_EVENT"
+      ]
+    },
+    {
+      "evidence_id": "evd_7a83e2c4e661",
+      "event_id": "evt_ca8abddec306fc61",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "query_id": "q_06b321f995",
+      "result_id": "res_a3e242447209",
+      "source_url": "https://www.stocktitan.net/news/LOGI/game-changer-partners-with-logitech-s-mevo-to-enhance-live-video-hhwq30l0j7oa.html",
+      "source_domain": "www.stocktitan.net",
+      "source_title": "GameChanger Partners With Logitech's Mevo to Enhance Live Video Streaming for Youth Sports | LOGI Stock News",
+      "retrieved_at": "2026-10-03T05:35:35.331623+00:00",
+      "claim": "Suggested retail price for Mevo Start is $399.99 and Mevo Start 3-Pack is $999.99.",
+      "evidence_text": "Suggested retail price for Mevo Start is $399.99 and Mevo Start 3-Pack is $999.99. To find out more about the integration and how to use GameChanger and Mevo at your next youth sports event, visit www.gc.com/home/live-video\n\n\\requires ethernet adapter, sold separately\n\nAbout GameChanger [...] Founded in 1981, and headquartered in Lausanne, Switzerland, Logitech International is a Swiss public company listed on the SIX Swiss Exchange (LOGN) and on the Nasdaq Global Select Market (LOGI). Find Mevo at mevo.com and on Facebook, Instagram and Twitter on @MevoCamera. Find Logitech For Creators at www.logitech.com/creators, the company blog or Instagram, TikTok and Twitter on @Logitech. [...] Logitech and other Logitech marks are trademarks or registered trademarks of Logitech Europe S.A and/or i",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.24,
+      "investigator": "SupplyAgent",
+      "publication_date": null,
+      "strategy": "SupplyStrategy",
+      "shared_source_hypotheses": [
+        "PROMOTION",
+        "PRODUCT_EVENT"
+      ]
+    },
+    {
+      "evidence_id": "evd_6f74829e0b9f",
+      "event_id": "evt_ca8abddec306fc61",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "query_id": "q_56822deecf",
+      "result_id": "res_018c35250e5d",
+      "source_url": "https://podcastage.com/rev/mevo",
+      "source_domain": "podcastage.com",
+      "source_title": "Mevo Live Event Camera Review / Test \u2014 Podcastage",
+      "retrieved_at": "2026-10-03T05:35:37.508504+00:00",
+      "claim": "The build quality of this camera is all plastic, but it feels pretty sturdy like it would be able to handle travel decently.",
+      "evidence_text": "The build quality of this camera is all plastic, but it feels pretty sturdy like it would be able to handle travel decently. However, I do wish that it had come with some travel case to ensure that it is adequately protected. The entire top of the camera acts as the power button. You'll need to hold the button down a few seconds to power on/off the device. All around this power button you will find an indicator light to let you know if the camera is getting power, charged, connected to wifi, [...] Not only does this camera allow you to live stream in 720p, but it allows you to record your video directly to an internal SD card. I should note that this camera is only compatible with iOS devices, so for the time being any android users are out of luck.\n\nIf you are interested in this live stre",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.24,
+      "investigator": "SupplyAgent",
+      "publication_date": null,
+      "strategy": "SupplyStrategy",
+      "shared_source_hypotheses": [
+        "PROMOTION",
+        "PRODUCT_EVENT"
+      ]
+    },
+    {
+      "evidence_id": "evd_7280c83ae0d6",
+      "event_id": "evt_ca8abddec306fc61",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "query_id": "q_56822deecf",
+      "result_id": "res_5f186d411b93",
+      "source_url": "https://www.stocktitan.net/news/LOGI/new-logitech-mevo-core-4k-camera-enables-seamless-wireless-live-mje1ekva9pvq.html",
+      "source_domain": "www.stocktitan.net",
+      "source_title": "New Logitech Mevo Core 4K Camera Enables Seamless Wireless Live Streaming of Any Event, Anywhere | LOGI Stock News",
+      "retrieved_at": "2026-10-03T05:35:37.509379+00:00",
+      "claim": "to focus and start streaming.",
+      "evidence_text": "to focus and start streaming. [...] Mevo Core is available now for $999 (camera body only) at Mevo.com, B&H Photo Video and Amazon in the US and Canada, and will be offered with lens bundles at select retailers. For more information and to view our video, please visit our company blog or www.logitech.com.\n\nAbout Logitech [...] Today, Logitech revealed Mevo Core, the next generation live streaming camera in the Mevo ecosystem. (Photo: Business Wire)\n\nToday, Logitech revealed Mevo Core, the next generation live streaming camera in the Mevo ecosystem. (Photo: Business Wire)",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "DESCRIPTIVE",
+      "relevance_score": 0.24,
+      "investigator": "SupplyAgent",
+      "publication_date": null,
+      "strategy": "SupplyStrategy",
+      "shared_source_hypotheses": [
+        "PROMOTION"
+      ]
+    },
+    {
+      "evidence_id": "evd_a3600cd9c41e",
+      "event_id": "evt_ca8abddec306fc61",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "query_id": "q_56822deecf",
+      "result_id": "res_b66aed9db997",
+      "source_url": "https://www.stocktitan.net/news/LOGI/game-changer-partners-with-logitech-s-mevo-to-enhance-live-video-hhwq30l0j7oa.html",
+      "source_domain": "www.stocktitan.net",
+      "source_title": "GameChanger Partners With Logitech's Mevo to Enhance Live Video Streaming for Youth Sports | LOGI Stock News",
+      "retrieved_at": "2026-10-03T05:35:37.509924+00:00",
+      "claim": "Founded in 1981, and headquartered in Lausanne, Switzerland, Logitech International is a Swiss public company listed on the SIX Swiss Exchange (LOGN) and on the Nasdaq Global Select Market (LOGI).",
+      "evidence_text": "Founded in 1981, and headquartered in Lausanne, Switzerland, Logitech International is a Swiss public company listed on the SIX Swiss Exchange (LOGN) and on the Nasdaq Global Select Market (LOGI). Find Mevo at mevo.com and on Facebook, Instagram and Twitter on @MevoCamera. Find Logitech For Creators at www.logitech.com/creators, the company blog or Instagram, TikTok and Twitter on @Logitech. [...] Suggested retail price for Mevo Start is $399.99 and Mevo Start 3-Pack is $999.99. To find out more about the integration and how to use GameChanger and Mevo at your next youth sports event, visit www.gc.com/home/live-video\n\n\\requires ethernet adapter, sold separately\n\nAbout GameChanger [...] Logitech and other Logitech marks are trademarks or registered trademarks of Logitech Europe S.A and/or i",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.24,
+      "investigator": "SupplyAgent",
+      "publication_date": null,
+      "strategy": "SupplyStrategy",
+      "shared_source_hypotheses": [
+        "PROMOTION",
+        "PRODUCT_EVENT"
+      ]
+    },
+    {
+      "evidence_id": "evd_8ee21fce09eb",
+      "event_id": "evt_ca8abddec306fc61",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "query_id": "q_c603835809",
+      "result_id": "res_00582cdf9ec8",
+      "source_url": "https://www.stocktitan.net/news/LOGI/game-changer-partners-with-logitech-s-mevo-to-enhance-live-video-hhwq30l0j7oa.html",
+      "source_domain": "www.stocktitan.net",
+      "source_title": "GameChanger Partners With Logitech's Mevo to Enhance Live Video Streaming for Youth Sports | LOGI Stock News",
+      "retrieved_at": "2026-10-03T05:35:39.559528+00:00",
+      "claim": "LOGI  Same Company\n\n### From New PRO Gear to the Iconic Yeti 2 Mic - Logitech G Unveils Fifteen New Products at Logitech G PLAY 2026\n\nLOGI  Same Company\n\n### SEGA Selects Logitech G as Official Steeri",
+      "evidence_text": "LOGI  Same Company\n\n### From New PRO Gear to the Iconic Yeti 2 Mic - Logitech G Unveils Fifteen New Products at Logitech G PLAY 2026\n\nLOGI  Same Company\n\n### SEGA Selects Logitech G as Official Steering Wheel Partner for Crazy Taxi: World Tour\n\npartnership\n\n### SunHydrogen Extends Joint Development Agreement with Honda R&D\n\n### monday.com Elevate \u201826 Puts AI Agents to Work: Every Attendee Gets to Build an Agent\n\nAI [...] Suggested retail price for Mevo Start is $399.99 and Mevo Start 3-Pack is $999.99. To find out more about the integration and how to use GameChanger and Mevo at your next youth sports event, visit www.gc.com/home/live-video\n\n\\requires ethernet adapter, sold separately\n\nAbout GameChanger [...] Designed for live streaming and recording from anywhere, coaches and parents can ",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.31,
+      "investigator": "SupplyAgent",
+      "publication_date": null,
+      "strategy": "SupplyStrategy",
+      "shared_source_hypotheses": [
+        "PROMOTION",
+        "PRODUCT_EVENT"
+      ]
+    },
+    {
+      "evidence_id": "evd_b473fda66efc",
+      "event_id": "evt_ca8abddec306fc61",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "query_id": "q_c603835809",
+      "result_id": "res_43e20db6b70e",
+      "source_url": "https://www.cbinsights.com/company/mevo/financials",
+      "source_domain": "www.cbinsights.com",
+      "source_title": "Mevo Stock Price, Funding, Valuation, Revenue & Financial Statements",
+      "retrieved_at": "2026-10-03T05:35:39.559925+00:00",
+      "claim": "Title: Mevo Stock Price, Funding, Valuation, Revenue & Financial Statements\n# Mevo.",
+      "evidence_text": "Title: Mevo Stock Price, Funding, Valuation, Revenue & Financial Statements\n# Mevo. Mevo has **raised $2.65M** over **7 rounds**. Mevo's **latest funding round** was a **Asset Sale for** on **May 20, 2026**. | Date | Round | Amount | Investors | Valuation Valuations are submitted by companies, mined from state filings or news, provided by VentureSource, or based on a comparables valuation model. | 5/20/2026 | Asset Sale | Carbn | $XXM | 0  FY undefined | 1 |. | 5/7/2026 | Bankrupt/Liquidation | $XXM | 0  FY undefined | 10 |. | 3/30/2026 | Bankrupt/Admin | $XXM | 0  FY undefined | 10 |. | 2/22/2026 | Angel | $XXM | Subscribe to see more | $XXM | 0  FY undefined | 10 |. | 7/20/2018 | Corporate Minority - II | $XXM | Subscribe to see more | $XXM | 0  FY undefined | 10 |. | Date | 5/20/2026 | ",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.456,
+      "investigator": "SupplyAgent",
+      "publication_date": null,
+      "strategy": "SupplyStrategy",
+      "shared_source_hypotheses": [
+        "PROMOTION"
+      ]
+    },
+    {
+      "evidence_id": "evd_fa58f28e04d9",
+      "event_id": "evt_ca8abddec306fc61",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "query_id": "q_b9abc21e9d",
+      "result_id": "res_219d4716cb06",
+      "source_url": "https://www.stocktitan.net/news/LOGI/game-changer-partners-with-logitech-s-mevo-to-enhance-live-video-hhwq30l0j7oa.html",
+      "source_domain": "www.stocktitan.net",
+      "source_title": "GameChanger Partners With Logitech's Mevo to Enhance Live Video Streaming for Youth Sports | LOGI Stock News",
+      "retrieved_at": "2026-10-03T05:35:44.372981+00:00",
+      "claim": "Designed for live streaming and recording from anywhere, coaches and parents can use Mevo Start to stream their video using Wi-Fi, a phone's hotspot and even over ethernet\\.",
+      "evidence_text": "Designed for live streaming and recording from anywhere, coaches and parents can use Mevo Start to stream their video using Wi-Fi, a phone's hotspot and even over ethernet\\. Mevo Start cameras are built for long streams, with internal battery life of up to six hours each, or users can choose to connect to a power source through USB-C for continuous use. [...] Founded in 1981, and headquartered in Lausanne, Switzerland, Logitech International is a Swiss public company listed on the SIX Swiss Exchange (LOGN) and on the Nasdaq Global Select Market (LOGI). Find Mevo at mevo.com and on Facebook, Instagram and Twitter on @MevoCamera. Find Logitech For Creators at www.logitech.com/creators, the company blog or Instagram, TikTok and Twitter on @Logitech. [...] Suggested retail price for Mevo Start",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.24,
+      "investigator": "SupplyAgent",
+      "publication_date": null,
+      "strategy": "SupplyStrategy",
+      "shared_source_hypotheses": [
+        "PROMOTION",
+        "PRODUCT_EVENT"
+      ]
+    },
+    {
+      "evidence_id": "evd_456291182cd8",
+      "event_id": "evt_ca8abddec306fc61",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "query_id": "q_b9abc21e9d",
+      "result_id": "res_5294011add45",
+      "source_url": "https://tracxn.com/d/legal-entities/new-zealand/mevo-limited/__nCMnFxWJWh-8M3QCG1-KAvctnu5f7WAamb2DR9jGzbc",
+      "source_domain": "tracxn.com",
+      "source_title": "Mevo Limited - 2026 Company Profile & Shareholding - Tracxn",
+      "retrieved_at": "2026-10-03T05:35:44.374076+00:00",
+      "claim": "Title: Mevo Limited - 2026 Company Profile & Shareholding - Tracxn\n# Mevo Limited - Company Profile.",
+      "evidence_text": "Title: Mevo Limited - 2026 Company Profile & Shareholding - Tracxn\n# Mevo Limited - Company Profile. ## About Mevo Limited. ## Brands associated with Mevo Limited. | Name | Short Description | Founded Year | Location | Current Stage |. | Logo for Mevo Mevo | On-demand electric car rental company | 2014 | New Zealand | Seed |. ## Latest cap tables and shareholding of Mevo Limited. ## Board of Directors and Signatories of Mevo Limited. ### Board of Directors of Mevo Limited. | Erik Morgan ZYDERVELT | - | Current | Apr 14, 2015 | 11 Years 3 Months |. | Finnian James LAWRENCE | - | Current | Apr 14, 2015 | 11 Years 3 Months |. ## Competitors & Alternates of Mevo Limited. | Rank | Company Details | Short Description | Total Funding | Investors | Tracxn Score |. | 2nd | Logo for TIER  TIER 2018,",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.31,
+      "investigator": "SupplyAgent",
+      "publication_date": null,
+      "strategy": "SupplyStrategy",
+      "shared_source_hypotheses": [
+        "PRODUCT_EVENT"
+      ]
+    }
+  ],
+  "evidence_verifications": [
+    {
+      "evidence_id": "evd_63e76c9466c9",
+      "hypothesis_type": "PROMOTION",
+      "support_level": "CONTRADICTS",
+      "independence_class": "CONTRADICTING",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.5,
+        "source_independence": 0.0,
+        "causal_strength": 0.25,
+        "contradiction_penalty": 1.0
+      },
+      "notes": "source_quality=0.55 (domain: havecamerawilltravel.com); temporal_alignment=0.40; product_match=0.60 (text-based, product='Mevo Live Event Camera Kit with Mevo Boost, Stand Case (Black)'); merchant_match=0.00; specificity=0.50; source_independence=0.00 (CONTRADICTING); causal_strength=0.25 (relationship=DESCRIPTIVE); contradiction_penalty=1.00"
+    },
+    {
+      "evidence_id": "evd_a8bcd18c0985",
+      "hypothesis_type": "PROMOTION",
+      "support_level": "CONTRADICTS",
+      "independence_class": "CONTRADICTING",
+      "component_scores": {
+        "source_quality": 0.35,
+        "temporal_alignment": 0.4,
+        "product_match": 0.0,
+        "merchant_match": 0.0,
+        "specificity": 0.3,
+        "source_independence": 0.0,
+        "causal_strength": 0.4,
+        "contradiction_penalty": 1.0
+      },
+      "notes": "source_quality=0.35 (domain: rocketreach.co); temporal_alignment=0.40; product_match=0.00 (text-based, product='Mevo Live Event Camera Kit with Mevo Boost, Stand Case (Black)'); merchant_match=0.00; specificity=0.30; source_independence=0.00 (CONTRADICTING); causal_strength=0.40 (relationship=CAUSAL); contradiction_penalty=1.00"
+    },
+    {
+      "evidence_id": "evd_85ab36af47e1",
+      "hypothesis_type": "PROMOTION",
+      "support_level": "CONSISTENT_WITH",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.35,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.5,
+        "source_independence": 0.3,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.35 (domain: www.stocktitan.net); temporal_alignment=0.40; product_match=0.60 (text-based, product='Mevo Live Event Camera Kit with Mevo Boost, Stand Case (Black)'); merchant_match=0.00; specificity=0.50; source_independence=0.30 (SYNDICATED); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_a638f42af8b2",
+      "hypothesis_type": "PROMOTION",
+      "support_level": "CONSISTENT_WITH",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 1.0,
+        "source_independence": 0.3,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.55 (domain: www.cbinsights.com); temporal_alignment=0.40; product_match=0.60 (text-based, product='Mevo Live Event Camera Kit with Mevo Boost, Stand Case (Black)'); merchant_match=0.00; specificity=1.00; source_independence=0.30 (SYNDICATED); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_8ab7d31ec261",
+      "hypothesis_type": "PROMOTION",
+      "support_level": "CONSISTENT_WITH",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.35,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.5,
+        "source_independence": 0.3,
+        "causal_strength": 0.25,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.35 (domain: www.stocktitan.net); temporal_alignment=0.40; product_match=0.60 (text-based, product='Mevo Live Event Camera Kit with Mevo Boost, Stand Case (Black)'); merchant_match=0.00; specificity=0.50; source_independence=0.30 (SYNDICATED); causal_strength=0.25 (relationship=DESCRIPTIVE); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_1123063b254c",
+      "hypothesis_type": "PROMOTION",
+      "support_level": "CONSISTENT_WITH",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.35,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.5,
+        "source_independence": 0.3,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.35 (domain: www.stocktitan.net); temporal_alignment=0.40; product_match=0.60 (text-based, product='Mevo Live Event Camera Kit with Mevo Boost, Stand Case (Black)'); merchant_match=0.00; specificity=0.50; source_independence=0.30 (SYNDICATED); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_96f9196b37d7",
+      "hypothesis_type": "PROMOTION",
+      "support_level": "CONSISTENT_WITH",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.35,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.5,
+        "source_independence": 0.3,
+        "causal_strength": 0.25,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.35 (domain: www.stocktitan.net); temporal_alignment=0.40; product_match=0.60 (text-based, product='Mevo Live Event Camera Kit with Mevo Boost, Stand Case (Black)'); merchant_match=0.00; specificity=0.50; source_independence=0.30 (SYNDICATED); causal_strength=0.25 (relationship=DESCRIPTIVE); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_cad110e8758c",
+      "hypothesis_type": "PROMOTION",
+      "support_level": "CONSISTENT_WITH",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.5,
+        "source_independence": 0.3,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.55 (domain: podcastage.com); temporal_alignment=0.40; product_match=0.60 (text-based, product='Mevo Live Event Camera Kit with Mevo Boost, Stand Case (Black)'); merchant_match=0.00; specificity=0.50; source_independence=0.30 (SYNDICATED); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_157ea3ce51bb",
+      "hypothesis_type": "PROMOTION",
+      "support_level": "CONTRADICTS",
+      "independence_class": "CONTRADICTING",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.6,
+        "source_independence": 0.0,
+        "causal_strength": 0.2,
+        "contradiction_penalty": 1.0
+      },
+      "notes": "source_quality=0.55 (domain: mevo.com); temporal_alignment=0.40; product_match=0.60 (text-based, product='Mevo Live Event Camera Kit with Mevo Boost, Stand Case (Black)'); merchant_match=0.00; specificity=0.60; source_independence=0.00 (CONTRADICTING); causal_strength=0.20 (relationship=CORRELATIONAL); contradiction_penalty=1.00"
+    },
+    {
+      "evidence_id": "evd_f2b4b66ac3f9",
+      "hypothesis_type": "PROMOTION",
+      "support_level": "CONTRADICTS",
+      "independence_class": "CONTRADICTING",
+      "component_scores": {
+        "source_quality": 0.35,
+        "temporal_alignment": 0.4,
+        "product_match": 0.0,
+        "merchant_match": 0.0,
+        "specificity": 0.8,
+        "source_independence": 0.0,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 1.0
+      },
+      "notes": "source_quality=0.35 (domain: www.stocktitan.net); temporal_alignment=0.40; product_match=0.00 (text-based, product='Mevo Live Event Camera Kit with Mevo Boost, Stand Case (Black)'); merchant_match=0.00; specificity=0.80; source_independence=0.00 (CONTRADICTING); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=1.00"
+    },
+    {
+      "evidence_id": "evd_fb91e0c2b295",
+      "hypothesis_type": "PROMOTION",
+      "support_level": "INSUFFICIENT_EVIDENCE",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.0,
+        "merchant_match": 0.0,
+        "specificity": 0.1,
+        "source_independence": 0.3,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.55 (domain: podcastage.com); temporal_alignment=0.40; product_match=0.00 (text-based, product='Mevo Live Event Camera Kit with Mevo Boost, Stand Case (Black)'); merchant_match=0.00; specificity=0.10; source_independence=0.30 (SYNDICATED); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_6a00b17e326b",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "support_level": "INSUFFICIENT_EVIDENCE",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.0,
+        "merchant_match": 0.0,
+        "specificity": 0.1,
+        "source_independence": 0.3,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.55 (domain: podcastage.com); temporal_alignment=0.40; product_match=0.00 (text-based, product='Mevo Live Event Camera Kit with Mevo Boost, Stand Case (Black)'); merchant_match=0.00; specificity=0.10; source_independence=0.30 (SYNDICATED); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_dd269bfb2969",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "support_level": "INSUFFICIENT_EVIDENCE",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.35,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.1,
+        "source_independence": 0.3,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.35 (domain: www.stocktitan.net); temporal_alignment=0.40; product_match=0.60 (text-based, product='Mevo Live Event Camera Kit with Mevo Boost, Stand Case (Black)'); merchant_match=0.00; specificity=0.10; source_independence=0.30 (SYNDICATED); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_01427076bb1c",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "support_level": "INSUFFICIENT_EVIDENCE",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.1,
+        "source_independence": 0.3,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.55 (domain: tracxn.com); temporal_alignment=0.40; product_match=0.60 (text-based, product='Mevo Live Event Camera Kit with Mevo Boost, Stand Case (Black)'); merchant_match=0.00; specificity=0.10; source_independence=0.30 (SYNDICATED); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_b177264d52b8",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "support_level": "CONTRADICTS",
+      "independence_class": "CONTRADICTING",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.8,
+        "source_independence": 0.0,
+        "causal_strength": 0.25,
+        "contradiction_penalty": 1.0
+      },
+      "notes": "source_quality=0.55 (domain: breakingeighty.com); temporal_alignment=0.40; product_match=0.60 (text-based, product='Mevo Live Event Camera Kit with Mevo Boost, Stand Case (Black)'); merchant_match=0.00; specificity=0.80; source_independence=0.00 (CONTRADICTING); causal_strength=0.25 (relationship=DESCRIPTIVE); contradiction_penalty=1.00"
+    },
+    {
+      "evidence_id": "evd_ce076b9338e7",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "support_level": "INSUFFICIENT_EVIDENCE",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.1,
+        "source_independence": 0.3,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.55 (domain: tracxn.com); temporal_alignment=0.40; product_match=0.60 (text-based, product='Mevo Live Event Camera Kit with Mevo Boost, Stand Case (Black)'); merchant_match=0.00; specificity=0.10; source_independence=0.30 (SYNDICATED); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_5ce716cde70f",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "support_level": "CONSISTENT_WITH",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.35,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.5,
+        "source_independence": 0.3,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.35 (domain: www.stocktitan.net); temporal_alignment=0.40; product_match=0.60 (text-based, product='Mevo Live Event Camera Kit with Mevo Boost, Stand Case (Black)'); merchant_match=0.00; specificity=0.50; source_independence=0.30 (SYNDICATED); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_d3551e53d89d",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "support_level": "INSUFFICIENT_EVIDENCE",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.0,
+        "merchant_match": 0.0,
+        "specificity": 0.1,
+        "source_independence": 0.3,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.55 (domain: podcastage.com); temporal_alignment=0.40; product_match=0.00 (text-based, product='Mevo Live Event Camera Kit with Mevo Boost, Stand Case (Black)'); merchant_match=0.00; specificity=0.10; source_independence=0.30 (SYNDICATED); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_7a83e2c4e661",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "support_level": "CONSISTENT_WITH",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.35,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.5,
+        "source_independence": 0.3,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.35 (domain: www.stocktitan.net); temporal_alignment=0.40; product_match=0.60 (text-based, product='Mevo Live Event Camera Kit with Mevo Boost, Stand Case (Black)'); merchant_match=0.00; specificity=0.50; source_independence=0.30 (SYNDICATED); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_6f74829e0b9f",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "support_level": "INSUFFICIENT_EVIDENCE",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.0,
+        "merchant_match": 0.0,
+        "specificity": 0.1,
+        "source_independence": 0.3,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.55 (domain: podcastage.com); temporal_alignment=0.40; product_match=0.00 (text-based, product='Mevo Live Event Camera Kit with Mevo Boost, Stand Case (Black)'); merchant_match=0.00; specificity=0.10; source_independence=0.30 (SYNDICATED); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_7280c83ae0d6",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "support_level": "CONSISTENT_WITH",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.35,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.5,
+        "source_independence": 0.3,
+        "causal_strength": 0.25,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.35 (domain: www.stocktitan.net); temporal_alignment=0.40; product_match=0.60 (text-based, product='Mevo Live Event Camera Kit with Mevo Boost, Stand Case (Black)'); merchant_match=0.00; specificity=0.50; source_independence=0.30 (SYNDICATED); causal_strength=0.25 (relationship=DESCRIPTIVE); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_a3600cd9c41e",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "support_level": "CONSISTENT_WITH",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.35,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.5,
+        "source_independence": 0.3,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.35 (domain: www.stocktitan.net); temporal_alignment=0.40; product_match=0.60 (text-based, product='Mevo Live Event Camera Kit with Mevo Boost, Stand Case (Black)'); merchant_match=0.00; specificity=0.50; source_independence=0.30 (SYNDICATED); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_8ee21fce09eb",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "support_level": "CONSISTENT_WITH",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.35,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.5,
+        "source_independence": 0.3,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.35 (domain: www.stocktitan.net); temporal_alignment=0.40; product_match=0.60 (text-based, product='Mevo Live Event Camera Kit with Mevo Boost, Stand Case (Black)'); merchant_match=0.00; specificity=0.50; source_independence=0.30 (SYNDICATED); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_b473fda66efc",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "support_level": "CONSISTENT_WITH",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 1.0,
+        "source_independence": 0.3,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.55 (domain: www.cbinsights.com); temporal_alignment=0.40; product_match=0.60 (text-based, product='Mevo Live Event Camera Kit with Mevo Boost, Stand Case (Black)'); merchant_match=0.00; specificity=1.00; source_independence=0.30 (SYNDICATED); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_fa58f28e04d9",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "support_level": "INSUFFICIENT_EVIDENCE",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.35,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.1,
+        "source_independence": 0.3,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.35 (domain: www.stocktitan.net); temporal_alignment=0.40; product_match=0.60 (text-based, product='Mevo Live Event Camera Kit with Mevo Boost, Stand Case (Black)'); merchant_match=0.00; specificity=0.10; source_independence=0.30 (SYNDICATED); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_456291182cd8",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "support_level": "INSUFFICIENT_EVIDENCE",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.1,
+        "source_independence": 0.3,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.55 (domain: tracxn.com); temporal_alignment=0.40; product_match=0.60 (text-based, product='Mevo Live Event Camera Kit with Mevo Boost, Stand Case (Black)'); merchant_match=0.00; specificity=0.10; source_independence=0.30 (SYNDICATED); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    }
+  ],
+  "hypothesis_assessments": [
+    {
+      "hypothesis_id": "hyp_644aeb82ee88",
+      "hypothesis_type": "PROMOTION",
+      "support_level": "CONTRADICTS",
+      "supporting_evidence_ids": [],
+      "contradicting_evidence_ids": [
+        "evd_63e76c9466c9",
+        "evd_a8bcd18c0985",
+        "evd_157ea3ce51bb",
+        "evd_f2b4b66ac3f9"
+      ],
+      "independent_source_count": 0,
+      "duplicated_source_count": 7,
+      "component_scores": {
+        "source_quality": 0.441,
+        "temporal_alignment": 0.4,
+        "product_match": 0.436,
+        "merchant_match": 0.0,
+        "specificity": 0.527,
+        "source_independence": 0.191,
+        "causal_strength": 0.177,
+        "contradiction_penalty": 0.364
+      },
+      "explanation": "Evidence contradicts the PROMOTION hypothesis. 4 contradicting evidence item(s) found. Source independence could not be confirmed."
+    },
+    {
+      "hypothesis_id": "hyp_e3182576ec50",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "support_level": "CONTRADICTS",
+      "supporting_evidence_ids": [],
+      "contradicting_evidence_ids": [
+        "evd_b177264d52b8"
+      ],
+      "independent_source_count": 0,
+      "duplicated_source_count": 4,
+      "component_scores": {
+        "source_quality": 0.51,
+        "temporal_alignment": 0.4,
+        "product_match": 0.48,
+        "merchant_match": 0.0,
+        "specificity": 0.24,
+        "source_independence": 0.24,
+        "causal_strength": 0.13,
+        "contradiction_penalty": 0.2
+      },
+      "explanation": "Evidence contradicts the PRODUCT_EVENT hypothesis. 1 contradicting evidence item(s) found. Source independence could not be confirmed."
+    },
+    {
+      "hypothesis_id": "hyp_b3cfca659ebd",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "support_level": "CONSISTENT_WITH",
+      "supporting_evidence_ids": [],
+      "contradicting_evidence_ids": [],
+      "independent_source_count": 0,
+      "duplicated_source_count": 10,
+      "component_scores": {
+        "source_quality": 0.43,
+        "temporal_alignment": 0.4,
+        "product_match": 0.48,
+        "merchant_match": 0.0,
+        "specificity": 0.39,
+        "source_independence": 0.3,
+        "causal_strength": 0.115,
+        "contradiction_penalty": 0.0
+      },
+      "explanation": "Evidence is consistent with the INVENTORY_LIQUIDATION hypothesis. Source independence could not be confirmed."
+    }
+  ],
+  "independent_source_count": 0,
+  "duplicated_source_count": 21,
+  "uncertainty_factors": [
+    "Source independence could not be confirmed for any evidence."
+  ],
+  "summary": "Event evt_ca8abddec306fc61: Mevo Live Event Camera Kit with Mevo Boost, Stand Case (Black) at Bestbuy.com. Observed decrease of 25.0% on 2018-05-26. Hypothesis assessments:   PROMOTION: CONTRADICTS   PRODUCT_EVENT: CONTRADICTS   INVENTORY_LIQUIDATION: CONSISTENT_WITH 26 evidence item(s) collected.",
+  "event_summary": {
+    "event_id": "evt_ca8abddec306fc61",
+    "product_name": "Mevo Live Event Camera Kit with Mevo Boost, Stand Case (Black)",
+    "brand": "Mevo",
+    "merchant": "Bestbuy.com",
+    "previous_price": 399.99,
+    "current_price": 299.99,
+    "price_change_pct": -25.000625,
+    "change_direction": "decrease",
+    "observed_at": "2018-05-26T15:00:00+00:00",
+    "category": "Electronics"
+  },
+  "agent_failures": [],
+  "search_failures": []
+}
