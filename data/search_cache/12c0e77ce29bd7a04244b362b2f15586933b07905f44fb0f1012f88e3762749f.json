@@ -1,0 +1,15 @@
+[
+  {
+    "result_id": "res_15b8ff71e16f",
+    "query_id": "q_7bff9a47c7",
+    "event_id": "evt_728c4dccf7f8bdb0",
+    "title": "Apple MacBook Product Lifecycle and Roadmap 2017",
+    "url": "https://www.macrumors.com/guide/macbook-lifecycle-2017",
+    "snippet": "Analysis of Apple MacBook product lifecycle indicates the 12-inch model is approaching end-of-life as Apple focuses on MacBook Pro and Air.",
+    "source_domain": "macrumors.com",
+    "retrieved_at": "2026-10-12T06:02:27.035510+00:00",
+    "provider": "mock",
+    "full_content": null,
+    "publication_date": "2017-08-01"
+  }
+]

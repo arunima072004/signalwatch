@@ -1,0 +1,141 @@
+{
+  "event_id": "evt_cc33ffe4d6bbd8af",
+  "product_id": "AVs11mzrQMlgsOJE7f8V",
+  "product_name": "Escort iX Long Range Radar Laser Detector",
+  "merchant": "Amazon.com",
+  "current_price": 311.2,
+  "competitor_price": 311.2,
+  "our_assumed_price": 499.95,
+  "median_price_before": 499.95,
+  "cost": 399.96000000000004,
+  "chosen_action": "raise_2pct",
+  "profit_table": {
+    "hold": {
+      "no_response": 481.8461,
+      "match": 9999.0,
+      "undercut": 9029.0239
+    },
+    "match": {
+      "no_response": -8876.0,
+      "match": -8876.0,
+      "undercut": -8014.9632
+    },
+    "raise_2pct": {
+      "no_response": 451.3678,
+      "match": 10998.9,
+      "undercut": 9931.9263
+    },
+    "undercut_2pct": {
+      "no_response": -10497.3554,
+      "match": -9498.4,
+      "undercut": -8576.9858
+    },
+    "undercut_5pct": {
+      "no_response": -13394.9531,
+      "match": -10432.0,
+      "undercut": -9420.0198
+    }
+  },
+  "regret_table": {
+    "hold": {
+      "no_response": 0.0,
+      "match": 999.9,
+      "undercut": 902.9024
+    },
+    "match": {
+      "no_response": 9357.8461,
+      "match": 19874.9,
+      "undercut": 17946.8895
+    },
+    "raise_2pct": {
+      "no_response": 30.4783,
+      "match": 0.0,
+      "undercut": 0.0
+    },
+    "undercut_2pct": {
+      "no_response": 10979.2015,
+      "match": 20497.3,
+      "undercut": 18508.9121
+    },
+    "undercut_5pct": {
+      "no_response": 13876.7992,
+      "match": 21430.9,
+      "undercut": 19351.9461
+    }
+  },
+  "expected_profit_ranking": [
+    [
+      "raise_2pct",
+      7127.398
+    ],
+    [
+      "hold",
+      6503.29
+    ],
+    [
+      "match",
+      -8588.9877
+    ],
+    [
+      "undercut_2pct",
+      -9524.2471
+    ],
+    [
+      "undercut_5pct",
+      -11082.3243
+    ]
+  ],
+  "scenario_probabilities": {
+    "no_response": 0.3333333333333333,
+    "match": 0.3333333333333333,
+    "undercut": 0.3333333333333333,
+    "sample_size": 1,
+    "confidence": "LOW_DATA",
+    "reason": "fewer than 5 events",
+    "response_days": 7
+  },
+  "sensitivity": {
+    "2.0": {
+      "0.7": "raise_2pct",
+      "0.8": "raise_2pct",
+      "0.9": "raise_2pct"
+    },
+    "5.0": {
+      "0.7": "raise_2pct",
+      "0.8": "raise_2pct",
+      "0.9": "raise_2pct"
+    },
+    "8.0": {
+      "0.7": "raise_2pct",
+      "0.8": "raise_2pct",
+      "0.9": "raise_2pct"
+    }
+  },
+  "assumptions": [
+    "our_price = 499.95  (pre-event price; NOT our actual listing price)",
+    "competitor_price = 311.20  (the observed market price after change)",
+    "median_price_before = 499.95  (median market price before the event)",
+    "cost = 399.96  = cost_ratio (0.8) x median_price_before \u2014 CONSTANT for this event",
+    "beta = 5.0  (demand sensitivity; default 5 \u2014 ASSUMPTION, not estimated from data)",
+    "base_demand = 100.0  (relative units at price parity; not actual sales volume)",
+    "Demand = base_demand * exp(-beta * (our_price - comp_price) / comp_price)",
+    "Actions: hold, match, raise_2pct, undercut_2pct, undercut_5pct",
+    "Competitor scenarios: no_response (stays at comp_price), match (mirrors our price), undercut (2% below ours)",
+    "*** MODEL-ASSUMPTION DEMO: cost, beta, and base_demand are not estimated from data. ***"
+  ],
+  "investigation_verdicts": [
+    {
+      "hypothesis": "PROMOTION",
+      "support_level": "CONTRADICTS"
+    },
+    {
+      "hypothesis": "PRODUCT_EVENT",
+      "support_level": "CONTRADICTS"
+    },
+    {
+      "hypothesis": "INVENTORY_LIQUIDATION",
+      "support_level": "CONTRADICTS"
+    }
+  ],
+  "generated_at": "2026-10-19T17:45:16.931285+00:00"
+}

@@ -1,0 +1,141 @@
+{
+  "event_id": "evt_91fdc16843608f0c",
+  "product_id": "AVpfC4Po1cnluZ0-csCf",
+  "product_name": "Cyber-shot DSC-WX350 Digital Camera Deluxe Kit (Black)",
+  "merchant": "Bestbuy.com",
+  "current_price": 189.99,
+  "competitor_price": 189.99,
+  "our_assumed_price": 269.99,
+  "median_price_before": 269.99,
+  "cost": 215.99200000000002,
+  "chosen_action": "raise_2pct",
+  "profit_table": {
+    "hold": {
+      "no_response": 657.6963,
+      "match": 5399.8,
+      "undercut": 4875.9799
+    },
+    "match": {
+      "no_response": -2600.2,
+      "match": -2600.2,
+      "undercut": -2347.9616
+    },
+    "raise_2pct": {
+      "no_response": 627.6269,
+      "match": 5939.78,
+      "undercut": 5363.5779
+    },
+    "undercut_2pct": {
+      "no_response": -3293.6083,
+      "match": -2980.18,
+      "undercut": -2691.0808
+    },
+    "undercut_5pct": {
+      "no_response": -4558.4828,
+      "match": -3550.15,
+      "undercut": -3205.7595
+    }
+  },
+  "regret_table": {
+    "hold": {
+      "no_response": 0.0,
+      "match": 539.98,
+      "undercut": 487.598
+    },
+    "match": {
+      "no_response": 3257.8963,
+      "match": 8539.98,
+      "undercut": 7711.5395
+    },
+    "raise_2pct": {
+      "no_response": 30.0694,
+      "match": 0.0,
+      "undercut": 0.0
+    },
+    "undercut_2pct": {
+      "no_response": 3951.3046,
+      "match": 8919.96,
+      "undercut": 8054.6587
+    },
+    "undercut_5pct": {
+      "no_response": 5216.1791,
+      "match": 9489.93,
+      "undercut": 8569.3374
+    }
+  },
+  "expected_profit_ranking": [
+    [
+      "raise_2pct",
+      3976.9949
+    ],
+    [
+      "hold",
+      3644.4921
+    ],
+    [
+      "match",
+      -2516.1205
+    ],
+    [
+      "undercut_2pct",
+      -2988.2897
+    ],
+    [
+      "undercut_5pct",
+      -3771.4641
+    ]
+  ],
+  "scenario_probabilities": {
+    "no_response": 0.3333333333333333,
+    "match": 0.3333333333333333,
+    "undercut": 0.3333333333333333,
+    "sample_size": 1,
+    "confidence": "LOW_DATA",
+    "reason": "fewer than 5 events",
+    "response_days": 7
+  },
+  "sensitivity": {
+    "2.0": {
+      "0.7": "raise_2pct",
+      "0.8": "raise_2pct",
+      "0.9": "raise_2pct"
+    },
+    "5.0": {
+      "0.7": "raise_2pct",
+      "0.8": "raise_2pct",
+      "0.9": "raise_2pct"
+    },
+    "8.0": {
+      "0.7": "raise_2pct",
+      "0.8": "raise_2pct",
+      "0.9": "raise_2pct"
+    }
+  },
+  "assumptions": [
+    "our_price = 269.99  (pre-event price; NOT our actual listing price)",
+    "competitor_price = 189.99  (the observed market price after change)",
+    "median_price_before = 269.99  (median market price before the event)",
+    "cost = 215.99  = cost_ratio (0.8) x median_price_before \u2014 CONSTANT for this event",
+    "beta = 5.0  (demand sensitivity; default 5 \u2014 ASSUMPTION, not estimated from data)",
+    "base_demand = 100.0  (relative units at price parity; not actual sales volume)",
+    "Demand = base_demand * exp(-beta * (our_price - comp_price) / comp_price)",
+    "Actions: hold, match, raise_2pct, undercut_2pct, undercut_5pct",
+    "Competitor scenarios: no_response (stays at comp_price), match (mirrors our price), undercut (2% below ours)",
+    "*** MODEL-ASSUMPTION DEMO: cost, beta, and base_demand are not estimated from data. ***"
+  ],
+  "investigation_verdicts": [
+    {
+      "hypothesis": "PROMOTION",
+      "support_level": "CONSISTENT_WITH"
+    },
+    {
+      "hypothesis": "PRODUCT_EVENT",
+      "support_level": "CONTRADICTS"
+    },
+    {
+      "hypothesis": "INVENTORY_LIQUIDATION",
+      "support_level": "CONTRADICTS"
+    }
+  ],
+  "generated_at": "2026-10-19T17:44:56.281759+00:00"
+}

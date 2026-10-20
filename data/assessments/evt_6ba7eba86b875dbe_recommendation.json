@@ -1,0 +1,145 @@
+{
+  "event_id": "evt_6ba7eba86b875dbe",
+  "product_id": "AVpfw_CgLJeJML43DUlI",
+  "product_name": "h.ear go Wireless Speaker (Bordeaux Pink)",
+  "merchant": "bhphotovideo.com",
+  "current_price": 114.95,
+  "competitor_price": 114.95,
+  "our_assumed_price": 198.0,
+  "median_price_before": 198.0,
+  "cost": 158.4,
+  "chosen_action": "raise_2pct",
+  "profit_table": {
+    "hold": {
+      "no_response": 106.8642,
+      "match": 3960.0,
+      "undercut": 3575.8511
+    },
+    "match": {
+      "no_response": -4345.0,
+      "match": -4345.0,
+      "undercut": -3923.5033
+    },
+    "raise_2pct": {
+      "no_response": 98.9506,
+      "match": 4356.0,
+      "undercut": 3933.4362
+    },
+    "undercut_2pct": {
+      "no_response": -5056.0464,
+      "match": -4574.9,
+      "undercut": -4131.1013
+    },
+    "undercut_5pct": {
+      "no_response": -6317.084,
+      "match": -4919.75,
+      "undercut": -4442.4983
+    }
+  },
+  "regret_table": {
+    "hold": {
+      "no_response": 0.0,
+      "match": 396.0,
+      "undercut": 357.5851
+    },
+    "match": {
+      "no_response": 4451.8642,
+      "match": 8701.0,
+      "undercut": 7856.9395
+    },
+    "raise_2pct": {
+      "no_response": 7.9136,
+      "match": 0.0,
+      "undercut": 0.0
+    },
+    "undercut_2pct": {
+      "no_response": 5162.9106,
+      "match": 8930.9,
+      "undercut": 8064.5375
+    },
+    "undercut_5pct": {
+      "no_response": 6423.9482,
+      "match": 9275.75,
+      "undercut": 8375.9345
+    }
+  },
+  "expected_profit_ranking": [
+    [
+      "raise_2pct",
+      2796.1289
+    ],
+    [
+      "hold",
+      2547.5718
+    ],
+    [
+      "match",
+      -4204.5011
+    ],
+    [
+      "undercut_2pct",
+      -4587.3492
+    ],
+    [
+      "undercut_5pct",
+      -5226.4441
+    ]
+  ],
+  "scenario_probabilities": {
+    "no_response": 0.3333333333333333,
+    "match": 0.3333333333333333,
+    "undercut": 0.3333333333333333,
+    "sample_size": 1,
+    "confidence": "LOW_DATA",
+    "reason": "fewer than 5 events",
+    "response_days": 7
+  },
+  "sensitivity": {
+    "2.0": {
+      "0.7": "raise_2pct",
+      "0.8": "raise_2pct",
+      "0.9": "raise_2pct"
+    },
+    "5.0": {
+      "0.7": "raise_2pct",
+      "0.8": "raise_2pct",
+      "0.9": "raise_2pct"
+    },
+    "8.0": {
+      "0.7": "raise_2pct",
+      "0.8": "raise_2pct",
+      "0.9": "raise_2pct"
+    }
+  },
+  "assumptions": [
+    "our_price = 198.00  (pre-event price; NOT our actual listing price)",
+    "competitor_price = 114.95  (the observed market price after change)",
+    "median_price_before = 198.00  (median market price before the event)",
+    "cost = 158.40  = cost_ratio (0.8) x median_price_before \u2014 CONSTANT for this event",
+    "beta = 5.0  (demand sensitivity; default 5 \u2014 ASSUMPTION, not estimated from data)",
+    "base_demand = 100.0  (relative units at price parity; not actual sales volume)",
+    "Demand = base_demand * exp(-beta * (our_price - comp_price) / comp_price)",
+    "Actions: hold, match, raise_2pct, undercut_2pct, undercut_5pct",
+    "Competitor scenarios: no_response (stays at comp_price), match (mirrors our price), undercut (2% below ours)",
+    "*** MODEL-ASSUMPTION DEMO: cost, beta, and base_demand are not estimated from data. ***"
+  ],
+  "investigation_verdicts": [
+    {
+      "hypothesis": "PROMOTION",
+      "support_level": "CONTRADICTS"
+    },
+    {
+      "hypothesis": "PRODUCT_EVENT",
+      "support_level": "CONTRADICTS"
+    },
+    {
+      "hypothesis": "INVENTORY_LIQUIDATION",
+      "support_level": "CONTRADICTS"
+    },
+    {
+      "hypothesis": "SEASONAL_EVENT",
+      "support_level": "CONSISTENT_WITH"
+    }
+  ],
+  "generated_at": "2026-10-19T17:45:17.548694+00:00"
+}

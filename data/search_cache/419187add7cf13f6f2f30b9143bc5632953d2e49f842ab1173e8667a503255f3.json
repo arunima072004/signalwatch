@@ -1,0 +1,67 @@
+[
+  {
+    "result_id": "res_188b8ed990f6",
+    "query_id": "q_768dfbfe76",
+    "event_id": "evt_91fdc16843608f0c",
+    "title": "201438747 | PDF | Myanmar | Migrant Worker",
+    "url": "https://www.scribd.com/doc/240519784/201438747",
+    "snippet": "Sony Cyber-Shot DSC-WX 350 This camera is small and light, but packs a whopping 20X optical zoom. The LCD display is three inches wide with an",
+    "source_domain": "www.scribd.com",
+    "retrieved_at": "2026-10-17T16:27:40.192346+00:00",
+    "provider": "tavily",
+    "full_content": null,
+    "publication_date": null
+  },
+  {
+    "result_id": "res_e7c4d18be281",
+    "query_id": "q_768dfbfe76",
+    "event_id": "evt_91fdc16843608f0c",
+    "title": "Encyclopedia of Color Science and Technology [2&amp;nbsp;ed.]\r\n 9783030898618, 9783030898625 - DOKUMEN.PUB",
+    "url": "https://dokumen.pub/encyclopedia-of-color-science-and-technology-2nbsped-9783030898618-9783030898625.html",
+    "snippet": "Color Constancy, Fig. 1 Photographs of the same scene lighted under two illuminants. Left image: Window daylight. Right image: A mixture of indoor arti\ufb01cial lighting sources. The photographs are taken by a Sony Cyber Shot DSC-WX350 compact camera with whitebalance turned off. Top panel: the patches show rectangular regions \ufb01lled with the color from roughly the same locations of the objects in the two images. Bottom panel: the images from which the patches were extracted. Notice [...] While the human visual system is equipped with good color constancy in most situations, the digital camera has to rely on color-balancing algorithm to discount the illumination effect and extract the invariable object color. This process is also called color balance or white balance. \u201cColor constancy\u201d means recovering the vertical world behind an image, while \u201cwhite balance\u201d means giving the image pleasant appearance by discounting the effect of illumination that is consistent with some [...] \u00f02\u00de  \n  \n Equation (2) is accurate within \u00060.01% for distances that are more than one decade greater than the radius [1]. Since a regular digital camera does not equip the photopic \ufb01lter, its pixels are speci\ufb01ed in a device-independent RGB color space in general. The photometric data can be calibrated from a color image through a series of calculations that involve conversion from RGB to CIE\u2019s absolute",
+    "source_domain": "dokumen.pub",
+    "retrieved_at": "2026-10-17T16:27:40.192346+00:00",
+    "provider": "tavily",
+    "full_content": null,
+    "publication_date": null
+  },
+  {
+    "result_id": "res_b9325c9ee8e6",
+    "query_id": "q_768dfbfe76",
+    "event_id": "evt_91fdc16843608f0c",
+    "title": "Sony RX100 Compact Camera \u2013 Black: Amazon.co.uk: Electronics & Photo",
+    "url": "https://www.amazon.co.uk/Sony-Advanced-1-0-Type-DSC-RX100-Refurbished/dp/B084KK7CQ8",
+    "snippet": "DO NOT BUY!!!!!!\n\nI would give this zero if I could, but unfortunately I can\u2019t. I was sold a faulty camera that wasn\u2019t working, giving a false description of this item. I would strongly advise you do not purchase and save your money and go elsewhere. Absolutely rubbish.\n\nDO NOT BUY!!\nDO NOT BUY!!\nDO NOT BUY!!\n\nDO NOT BUY!!\nDO NOT BUY!!\nDO NOT BUY!!\n\n##### DO NOT BUY!!\n\nDO NOT BUY!!!!!! [...] Please note prior to dispatch the product we/supplier open the Box in order to make sure all the Contents and Accessories are present and then we put our Company\u2019s seal (if required) or Supplier\u2019s Quality Checked Seal which means that the Product has been inspected & Quality Checked. This does not mean that the warranty of Manufacturer is void. The product has full Manufacturer's or Network\u2019s warranty.(see warranty terms & conditions).\n\n## Similar brands on Amazon [...] Please note prior to dispatch the product we/supplier open the Box in order to make sure all the Contents and Accessories are present and then we put our Company\u2019s seal (if required) or Supplier\u2019s Quality Checked Seal which means that the Product has been inspected & Quality Checked. This does not mean that the warranty of Manufacturer is void. The product has full Manufacturer's or Network\u2019s warranty.(see warranty terms & conditions).\n\n## What's in the box?\n\n## Important information",
+    "source_domain": "www.amazon.co.uk",
+    "retrieved_at": "2026-10-17T16:27:40.192346+00:00",
+    "provider": "tavily",
+    "full_content": null,
+    "publication_date": null
+  },
+  {
+    "result_id": "res_7cf2e1402fdc",
+    "query_id": "q_768dfbfe76",
+    "event_id": "evt_91fdc16843608f0c",
+    "title": "Privacy Policy - Advance Baggage Service",
+    "url": "http://advancebaggage.com/page.do?id=2",
+    "snippet": "Advance Baggage Service provides a right of access and rectification of personal data under the applicable legislation. Advance Baggage Service reserves the",
+    "source_domain": "advancebaggage.com",
+    "retrieved_at": "2026-10-17T16:27:40.192346+00:00",
+    "provider": "tavily",
+    "full_content": null,
+    "publication_date": null
+  },
+  {
+    "result_id": "res_a873d84b6ca2",
+    "query_id": "q_768dfbfe76",
+    "event_id": "evt_91fdc16843608f0c",
+    "title": "Carbon Arc Lamp - Springer Nature",
+    "url": "https://link.springer.com/content/pdf/10.1007/978-3-030-89862-5_408.pdf?pdf=inline+link",
+    "snippet": "Lamps consisting of two rods of carbon in the open air or in a glass enclosure. carbon arc lamp that was the first electric light source used.",
+    "source_domain": "link.springer.com",
+    "retrieved_at": "2026-10-17T16:27:40.192346+00:00",
+    "provider": "tavily",
+    "full_content": null,
+    "publication_date": null
+  }
+]

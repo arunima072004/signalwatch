@@ -1,0 +1,145 @@
+{
+  "event_id": "evt_0b5da99768629112",
+  "product_id": "AVpf4cQxLJeJML43FZ00",
+  "product_name": "myCharge - RAZOR PLUS USB Portable Power Bank - Silver",
+  "merchant": "Bestbuy.com",
+  "current_price": 19.99,
+  "competitor_price": 19.99,
+  "our_assumed_price": 29.99,
+  "median_price_before": 29.99,
+  "cost": 23.992,
+  "chosen_action": "raise_2pct",
+  "profit_table": {
+    "hold": {
+      "no_response": 49.173,
+      "match": 599.8,
+      "undercut": 541.615
+    },
+    "match": {
+      "no_response": -400.2,
+      "match": -400.2,
+      "undercut": -361.3777
+    },
+    "raise_2pct": {
+      "no_response": 46.5548,
+      "match": 659.78,
+      "undercut": 595.7765
+    },
+    "undercut_2pct": {
+      "no_response": -486.4741,
+      "match": -440.18,
+      "undercut": -397.4793
+    },
+    "undercut_5pct": {
+      "no_response": -642.2053,
+      "match": -500.15,
+      "undercut": -451.6318
+    }
+  },
+  "regret_table": {
+    "hold": {
+      "no_response": 0.0,
+      "match": 59.98,
+      "undercut": 54.1615
+    },
+    "match": {
+      "no_response": 449.373,
+      "match": 1059.98,
+      "undercut": 957.1542
+    },
+    "raise_2pct": {
+      "no_response": 2.6182,
+      "match": 0.0,
+      "undercut": 0.0
+    },
+    "undercut_2pct": {
+      "no_response": 535.6471,
+      "match": 1099.96,
+      "undercut": 993.2558
+    },
+    "undercut_5pct": {
+      "no_response": 691.3783,
+      "match": 1159.93,
+      "undercut": 1047.4083
+    }
+  },
+  "expected_profit_ranking": [
+    [
+      "raise_2pct",
+      434.0371
+    ],
+    [
+      "hold",
+      396.8627
+    ],
+    [
+      "match",
+      -387.2592
+    ],
+    [
+      "undercut_2pct",
+      -441.3778
+    ],
+    [
+      "undercut_5pct",
+      -531.329
+    ]
+  ],
+  "scenario_probabilities": {
+    "no_response": 0.3333333333333333,
+    "match": 0.3333333333333333,
+    "undercut": 0.3333333333333333,
+    "sample_size": 1,
+    "confidence": "LOW_DATA",
+    "reason": "fewer than 5 events",
+    "response_days": 7
+  },
+  "sensitivity": {
+    "2.0": {
+      "0.7": "raise_2pct",
+      "0.8": "raise_2pct",
+      "0.9": "raise_2pct"
+    },
+    "5.0": {
+      "0.7": "raise_2pct",
+      "0.8": "raise_2pct",
+      "0.9": "raise_2pct"
+    },
+    "8.0": {
+      "0.7": "raise_2pct",
+      "0.8": "raise_2pct",
+      "0.9": "raise_2pct"
+    }
+  },
+  "assumptions": [
+    "our_price = 29.99  (pre-event price; NOT our actual listing price)",
+    "competitor_price = 19.99  (the observed market price after change)",
+    "median_price_before = 29.99  (median market price before the event)",
+    "cost = 23.99  = cost_ratio (0.8) x median_price_before \u2014 CONSTANT for this event",
+    "beta = 5.0  (demand sensitivity; default 5 \u2014 ASSUMPTION, not estimated from data)",
+    "base_demand = 100.0  (relative units at price parity; not actual sales volume)",
+    "Demand = base_demand * exp(-beta * (our_price - comp_price) / comp_price)",
+    "Actions: hold, match, raise_2pct, undercut_2pct, undercut_5pct",
+    "Competitor scenarios: no_response (stays at comp_price), match (mirrors our price), undercut (2% below ours)",
+    "*** MODEL-ASSUMPTION DEMO: cost, beta, and base_demand are not estimated from data. ***"
+  ],
+  "investigation_verdicts": [
+    {
+      "hypothesis": "PROMOTION",
+      "support_level": "CONTRADICTS"
+    },
+    {
+      "hypothesis": "PRODUCT_EVENT",
+      "support_level": "INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "hypothesis": "INVENTORY_LIQUIDATION",
+      "support_level": "CONSISTENT_WITH"
+    },
+    {
+      "hypothesis": "SEASONAL_EVENT",
+      "support_level": "CONTRADICTS"
+    }
+  ],
+  "generated_at": "2026-10-19T17:44:57.058327+00:00"
+}

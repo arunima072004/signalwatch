@@ -1,1 +1,1 @@
-d:\market intelligence agent\DatafinitiElectronicsProductsPricingData.csv
+../DatafinitiElectronicsProductsPricingData.csv

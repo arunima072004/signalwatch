@@ -1,0 +1,632 @@
+{
+  "assessment_id": "asmnt_d4da6be0a053",
+  "event_id": "evt_c22613db89e21b31",
+  "assessed_at": "2026-10-17T16:35:25.251139+00:00",
+  "hypotheses": [
+    {
+      "hypothesis_id": "hyp_d6716ba7970e",
+      "event_id": "evt_c22613db89e21b31",
+      "hypothesis_type": "PROMOTION",
+      "signal_score": 0.752,
+      "rationale": "Hypothesis type PROMOTION generated from signals: price decrease -43.3%; offer URL present.",
+      "signals_matched": [
+        "price decrease -43.3%",
+        "offer URL present"
+      ],
+      "assigned_agents": [
+        "PromotionAgent",
+        "RetailerEventAgent"
+      ],
+      "requires_external_evidence": false,
+      "generated_at": "2026-10-17T16:35:25.251267+00:00"
+    },
+    {
+      "hypothesis_id": "hyp_909b439ae902",
+      "event_id": "evt_c22613db89e21b31",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "signal_score": 0.61,
+      "rationale": "Hypothesis type PRODUCT_EVENT generated from signals: extreme price change -43.3%; short run length (1) suggests new regime.",
+      "signals_matched": [
+        "extreme price change -43.3%",
+        "short run length (1) suggests new regime"
+      ],
+      "assigned_agents": [
+        "ProductEventAgent"
+      ],
+      "requires_external_evidence": true,
+      "generated_at": "2026-10-17T16:35:25.251267+00:00"
+    },
+    {
+      "hypothesis_id": "hyp_8a31b3e14479",
+      "event_id": "evt_c22613db89e21b31",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "signal_score": 0.4,
+      "rationale": "Hypothesis type INVENTORY_LIQUIDATION generated from signals: large price decrease -43.3%. Note: requires external web evidence; availability field alone is insufficient.",
+      "signals_matched": [
+        "large price decrease -43.3%"
+      ],
+      "assigned_agents": [
+        "SupplyAgent"
+      ],
+      "requires_external_evidence": true,
+      "generated_at": "2026-10-17T16:35:25.251267+00:00"
+    },
+    {
+      "hypothesis_id": "hyp_59535fc4bf19",
+      "event_id": "evt_c22613db89e21b31",
+      "hypothesis_type": "SEASONAL_EVENT",
+      "signal_score": 0.3,
+      "rationale": "Hypothesis type SEASONAL_EVENT generated from signals: event in summer sale period.",
+      "signals_matched": [
+        "event in summer sale period"
+      ],
+      "assigned_agents": [
+        "NewsAgent",
+        "RetailerEventAgent"
+      ],
+      "requires_external_evidence": false,
+      "generated_at": "2026-10-17T16:35:25.251267+00:00"
+    }
+  ],
+  "queries_generated": 20,
+  "results_retrieved": 90,
+  "evidence": [
+    {
+      "evidence_id": "evd_346805b68fe9",
+      "event_id": "evt_c22613db89e21b31",
+      "hypothesis_type": "PROMOTION",
+      "query_id": "q_353a92ece2",
+      "result_id": "res_b64a23cfbae7",
+      "source_url": "https://www.masterdynamic.com/products/mh30-ear-pads",
+      "source_domain": "www.masterdynamic.com",
+      "source_title": "MH30 Ear Pads | Master & Dynamic",
+      "retrieved_at": "2026-10-17T16:35:28.016075+00:00",
+      "claim": "Skip to content Visit Accessibility Statement.",
+      "evidence_text": "Skip to content Visit Accessibility Statement. 2-in-1 Wireless On-Ear + Over-Ear Headphones. Liquid error (snippets/navigation-panel line 138): invalid url input. For MW09 True Wireless Earphones. USB-C to 3.5mm Audio Cable. # MH30 Ear Pads. Sale price$ 45.00 Regular price(/). Sold outSave $ -45.00 Pre-Order. Clyde protection has been added to your cart. Please continue to add the **MH30 Ear Pads** to your cart. MH30 Ear Pads Sale price$ 45.00 Regular price(/). ### Free Shipping. Free ground shipping on orders of $99 or more in the U.S. ### Free Returns. We offer a 14-day return policy, allowing you to shop with confidence. ### Product Protection. Rest easy with our manufacturer warranty**,** ensuring that your product is protected against any manufacturing defects or issues. ## Need suppo",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.382,
+      "investigator": "PromotionAgent",
+      "publication_date": null,
+      "strategy": "PromotionStrategy",
+      "shared_source_hypotheses": []
+    },
+    {
+      "evidence_id": "evd_ef4a21e43084",
+      "event_id": "evt_c22613db89e21b31",
+      "hypothesis_type": "PROMOTION",
+      "query_id": "q_005c458690",
+      "result_id": "res_d8be7f55f63d",
+      "source_url": "https://www.cnet.com/tech/mobile/master-dynamic-mh30-headphones-built-to-last-and-sound-great",
+      "source_domain": "www.cnet.com",
+      "source_title": "Master & Dynamic MH30 headphones: Built to last and sound great - CNET",
+      "retrieved_at": "2026-10-17T16:35:32.970465+00:00",
+      "claim": "9239552.jpg\n\nWith the MH30 you get a rugged canvas carry pouch, one cable with an iPhone compatible mic and control, and another plain \u201cstraight\u201d cable.",
+      "evidence_text": "9239552.jpg\n\nWith the MH30 you get a rugged canvas carry pouch, one cable with an iPhone compatible mic and control, and another plain \u201cstraight\u201d cable. The MH30 sports 40mm drivers, and impedance is rated at 32 ohms. This handsome headphone is offered in three color schemes: silver/brown leather, gunmetal (gray)/black leather, and black metal/black leather. The MH30 weighs 9.2 ounces (260 grams). [...] Trending Today \ud83d\udd25\n\n## \n\nOur gifting experts are obsessively searching for holiday gifts that are unique, thoughtful and suitable for any budget.\n\nOur expert, award-winning staff selects the products we cover and rigorously researches and tests our top picks. If you buy through our links, we may earn a commission.\n\nTech > Mobile > Headphones\n\n# Master & Dynamic MH30 headphones: Built to last ",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.245,
+      "investigator": "PromotionAgent",
+      "publication_date": null,
+      "strategy": "PromotionStrategy",
+      "shared_source_hypotheses": []
+    },
+    {
+      "evidence_id": "evd_d598c046ee5d",
+      "event_id": "evt_c22613db89e21b31",
+      "hypothesis_type": "PROMOTION",
+      "query_id": "q_8eb3df9f71",
+      "result_id": "res_190df3ca5a15",
+      "source_url": "https://www.masterdynamic.com/collections/headphones",
+      "source_domain": "www.masterdynamic.com",
+      "source_title": "Shop Over-Ear Headphones | High End On-Ear Headphones | Master & Dynamic | Master & Dynamic",
+      "retrieved_at": "2026-10-17T16:35:34.920366+00:00",
+      "claim": "We offer a generous 14-day return policy, allowing you to shop with confidence.",
+      "evidence_text": "We offer a generous 14-day return policy, allowing you to shop with confidence.\n\n### Product Protection\n\nRest easy with our manufacturer warranty, ensuring that your product is protected against any manufacturing defects or issues.\n\n## Find Your Perfect Headphones\n\nCompare and choose the best headphones for your needs with ease using our comprehensive product comparison chart.\n\nCompare Products [...] 19 products\n\n \n\nSold out Pre-Order\n\nFloating black TUMI MW75 Active Noise-Cancelling Headphones | gallery MW75B-TUMIFloating black TUMI MW75 Active Noise-Cancelling Headphones | gallery MW75B-TUMI\n\n### MW75 TUMI\n\nSale price$ 750.00\n\nNoise-Cancelling Wireless Headphones\n\nSale price$ 750.00\n\nSold out Pre-Order\n\ngallery MH40B2-W2gallery MH40B2-W2\n\n### MH40 Wireless\n\nSale price$ 399.00\n\nWireless O",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.262,
+      "investigator": "PromotionAgent",
+      "publication_date": null,
+      "strategy": "PromotionStrategy",
+      "shared_source_hypotheses": []
+    },
+    {
+      "evidence_id": "evd_91b2c8e01f8b",
+      "event_id": "evt_c22613db89e21b31",
+      "hypothesis_type": "PROMOTION",
+      "query_id": "q_8eb3df9f71",
+      "result_id": "res_525a19b5c967",
+      "source_url": "https://www.masterdynamic.com",
+      "source_domain": "www.masterdynamic.com",
+      "source_title": "Professional Headphones & Luxury Earphones | Master & Dynamic Official",
+      "retrieved_at": "2026-10-17T16:35:34.921053+00:00",
+      "claim": "### Free Returns in 14 Days\n\nWe offer a generous 14-day return policy, allowing you to shop with confidence\n\n### Product Protection\n\nRest easy with our manufacturer warranty, ensuring that your produc",
+      "evidence_text": "### Free Returns in 14 Days\n\nWe offer a generous 14-day return policy, allowing you to shop with confidence\n\n### Product Protection\n\nRest easy with our manufacturer warranty, ensuring that your product is protected against any manufacturing defects or issues\n\n## Need support? We're here to assist you every step of the way\n\nAccess product support and frequently asked questions in our Support Center\n\nSupport Center [...] 3/4 view of MH40 Wired Headphones in gunmetal and black leather | gallery MH40G13/4 view of MH40 Wired Headphones in gunmetal and black leather with 3.5mm audio cable attached, shown on a headphone stand which is not included | gallery MH40G1\n\n### MH40 Wired\n\nSale price$ 299.00\n\nOver-Ear Headphones\n\nSale price$ 299.00\n\nSold out Pre-Order [...] Skip to content Visit Accessibi",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.262,
+      "investigator": "PromotionAgent",
+      "publication_date": null,
+      "strategy": "PromotionStrategy",
+      "shared_source_hypotheses": []
+    },
+    {
+      "evidence_id": "evd_409292669151",
+      "event_id": "evt_c22613db89e21b31",
+      "hypothesis_type": "PROMOTION",
+      "query_id": "q_8eb3df9f71",
+      "result_id": "res_6534b80123ab",
+      "source_url": "https://en.wikipedia.org/wiki/Master%27s_degree",
+      "source_domain": "en.wikipedia.org",
+      "source_title": "Master's degree - Wikipedia",
+      "retrieved_at": "2026-10-17T16:35:34.922241+00:00",
+      "claim": "[edit]\n\nMaster's programs in the US and Canada are normally two years (full-time) in length.",
+      "evidence_text": "[edit]\n\nMaster's programs in the US and Canada are normally two years (full-time) in length. In some fields/programs, work on a doctorate begins immediately after the bachelor's degree, but a master's degree may be granted along the way as an intermediate qualification if the student petitions for it. Some universities offer evening options so that students can work during the day and earn a master's degree in the evenings. [...] Associate's degree\n Bachelor's degree\n British degree abbreviations\n Diploma mill\n Doctorate\n Educational specialist\n Engineer's degree\n Euromaster\n European Joint Master degree in Economics\n Graduate school\n Licentiate \"Licentiate (degree)\")\n List of master's degrees\n Magister (degree) \"Magister (degree)\")\n Master of Advanced Studies\n Master of Arts\n Master of Ar",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.245,
+      "investigator": "PromotionAgent",
+      "publication_date": null,
+      "strategy": "PromotionStrategy",
+      "shared_source_hypotheses": []
+    },
+    {
+      "evidence_id": "evd_fbd67a3c8fcb",
+      "event_id": "evt_c22613db89e21b31",
+      "hypothesis_type": "PROMOTION",
+      "query_id": "q_57a5af96d4",
+      "result_id": "res_8afe26cc4837",
+      "source_url": "https://www.techradar.com/reviews/master-dynamic-mh30",
+      "source_domain": "www.techradar.com",
+      "source_title": "Master & Dynamic MH30 review",
+      "retrieved_at": "2026-10-17T16:35:36.043703+00:00",
+      "claim": "The Master & Dynamic MH30 is a headphone \u30fb exorbitant price tag.",
+      "evidence_text": "The Master & Dynamic MH30 is a headphone \u30fb exorbitant price tag. its $300 (\u00a3279, ) Get daily insight, inspiration and deals \u30fb tech deals, and more.",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.207,
+      "investigator": "PromotionAgent",
+      "publication_date": null,
+      "strategy": "PromotionStrategy",
+      "shared_source_hypotheses": []
+    },
+    {
+      "evidence_id": "evd_8839708f702d",
+      "event_id": "evt_c22613db89e21b31",
+      "hypothesis_type": "PROMOTION",
+      "query_id": "q_57a5af96d4",
+      "result_id": "res_c913064a0ec0",
+      "source_url": "https://m.facebook.com/ibogarecords/photos/heres-the-chance-to-win-a-pro-ject-audio-systems-2xperience-sb-turntable-from-di/10156875426869836?locale=sw_KE",
+      "source_domain": "m.facebook.com",
+      "source_title": "Here's the chance to win a Pro-Ject Audio Systems ...",
+      "retrieved_at": "2026-10-17T16:35:36.044317+00:00",
+      "claim": "(Offer available until December 18th, 11:59 pm.",
+      "evidence_text": "(Offer available until December 18th, 11:59 pm. Contest ends July 31, winner will be announced August 2. buy some quality vinyl at a 20%",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.295,
+      "investigator": "PromotionAgent",
+      "publication_date": null,
+      "strategy": "PromotionStrategy",
+      "shared_source_hypotheses": []
+    },
+    {
+      "evidence_id": "evd_1cbb8ef2ee81",
+      "event_id": "evt_c22613db89e21b31",
+      "hypothesis_type": "PROMOTION",
+      "query_id": "q_71dc08ee4a",
+      "result_id": "res_3c8a9e12405d",
+      "source_url": "https://vtechworks.lib.vt.edu/bitstream/handle/10919/92603/2019TobaccoProductionGuide.pdf",
+      "source_domain": "vtechworks.lib.vt.edu",
+      "source_title": "2019 FLUE-CURED TOBACCO PRODUCTION GUIDE",
+      "retrieved_at": "2026-10-17T16:35:38.199803+00:00",
+      "claim": "2018 Cash balance (June 30, 2017) = $ 93,758.63 Excise Tax Receipts (July 1, 2017 \u2013 June 30, 2018) + $193,935.98 Interest Earned + $ 2,047.45 Actual Expenditures - $145,523.44 - Marketing/Promotion $ ",
+      "evidence_text": "2018 Cash balance (June 30, 2017) = $ 93,758.63 Excise Tax Receipts (July 1, 2017 \u2013 June 30, 2018) + $193,935.98 Interest Earned + $ 2,047.45 Actual Expenditures - $145,523.44 - Marketing/Promotion $ 73,522.00 - Research $ 65,528.47 - Education $ 5,483.60 - Administrative $ 989.37 - Cash Balance (June 30, 2018) = $144,218.62 This information is being provided in accordance with legislation passed in the 2012 Virginia General Assembly, which requires each commodity board to provide an annual [...] MH Residues ........................................... 36 Suggestions for MH-Free Sucker Control ..................................... 38 Chemical Sucker Control Materials ............................................... 39 Suggested Sucker Control Program .........................................",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.365,
+      "investigator": "PromotionAgent",
+      "publication_date": null,
+      "strategy": "PromotionStrategy",
+      "shared_source_hypotheses": []
+    },
+    {
+      "evidence_id": "evd_f6a84f5d8e89",
+      "event_id": "evt_c22613db89e21b31",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "query_id": "q_14486d06d9",
+      "result_id": "res_4a4c0ff8a156",
+      "source_url": "https://talk.plesk.com/threads/active-list-will-be-discontinued-and-replaced-by-dynamic-list-starting-march-2024.370757",
+      "source_domain": "talk.plesk.com",
+      "source_title": "Important - \"Active List\" will be discontinued and replaced by \"Dynamic List\" starting March 2024 | Plesk Forum",
+      "retrieved_at": "2026-10-17T16:35:52.341785+00:00",
+      "claim": "Title: Important - \"Active List\" will be discontinued and replaced by \"Dynamic List\" starting March 2024 | Plesk Forum\nToday Plesk has announced that the \"Active List\" will be discontinued and replace",
+      "evidence_text": "Title: Important - \"Active List\" will be discontinued and replaced by \"Dynamic List\" starting March 2024 | Plesk Forum\nToday Plesk has announced that the \"Active List\" will be discontinued and replaced by \"Dynamic List\" starting March 2024. You already know \"Dynamic List\" and it is already the default on many Plesk installations. If you are among the few who still prefer Active List, this thread is for you: After going through the above article, please let us know what you'd like to see in Dynamic List that it can become your favorite new user interface view. So because \"Active List\" will be dropped completely and according to Peter it will reduce development costs, we can expect a decrease in Plesk license prices. Problems and lacking features the new Dynamic List, in commparision to acti",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "CAUSAL",
+      "relevance_score": 0.409,
+      "investigator": "ProductEventAgent",
+      "publication_date": null,
+      "strategy": "ProductEventStrategy",
+      "shared_source_hypotheses": []
+    },
+    {
+      "evidence_id": "evd_d039edd486c8",
+      "event_id": "evt_c22613db89e21b31",
+      "hypothesis_type": "SEASONAL_EVENT",
+      "query_id": "q_19918f6dfd",
+      "result_id": "res_0020dbd9d302",
+      "source_url": "https://wccftech.com/bh-2018-ipad-pro-black-friday-deals",
+      "source_domain": "wccftech.com",
+      "source_title": "Here Are the Best Black Friday Deals for the 2018 iPad Pro ...",
+      "retrieved_at": "2026-10-17T16:36:09.541324+00:00",
+      "claim": "B&H's Black Friday sales will enable you to save up to $100 on several models from the 2018 iPad Pro series.",
+      "evidence_text": "B&H's Black Friday sales will enable you to save up to $100 on several models from the 2018 iPad Pro series. Friday 2018 Sale is Now Live: $120",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.315,
+      "investigator": "NewsAgent",
+      "publication_date": null,
+      "strategy": "RetailerEventStrategy",
+      "shared_source_hypotheses": []
+    },
+    {
+      "evidence_id": "evd_13d3bfa46c78",
+      "event_id": "evt_c22613db89e21b31",
+      "hypothesis_type": "SEASONAL_EVENT",
+      "query_id": "q_19918f6dfd",
+      "result_id": "res_8bfeaed79a78",
+      "source_url": "https://www.facebook.com/fb-answers/bh-black-friday-deals",
+      "source_domain": "www.facebook.com",
+      "source_title": "B&H Black Friday Deals",
+      "retrieved_at": "2026-10-17T16:36:09.541712+00:00",
+      "claim": "B&H runs major Black Friday and anniversary sales with deep discounts on cameras, lenses, memory cards, and storage.",
+      "evidence_text": "B&H runs major Black Friday and anniversary sales with deep discounts on cameras, lenses, memory cards, and storage. for $1799, plus Payboo card savings on",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.245,
+      "investigator": "NewsAgent",
+      "publication_date": null,
+      "strategy": "RetailerEventStrategy",
+      "shared_source_hypotheses": []
+    },
+    {
+      "evidence_id": "evd_bf3e4d883399",
+      "event_id": "evt_c22613db89e21b31",
+      "hypothesis_type": "SEASONAL_EVENT",
+      "query_id": "q_19918f6dfd",
+      "result_id": "res_d352836f51d0",
+      "source_url": "https://www.dailycameranews.com/2025/11/bh-photo-video-early-black-friday-2025-deals-sales-now-live",
+      "source_domain": "www.dailycameranews.com",
+      "source_title": "B&H Photo Video Early Black Friday 2025 Deals & Sales ...",
+      "retrieved_at": "2026-10-17T16:36:09.542314+00:00",
+      "claim": "Top Black Friday 2025 Deals at B&H Photo Video \u00b7 Save $500 on Canon EOS R5 Mark II Mirrorless Camera \u00b7 Up to $400 on RF mirrorless lenses \u00b7 Get",
+      "evidence_text": "Top Black Friday 2025 Deals at B&H Photo Video \u00b7 Save $500 on Canon EOS R5 Mark II Mirrorless Camera \u00b7 Up to $400 on RF mirrorless lenses \u00b7 Get",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.315,
+      "investigator": "NewsAgent",
+      "publication_date": null,
+      "strategy": "RetailerEventStrategy",
+      "shared_source_hypotheses": []
+    }
+  ],
+  "evidence_verifications": [
+    {
+      "evidence_id": "evd_346805b68fe9",
+      "hypothesis_type": "PROMOTION",
+      "support_level": "CONTRADICTS",
+      "independence_class": "CONTRADICTING",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.0,
+        "merchant_match": 0.0,
+        "specificity": 0.8,
+        "source_independence": 0.0,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 1.0
+      },
+      "notes": "source_quality=0.55 (domain: www.masterdynamic.com); temporal_alignment=0.40; product_match=0.00 (text-based, product='MH30 Foldable On-Ear Headphones (Gunmetal)'); merchant_match=0.00; specificity=0.80; source_independence=0.00 (CONTRADICTING); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=1.00"
+    },
+    {
+      "evidence_id": "evd_ef4a21e43084",
+      "hypothesis_type": "PROMOTION",
+      "support_level": "CONTRADICTS",
+      "independence_class": "CONTRADICTING",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.0,
+        "merchant_match": 0.0,
+        "specificity": 0.3,
+        "source_independence": 0.0,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 1.0
+      },
+      "notes": "source_quality=0.55 (domain: www.cnet.com); temporal_alignment=0.40; product_match=0.00 (text-based, product='MH30 Foldable On-Ear Headphones (Gunmetal)'); merchant_match=0.00; specificity=0.30; source_independence=0.00 (CONTRADICTING); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=1.00"
+    },
+    {
+      "evidence_id": "evd_d598c046ee5d",
+      "hypothesis_type": "PROMOTION",
+      "support_level": "CONTRADICTS",
+      "independence_class": "CONTRADICTING",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.0,
+        "merchant_match": 0.0,
+        "specificity": 0.4,
+        "source_independence": 0.0,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 1.0
+      },
+      "notes": "source_quality=0.55 (domain: www.masterdynamic.com); temporal_alignment=0.40; product_match=0.00 (text-based, product='MH30 Foldable On-Ear Headphones (Gunmetal)'); merchant_match=0.00; specificity=0.40; source_independence=0.00 (CONTRADICTING); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=1.00"
+    },
+    {
+      "evidence_id": "evd_91b2c8e01f8b",
+      "hypothesis_type": "PROMOTION",
+      "support_level": "CONTRADICTS",
+      "independence_class": "CONTRADICTING",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.0,
+        "merchant_match": 0.0,
+        "specificity": 0.4,
+        "source_independence": 0.0,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 1.0
+      },
+      "notes": "source_quality=0.55 (domain: www.masterdynamic.com); temporal_alignment=0.40; product_match=0.00 (text-based, product='MH30 Foldable On-Ear Headphones (Gunmetal)'); merchant_match=0.00; specificity=0.40; source_independence=0.00 (CONTRADICTING); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=1.00"
+    },
+    {
+      "evidence_id": "evd_409292669151",
+      "hypothesis_type": "PROMOTION",
+      "support_level": "CONTRADICTS",
+      "independence_class": "CONTRADICTING",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.0,
+        "merchant_match": 0.0,
+        "specificity": 0.3,
+        "source_independence": 0.0,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 1.0
+      },
+      "notes": "source_quality=0.55 (domain: en.wikipedia.org); temporal_alignment=0.40; product_match=0.00 (text-based, product='MH30 Foldable On-Ear Headphones (Gunmetal)'); merchant_match=0.00; specificity=0.30; source_independence=0.00 (CONTRADICTING); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=1.00"
+    },
+    {
+      "evidence_id": "evd_fbd67a3c8fcb",
+      "hypothesis_type": "PROMOTION",
+      "support_level": "CONTRADICTS",
+      "independence_class": "CONTRADICTING",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.0,
+        "merchant_match": 0.0,
+        "specificity": 0.5,
+        "source_independence": 0.0,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 1.0
+      },
+      "notes": "source_quality=0.55 (domain: www.techradar.com); temporal_alignment=0.40; product_match=0.00 (text-based, product='MH30 Foldable On-Ear Headphones (Gunmetal)'); merchant_match=0.00; specificity=0.50; source_independence=0.00 (CONTRADICTING); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=1.00"
+    },
+    {
+      "evidence_id": "evd_8839708f702d",
+      "hypothesis_type": "PROMOTION",
+      "support_level": "CONTRADICTS",
+      "independence_class": "CONTRADICTING",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.0,
+        "merchant_match": 0.0,
+        "specificity": 0.7,
+        "source_independence": 0.0,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 1.0
+      },
+      "notes": "source_quality=0.55 (domain: m.facebook.com); temporal_alignment=0.40; product_match=0.00 (text-based, product='MH30 Foldable On-Ear Headphones (Gunmetal)'); merchant_match=0.00; specificity=0.70; source_independence=0.00 (CONTRADICTING); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=1.00"
+    },
+    {
+      "evidence_id": "evd_1cbb8ef2ee81",
+      "hypothesis_type": "PROMOTION",
+      "support_level": "CONTRADICTS",
+      "independence_class": "CONTRADICTING",
+      "component_scores": {
+        "source_quality": 0.9,
+        "temporal_alignment": 0.4,
+        "product_match": 0.0,
+        "merchant_match": 0.0,
+        "specificity": 0.7,
+        "source_independence": 0.0,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 1.0
+      },
+      "notes": "source_quality=0.90 (domain: vtechworks.lib.vt.edu); temporal_alignment=0.40; product_match=0.00 (text-based, product='MH30 Foldable On-Ear Headphones (Gunmetal)'); merchant_match=0.00; specificity=0.70; source_independence=0.00 (CONTRADICTING); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=1.00"
+    },
+    {
+      "evidence_id": "evd_f6a84f5d8e89",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "support_level": "INSUFFICIENT_EVIDENCE",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.0,
+        "merchant_match": 0.0,
+        "specificity": 0.6,
+        "source_independence": 0.3,
+        "causal_strength": 0.4,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.55 (domain: talk.plesk.com); temporal_alignment=0.40; product_match=0.00 (text-based, product='MH30 Foldable On-Ear Headphones (Gunmetal)'); merchant_match=0.00; specificity=0.60; source_independence=0.30 (SYNDICATED); causal_strength=0.40 (relationship=CAUSAL); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_d039edd486c8",
+      "hypothesis_type": "SEASONAL_EVENT",
+      "support_level": "INSUFFICIENT_EVIDENCE",
+      "independence_class": "INDEPENDENCE_UNCERTAIN",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.0,
+        "merchant_match": 0.0,
+        "specificity": 0.8,
+        "source_independence": 0.5,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.55 (domain: wccftech.com); temporal_alignment=0.40; product_match=0.00 (text-based, product='MH30 Foldable On-Ear Headphones (Gunmetal)'); merchant_match=0.00; specificity=0.80; source_independence=0.50 (INDEPENDENCE_UNCERTAIN); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_13d3bfa46c78",
+      "hypothesis_type": "SEASONAL_EVENT",
+      "support_level": "INSUFFICIENT_EVIDENCE",
+      "independence_class": "INDEPENDENCE_UNCERTAIN",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.0,
+        "merchant_match": 0.0,
+        "specificity": 0.5,
+        "source_independence": 0.5,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.55 (domain: www.facebook.com); temporal_alignment=0.40; product_match=0.00 (text-based, product='MH30 Foldable On-Ear Headphones (Gunmetal)'); merchant_match=0.00; specificity=0.50; source_independence=0.50 (INDEPENDENCE_UNCERTAIN); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_bf3e4d883399",
+      "hypothesis_type": "SEASONAL_EVENT",
+      "support_level": "INSUFFICIENT_EVIDENCE",
+      "independence_class": "INDEPENDENCE_UNCERTAIN",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.0,
+        "merchant_match": 0.0,
+        "specificity": 0.5,
+        "source_independence": 0.5,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.55 (domain: www.dailycameranews.com); temporal_alignment=0.40; product_match=0.00 (text-based, product='MH30 Foldable On-Ear Headphones (Gunmetal)'); merchant_match=0.00; specificity=0.50; source_independence=0.50 (INDEPENDENCE_UNCERTAIN); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    }
+  ],
+  "hypothesis_assessments": [
+    {
+      "hypothesis_id": "hyp_d6716ba7970e",
+      "hypothesis_type": "PROMOTION",
+      "support_level": "CONTRADICTS",
+      "supporting_evidence_ids": [],
+      "contradicting_evidence_ids": [
+        "evd_346805b68fe9",
+        "evd_ef4a21e43084",
+        "evd_d598c046ee5d",
+        "evd_91b2c8e01f8b",
+        "evd_409292669151",
+        "evd_fbd67a3c8fcb",
+        "evd_8839708f702d",
+        "evd_1cbb8ef2ee81"
+      ],
+      "independent_source_count": 0,
+      "duplicated_source_count": 0,
+      "component_scores": {
+        "source_quality": 0.594,
+        "temporal_alignment": 0.4,
+        "product_match": 0.0,
+        "merchant_match": 0.0,
+        "specificity": 0.512,
+        "source_independence": 0.0,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 1.0
+      },
+      "explanation": "Evidence contradicts the PROMOTION hypothesis. 8 contradicting evidence item(s) found. Source independence could not be confirmed."
+    },
+    {
+      "hypothesis_id": "hyp_909b439ae902",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "support_level": "INSUFFICIENT_EVIDENCE",
+      "supporting_evidence_ids": [],
+      "contradicting_evidence_ids": [],
+      "independent_source_count": 0,
+      "duplicated_source_count": 1,
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.0,
+        "merchant_match": 0.0,
+        "specificity": 0.6,
+        "source_independence": 0.3,
+        "causal_strength": 0.4,
+        "contradiction_penalty": 0.0
+      },
+      "explanation": "Insufficient evidence to assess the PRODUCT_EVENT hypothesis. Source independence could not be confirmed."
+    },
+    {
+      "hypothesis_id": "hyp_8a31b3e14479",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "support_level": "INSUFFICIENT_EVIDENCE",
+      "supporting_evidence_ids": [],
+      "contradicting_evidence_ids": [],
+      "independent_source_count": 0,
+      "duplicated_source_count": 0,
+      "component_scores": {
+        "source_quality": 0.0,
+        "temporal_alignment": 0.0,
+        "product_match": 0.0,
+        "merchant_match": 0.0,
+        "specificity": 0.0,
+        "source_independence": 0.0,
+        "causal_strength": 0.0,
+        "contradiction_penalty": 0.0
+      },
+      "explanation": "No evidence was retrieved for this hypothesis."
+    },
+    {
+      "hypothesis_id": "hyp_59535fc4bf19",
+      "hypothesis_type": "SEASONAL_EVENT",
+      "support_level": "INSUFFICIENT_EVIDENCE",
+      "supporting_evidence_ids": [],
+      "contradicting_evidence_ids": [],
+      "independent_source_count": 0,
+      "duplicated_source_count": 0,
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.0,
+        "merchant_match": 0.0,
+        "specificity": 0.6,
+        "source_independence": 0.5,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "explanation": "Insufficient evidence to assess the SEASONAL_EVENT hypothesis. Source independence could not be confirmed."
+    }
+  ],
+  "independent_source_count": 0,
+  "duplicated_source_count": 1,
+  "uncertainty_factors": [
+    "Source independence could not be confirmed for any evidence."
+  ],
+  "summary": "Event evt_c22613db89e21b31: MH30 Foldable On-Ear Headphones (Gunmetal) at bhphotovideo.com. Observed decrease of 43.3% on 2018-06-02. Hypothesis assessments:   PROMOTION: CONTRADICTS   PRODUCT_EVENT: INSUFFICIENT_EVIDENCE   INVENTORY_LIQUIDATION: INSUFFICIENT_EVIDENCE   SEASONAL_EVENT: INSUFFICIENT_EVIDENCE 12 evidence item(s) collected.",
+  "event_summary": {
+    "event_id": "evt_c22613db89e21b31",
+    "product_name": "MH30 Foldable On-Ear Headphones (Gunmetal)",
+    "brand": "Master Dynamic",
+    "merchant": "bhphotovideo.com",
+    "previous_price": 299.0,
+    "current_price": 169.66,
+    "price_change_pct": -43.257525083612045,
+    "change_direction": "decrease",
+    "observed_at": "2018-06-02T15:00:00+00:00",
+    "category": "Electronics"
+  },
+  "agent_failures": [],
+  "search_failures": []
+}

@@ -106,7 +106,7 @@ The dataset contained **$2 placeholder prices** mixed with real $3,000+ prices f
 
 ## 🧹 4. Data Preprocessing Pipeline — 12 Steps
 
-> **Source**: [`src/data/preprocessing.py`](file:///d:/market%20intelligence%20agent/signalwatch/src/data/preprocessing.py)
+> **Source**: [`src/data/preprocessing.py`](../../src/data/preprocessing.py)
 
 ### The Pipeline (In Order)
 
@@ -156,7 +156,7 @@ class FilteringLog:
 
 ## 📈 5. Time Series Construction
 
-> **Source**: [`src/timeseries/builder.py`](file:///d:/market%20intelligence%20agent/signalwatch/src/timeseries/builder.py)
+> **Source**: [`src/timeseries/builder.py`](../../src/timeseries/builder.py)
 
 ### The Fundamental Unit: (Product_ID, Merchant) Pair
 
@@ -201,7 +201,7 @@ This is critical because BOCPD is an **online** algorithm — it must never see 
 
 ### 6A. Price Features
 
-> **Source**: [`src/features/price_features.py`](file:///d:/market%20intelligence%20agent/signalwatch/src/features/price_features.py)
+> **Source**: [`src/features/price_features.py`](../../src/features/price_features.py)
 
 #### Why Log-Price Difference (log_price_diff)?
 
@@ -249,7 +249,7 @@ All rolling calculations use `min_periods=2` → NaN instead of spurious values 
 
 ### 6B. Competitive Features
 
-> **Source**: [`src/features/competitive_features.py`](file:///d:/market%20intelligence%20agent/signalwatch/src/features/competitive_features.py)
+> **Source**: [`src/features/competitive_features.py`](../../src/features/competitive_features.py)
 
 #### Temporal Leakage Prevention — Critical
 
@@ -283,7 +283,7 @@ This answers: *"What did we know about competitor prices just before we saw M's 
 
 ## 🧠 7. BOCPD — The Core Algorithm (The Heart of the Project)
 
-> **Source**: [`src/bocpd/detector.py`](file:///d:/market%20intelligence%20agent/signalwatch/src/bocpd/detector.py), [`src/bocpd/models.py`](file:///d:/market%20intelligence%20agent/signalwatch/src/bocpd/models.py), [`src/bocpd/config.py`](file:///d:/market%20intelligence%20agent/signalwatch/src/bocpd/config.py)
+> **Source**: [`src/bocpd/detector.py`](../../src/bocpd/detector.py), [`src/bocpd/models.py`](../../src/bocpd/models.py), [`src/bocpd/config.py`](../../src/bocpd/config.py)
 >
 > **Paper**: Adams & MacKay (2007), *"Bayesian Online Changepoint Detection"*, [arXiv:0710.3742](https://arxiv.org/abs/0710.3742)
 
@@ -416,7 +416,7 @@ These exist to demonstrate what BOCPD adds: **automatic adaptation to the price 
 
 ## 🎯 8. Change Event Generation
 
-> **Source**: [`src/events/event_generator.py`](file:///d:/market%20intelligence%20agent/signalwatch/src/events/event_generator.py)
+> **Source**: [`src/events/event_generator.py`](../../src/events/event_generator.py)
 
 ### When Does a BOCPD Flag Become an Event?
 
@@ -455,7 +455,7 @@ class ChangeEvent:
 
 ## 🏷️ 9. Weak Supervision — Labeling Without Ground Truth
 
-> **Source**: [`src/weak_supervision/label_generator.py`](file:///d:/market%20intelligence%20agent/signalwatch/src/weak_supervision/label_generator.py)
+> **Source**: [`src/weak_supervision/label_generator.py`](../../src/weak_supervision/label_generator.py)
 
 ### What is Weak Supervision?
 
@@ -485,7 +485,7 @@ A single event can receive **multiple labels**. For example, a price drop where 
 
 ## 🔍 10. Query Generation — The Final Output
 
-> **Source**: [`src/query_generation/query_generator.py`](file:///d:/market%20intelligence%20agent/signalwatch/src/query_generation/query_generator.py)
+> **Source**: [`src/query_generation/query_generator.py`](../../src/query_generation/query_generator.py)
 
 ### Design Philosophy
 - **Deterministic templates** — No LLM API, no randomness, fully reproducible
@@ -553,7 +553,7 @@ The interface is **polymorphic** — swap templates with LLM without modifying a
 
 ## ✅ 11. Testing & Validation
 
-> **Source**: [`tests/`](file:///d:/market%20intelligence%20agent/signalwatch/tests/) — 10 test files, **112 tests**, 100% passing
+> **Source**: [`tests/`](../../tests/) — 10 test files, **112 tests**, 100% passing
 
 ### Test Coverage by Module
 
@@ -592,7 +592,7 @@ def test_posterior_sums_to_one(detector):
 
 ## 📊 12. Visualizations — 13 Production Charts
 
-All stored in [`data/figures/`](file:///d:/market%20intelligence%20agent/signalwatch/data/figures/):
+All stored in [`data/figures/`](../../data/figures/):
 
 | Chart | What it Shows |
 |-------|--------------|

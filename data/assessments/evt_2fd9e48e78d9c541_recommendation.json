@@ -1,0 +1,137 @@
+{
+  "event_id": "evt_2fd9e48e78d9c541",
+  "product_id": "AVpf2pgLilAPnD_xjed4",
+  "product_name": "Details About *brand New* Pny Anarchy 16gb Kit (2x8gb) Ddr4 2400mhz Pc419200 Desktop Memory",
+  "merchant": "Bestbuy.com",
+  "current_price": 199.99,
+  "competitor_price": 199.99,
+  "our_assumed_price": 139.99,
+  "median_price_before": 139.99,
+  "cost": 111.99200000000002,
+  "chosen_action": "undercut_5pct",
+  "profit_table": {
+    "hold": {
+      "no_response": 12548.7742,
+      "match": 2799.8,
+      "undercut": 2528.1989
+    },
+    "match": {
+      "no_response": 8799.8,
+      "match": 8799.8,
+      "undercut": 7946.1551
+    },
+    "raise_2pct": {
+      "no_response": 12870.4588,
+      "match": 3079.78,
+      "undercut": 2781.0188
+    },
+    "undercut_2pct": {
+      "no_response": 9283.2368,
+      "match": 8399.82,
+      "undercut": 7584.9761
+    },
+    "undercut_5pct": {
+      "no_response": 10015.2056,
+      "match": 7799.85,
+      "undercut": 7043.2076
+    }
+  },
+  "regret_table": {
+    "hold": {
+      "no_response": 321.6846,
+      "match": 6000.0,
+      "undercut": 5417.9562
+    },
+    "match": {
+      "no_response": 4070.6588,
+      "match": 0.0,
+      "undercut": 0.0
+    },
+    "raise_2pct": {
+      "no_response": 0.0,
+      "match": 5720.02,
+      "undercut": 5165.1363
+    },
+    "undercut_2pct": {
+      "no_response": 3587.222,
+      "match": 399.98,
+      "undercut": 361.179
+    },
+    "undercut_5pct": {
+      "no_response": 2855.2532,
+      "match": 999.95,
+      "undercut": 902.9475
+    }
+  },
+  "expected_profit_ranking": [
+    [
+      "match",
+      8515.2517
+    ],
+    [
+      "undercut_2pct",
+      8422.6776
+    ],
+    [
+      "undercut_5pct",
+      8286.0877
+    ],
+    [
+      "raise_2pct",
+      6243.7525
+    ],
+    [
+      "hold",
+      5958.9244
+    ]
+  ],
+  "scenario_probabilities": {
+    "no_response": 0.3333333333333333,
+    "match": 0.3333333333333333,
+    "undercut": 0.3333333333333333,
+    "sample_size": 1,
+    "confidence": "LOW_DATA",
+    "reason": "fewer than 5 events",
+    "response_days": 7
+  },
+  "sensitivity": {
+    "2.0": {
+      "0.7": "match",
+      "0.8": "match",
+      "0.9": "match"
+    },
+    "5.0": {
+      "0.7": "raise_2pct",
+      "0.8": "undercut_5pct",
+      "0.9": "undercut_2pct"
+    },
+    "8.0": {
+      "0.7": "raise_2pct",
+      "0.8": "raise_2pct",
+      "0.9": "raise_2pct"
+    }
+  },
+  "assumptions": [
+    "our_price = 139.99  (pre-event price; NOT our actual listing price)",
+    "competitor_price = 199.99  (the observed market price after change)",
+    "median_price_before = 139.99  (median market price before the event)",
+    "cost = 111.99  = cost_ratio (0.8) x median_price_before \u2014 CONSTANT for this event",
+    "beta = 5.0  (demand sensitivity; default 5 \u2014 ASSUMPTION, not estimated from data)",
+    "base_demand = 100.0  (relative units at price parity; not actual sales volume)",
+    "Demand = base_demand * exp(-beta * (our_price - comp_price) / comp_price)",
+    "Actions: hold, match, raise_2pct, undercut_2pct, undercut_5pct",
+    "Competitor scenarios: no_response (stays at comp_price), match (mirrors our price), undercut (2% below ours)",
+    "*** MODEL-ASSUMPTION DEMO: cost, beta, and base_demand are not estimated from data. ***"
+  ],
+  "investigation_verdicts": [
+    {
+      "hypothesis": "PROMOTION",
+      "support_level": "CONTRADICTS"
+    },
+    {
+      "hypothesis": "PRODUCT_EVENT",
+      "support_level": "CONTRADICTS"
+    }
+  ],
+  "generated_at": "2026-10-19T17:45:17.183017+00:00"
+}

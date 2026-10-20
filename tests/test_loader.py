@@ -44,7 +44,7 @@ def test_load_raw_drops_empty_columns(tmp_path):
 
 
 def test_load_raw_all_string_dtype(tmp_path):
-    """All columns should be object (string) dtype."""
+    """All columns should be string dtype (object in pandas 2, StringDtype in pandas 3+)."""
     csv = tmp_path / "test.csv"
     csv.write_text(
         "id,prices.amountMin,prices.dateSeen\n"
@@ -53,7 +53,8 @@ def test_load_raw_all_string_dtype(tmp_path):
     )
     df = load_raw(str(csv))
     for col in df.columns:
-        assert df[col].dtype == object, f"Column {col} should be object dtype"
+        is_string_like = df[col].dtype == object or pd.api.types.is_string_dtype(df[col])
+        assert is_string_like, f"Column {col} should be string dtype, got {df[col].dtype}"
 
 
 def test_resolve_raw_path_explicit(tmp_path):

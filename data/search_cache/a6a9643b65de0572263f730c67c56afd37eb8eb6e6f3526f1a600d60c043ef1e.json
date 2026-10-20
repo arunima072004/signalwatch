@@ -1,0 +1,28 @@
+[
+  {
+    "result_id": "res_efb57142d518",
+    "query_id": "q_7a9874d007",
+    "event_id": "evt_728c4dccf7f8bdb0",
+    "title": "Apple MacBook 12-inch Discontinued by Apple",
+    "url": "https://www.macrumors.com/2019/07/09/apple-discontinues-12-inch-macbook/",
+    "snippet": "Apple has discontinued the 12-inch MacBook from its lineup. The product page has been removed from Apple's website.",
+    "source_domain": "macrumors.com",
+    "retrieved_at": "2026-10-12T06:02:26.890216+00:00",
+    "provider": "mock",
+    "full_content": null,
+    "publication_date": "2019-07-09"
+  },
+  {
+    "result_id": "res_e960698965c9",
+    "query_id": "q_7a9874d007",
+    "event_id": "evt_728c4dccf7f8bdb0",
+    "title": "MacBook 12 Discontinued Stock Clearance at Best Buy",
+    "url": "https://9to5mac.com/2019/07/10/macbook-12-discontinued-clearance",
+    "snippet": "Following Apple's discontinuation of the MacBook 12-inch, Best Buy is clearing remaining inventory at reduced prices.",
+    "source_domain": "9to5mac.com",
+    "retrieved_at": "2026-10-12T06:02:26.890216+00:00",
+    "provider": "mock",
+    "full_content": null,
+    "publication_date": "2019-07-10"
+  }
+]

@@ -1,0 +1,67 @@
+[
+  {
+    "result_id": "res_f97501b875b2",
+    "query_id": "q_6ddfadc626",
+    "event_id": "evt_c413c46751073c65",
+    "title": "The best Cyber Monday deals you can get right now",
+    "url": "https://www.cnbc.com/make-it/2017/11/27/the-best-cyber-monday-deals-you-can-get-right-now.html",
+    "snippet": "Panasonic Flash Xpress Toaster Oven\u2014$106.72 with coupon (Save $33): This cult-favorite toaster oven uses infrared heat instead of coils. That means it heats up faster and toasts more evenly. A 4.5 star rating from over 2,100 reviews can't be wrong!\n Joule ChefSteps Sous Vide is $149 (Save $30): Our pick for the best sous vide immersion circulator with WiFi, the Joule has an impressive design and a simple, attractive app. This matches the lowest price we've ever seen for this model. [...] Sensi WiFi Smart Thermostat (works with Amazon Alexa)\u2014$89.04 (Save $39.96): We've never seen the price drop so low for our smart thermostat Best Value winner. It may look like a regular thermostat, but this baby lets you control your home's heating and cooling with Alexa commands or through a smartphone app. [...] Anova Sous Vide Cooker With Bluetooth\u2014$99 from Anova (Save $50): 2017's hottest kitchen gadget lets you easily cook sous vide at home, and it's the same low sale price at Amazon as well. You can also get the WiFi + Bluetooth on Amazon for $126.65 (Save $72.35) right now.",
+    "source_domain": "www.cnbc.com",
+    "retrieved_at": "2026-10-17T16:26:41.821026+00:00",
+    "provider": "tavily",
+    "full_content": null,
+    "publication_date": null
+  },
+  {
+    "result_id": "res_1fbbbf1105b4",
+    "query_id": "q_6ddfadc626",
+    "event_id": "evt_c413c46751073c65",
+    "title": "Wisconsin Focus on Energy 2024 Technical Reference ...",
+    "url": "https://assets.focusonenergy.com/production/inline-files/Focus-on-Energy-2024-TRM.pdf",
+    "snippet": "watt requirement. Description of Efficient Condition The efficient equipment is a Wi-Fi connected lightbulb that can communicate with users via smart phone applications. Annual Energy-Savings Algorithm \ud835\udc58\ud835\udc4a\u210eSAVED = (\ud835\udee5\ud835\udc58\ud835\udc4a\u210eLED \u2217 \ud835\udc3c\ud835\udc46\ud835\udc45LED) + (\ud835\udee5\ud835\udc58\ud835\udc4a\u210eAPP \u2217 \ud835\udc3c\ud835\udc46\ud835\udc45LED \u2217 \ud835\udc3c\ud835\udc46\ud835\udc45APP) \ud835\udee5\ud835\udc58\ud835\udc4a\u210eLED = (\ud835\udc4a\ud835\udc4e\ud835\udc61\ud835\udc61\ud835\udc60BASE \u2013 \ud835\udc4a\ud835\udc4e\ud835\udc61\ud835\udc61\ud835\udc60EE) / 1,000 \u2217 \ud835\udc3b\ud835\udc42\ud835\udc48 \u2217 \ud835\udc41LAMPS \ud835\udee5\ud835\udc58\ud835\udc4a\u210eAPP = (\ud835\udee5\ud835\udc58\ud835\udc4a\u210eDIM + \ud835\udee5\ud835\udc58\ud835\udc4a\u210eHOU \u2013 \ud835\udee5\ud835\udc58\ud835\udc4a\u210eSTBY) \u2217 \ud835\udc41LAMP \ud835\udee5\ud835\udc58\ud835\udc4a\u210eDIM = \ud835\udc4a\ud835\udc4e\ud835\udc61\ud835\udc61\ud835\udc60EE / 1,000 \u2217 %\ud835\udee5\ud835\udc4a\ud835\udc4e\ud835\udc61\ud835\udc61\ud835\udc60DIM \u2217 [\ud835\udc3b\ud835\udc42\ud835\udc48 \u2217 (1 \u2013 %\ud835\udee5HOU)] \ud835\udee5\ud835\udc58\ud835\udc4a\u210eHOU = [\ud835\udc4a\ud835\udc4e\ud835\udc61\ud835\udc61\ud835\udc60EE \u2217 (1 \u2013 %\ud835\udee5\ud835\udc4a\ud835\udc4e\ud835\udc61\ud835\udc61\ud835\udc60DIM)] / 1,000 \u2217 \ud835\udc3b\ud835\udc42\ud835\udc48 \u2217 %\ud835\udee5HOU \ud835\udee5\ud835\udc58\ud835\udc4a\u210eSTBY = [...] Name MMID Sector ISRLED9 A19 Omnidirectional, Non-Hub, Wi-Fi Connected Bulb, Pop-Up Retail 5389 SF/MF 92% BR30, Non-Hub, Wi-Fi Connected Bulb, Pop-Up Retail 5390 SF/MF 90% BR30, Non-Hub, Wi-Fi Connected Bulb, Online Marketplace 5391 SF/MF 89% Summer Coincident Peak Savings Algorithm \ud835\udc58\ud835\udc4aSAVED = (\ud835\udee5\ud835\udc58\ud835\udc4aLED \u2217 \ud835\udc3c\ud835\udc46\ud835\udc45LED) + (\ud835\udee5\ud835\udc58\ud835\udc4aAPP \u2217 \ud835\udc3c\ud835\udc46\ud835\udc45APP) \ud835\udee5\ud835\udc58\ud835\udc4aLED = (\ud835\udc4a\ud835\udc4e\ud835\udc61\ud835\udc61\ud835\udc60BASE \u2013 \ud835\udc4a\ud835\udc4e\ud835\udc61\ud835\udc61\ud835\udc60EE) / 1,000 \u2217 \ud835\udc36\ud835\udc39 \u2217 \ud835\udc41LAMPS \ud835\udee5\ud835\udc58\ud835\udc4aAPP = (\ud835\udee5\ud835\udc58\ud835\udc4aDIM \u2013 \ud835\udee5\ud835\udc58\ud835\udc4aSTBY) \u2217 \ud835\udc41LAMPS \ud835\udee5\ud835\udc58\ud835\udc4aDIM = \ud835\udc4a\ud835\udc4e\ud835\udc61\ud835\udc61\ud835\udc60EE \u2217 %\ud835\udee5\ud835\udc4a\ud835\udc4e\ud835\udc61\ud835\udc61\ud835\udc60DIM \u2217 \ud835\udc36\ud835\udc39 / 1,000 \ud835\udee5\ud835\udc58\ud835\udc4aSTBY = \ud835\udc4a\ud835\udc4e\ud835\udc61\ud835\udc61\ud835\udc60STBY \u2217 \ud835\udc36\ud835\udc39STBY / [...] Sizing Factor suggested range of 0.80 to 0.85 in 2020 ASHRAE\u00ae Handbook. Value of 0.85 used for prescriptive measures for conservative deemed savings.5 No electrical savings are claimed because the combustion air fans in the infrared radiant heaters have roughly equivalent power to the propeller fans in the baseline unit heaters. This is based on data from four infrared heater manufacturers (Modine, Reznor, Space-ray, and Schwank) and three unit heater manufacturers (Modine, Reznor, and Trane)",
+    "source_domain": "assets.focusonenergy.com",
+    "retrieved_at": "2026-10-17T16:26:41.821026+00:00",
+    "provider": "tavily",
+    "full_content": null,
+    "publication_date": null
+  },
+  {
+    "result_id": "res_b19e553659ca",
+    "query_id": "q_6ddfadc626",
+    "event_id": "evt_c413c46751073c65",
+    "title": "RB408.4-24",
+    "url": "https://www.dhcd.virginia.gov/sites/default/files/DocX/bhcd/compressed-book-2-part-2-final-part2.pdf",
+    "snippet": "Or fastest delivery Tomorrow, Mar 11 List Price: Save 10% at checkout 55 $ 98 $79.99 | List: $89.99 List: $99.99 List: $89.99 KNUN 52inch Smart Ceiling Fans with Lights Sponsored Shop KNUN KNUN 52Inch Black Ceiling Fan, Low Pro\ufb01le Ceiling Fans with Lights and Remote/APP Control, 8 Blades, Noiseless, DC Motor, 4.4 34 79 $ 99 KNUN 52Inch Brown Ceiling Fan, Low Pro\ufb01le Ceiling Fans with Lights and Remote/APP Control, 8 Blades, Noiseless, DC Motor, 4.4 34 85 $ 99 KNUN 52Inch White Ceiling Fan, Low [...] bulb 9W ? 72 Y N N 2700K N Alexa only Ikea Tradfri Gateway kit Y $80/hub + 3 lamps $18 Extra Tunable lamps 12W 0.5 W 81.7 Y N Y 2200K 2700K 4000K ? Planned for: Alexa Google Home Siri LIFX A19 N $60 13W 0.5 W 84.6 Y To 1% Y 16M Colors Y 2500K to 9000K Y Alexa Google Home Siri CREE 60W soft white replacement Y $20 Lamp only 11.5 W ? 71 Y N 2700K Y ZigBee hub Wink Smart Things WEMO OSRAM A19 White Tunable Y $24 9.5W ? 85 Y N Y 2700K to 6500K Y ZigBee hub Alexa Google Home Tab 3 - Page 1225 [...] delivery Mon, Mar 16 52 Inch ETL Listed Indoor Outdoor Smart Ceiling Fans with Lights Remote Control, Quiet DC Motor 3 Blade Modern White\u2026 AC/DC 4.3 (900) 200+ bought in past month List: Save 6% at checkout More Buying Choices $107.99 (2+ used & new o\ufb00ers) 127 $ 45 $149.95 Add to cart FREE delivery Sun, Mar 15 Or fastest delivery Thu, Mar 12 Dreo Smart Ceiling Fans with Lights, Low Pro\ufb01le Ceiling Fan with Alexa/App, 52'' Dimmable Lighting & Color Tuning, RGB\u2026 4.6 (368) 200+ bought in past month",
+    "source_domain": "www.dhcd.virginia.gov",
+    "retrieved_at": "2026-10-17T16:26:41.821026+00:00",
+    "provider": "tavily",
+    "full_content": null,
+    "publication_date": null
+  },
+  {
+    "result_id": "res_1e73a789c222",
+    "query_id": "q_6ddfadc626",
+    "event_id": "evt_c413c46751073c65",
+    "title": "islandora_2659678_obj.pdf",
+    "url": "https://digital.hagley.org/system/files/2025-06/islandora_2659678_obj.pdf",
+    "snippet": "Real Rain  n 95 LG Electronics Inc.  Airport Cleaning Robot  n 40 \n\nV20 GUI  n 73 \n\nA7 CordZero Canister Vacuum Cleaner  n 98 \n\nDJ Boom Box(FJ8)  n 80 \n\nMontblanc-D Air Purifier  n 98 \n\nOLED TV (W7)  n 80 \n\nSmart InstaView Refrigerator  n 108 \n\nV20  n 64 Logitech  Logitech K780  n 52 LUNAR  2ToTango  n 84 \n\nGiroptic iO  n 64 LVCT Ltd  Fountain Frigate Wallfisch  n 85 \n\n2017 INDEX n Gold n Silver n Bronze I N N O V A T I O N F A L L 2 0 1 7 159    \n\n> FIRM PRODUCT AWARD PAGE [...] 1234I N N O V A T I O N F A L L 2 0 1 7 115 \n\nOUTDOOR & GARDEN \n\n1.  PORTABLE WOOD PELLET OUTDOOR HEATER \n\nThe Q-Stove is a wood-pellet-fueled portable outdoor heater. It is safer to operate than its primary competition\u2014the propane heater\u2014and is more economical to run and much more environmentally friendly. n\n\nDesigned by Xiaohui Wu and Linzi Hare of GENJOY/Qstoves, Inc. for \n\nQSTOVES INC. \n\nPERSONAL ACCESSORIES \n\n1.  AIRPOP+ SMART AIR POLLUTION MASK [...] A1 is a 360-degree smart assistant named Lulu which can be controlled remotely via a mobile app. Thanks to the Wi-Fi communication module and a voice interactive feature, children and the elderlly who are not familiar with smart phones can send voice messages to their outside family members through A1 and even voice request their favorite children\u2019s song or drama. As long as you say Hey Lulu! the phone wakes up, and users can control the smart device which is connected with A1. n Designed by",
+    "source_domain": "digital.hagley.org",
+    "retrieved_at": "2026-10-17T16:26:41.821026+00:00",
+    "provider": "tavily",
+    "full_content": null,
+    "publication_date": null
+  },
+  {
+    "result_id": "res_5aae13139cfd",
+    "query_id": "q_6ddfadc626",
+    "event_id": "evt_c413c46751073c65",
+    "title": "Our 2026 Best New Picks Award Winners | Reviews by Wirecutter",
+    "url": "https://www.nytimes.com/wirecutter/reviews/best-new-wirecutter-picks-2026",
+    "snippet": "If you want to feel the full luxury of mini-split living, the LG Artcool Deluxe KNSAL is easily one of the best options available. This Energy Star\u2013certified AC is more efficient than most other models, and it uses three to four times less energy than the best gas- or oil-based systems, even in subzero conditions. It\u2019s nicer-looking than a lot of other mini-splits, too, with rounded corners and the choice of a white, black, or silver finish. You can even get it with a 12-year warranty, if you [...] Unlike cheesy LED string lights beaming from unsightly plastic coated strips, the LIFX smart lights feature 30 individual lights strung together on a cord. Controllable via Wi-Fi and a simple app, these smart lights don\u2019t require any additional hub or gateway to set up and can shine up to 90 lumens of white light or any other color of your choice. Plus, they\u2019re Matter-compatible, so they can easily integrate with other products. We like that they can attach to a house with an adhesive tab or [...] Of the 11 red-light devices we tested, this was my hands-down favorite. The Shark mask\u2019s user experience is simply exceptional, with the handy (though a tad bulky) remote. It\u2019s an investment, yes, but you get a lot for your money, namely blue-light LED treatment for acne-prone skin, red and near-infrared diodes for signs of aging, and those chilled under-eye pads.\n\n\u2014 Rory Evans, appliance editor, previously beauty and personal-care editor\n\n## Games and tech\n\nBest New Pick",
+    "source_domain": "www.nytimes.com",
+    "retrieved_at": "2026-10-17T16:26:41.821026+00:00",
+    "provider": "tavily",
+    "full_content": null,
+    "publication_date": null
+  }
+]

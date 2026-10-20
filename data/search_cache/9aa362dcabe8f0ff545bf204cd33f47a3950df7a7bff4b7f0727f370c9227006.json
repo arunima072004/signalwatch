@@ -1,0 +1,67 @@
+[
+  {
+    "result_id": "res_2b8f21cc25e3",
+    "query_id": "q_96b5cb6230",
+    "event_id": "evt_badcf4efc3715e4f",
+    "title": "Sennheiser CX 3.00 Red - Earbuds",
+    "url": "https://www.coolblue.nl/en/product/501138/sennheiser-cx-3-00-red.html",
+    "snippet": "Finally a very good middle class series successor! Great overall sound, mid and mid highs shine!",
+    "source_domain": "www.coolblue.nl",
+    "retrieved_at": "2026-10-17T16:34:45.866972+00:00",
+    "provider": "tavily",
+    "full_content": null,
+    "publication_date": null
+  },
+  {
+    "result_id": "res_2bcf2b68cd2c",
+    "query_id": "q_96b5cb6230",
+    "event_id": "evt_badcf4efc3715e4f",
+    "title": "Sennheiser's new MOMENTUM True Wireless 5 earbuds ...",
+    "url": "https://www.facebook.com/PopSci/posts/sennheisers-new-momentum-true-wireless-5-earbuds-bring-refined-acoustics-and-rep/1417516926916809",
+    "snippet": "The new model comes as a successor to the Sennheiser Momentum True Wireless 3 earbuds that were launched in 2022. of Rs. 18,990. They are",
+    "source_domain": "www.facebook.com",
+    "retrieved_at": "2026-10-17T16:34:45.866972+00:00",
+    "provider": "tavily",
+    "full_content": null,
+    "publication_date": null
+  },
+  {
+    "result_id": "res_783665365cf5",
+    "query_id": "q_96b5cb6230",
+    "event_id": "evt_badcf4efc3715e4f",
+    "title": "Headphones Stories - Page 6",
+    "url": "https://channellife.ca/tag/headphones?page=6",
+    "snippet": "Sennheiser's new CX 6.00BT headphones promise top-notch sound on the go, featuring advanced wireless tech, ergonomic design, and six-hour battery life.",
+    "source_domain": "channellife.ca",
+    "retrieved_at": "2026-10-17T16:34:45.866972+00:00",
+    "provider": "tavily",
+    "full_content": null,
+    "publication_date": null
+  },
+  {
+    "result_id": "res_17c05b7e54dd",
+    "query_id": "q_96b5cb6230",
+    "event_id": "evt_badcf4efc3715e4f",
+    "title": "Best Earbuds and Headphones That Can Handle the Sweatiest Workouts - CNET",
+    "url": "https://www.cnet.com/tech/mobile/best-workout-headphones",
+    "snippet": "Sennheiser Sport True Wireless: The Sport True Wireless bluetooth earbuds (about $130) are essentially Sennheiser\u2019s CX True Wireless earbuds with sport fins \u2014 for a more secure fit \u2014 and better durability. They have an IP54 rating that makes them splash-proof and dust-resistant. The CX True Wireless, rated IPX4, don\u2019t offer dust resistance. [...] Jabra Elite 8 Active Gen 2: Jabra billed these buds, which have unfortunately been discontinued, as the \u201cworld\u2019s toughest earbuds,\u201d and based on our tests (they survived several drops without a scratch), that may very well be true. While there are two new color options, the Gen 2 model doesn\u2019t look any different from the original but it includes an LE Audio smart case, allowing wireless streaming from any device with USB-C or 3.5mm port (I tested it with inflight entertainment and it worked [...] They\u2019re also fully waterproof with an IP rating of IPX7, which means they can be fully submerged in up to 3 feet of water for 30 minutes. Battery life is rated at up to eight hours with an additional three charges in the charging case.",
+    "source_domain": "www.cnet.com",
+    "retrieved_at": "2026-10-17T16:34:45.866972+00:00",
+    "provider": "tavily",
+    "full_content": null,
+    "publication_date": null
+  },
+  {
+    "result_id": "res_82e90f9d99e0",
+    "query_id": "q_96b5cb6230",
+    "event_id": "evt_badcf4efc3715e4f",
+    "title": "AutoEq/results/README.md at master \u00b7 jaakkopasanen/AutoEq \u00b7 GitHub",
+    "url": "https://github.com/jaakkopasanen/AutoEq/blob/master/results/README.md",
+    "snippet": "{{ message }}\n\njaakkopasanen \n/\nAutoEq\nPublic\n\n Notifications You must be signed in to change notification settings\n Fork\n  2.6k\n Star\n   16.3k\n\n## Collapse file tree\n\n## Files\n\nSearch this repository(forward slash) `forward slash/`\n\n/\n\n# README.md\n\nCopy path\n\nMore file actions\n\nMore file actions\n\n## Latest commit\n\njaakkopasanenjaakkopasanen\n\nNew measurements and results\n\nJul 20, 2025\n\n7ae0f56 \u00b7 Jul 20, 2025\n\n## History\n\nHistory\n\nOpen commit details\n\nYou can\u2019t perform that action at this time.",
+    "source_domain": "github.com",
+    "retrieved_at": "2026-10-17T16:34:45.866972+00:00",
+    "provider": "tavily",
+    "full_content": null,
+    "publication_date": null
+  }
+]

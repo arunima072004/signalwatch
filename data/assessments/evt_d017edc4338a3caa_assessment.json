@@ -1,0 +1,516 @@
+{
+  "assessment_id": "asmnt_d40138691c49",
+  "event_id": "evt_d017edc4338a3caa",
+  "assessed_at": "2026-10-17T16:33:13.054101+00:00",
+  "hypotheses": [
+    {
+      "hypothesis_id": "hyp_0c9b645c2a91",
+      "event_id": "evt_d017edc4338a3caa",
+      "hypothesis_type": "PROMOTION",
+      "signal_score": 0.863,
+      "rationale": "Hypothesis type PROMOTION generated from signals: is_sale=True; offer URL present.",
+      "signals_matched": [
+        "is_sale=True",
+        "offer URL present"
+      ],
+      "assigned_agents": [
+        "PromotionAgent",
+        "RetailerEventAgent"
+      ],
+      "requires_external_evidence": false,
+      "generated_at": "2026-10-17T16:33:13.054285+00:00"
+    },
+    {
+      "hypothesis_id": "hyp_898624ba3b57",
+      "event_id": "evt_d017edc4338a3caa",
+      "hypothesis_type": "DATA_ISSUE",
+      "signal_score": 0.45,
+      "rationale": "Hypothesis type DATA_ISSUE generated from signals: extreme change magnitude (70.5%) may indicate data issue.",
+      "signals_matched": [
+        "extreme change magnitude (70.5%) may indicate data issue"
+      ],
+      "assigned_agents": [],
+      "requires_external_evidence": false,
+      "generated_at": "2026-10-17T16:33:13.054285+00:00"
+    },
+    {
+      "hypothesis_id": "hyp_68168ed909be",
+      "event_id": "evt_d017edc4338a3caa",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "signal_score": 0.4,
+      "rationale": "Hypothesis type PRODUCT_EVENT generated from signals: extreme price change 70.5%.",
+      "signals_matched": [
+        "extreme price change 70.5%"
+      ],
+      "assigned_agents": [
+        "ProductEventAgent"
+      ],
+      "requires_external_evidence": true,
+      "generated_at": "2026-10-17T16:33:13.054285+00:00"
+    }
+  ],
+  "queries_generated": 10,
+  "results_retrieved": 46,
+  "evidence": [
+    {
+      "evidence_id": "evd_e1b053f43bde",
+      "event_id": "evt_d017edc4338a3caa",
+      "hypothesis_type": "PROMOTION",
+      "query_id": "q_937c9e23f0",
+      "result_id": "res_af2b5bcf099f",
+      "source_url": "https://www.walmart.ca/wapcrs/track?bt=1&eventST=click&plmt=sp-item-p13n~mobile~Best+sellers+you+might+like&pos=2&tax=10003_20038_30547_40151&rdf=1&rd=https%3A%2F%2Fwww.walmart.ca%2Fen%2Fip%2FReshow-Laser-Lens-Disc-Cleaner-kit-CD-DVD-Player-Without-Scratching-The-Optics-Included-Microfiber-Cloth-Cleaning-Solution-1-Bottles-Fluid%2F63HY2OJA92SN%3Fathcpid%3D63HY2OJA92SN%26athpgid%3DAthenaItempage%26athcgid%3Dnull%26athznid%3Dutic%26athieid%3Dv0%26athstid%3DCS020%26athguid%3D_GSqj3avHToZa-4_0iEEeyvwQPCl9lWBtQfV%26athancid%3D575NKU7AY4MF%26athena%3Dtrue&adUid=55247900-b825-4d3b-b94d-65bf2b0e6b23&mloc=sp-item-p13n&pltfm=mobile&pgId=575NKU7AY4MF&pt=item&spQs=k377w5HjybEaa1bmV4I9UCXfeP_Ytk4PBhpOdPT3vzZyCNvAvbNuyN4QpnJFDgSjtBR5EOl4GWj_n_acPdfTEbgyNZrHw2ANtp9UxtA7l-LZcF-GiGIHGMp9x43zkYRqixxNiHO8ZqPgXGqD4mPSLd6UIsPemZn-tZhfSH5nGdpg7JpdLS3zlb65OBY4zXND&storeId=1061&tn=WMT_CA&wtn=qxjed8&bkt=ace1_default%7Cace2_default%7Cace3_default&athcpid=63HY2OJA92SN&athpgid=AthenaItempage&athcgid=null&athznid=utic&athieid=v0&athstid=CS020&athguid=_GSqj3avHToZa-4_0iEEeyvwQPCl9lWBtQfV&athancid=575NKU7AY4MF&athena=true",
+      "source_domain": "www.walmart.ca",
+      "source_title": "Reshow Laser Lens Disc Cleaner kit for CD & DVD Player ...",
+      "retrieved_at": "2026-10-17T16:33:14.449405+00:00",
+      "claim": "NETGEAR AC600 Wi-Fi USB 2.0 Mini Adapter for Desktop PC | Dual Band WiFi.",
+      "evidence_text": "NETGEAR AC600 Wi-Fi USB 2.0 Mini Adapter for Desktop PC | Dual Band WiFi. Add. $83.26. current price $83.26. NETGEAR AC600 Wi-Fi USB 2.0 Mini Adapter ... Black.",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.24,
+      "investigator": "PromotionAgent",
+      "publication_date": null,
+      "strategy": "PromotionStrategy",
+      "shared_source_hypotheses": []
+    },
+    {
+      "evidence_id": "evd_8df1a75e5e34",
+      "event_id": "evt_d017edc4338a3caa",
+      "hypothesis_type": "PROMOTION",
+      "query_id": "q_937c9e23f0",
+      "result_id": "res_39af17d035b3",
+      "source_url": "https://www.humans-enabled.com/2016/03/how-to-ubuntu-1604-gnu-linux-netgear.html",
+      "source_domain": "www.humans-enabled.com",
+      "source_title": "Netgear Wireless AC Adapter AC600 ( AC6100 ) Dual Band",
+      "retrieved_at": "2026-10-17T16:33:14.449981+00:00",
+      "claim": "So I went shopping at my local Walmart (TM), and picked up this Netgear (TM) Wireless AC Adapter AC600 (A6100) Dual Band USB wireless",
+      "evidence_text": "So I went shopping at my local Walmart (TM), and picked up this Netgear (TM) Wireless AC Adapter AC600 (A6100) Dual Band USB wireless",
+      "evidence_specificity": "DIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.2,
+      "investigator": "PromotionAgent",
+      "publication_date": null,
+      "strategy": "PromotionStrategy",
+      "shared_source_hypotheses": [
+        "PRODUCT_EVENT"
+      ]
+    },
+    {
+      "evidence_id": "evd_b10c3cbd09b2",
+      "event_id": "evt_d017edc4338a3caa",
+      "hypothesis_type": "PROMOTION",
+      "query_id": "q_f09f9c3f59",
+      "result_id": "res_012658b36061",
+      "source_url": "https://www.netgear.com/home/wifi/adapters/a6100",
+      "source_domain": "www.netgear.com",
+      "source_title": "USB WiFi Adapter With Dual-Band 600Mbps Speed - A6100",
+      "retrieved_at": "2026-10-17T16:33:18.242047+00:00",
+      "claim": "AC600 Dual-Band WiFi USB Mini.",
+      "evidence_text": "AC600 Dual-Band WiFi USB Mini. Sign up for news, offers & receive 10% off your first purchase. May be applied to all NETGEAR products,",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.485,
+      "investigator": "PromotionAgent",
+      "publication_date": null,
+      "strategy": "PromotionStrategy",
+      "shared_source_hypotheses": []
+    },
+    {
+      "evidence_id": "evd_c461e7b30ac8",
+      "event_id": "evt_d017edc4338a3caa",
+      "hypothesis_type": "PROMOTION",
+      "query_id": "q_f09f9c3f59",
+      "result_id": "res_4df8d818c38c",
+      "source_url": "https://www.netgear.com/support/product/a6100",
+      "source_domain": "www.netgear.com",
+      "source_title": "A6100 | AC600 Dual Band WiFi USB Mini Adapter",
+      "retrieved_at": "2026-10-17T16:33:18.242299+00:00",
+      "claim": "Sign up for news, offers & receive 10% off your first purchase.",
+      "evidence_text": "Sign up for news, offers & receive 10% off your first purchase. Submit. Please enter a valid e-mail address. You are already on our list. Thank you, you have",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.295,
+      "investigator": "PromotionAgent",
+      "publication_date": null,
+      "strategy": "PromotionStrategy",
+      "shared_source_hypotheses": []
+    },
+    {
+      "evidence_id": "evd_d4cc8f4f2d70",
+      "event_id": "evt_d017edc4338a3caa",
+      "hypothesis_type": "PROMOTION",
+      "query_id": "q_8f0867f514",
+      "result_id": "res_9fca2eee5cdf",
+      "source_url": "https://discuss.gatewaybowls.club/ac84b7/matthew-nordstrom-00b4d78-27-425748-2-10",
+      "source_domain": "discuss.gatewaybowls.club",
+      "source_title": "Selling Matthew Nordstrom | Regional Sales Vendor Rep ...",
+      "retrieved_at": "2026-10-17T16:33:19.877150+00:00",
+      "claim": "null Enjoy 20% off shipping US$ \u2026 a6100 10000s 600 dual band wifi usb adapter a6100 10000s US$ 12.02-22.87 Min.",
+      "evidence_text": "null Enjoy 20% off shipping US$ \u2026 a6100 10000s 600 dual band wifi usb adapter a6100 10000s US$ 12.02-22.87 Min. order: 1 piece. Order Price",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.207,
+      "investigator": "PromotionAgent",
+      "publication_date": null,
+      "strategy": "PromotionStrategy",
+      "shared_source_hypotheses": []
+    },
+    {
+      "evidence_id": "evd_c892fe8e5220",
+      "event_id": "evt_d017edc4338a3caa",
+      "hypothesis_type": "PROMOTION",
+      "query_id": "q_8f0867f514",
+      "result_id": "res_003f19012737",
+      "source_url": "https://www.ebay.com/itm/226757678255",
+      "source_domain": "www.ebay.com",
+      "source_title": "NETGEAR AC600 Wi-Fi USB 2.0 Mini Adapter for Desktop ...",
+      "retrieved_at": "2026-10-17T16:33:19.877774+00:00",
+      "claim": "Find many great new & used options and get the best deals for NETGEAR AC600 Wi-Fi USB 2.0 Mini Adapter for Desktop PC - Black Model A6100 Wifi at the best",
+      "evidence_text": "Find many great new & used options and get the best deals for NETGEAR AC600 Wi-Fi USB 2.0 Mini Adapter for Desktop PC - Black Model A6100 Wifi at the best",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.207,
+      "investigator": "PromotionAgent",
+      "publication_date": null,
+      "strategy": "PromotionStrategy",
+      "shared_source_hypotheses": []
+    },
+    {
+      "evidence_id": "evd_dd5121bf18b9",
+      "event_id": "evt_d017edc4338a3caa",
+      "hypothesis_type": "PROMOTION",
+      "query_id": "q_ca1ac087d4",
+      "result_id": "res_16f644148b2b",
+      "source_url": "https://www.walmart.ca/en/ip/2-Pcs-PS-2-to-USB-Port-PS-2-to-USB-Adapter-PS-2-Female-to-USB-Male-Adapter-for-Wired-Mouse-Keyboard-Desktop-PC-Laptop-Notebook-Black/6NGHPJYBU4ZM?athcpid=6NGHPJYBU4ZM&athpgid=AthenaItempage&athcgid=null&athznid=dsi&athieid=v0&athstid=CS020&athguid=598FIx6-Juvs7ocax-TRMfH-mlEmmYzocl_w&athancid=2V0WU3Z3AWRR&athena=true&athbdg=L1700",
+      "source_domain": "www.walmart.ca",
+      "source_title": "2 Pcs PS/2 to USB Port, PS/2 to USB Adapter PS/2 Female ...",
+      "retrieved_at": "2026-10-17T16:33:21.802168+00:00",
+      "claim": "NETGEAR AC600 Wi-Fi USB 2.0 Mini Adapter for Desktop PC | Dual Band WiFi.",
+      "evidence_text": "NETGEAR AC600 Wi-Fi USB 2.0 Mini Adapter for Desktop PC | Dual Band WiFi. Add. $83.26. current price $83.26. NETGEAR AC600 Wi-Fi USB 2.0 Mini Adapter for",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.24,
+      "investigator": "PromotionAgent",
+      "publication_date": null,
+      "strategy": "PromotionStrategy",
+      "shared_source_hypotheses": []
+    },
+    {
+      "evidence_id": "evd_7e3f5625ccc2",
+      "event_id": "evt_d017edc4338a3caa",
+      "hypothesis_type": "PROMOTION",
+      "query_id": "q_ca1ac087d4",
+      "result_id": "res_a8e8e26d9a9b",
+      "source_url": "https://pangoly.com/en/compare/wireless-network-adapter/netgear-a7000-10000s-vs-netgear-a6100-100pas",
+      "source_domain": "pangoly.com",
+      "source_title": "Compare NETGEAR A7000-10000S vs A6100-100PAS",
+      "retrieved_at": "2026-10-17T16:33:21.802685+00:00",
+      "claim": "NETGEAR AC600 Dual Band WiFi USB Mini Adapter (A6100) Stock $84.99 GameStop",
+      "evidence_text": "NETGEAR AC600 Dual Band WiFi USB Mini Adapter (A6100) Stock $84.99 GameStop",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.24,
+      "investigator": "PromotionAgent",
+      "publication_date": null,
+      "strategy": "PromotionStrategy",
+      "shared_source_hypotheses": []
+    },
+    {
+      "evidence_id": "evd_e2c40b9db5e4",
+      "event_id": "evt_d017edc4338a3caa",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "query_id": "q_9d6c33e251",
+      "result_id": "res_0b00aa7c4d41",
+      "source_url": "https://blog.jcole.us/2017/04/13/wireless-programming-for-ftc-robots",
+      "source_domain": "blog.jcole.us",
+      "source_title": "Wireless Programming for FTC Robots - Jeremy Cole",
+      "retrieved_at": "2026-10-17T16:33:29.071941+00:00",
+      "claim": "Works on Mac OS X and Windows.",
+      "evidence_text": "Works on Mac OS X and Windows. NETGEAR AC600 Dual Band Wi-Fi USB Mini Adapter (A6100) Price: \u2248$31 (March 2017, Amazon.com). Windows-only.",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.31,
+      "investigator": "ProductEventAgent",
+      "publication_date": null,
+      "strategy": "ProductEventStrategy",
+      "shared_source_hypotheses": []
+    },
+    {
+      "evidence_id": "evd_689694fd67c1",
+      "event_id": "evt_d017edc4338a3caa",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "query_id": "q_9d6c33e251",
+      "result_id": "res_d9913ef96315",
+      "source_url": "https://www.humans-enabled.com/2016/03/how-to-ubuntu-1604-gnu-linux-netgear.html",
+      "source_domain": "www.humans-enabled.com",
+      "source_title": "(updated) How To: Ubuntu 16.04 GNU / Linux - Netgear Wireless AC Adapter AC600 ( AC6100 ) Dual Band",
+      "retrieved_at": "2026-10-17T16:33:29.072231+00:00",
+      "claim": "### Search This Blog\n\n# Linux + GNU = Humans Enabled\n\nA Man with a mission: Enable Humans with Technology the GNU/Linux way!",
+      "evidence_text": "### Search This Blog\n\n# Linux + GNU = Humans Enabled\n\nA Man with a mission: Enable Humans with Technology the GNU/Linux way! Disclaimer: This is my personal web blog. The opinions expressed here represent my own and not necessarily those of my employer.\n\n### (updated) How To: Ubuntu 16.04 GNU / Linux - Netgear Wireless AC Adapter AC600 ( AC6100 ) Dual Band\n\n Get link\n Facebook\n X\n Pinterest\n Email\n Other Apps\n\n-\n\nUpdate - 9/16/2017 SIMPLY DO THIS ONE STEP TO SEE IF IT MAKES YOUR ADAPTER WORK: [...] So, as it turns out, the driver for this nice little USB wireless adapter is not automagically installed with Ubuntu 16.04 GNU/Linux. The purpose of this post is to help you get this adapter working.  \n   \nFirst, follow the instructions below to ensure your new netgear wireless adapter matches t",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.299,
+      "investigator": "ProductEventAgent",
+      "publication_date": null,
+      "strategy": "ProductEventStrategy",
+      "shared_source_hypotheses": [
+        "PROMOTION"
+      ]
+    }
+  ],
+  "evidence_verifications": [
+    {
+      "evidence_id": "evd_e1b053f43bde",
+      "hypothesis_type": "PROMOTION",
+      "support_level": "CONSISTENT_WITH",
+      "independence_class": "INDEPENDENCE_UNCERTAIN",
+      "component_scores": {
+        "source_quality": 0.35,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.5,
+        "source_independence": 0.5,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.35 (domain: www.walmart.ca); temporal_alignment=0.40; product_match=0.60 (text-based, product='NETGEAR - AC600 Dual-Band WiFi USB Mini Adapter - Black'); merchant_match=0.00; specificity=0.50; source_independence=0.50 (INDEPENDENCE_UNCERTAIN); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_8df1a75e5e34",
+      "hypothesis_type": "PROMOTION",
+      "support_level": "INSUFFICIENT_EVIDENCE",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.9,
+        "specificity": 0.1,
+        "source_independence": 0.3,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.55 (domain: www.humans-enabled.com); temporal_alignment=0.40; product_match=0.60 (text-based, product='NETGEAR - AC600 Dual-Band WiFi USB Mini Adapter - Black'); merchant_match=0.90; specificity=0.10; source_independence=0.30 (SYNDICATED); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_b10c3cbd09b2",
+      "hypothesis_type": "PROMOTION",
+      "support_level": "CONSISTENT_WITH",
+      "independence_class": "INDEPENDENCE_UNCERTAIN",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.7,
+        "source_independence": 0.5,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.55 (domain: www.netgear.com); temporal_alignment=0.40; product_match=0.60 (text-based, product='NETGEAR - AC600 Dual-Band WiFi USB Mini Adapter - Black'); merchant_match=0.00; specificity=0.70; source_independence=0.50 (INDEPENDENCE_UNCERTAIN); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_c461e7b30ac8",
+      "hypothesis_type": "PROMOTION",
+      "support_level": "INSUFFICIENT_EVIDENCE",
+      "independence_class": "INDEPENDENCE_UNCERTAIN",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.0,
+        "merchant_match": 0.0,
+        "specificity": 0.5,
+        "source_independence": 0.5,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.55 (domain: www.netgear.com); temporal_alignment=0.40; product_match=0.00 (text-based, product='NETGEAR - AC600 Dual-Band WiFi USB Mini Adapter - Black'); merchant_match=0.00; specificity=0.50; source_independence=0.50 (INDEPENDENCE_UNCERTAIN); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_d4cc8f4f2d70",
+      "hypothesis_type": "PROMOTION",
+      "support_level": "INSUFFICIENT_EVIDENCE",
+      "independence_class": "INDEPENDENCE_UNCERTAIN",
+      "component_scores": {
+        "source_quality": 0.35,
+        "temporal_alignment": 0.4,
+        "product_match": 0.0,
+        "merchant_match": 0.0,
+        "specificity": 0.5,
+        "source_independence": 0.5,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.35 (domain: discuss.gatewaybowls.club); temporal_alignment=0.40; product_match=0.00 (text-based, product='NETGEAR - AC600 Dual-Band WiFi USB Mini Adapter - Black'); merchant_match=0.00; specificity=0.50; source_independence=0.50 (INDEPENDENCE_UNCERTAIN); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_c892fe8e5220",
+      "hypothesis_type": "PROMOTION",
+      "support_level": "INSUFFICIENT_EVIDENCE",
+      "independence_class": "INDEPENDENCE_UNCERTAIN",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.1,
+        "source_independence": 0.5,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.55 (domain: www.ebay.com); temporal_alignment=0.40; product_match=0.60 (text-based, product='NETGEAR - AC600 Dual-Band WiFi USB Mini Adapter - Black'); merchant_match=0.00; specificity=0.10; source_independence=0.50 (INDEPENDENCE_UNCERTAIN); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_dd5121bf18b9",
+      "hypothesis_type": "PROMOTION",
+      "support_level": "CONSISTENT_WITH",
+      "independence_class": "INDEPENDENCE_UNCERTAIN",
+      "component_scores": {
+        "source_quality": 0.35,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.5,
+        "source_independence": 0.5,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.35 (domain: www.walmart.ca); temporal_alignment=0.40; product_match=0.60 (text-based, product='NETGEAR - AC600 Dual-Band WiFi USB Mini Adapter - Black'); merchant_match=0.00; specificity=0.50; source_independence=0.50 (INDEPENDENCE_UNCERTAIN); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_7e3f5625ccc2",
+      "hypothesis_type": "PROMOTION",
+      "support_level": "CONSISTENT_WITH",
+      "independence_class": "INDEPENDENCE_UNCERTAIN",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.4,
+        "source_independence": 0.5,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.55 (domain: pangoly.com); temporal_alignment=0.40; product_match=0.60 (text-based, product='NETGEAR - AC600 Dual-Band WiFi USB Mini Adapter - Black'); merchant_match=0.00; specificity=0.40; source_independence=0.50 (INDEPENDENCE_UNCERTAIN); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_e2c40b9db5e4",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "support_level": "CONTRADICTS",
+      "independence_class": "CONTRADICTING",
+      "component_scores": {
+        "source_quality": 0.35,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.7,
+        "source_independence": 0.0,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 1.0
+      },
+      "notes": "source_quality=0.35 (domain: blog.jcole.us); temporal_alignment=0.40; product_match=0.60 (text-based, product='NETGEAR - AC600 Dual-Band WiFi USB Mini Adapter - Black'); merchant_match=0.00; specificity=0.70; source_independence=0.00 (CONTRADICTING); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=1.00"
+    },
+    {
+      "evidence_id": "evd_689694fd67c1",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "support_level": "INSUFFICIENT_EVIDENCE",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.1,
+        "source_independence": 0.3,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.55 (domain: www.humans-enabled.com); temporal_alignment=0.40; product_match=0.60 (text-based, product='NETGEAR - AC600 Dual-Band WiFi USB Mini Adapter - Black'); merchant_match=0.00; specificity=0.10; source_independence=0.30 (SYNDICATED); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    }
+  ],
+  "hypothesis_assessments": [
+    {
+      "hypothesis_id": "hyp_0c9b645c2a91",
+      "hypothesis_type": "PROMOTION",
+      "support_level": "CONSISTENT_WITH",
+      "supporting_evidence_ids": [],
+      "contradicting_evidence_ids": [],
+      "independent_source_count": 0,
+      "duplicated_source_count": 1,
+      "component_scores": {
+        "source_quality": 0.475,
+        "temporal_alignment": 0.4,
+        "product_match": 0.45,
+        "merchant_match": 0.113,
+        "specificity": 0.412,
+        "source_independence": 0.475,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "explanation": "Evidence is consistent with the PROMOTION hypothesis. Source independence could not be confirmed."
+    },
+    {
+      "hypothesis_id": "hyp_898624ba3b57",
+      "hypothesis_type": "DATA_ISSUE",
+      "support_level": "INSUFFICIENT_EVIDENCE",
+      "supporting_evidence_ids": [],
+      "contradicting_evidence_ids": [],
+      "independent_source_count": 0,
+      "duplicated_source_count": 0,
+      "component_scores": {
+        "source_quality": 0.0,
+        "temporal_alignment": 0.0,
+        "product_match": 0.0,
+        "merchant_match": 0.0,
+        "specificity": 0.0,
+        "source_independence": 0.0,
+        "causal_strength": 0.0,
+        "contradiction_penalty": 0.0
+      },
+      "explanation": "No evidence was retrieved for this hypothesis."
+    },
+    {
+      "hypothesis_id": "hyp_68168ed909be",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "support_level": "CONTRADICTS",
+      "supporting_evidence_ids": [],
+      "contradicting_evidence_ids": [
+        "evd_e2c40b9db5e4"
+      ],
+      "independent_source_count": 0,
+      "duplicated_source_count": 1,
+      "component_scores": {
+        "source_quality": 0.45,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.4,
+        "source_independence": 0.15,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.5
+      },
+      "explanation": "Evidence contradicts the PRODUCT_EVENT hypothesis. 1 contradicting evidence item(s) found. Source independence could not be confirmed."
+    }
+  ],
+  "independent_source_count": 0,
+  "duplicated_source_count": 2,
+  "uncertainty_factors": [
+    "Source independence could not be confirmed for any evidence."
+  ],
+  "summary": "Event evt_d017edc4338a3caa: NETGEAR - AC600 Dual-Band WiFi USB Mini Adapter - Black at Walmart.com. Observed increase of 70.5% on 2017-10-24. Hypothesis assessments:   PROMOTION: CONSISTENT_WITH   DATA_ISSUE: INSUFFICIENT_EVIDENCE   PRODUCT_EVENT: CONTRADICTS 10 evidence item(s) collected.",
+  "event_summary": {
+    "event_id": "evt_d017edc4338a3caa",
+    "product_name": "NETGEAR - AC600 Dual-Band WiFi USB Mini Adapter - Black",
+    "brand": "NETGEAR",
+    "merchant": "Walmart.com",
+    "previous_price": 26.43,
+    "current_price": 45.07,
+    "price_change_pct": 70.525917517972,
+    "change_direction": "increase",
+    "observed_at": "2017-10-24T01:00:00+00:00",
+    "category": "Electronics"
+  },
+  "agent_failures": [],
+  "search_failures": []
+}

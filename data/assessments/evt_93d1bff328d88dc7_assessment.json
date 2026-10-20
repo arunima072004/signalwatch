@@ -1,0 +1,1467 @@
+{
+  "assessment_id": "asmnt_839be57cc897",
+  "event_id": "evt_93d1bff328d88dc7",
+  "assessed_at": "2026-10-17T16:31:56.366508+00:00",
+  "hypotheses": [
+    {
+      "hypothesis_id": "hyp_04ebf5a6ee13",
+      "event_id": "evt_93d1bff328d88dc7",
+      "hypothesis_type": "PROMOTION",
+      "signal_score": 0.752,
+      "rationale": "Hypothesis type PROMOTION generated from signals: price decrease -30.0%; offer URL present.",
+      "signals_matched": [
+        "price decrease -30.0%",
+        "offer URL present"
+      ],
+      "assigned_agents": [
+        "PromotionAgent",
+        "RetailerEventAgent"
+      ],
+      "requires_external_evidence": false,
+      "generated_at": "2026-10-17T16:31:56.366665+00:00"
+    },
+    {
+      "hypothesis_id": "hyp_c039e4bf4e4a",
+      "event_id": "evt_93d1bff328d88dc7",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "signal_score": 0.61,
+      "rationale": "Hypothesis type PRODUCT_EVENT generated from signals: extreme price change -30.0%; short run length (1) suggests new regime.",
+      "signals_matched": [
+        "extreme price change -30.0%",
+        "short run length (1) suggests new regime"
+      ],
+      "assigned_agents": [
+        "ProductEventAgent"
+      ],
+      "requires_external_evidence": true,
+      "generated_at": "2026-10-17T16:31:56.366665+00:00"
+    },
+    {
+      "hypothesis_id": "hyp_a43e361da64b",
+      "event_id": "evt_93d1bff328d88dc7",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "signal_score": 0.4,
+      "rationale": "Hypothesis type INVENTORY_LIQUIDATION generated from signals: large price decrease -30.0%. Note: requires external web evidence; availability field alone is insufficient.",
+      "signals_matched": [
+        "large price decrease -30.0%"
+      ],
+      "assigned_agents": [
+        "SupplyAgent"
+      ],
+      "requires_external_evidence": true,
+      "generated_at": "2026-10-17T16:31:56.366665+00:00"
+    }
+  ],
+  "queries_generated": 15,
+  "results_retrieved": 69,
+  "evidence": [
+    {
+      "evidence_id": "evd_f26a819fd477",
+      "event_id": "evt_93d1bff328d88dc7",
+      "hypothesis_type": "PROMOTION",
+      "query_id": "q_066a039c5b",
+      "result_id": "res_be3c817fe477",
+      "source_url": "https://9to5mac.com/2022/05/12/apple-selling-out-of-last-ipods-ever-heres-where-you-can-still-buy-an-ipod-touch",
+      "source_domain": "9to5mac.com",
+      "source_title": "Here's where you can still buy an iPod touch - 9to5Mac",
+      "retrieved_at": "2026-10-17T16:31:57.831037+00:00",
+      "claim": "While we don\u2019t have exact inventory counts, here\u2019s what we know is in stock.",
+      "evidence_text": "While we don\u2019t have exact inventory counts, here\u2019s what we know is in stock. We\u2019ll continue to update periodically as inventory changes.\n\n## Apple\n\nOn Apple\u2019s website, the iPod touch is completely sold out.\n\n## Best Buy\n\nBest Buy is sold out of all of the 32GB options with the exception of the Space Gray model. For 128GB, you can still buy a Blue and a Space Gray. Additionally, all of the 256GB models are out of stock. [...] ## Walmart\n\nWalmart is where you\u2019ll find some of the best prices for an iPod touch. 32GB is no longer available in Blue or (PRODUCT)RED. The 128GB is available in Space Gray and Pink. Walmart is entirely sold out of 256GB options as those seem to be the most popular models at many retailers.\n\n## Amazon\n\nThe iPod touch is currently listed as a best seller on Amazon and ",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "DESCRIPTIVE",
+      "relevance_score": 0.502,
+      "investigator": "PromotionAgent",
+      "publication_date": null,
+      "strategy": "PromotionStrategy",
+      "shared_source_hypotheses": [
+        "PRODUCT_EVENT",
+        "INVENTORY_LIQUIDATION"
+      ]
+    },
+    {
+      "evidence_id": "evd_67db722064fc",
+      "event_id": "evt_93d1bff328d88dc7",
+      "hypothesis_type": "PROMOTION",
+      "query_id": "q_066a039c5b",
+      "result_id": "res_1c4a6f602bcd",
+      "source_url": "https://www.hollywoodreporter.com/business/digital/apple-kills-ipod-nano-shuffle-1024978",
+      "source_domain": "www.hollywoodreporter.com",
+      "source_title": "Apple Kills iPod Nano and Shuffle",
+      "retrieved_at": "2026-10-17T16:31:57.832170+00:00",
+      "claim": "In a show of its commitment to the iPod Touch, Apple doubled the storage capacity of its top-of-line model to 128 gigabytes.",
+      "evidence_text": "In a show of its commitment to the iPod Touch, Apple doubled the storage capacity of its top-of-line model to 128 gigabytes. That version costs $300. An iPod Touch with 32 gigabytes of storage sells for $200.\n\nThe Nano and Shuffle came out in 2005 as less expensive and smaller alternatives to Apple\u2019s standard iPod. The Cupertino, California, company stopped updating the Nano and Shuffle several years ago. [...] ### \u2018Ted Lasso\u2019 Star Jason Sudeikis Goes One-on-One With WNBA Great Breanna Stewart (Watch)\n\nBachelor Clayton Echard Love Trapped\n\n### \u2018Love Trapped,\u2019 Fake Twins and the Paternity Scandal That Outcrazied \u2018The Bachelor\u2019\n\n## Most Popular\n\n### Taylor Swift & Travis Kelce Are Taking Time Apart After His Instagram Scandal\n\n### Memorial Reflecting Pool Renovation Botched Beyond Previously",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "DESCRIPTIVE",
+      "relevance_score": 0.31,
+      "investigator": "PromotionAgent",
+      "publication_date": null,
+      "strategy": "PromotionStrategy",
+      "shared_source_hypotheses": [
+        "INVENTORY_LIQUIDATION"
+      ]
+    },
+    {
+      "evidence_id": "evd_70bdd2c5c0d6",
+      "event_id": "evt_93d1bff328d88dc7",
+      "hypothesis_type": "PROMOTION",
+      "query_id": "q_8c01d264a5",
+      "result_id": "res_e09c729d2bd1",
+      "source_url": "https://www.bankmycell.com/sell/ipod-touch-6",
+      "source_domain": "www.bankmycell.com",
+      "source_title": "Sell Apple iPod Touch 6 - (6th Gen) Trade-in Value (Compare Prices)",
+      "retrieved_at": "2026-10-17T16:31:59.875766+00:00",
+      "claim": "| iPod Touch 6 - (6th Gen) | Top Offer Price | Lowest Offer Price | Online: Average Cash Value | BankMyCell: Extra Cash Earned |\n ---  --- \n| 16GB | $25.00 | $3.00 | $8.83 | +$16.17 |\n| 32GB | $34.00 ",
+      "evidence_text": "| iPod Touch 6 - (6th Gen) | Top Offer Price | Lowest Offer Price | Online: Average Cash Value | BankMyCell: Extra Cash Earned |\n ---  --- \n| 16GB | $25.00 | $3.00 | $8.83 | +$16.17 |\n| 32GB | $34.00 | $5.00 | $15.89 | +$18.11 |\n| 64GB | $40.00 | $10.00 | $23.56 | +$16.44 |\n| 128GB | $50.00 | $25.00 | $36.11 | +$13.89 |\n\nCheck Today's Quotes\n\n\\ Best market prices updated October 9th 2026\n\nMore CASH, No Store Credit [...] ### We have found 2 iPod Touch 6 - (6th Gen) trade-in deals\n\n#### Earning you $2.00 more by comparing, Clever you!\n\nSmartphonesPLUS\n\n4.8  \n\n8402 User Reviews\n\n$7.00\n\nFastPay in 1 Day\n\nPayment: Direct Deposit, PayPal, Check, Venmo, Prepaid Debit Card\n\nSell Now\n\nVerified Buyer\n\n14 Day Price Lock\n\nFree Shipping\n\nPayment: Direct Deposit, PayPal, Check, Venmo, Prepaid Debit Car",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.452,
+      "investigator": "PromotionAgent",
+      "publication_date": null,
+      "strategy": "PromotionStrategy",
+      "shared_source_hypotheses": []
+    },
+    {
+      "evidence_id": "evd_98e741e640dd",
+      "event_id": "evt_93d1bff328d88dc7",
+      "hypothesis_type": "PROMOTION",
+      "query_id": "q_8c01d264a5",
+      "result_id": "res_cf568b51d656",
+      "source_url": "https://www.theapplepost.com/2019/03/03/28043/ipod-touch-shipping-estimates-slip-to-1-2-weeks-in-the-united-states",
+      "source_domain": "www.theapplepost.com",
+      "source_title": "iPod touch shipping estimates slip to 1-2 weeks in the United States, hinting at possible March refresh | The Apple Post",
+      "retrieved_at": "2026-10-17T16:31:59.876897+00:00",
+      "claim": "Shipping estimates for some iPod touch models in the United States have slipped from \u201cIn Stock\u201d to 1 to 2 weeks, refuelling earlier rumors that suggested Apple is planning to debut an updated iPod mod",
+      "evidence_text": "Shipping estimates for some iPod touch models in the United States have slipped from \u201cIn Stock\u201d to 1 to 2 weeks, refuelling earlier rumors that suggested Apple is planning to debut an updated iPod model during the first half of 2019.\n\nAs first spotted by The Apple Post, the Space Gray 128GB iPod touch and Gold 32GB and 128GB models are now showing shipping estimates of between 1 to 2 weeks on Apple.com in the U.S., whilst other models remain available for immediate shipping. [...] Apple\u2019s current generation iPod touch was first introduced in July 2015, last updated in mid-2017 when the company reduced the price of the device to $199 for the 32GB model alongside quietly discontinuing both the iPod Nano and iPod Shuffle.",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.31,
+      "investigator": "PromotionAgent",
+      "publication_date": null,
+      "strategy": "PromotionStrategy",
+      "shared_source_hypotheses": [
+        "PRODUCT_EVENT"
+      ]
+    },
+    {
+      "evidence_id": "evd_528de60a5608",
+      "event_id": "evt_93d1bff328d88dc7",
+      "hypothesis_type": "PROMOTION",
+      "query_id": "q_8c01d264a5",
+      "result_id": "res_a94ab5b58eb1",
+      "source_url": "https://www.trustedreviews.com/news/ipod-touch-2019-price-release-date-specs-features-3652708",
+      "source_domain": "www.trustedreviews.com",
+      "source_title": "iPod Touch 7th generation: Price and release date for Apple's 2019 iPod",
+      "retrieved_at": "2026-10-17T16:31:59.877226+00:00",
+      "claim": "The new iPod Touch has a tempting base price of \u00a3199 ($199), making it by far Apple\u2019s most affordable iOS device.",
+      "evidence_text": "The new iPod Touch has a tempting base price of \u00a3199 ($199), making it by far Apple\u2019s most affordable iOS device. However, that price does rapidly increases as you opt for more storage:\n\nAdvertisement\n\n 32GB: \u00a3199 ($199)\n 128GB: \u00a3299 ($299)\n 256GB: \u00a3399 ($399)\n\n## iPod Touch colours\n\nThe iPod Touch as more or less the same design as the previous model, with the familiar home button, and thick bezels above and below the screen. It is available in six different colours: [...] Processor: It runs on the A10 Fusion processor which is found in the iPhone 7 and iPhone 7 Plus. Apple claim this will give you 2x the speed and 3x better graphics compared to the 6th generation iPod Touch.\n Storage: it\u2019s available in three storage options: 32GB, 128GB, and 256GB (the largest-ever capacity for an iPod T",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "DESCRIPTIVE",
+      "relevance_score": 0.24,
+      "investigator": "PromotionAgent",
+      "publication_date": null,
+      "strategy": "PromotionStrategy",
+      "shared_source_hypotheses": []
+    },
+    {
+      "evidence_id": "evd_c2beb7b7ce6e",
+      "event_id": "evt_93d1bff328d88dc7",
+      "hypothesis_type": "PROMOTION",
+      "query_id": "q_4cabff554a",
+      "result_id": "res_5c29a01db0b7",
+      "source_url": "https://www.amazon.com/Apple-Touch-Generation-Newest-Renewed/dp/B07NTQJMV8",
+      "source_domain": "www.amazon.com",
+      "source_title": "Amazon.com: Apple iPod Touch 128GB Space Gray (6th Generation) (Renewed) : Electronics",
+      "retrieved_at": "2026-10-17T16:32:04.995889+00:00",
+      "claim": "# Product summary presents key product information --- Keyboard shortcut  shift + alt + opt + D\n\n# Product Summary: Apple iPod Touch 128GB Space Gray (6th Generation) (Renewed)\n\nFrom Amazon Renewed\n\n3",
+      "evidence_text": "# Product summary presents key product information --- Keyboard shortcut  shift + alt + opt + D\n\n# Product Summary: Apple iPod Touch 128GB Space Gray (6th Generation) (Renewed)\n\nFrom Amazon Renewed\n\n3.2 out of 5 stars, 31 ratings\n\n## Price\n\nNo featured offers available\n\nOther sellers\n\nOther sellers\n\n## Product Description\n\n## Important Information\n\n### Visible screen diagonal\n\n4\" / 11 cm\n\n### Toy Safety\n\n1. Our recommended age:\n2. Manufacturer's minimum age: 6 months\n\n## Feedback [...] |  |  |\n --- |\n| Brand | Apple |\n| Memory Storage Capacity | 128 GB |\n| Color | Space Gray |\n| Screen Size | 4 inches |\n| Media Type | SDHC |\n| Supported Standards | MP3 |\n| Manufacturer | Apple |\n| UPC | 647213754117 |\n\n## More from frequently bought brands [...] |  |  |\n --- |\n| Brand | Apple |\n| Manufactu",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.295,
+      "investigator": "PromotionAgent",
+      "publication_date": null,
+      "strategy": "PromotionStrategy",
+      "shared_source_hypotheses": []
+    },
+    {
+      "evidence_id": "evd_9b13e0780cd6",
+      "event_id": "evt_93d1bff328d88dc7",
+      "hypothesis_type": "PROMOTION",
+      "query_id": "q_4cabff554a",
+      "result_id": "res_22f5196a1746",
+      "source_url": "https://eoe.works/collections/apple-ipod-touch-6th-generation",
+      "source_domain": "eoe.works",
+      "source_title": "Apple iPod Touch 6th Generation \u2013 Elite Obsolete Electronics",
+      "retrieved_at": "2026-10-17T16:32:04.996797+00:00",
+      "claim": "Refurbished Apple iPod Touch 6th Generation Space Gray 16GB 32GB 64GB 128GB A1574 MKH62LL/A MKJ02LL/A MKHL2LL/A MKWU2LL/A\n\n$ Regular price ~~$105.99~~ From $89.99\n\nRefurbished Apple iPod Touch 6th Gen",
+      "evidence_text": "Refurbished Apple iPod Touch 6th Generation Space Gray 16GB 32GB 64GB 128GB A1574 MKH62LL/A MKJ02LL/A MKHL2LL/A MKWU2LL/A\n\n$ Regular price ~~$105.99~~ From $89.99\n\nRefurbished Apple iPod Touch 6th Generation Product Red 32GB 64GB 128GB A1574 MKJ22LL/A MKHN2LL/A MKWW2LL/A\n\n \n\nRefurbished Apple iPod Touch 6th Generation Product Red 32GB 64GB 128GB A1574 MKJ22LL/A MKHN2LL/A MKWW2LL/A\n\n$ Regular price ~~$117.99~~ From $99.99 [...] Used Apple iPod Touch 6th Generation Silver 16GB 32GB 128GB A1574 MKH42LL/A MKHX2LL/A MKWR2LL/A\n\n$ Regular price ~~$89.99~~ From $49.99\n\nUsed Apple iPod Touch 6th Generation Space Gray 16GB 32GB 128GB A1574 MKH62LL/A MKJ02LL/A MKWU2LL/A\n\n \n\nUsed Apple iPod Touch 6th Generation Space Gray 16GB 32GB 128GB A1574 MKH62LL/A MKJ02LL/A MKWU2LL/A\n\n$ Regular price ~~$79.99~~ ",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.24,
+      "investigator": "PromotionAgent",
+      "publication_date": null,
+      "strategy": "PromotionStrategy",
+      "shared_source_hypotheses": [
+        "INVENTORY_LIQUIDATION"
+      ]
+    },
+    {
+      "evidence_id": "evd_fc3ab9718db2",
+      "event_id": "evt_93d1bff328d88dc7",
+      "hypothesis_type": "PROMOTION",
+      "query_id": "q_4cabff554a",
+      "result_id": "res_c68d30b1649a",
+      "source_url": "https://eoe.works/collections/refurbished-apple-ipod-touch-6th-generation",
+      "source_domain": "eoe.works",
+      "source_title": "Apple iPod Touch 6th Generation \u2013 Elite Obsolete Electronics",
+      "retrieved_at": "2026-10-17T16:32:04.997445+00:00",
+      "claim": "Contact Us\n\n Sign in\n or\n Sign up\n\nCart 0\n\nContact Us\n\nCart 0\n\nElite Obsolete Electronics\n\n# Apple iPod Touch 6th Generation\n\nUsed Apple iPod Touch 6th Generation Space Gray 16GB 32GB 128GB A1574 MKH6",
+      "evidence_text": "Contact Us\n\n Sign in\n or\n Sign up\n\nCart 0\n\nContact Us\n\nCart 0\n\nElite Obsolete Electronics\n\n# Apple iPod Touch 6th Generation\n\nUsed Apple iPod Touch 6th Generation Space Gray 16GB 32GB 128GB A1574 MKH62LL/A MKJ02LL/A MKWU2LL/A\n\n \n\nUsed Apple iPod Touch 6th Generation Space Gray 16GB 32GB 128GB A1574 MKH62LL/A MKJ02LL/A MKWU2LL/A\n\n$ Regular price ~~$79.99~~ From $59.99\n\nRefurbished Apple iPod Touch 6th Generation Space Gray 16GB 32GB 64GB 128GB A1574 MKH62LL/A MKJ02LL/A MKHL2LL/A MKWU2LL/A [...] Refurbished Apple iPod Touch 6th Generation Space Gray 16GB 32GB 64GB 128GB A1574 MKH62LL/A MKJ02LL/A MKHL2LL/A MKWU2LL/A\n\n$ Regular price ~~$105.99~~ From $89.99\n\nRare iOS 8 9 10 11 Apple iPod Touch 6th Generation 16GB 32GB 64GB Space Gray A1574 MKH62LL/A MKJ02LL/A MKHL2LL/A\n\n \n\nRare iOS 8 9 10 11 A",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.24,
+      "investigator": "PromotionAgent",
+      "publication_date": null,
+      "strategy": "PromotionStrategy",
+      "shared_source_hypotheses": [
+        "PRODUCT_EVENT",
+        "INVENTORY_LIQUIDATION"
+      ]
+    },
+    {
+      "evidence_id": "evd_946d83047e46",
+      "event_id": "evt_93d1bff328d88dc7",
+      "hypothesis_type": "PROMOTION",
+      "query_id": "q_14eb773c7a",
+      "result_id": "res_09a525794f79",
+      "source_url": "https://everymac.com/systems/apple/ipod/specs/ipod-touch-6th-gen-2015-specs.html",
+      "source_domain": "everymac.com",
+      "source_title": "iPod touch 6th Gen, 2015 16, 32, 64, 128 GB Specs (A1574, MKH42LL/A*, 2899*, iPod7,1): EveryiPod.com",
+      "retrieved_at": "2026-10-17T16:32:08.269955+00:00",
+      "claim": "|  |  |\n --- |\n| Details: | \\All colors were the same price.",
+      "evidence_text": "|  |  |\n --- |\n| Details: | \\All colors were the same price. Pricing varies only by capacity. Originally, 16 GB was US$199, 32 GB was US$249, 64 GB was US$299, and 128 GB was US$399. On July 27, 2017, Apple discontinued the 16 GB and 64 GB options and cut the price of the 32 GB option to US$199 and the 128 GB option to US$299. The remaining iPod touch 6th Gen models were discontinued on May 28, 2019.  Photo Credit: Apple Computer. | [...] |  |  |\n --- |\n| Details: | \\If syncing with iTunes on a Mac or PC is desired, the original iPod touch 6th Gen models require a Mac running OS X 10.7.5 or later or a PC running Windows 7 or later and iTunes 12.2 or later. The 32 GB and 128 GB models shipped after July 27, 2017 require a Mac running OS X 10.8.5 or later or a PC running Windows 7 or later a",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "CORRELATIONAL",
+      "relevance_score": 0.31,
+      "investigator": "PromotionAgent",
+      "publication_date": null,
+      "strategy": "PromotionStrategy",
+      "shared_source_hypotheses": []
+    },
+    {
+      "evidence_id": "evd_b2fd42939b3d",
+      "event_id": "evt_93d1bff328d88dc7",
+      "hypothesis_type": "PROMOTION",
+      "query_id": "q_14eb773c7a",
+      "result_id": "res_1144c1cd1395",
+      "source_url": "https://reebelo.com/collections/apple-ipod-touch-5th-gen",
+      "source_domain": "reebelo.com",
+      "source_title": "Refurbished Apple iPod Touch 5th Gen | Reebelo US",
+      "retrieved_at": "2026-10-17T16:32:08.271351+00:00",
+      "claim": "## Buy Refurbished Apple iPod Touch 5th Gen in United States [...] Performance: Experty tested and guaranteed to work\n\nProfessionally refurbished and shipped by\n\n## Trade-in\n\n### Trade in your old tec",
+      "evidence_text": "## Buy Refurbished Apple iPod Touch 5th Gen in United States [...] Performance: Experty tested and guaranteed to work\n\nProfessionally refurbished and shipped by\n\n## Trade-in\n\n### Trade in your old tech today\n\nand save big on your new purchase!\n\nApple iPod Touch 5th Gen\n\n16GB - Black\n\n$71.48\n\nFREE Delivery Oct 21 - 26\n\n## Premium Refurbished. Trusted Quality.\n\n4.7out of /5\n\nbased on 70,000 reviews\n\nTrustpilot\n\nReebelo\n\nSave up to 70%\n\n12 Months Warranty\n\nQuality Tested by Experts\n\nRisk-free 30-Day Trial\n\nSave up to 90% CO2 vs new [...] Looking to buy an affordable Apple iPod Touch 5th Gen? Find great deals for unlocked, used Apple iPod Touch 5th Gen atReebelo. All our second hand Apple iPod Touch 5th Gen devices are refurbished, 100% functional and sold by trustworthy American vendors. Enjo",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.398,
+      "investigator": "PromotionAgent",
+      "publication_date": null,
+      "strategy": "PromotionStrategy",
+      "shared_source_hypotheses": []
+    },
+    {
+      "evidence_id": "evd_c3ed0e175472",
+      "event_id": "evt_93d1bff328d88dc7",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "query_id": "q_c9d004a02b",
+      "result_id": "res_04869c66a4ae",
+      "source_url": "https://en.wikipedia.org/wiki/IPod_Touch_(6th_generation)",
+      "source_domain": "en.wikipedia.org",
+      "source_title": "iPod Touch (6th generation) - Wikipedia",
+      "retrieved_at": "2026-10-17T16:32:10.123400+00:00",
+      "claim": "The sixth generation iPod Touch (marketed as the iPod touch) is a discontinued mobile device designed and marketed by Apple Inc.",
+      "evidence_text": "The sixth generation iPod Touch (marketed as the iPod touch) is a discontinued mobile device designed and marketed by Apple Inc. with a touchscreen-based user interface. It is the successor to the iPod Touch (5th generation) \"IPod Touch (5th generation)\"), becoming the first major update to the iPod lineup in more than two and a half years. It was released on the online Apple Store on July 15, 2015, along with minor upgrades to the iPod Nano and iPod Shuffle. This generation of iPod Touch was [...] with 128 GB of storage, partially filling the void left behind by the iPod Classic which offered 160 GB of storage at the time it was discontinued.[citation needed] [...] of iPod Touch was officially discontinued by Apple on May 28, 2019, with the release of its next-generation successor \"IPod T",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.518,
+      "investigator": "ProductEventAgent",
+      "publication_date": null,
+      "strategy": "ProductEventStrategy",
+      "shared_source_hypotheses": []
+    },
+    {
+      "evidence_id": "evd_e44700d000a9",
+      "event_id": "evt_93d1bff328d88dc7",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "query_id": "q_c9d004a02b",
+      "result_id": "res_80fec6428e3d",
+      "source_url": "https://en.wikipedia.org/wiki/IPod_Touch",
+      "source_domain": "en.wikipedia.org",
+      "source_title": "iPod Touch - Wikipedia",
+      "retrieved_at": "2026-10-17T16:32:10.124484+00:00",
+      "claim": "The iPod Touch was the last product in Apple's iPod product line after the discontinuation of the iPod Nano and iPod Shuffle on July 27, 2017, after which Apple revised the storage and pricing for the",
+      "evidence_text": "The iPod Touch was the last product in Apple's iPod product line after the discontinuation of the iPod Nano and iPod Shuffle on July 27, 2017, after which Apple revised the storage and pricing for the iPod Touch with 32 and 128 GB of storage. On May 10, 2022, Apple discontinued the iPod Touch, effectively ending the iPod product line. The last iOS version to support the seventh-generation iPod Touch is iOS 15.\n\n## Features\n\n[edit]\n\n### Software\n\n[edit]\n\nMain article: iOS [...] | Discontinued Date | May 10, 2022 | 16 GB and 64 GB: July 27, 2017 32 GB and 128 GB: May 28, 2019 | June 26, 2014 | July 15, 2015 | 8 GB and 64 GB: September 12, 2012 16 GB and 32 GB: May 30, 2013 | September 1, 2010 | A1288: September 9, 2009 A1319 8 GB: September 1, 2010 | September 9, 2008 |\n| Unsupported Date | ",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.409,
+      "investigator": "ProductEventAgent",
+      "publication_date": null,
+      "strategy": "ProductEventStrategy",
+      "shared_source_hypotheses": []
+    },
+    {
+      "evidence_id": "evd_d43638f329a9",
+      "event_id": "evt_93d1bff328d88dc7",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "query_id": "q_c9d004a02b",
+      "result_id": "res_2f2db3de2a16",
+      "source_url": "https://9to5mac.com/2022/05/12/apple-selling-out-of-last-ipods-ever-heres-where-you-can-still-buy-an-ipod-touch",
+      "source_domain": "9to5mac.com",
+      "source_title": "Here's where you can still buy an iPod touch - 9to5Mac",
+      "retrieved_at": "2026-10-17T16:32:10.125150+00:00",
+      "claim": "While we don\u2019t have exact inventory counts, here\u2019s what we know is in stock.",
+      "evidence_text": "While we don\u2019t have exact inventory counts, here\u2019s what we know is in stock. We\u2019ll continue to update periodically as inventory changes.\n\n## Apple\n\nOn Apple\u2019s website, the iPod touch is completely sold out.\n\n## Best Buy\n\nBest Buy is sold out of all of the 32GB options with the exception of the Space Gray model. For 128GB, you can still buy a Blue and a Space Gray. Additionally, all of the 256GB models are out of stock. [...] ## Walmart\n\nWalmart is where you\u2019ll find some of the best prices for an iPod touch. 32GB is no longer available in Blue or (PRODUCT)RED. The 128GB is available in Space Gray and Pink. Walmart is entirely sold out of 256GB options as those seem to be the most popular models at many retailers.\n\n## Amazon\n\nThe iPod touch is currently listed as a best seller on Amazon and ",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "DESCRIPTIVE",
+      "relevance_score": 0.24,
+      "investigator": "ProductEventAgent",
+      "publication_date": null,
+      "strategy": "ProductEventStrategy",
+      "shared_source_hypotheses": [
+        "PROMOTION",
+        "INVENTORY_LIQUIDATION"
+      ]
+    },
+    {
+      "evidence_id": "evd_9437837aabee",
+      "event_id": "evt_93d1bff328d88dc7",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "query_id": "q_c9d004a02b",
+      "result_id": "res_28c388b4c048",
+      "source_url": "https://www.backmarket.com/en-us/c/tech-education/history-of-the-ipod",
+      "source_domain": "www.backmarket.com",
+      "source_title": "From inception to legacy: The history of the iPod | Back Market",
+      "retrieved_at": "2026-10-17T16:32:10.125811+00:00",
+      "claim": "on.",
+      "evidence_text": "on. The iPod touch continued to receive updates until May 2019, and in May 2022, Apple officially discontinued the last iPod standing. By the time it was discontinued, the iPod touch had gone through seven generations in its 12-year lifespan. And at its farewell party, one question remained: why was the iPod needed when it was now part of the iPhone? This marked the end of an era. [...] 4.7/5 (162)\n\n  Refurbished price:$124.99\n\n  \n ### iPod touch 6 16GB - Silver\n\n  4.5/5 (15)\n\n  Refurbished price:$70.00\n\n  \n ### iPod touch 6 32GB - Space Gray\n\n  4.2/5 (109)\n\n  Refurbished price:$83.00\n\n  \n ### iPod touch 6 128GB - Space Gray\n\n  4.5/5 (6)\n\n  Refurbished price:$166.00\n\n  \n ### iPod touch 2 2007 8GB - Black\n\n  3.6/5 (7)\n\n  Refurbished price:$72.00\n\n  \n ### iPod touch 2 2007 16GB - Black\n\n  4.",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.419,
+      "investigator": "ProductEventAgent",
+      "publication_date": null,
+      "strategy": "ProductEventStrategy",
+      "shared_source_hypotheses": []
+    },
+    {
+      "evidence_id": "evd_6eda10da9615",
+      "event_id": "evt_93d1bff328d88dc7",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "query_id": "q_c9d004a02b",
+      "result_id": "res_baa77843a32e",
+      "source_url": "https://www.macrumors.com/2017/07/27/apple-removes-ipod-nano-ipod-shuffle",
+      "source_domain": "www.macrumors.com",
+      "source_title": "Apple Discontinues iPod Nano and iPod Shuffle - MacRumors",
+      "retrieved_at": "2026-10-17T16:32:10.126382+00:00",
+      "claim": "Skip to Content\n\nMac RumorsMac Rumors\n\nGot a tip for us?Let us know\n\n a.",
+      "evidence_text": "Skip to Content\n\nMac RumorsMac Rumors\n\nGot a tip for us?Let us know\n\n a. Send us an email\n b. Anonymous form\n\n# Apple Discontinues iPod Nano and iPod Shuffle\n\nby Joe Rossignol\n\nApple today removed the iPod nano and iPod shuffle from its website and online store around the world, and it has since confirmed the iconic portable media players have been discontinued. Apple continues to sell the iPod touch with updated pricing and storage, including a 32GB model for $199 and 128GB model for $299. [...] 120 months ago\n\nHypothesis: It was easier just to discontinue them than to figure out which shade of \"Space Gray\" to use in a refresh.\n\nScore: 30 Votes (Like | Disagree)\n\nA\n\nAppleaker\n\n120 months ago\n\nThis is a historic occasion. I hope the iPod Touch stays around and gets refreshed.\n\nScore: 29 Vo",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.568,
+      "investigator": "ProductEventAgent",
+      "publication_date": null,
+      "strategy": "ProductEventStrategy",
+      "shared_source_hypotheses": []
+    },
+    {
+      "evidence_id": "evd_ce67f88ea32c",
+      "event_id": "evt_93d1bff328d88dc7",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "query_id": "q_d156bdf638",
+      "result_id": "res_ccb70568d6cb",
+      "source_url": "https://eoe.works/collections/refurbished-apple-ipod-touch-6th-generation",
+      "source_domain": "eoe.works",
+      "source_title": "Apple iPod Touch 6th Generation \u2013 Elite Obsolete Electronics",
+      "retrieved_at": "2026-10-17T16:32:15.237441+00:00",
+      "claim": "Contact Us\n\n Sign in\n or\n Sign up\n\nCart 0\n\nContact Us\n\nCart 0\n\nElite Obsolete Electronics\n\n# Apple iPod Touch 6th Generation\n\nUsed Apple iPod Touch 6th Generation Space Gray 16GB 32GB 128GB A1574 MKH6",
+      "evidence_text": "Contact Us\n\n Sign in\n or\n Sign up\n\nCart 0\n\nContact Us\n\nCart 0\n\nElite Obsolete Electronics\n\n# Apple iPod Touch 6th Generation\n\nUsed Apple iPod Touch 6th Generation Space Gray 16GB 32GB 128GB A1574 MKH62LL/A MKJ02LL/A MKWU2LL/A\n\n \n\nUsed Apple iPod Touch 6th Generation Space Gray 16GB 32GB 128GB A1574 MKH62LL/A MKJ02LL/A MKWU2LL/A\n\n$ Regular price ~~$79.99~~ From $59.99\n\nRefurbished Apple iPod Touch 6th Generation Space Gray 16GB 32GB 64GB 128GB A1574 MKH62LL/A MKJ02LL/A MKHL2LL/A MKWU2LL/A [...] Refurbished Apple iPod Touch 6th Generation Space Gray 16GB 32GB 64GB 128GB A1574 MKH62LL/A MKJ02LL/A MKHL2LL/A MKWU2LL/A\n\n$ Regular price ~~$105.99~~ From $89.99\n\nRare iOS 8 9 10 11 Apple iPod Touch 6th Generation 16GB 32GB 64GB Space Gray A1574 MKH62LL/A MKJ02LL/A MKHL2LL/A\n\n \n\nRare iOS 8 9 10 11 A",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.24,
+      "investigator": "ProductEventAgent",
+      "publication_date": null,
+      "strategy": "ProductEventStrategy",
+      "shared_source_hypotheses": [
+        "PROMOTION",
+        "INVENTORY_LIQUIDATION"
+      ]
+    },
+    {
+      "evidence_id": "evd_fc5b9bc104fc",
+      "event_id": "evt_93d1bff328d88dc7",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "query_id": "q_d156bdf638",
+      "result_id": "res_3a821803c121",
+      "source_url": "https://www.walmart.com/c/kp/ipod-touch-generation",
+      "source_domain": "www.walmart.com",
+      "source_title": "Shop iPod Touch Generation Electronics Online",
+      "retrieved_at": "2026-10-17T16:32:15.238080+00:00",
+      "claim": "Restored Apple iPod touch 7th Generation 128GB (New Model)\nGold, variant on Restored Apple iPod touch 7th Generation 128GB (New Model)\nPink, variant on Restored Apple iPod touch 7th Generation 128GB (",
+      "evidence_text": "Restored Apple iPod touch 7th Generation 128GB (New Model)\nGold, variant on Restored Apple iPod touch 7th Generation 128GB (New Model)\nPink, variant on Restored Apple iPod touch 7th Generation 128GB (New Model)\nRed, variant on Restored Apple iPod touch 7th Generation 128GB (New Model)\nSilver, variant on Restored Apple iPod touch 7th Generation 128GB (New Model)\n\n### Restored Apple iPod touch 7th Generation 128GB (New Model) [...] ### Pre-Owned Used Apple iPod Touch 7th Gen 256GB Hot Pink , No Retail Packaging\n\n### Restored Apple iPod touch 7th Generation 128GB (New Model) From $209.99 [...] Walmart\nBanner title icon\nWalmart+\nBanner title icon\n\n## Ipod Touch Generation(172)\n\n### Restored Apple iPod Touch 6th Generation 32GB, Space Gray (Refurbished) $132.99\n\nRestored Apple iPod Touch 6th Ge",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.349,
+      "investigator": "ProductEventAgent",
+      "publication_date": null,
+      "strategy": "ProductEventStrategy",
+      "shared_source_hypotheses": [
+        "INVENTORY_LIQUIDATION"
+      ]
+    },
+    {
+      "evidence_id": "evd_dc9e4a4ee8df",
+      "event_id": "evt_93d1bff328d88dc7",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "query_id": "q_695c487d21",
+      "result_id": "res_97d666922d52",
+      "source_url": "https://en.wikipedia.org/wiki/IPod_Touch_(6th_generation)",
+      "source_domain": "en.wikipedia.org",
+      "source_title": "iPod Touch (6th generation) - Wikipedia",
+      "retrieved_at": "2026-10-17T16:32:18.604167+00:00",
+      "claim": "The iPod touch features an 8 MP rear iSight camera with video which can record in 1080p at 30 fps, or 120 fps in slow-motion mode that records at 720p.",
+      "evidence_text": "The iPod touch features an 8 MP rear iSight camera with video which can record in 1080p at 30 fps, or 120 fps in slow-motion mode that records at 720p. The camera also supports a burst mode and has an LED flash. Unlike the previous-generation version, the rear camera on the sixth-generation iPod Touch lacks a sapphire crystal lens. The front camera is unchanged from the previous generation, a 1.2 MP sensor and can record video up to 720p. It is the first iPod touch that is available with 128 GB [...] ### Design\n\n[edit&action=edit&section=4 \"Edit section: Design\")]\n\nThe exterior design of the sixth-generation iPod touch is largely identical to that of its predecessor, with the exception of the iPod Touch Loop button, which was removed.\n\n| Back Color Name | Front | Camera Ring | Antenna | Ca",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "DESCRIPTIVE",
+      "relevance_score": 0.518,
+      "investigator": "ProductEventAgent",
+      "publication_date": null,
+      "strategy": "ProductEventStrategy",
+      "shared_source_hypotheses": []
+    },
+    {
+      "evidence_id": "evd_2f15f1534d6a",
+      "event_id": "evt_93d1bff328d88dc7",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "query_id": "q_695c487d21",
+      "result_id": "res_d19658a03c2f",
+      "source_url": "https://www.macworld.com/article/673469/new-ipod-touch-apple-updates-processor-adds-256gb-option.html",
+      "source_domain": "www.macworld.com",
+      "source_title": "New iPod Touch: Apple Updates Processor, adds 256GB Option | Macworld",
+      "retrieved_at": "2026-10-17T16:32:18.604965+00:00",
+      "claim": "Apple hadn\u2019t updated the iPod touch since July 2015 \u2013 that\u2019s when the sixth-generation model came out.",
+      "evidence_text": "Apple hadn\u2019t updated the iPod touch since July 2015 \u2013 that\u2019s when the sixth-generation model came out. Since then, the company has discontinued all the other iPods \u2013 as of July 2017. So we had been expecting that the iPod touch would be next for the cull\u2026 at least we were until respected analyst Ming-Chi Kuo  said to expect a new iPod touch.\n\nRead our iPod buying guide for more information about the iPod.\n\n## Release date\n\nThe new iPod touch is available now from Apple.\n\n## Price [...] The iPod touch (7th generation) uses the A10 fusion chip found in the iPhone 7 and 7 Plus (which were introduced in September 2016.) It still has the same 8MB camera as its predecessor and offers just 802.11ac Wi-Fi support and Bluetooth 4.1.\n\nThe iPod touch (6th generation) used the A8 chip and M8 motion co",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "DESCRIPTIVE",
+      "relevance_score": 0.529,
+      "investigator": "ProductEventAgent",
+      "publication_date": null,
+      "strategy": "ProductEventStrategy",
+      "shared_source_hypotheses": [
+        "INVENTORY_LIQUIDATION"
+      ]
+    },
+    {
+      "evidence_id": "evd_a2b708cdddbf",
+      "event_id": "evt_93d1bff328d88dc7",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "query_id": "q_695c487d21",
+      "result_id": "res_62814a0ee056",
+      "source_url": "https://everymac.com/systems/apple/ipod/ipod-faq/differences-between-ipod-touch-5th-gen-6th-gen.html",
+      "source_domain": "everymac.com",
+      "source_title": "Differences Between iPod touch 5 and iPod touch 6: EveryiPod.com",
+      "retrieved_at": "2026-10-17T16:32:18.605727+00:00",
+      "claim": "The iPod touch 6th Gen models, on the other hand, have a much faster dual-core 64-bit A8 processor as well as an M8 motion coprocessor and 1 GB of RAM.",
+      "evidence_text": "The iPod touch 6th Gen models, on the other hand, have a much faster dual-core 64-bit A8 processor as well as an M8 motion coprocessor and 1 GB of RAM. They also support faster 802.11a/b/g/n/ac Wi-Fi and Bluetooth 4.1. Storage options originally were 16 GB, 32 GB, 64 GB, and 128 GB (although on July 27, 2017, the 16 GB and 64 GB configurations were discontinued, so later options were only 32 GB and 128 GB).\n\niOS Support & Software Differences [...] The iPod touch 6th Generation models also are sold in six colors -- including silver, \"space gray\" and red options -- but dropped the yellow, pink, and blue options in favor of a gold color, brighter \"hot pink\" and darker royal blue.\n\nCamera Differences [...] | Latest iOS: | iOS 9 | iOS 12 |\n| Mac Support: | Mac OS X 10.6.8+ | OS X 10.7.5+ |\n| W",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "CORRELATIONAL",
+      "relevance_score": 0.299,
+      "investigator": "ProductEventAgent",
+      "publication_date": null,
+      "strategy": "ProductEventStrategy",
+      "shared_source_hypotheses": []
+    },
+    {
+      "evidence_id": "evd_416eeea620b9",
+      "event_id": "evt_93d1bff328d88dc7",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "query_id": "q_695c487d21",
+      "result_id": "res_7bbebecdb777",
+      "source_url": "https://www.theapplepost.com/2019/03/03/28043/ipod-touch-shipping-estimates-slip-to-1-2-weeks-in-the-united-states",
+      "source_domain": "www.theapplepost.com",
+      "source_title": "iPod touch shipping estimates slip to 1-2 weeks in the United States, hinting at possible March refresh | The Apple Post",
+      "retrieved_at": "2026-10-17T16:32:18.606198+00:00",
+      "claim": "Shipping estimates for some iPod touch models in the United States have slipped from \u201cIn Stock\u201d to 1 to 2 weeks, refuelling earlier rumors that suggested Apple is planning to debut an updated iPod mod",
+      "evidence_text": "Shipping estimates for some iPod touch models in the United States have slipped from \u201cIn Stock\u201d to 1 to 2 weeks, refuelling earlier rumors that suggested Apple is planning to debut an updated iPod model during the first half of 2019.\n\nAs first spotted by The Apple Post, the Space Gray 128GB iPod touch and Gold 32GB and 128GB models are now showing shipping estimates of between 1 to 2 weeks on Apple.com in the U.S., whilst other models remain available for immediate shipping. [...] iPod touch | Apple\n\nApple\u2019s next-generation iPod touch is expected to launch with the sole intention of being a low-cost entry level iOS device to Apple\u2019s range of subscription services such as Apple News and iCloud, not to mention the new Netflix-like streaming service and paid Apple News subscription content ex",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.66,
+      "investigator": "ProductEventAgent",
+      "publication_date": null,
+      "strategy": "ProductEventStrategy",
+      "shared_source_hypotheses": [
+        "PROMOTION"
+      ]
+    },
+    {
+      "evidence_id": "evd_cacd2fdfe1d7",
+      "event_id": "evt_93d1bff328d88dc7",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "query_id": "q_307fb95f32",
+      "result_id": "res_1104c1a0cb3f",
+      "source_url": "https://en.wikipedia.org/wiki/IPod_Touch",
+      "source_domain": "en.wikipedia.org",
+      "source_title": "iPod Touch - Wikipedia",
+      "retrieved_at": "2026-10-17T16:32:20.385930+00:00",
+      "claim": "The iPod Touch was the last product in Apple's iPod product line after the discontinuation of the iPod Nano and iPod Shuffle on July 27, 2017, after which Apple revised the storage and pricing for the",
+      "evidence_text": "The iPod Touch was the last product in Apple's iPod product line after the discontinuation of the iPod Nano and iPod Shuffle on July 27, 2017, after which Apple revised the storage and pricing for the iPod Touch with 32 and 128 GB of storage. On May 10, 2022, Apple discontinued the iPod Touch, effectively ending the iPod product line. The last iOS version to support the seventh-generation iPod Touch is iOS 15.\n\n## Features\n\n[edit]\n\n### Software\n\n[edit]\n\nMain article: iOS [...] | Back | Space Gray: Space Gray anodized contoured aluminum back Silver: Silver anodized contoured aluminum back Gold: Gold anodized contoured aluminum back Pink: Pink anodized contoured aluminum back Blue: Blue anodized contoured aluminum back (PRODUCT)RED: (PRODUCT)RED anodized contoured aluminum back | Silver anod",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.409,
+      "investigator": "ProductEventAgent",
+      "publication_date": null,
+      "strategy": "ProductEventStrategy",
+      "shared_source_hypotheses": []
+    },
+    {
+      "evidence_id": "evd_9dc8ee5100b2",
+      "event_id": "evt_93d1bff328d88dc7",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "query_id": "q_307fb95f32",
+      "result_id": "res_db5d5916879e",
+      "source_url": "https://www.macrumors.com/2022/05/13/apple-ipod-retrospective",
+      "source_domain": "www.macrumors.com",
+      "source_title": "RIP iPod: A Look Back at Apple's Iconic Music Player Over the Years - MacRumors",
+      "retrieved_at": "2026-10-17T16:32:20.386430+00:00",
+      "claim": "ipod touch 5 colors  \nAfter the fifth-generation iPod touch, the design didn't change, but Apple introduced a sixth-generation model in 2017 and a seventh-generation model in 2019, both with updated c",
+      "evidence_text": "ipod touch 5 colors  \nAfter the fifth-generation iPod touch, the design didn't change, but Apple introduced a sixth-generation model in 2017 and a seventh-generation model in 2019, both with updated chips. After the 2019 release of the seventh-generation iPod touch, the device went without an update for three years until its discontinuation earlier this week.\n\n## iPod Replacements [...] ipod nano 6th gen watch strap  \nApple changed the design in 2012 with the seventh-generation iPod nano, reverting to the rectangular shape but leaving the multi-touch display in place. The nano from this era looked similar to a tinier iPod touch, featuring a Home button and support for multiple apps. The seven-generation iPod nano got new colors in 2015 before being discontinued in 2017.\n\n## iPod shuffle (2",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "CAUSAL",
+      "relevance_score": 0.518,
+      "investigator": "ProductEventAgent",
+      "publication_date": null,
+      "strategy": "ProductEventStrategy",
+      "shared_source_hypotheses": []
+    },
+    {
+      "evidence_id": "evd_766eede6beb4",
+      "event_id": "evt_93d1bff328d88dc7",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "query_id": "q_5c0ac2b6d1",
+      "result_id": "res_2ee1c9bbdcea",
+      "source_url": "https://9to5mac.com/2022/05/12/apple-selling-out-of-last-ipods-ever-heres-where-you-can-still-buy-an-ipod-touch",
+      "source_domain": "9to5mac.com",
+      "source_title": "Here's where you can still buy an iPod touch - 9to5Mac",
+      "retrieved_at": "2026-10-17T16:32:23.228923+00:00",
+      "claim": "While we don\u2019t have exact inventory counts, here\u2019s what we know is in stock.",
+      "evidence_text": "While we don\u2019t have exact inventory counts, here\u2019s what we know is in stock. We\u2019ll continue to update periodically as inventory changes.\n\n## Apple\n\nOn Apple\u2019s website, the iPod touch is completely sold out.\n\n## Best Buy\n\nBest Buy is sold out of all of the 32GB options with the exception of the Space Gray model. For 128GB, you can still buy a Blue and a Space Gray. Additionally, all of the 256GB models are out of stock. [...] ## Walmart\n\nWalmart is where you\u2019ll find some of the best prices for an iPod touch. 32GB is no longer available in Blue or (PRODUCT)RED. The 128GB is available in Space Gray and Pink. Walmart is entirely sold out of 256GB options as those seem to be the most popular models at many retailers.\n\n## Amazon\n\nThe iPod touch is currently listed as a best seller on Amazon and ",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "DESCRIPTIVE",
+      "relevance_score": 0.24,
+      "investigator": "SupplyAgent",
+      "publication_date": null,
+      "strategy": "SupplyStrategy",
+      "shared_source_hypotheses": [
+        "PRODUCT_EVENT",
+        "PROMOTION"
+      ]
+    },
+    {
+      "evidence_id": "evd_73cddfa06c14",
+      "event_id": "evt_93d1bff328d88dc7",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "query_id": "q_5c0ac2b6d1",
+      "result_id": "res_ced6072b9df0",
+      "source_url": "https://wccftech.com/apple-has-officially-discontinued-the-ipod-nano-and-shuffle-reduces-price-of-the-ipod-touch",
+      "source_domain": "wccftech.com",
+      "source_title": "Apple Has Officially Discontinued The iPod Nano And Shuffle, Reduces Price Of The iPod Touch",
+      "retrieved_at": "2026-10-17T16:32:23.229398+00:00",
+      "claim": "Previously, you had four configuration options for the iPod Touch: the 16GB model was priced at $199, 32 GB model was priced at $249, 64GB variant was priced at $299 and finally the 128GB variant was ",
+      "evidence_text": "Previously, you had four configuration options for the iPod Touch: the 16GB model was priced at $199, 32 GB model was priced at $249, 64GB variant was priced at $299 and finally the 128GB variant was available for $399. To be exact, the price of the 32GB variant has been reduced by $50 while $100 have been reduced for the 128GB model. [...] Apart from Apple discontinuing the iPod Nano and iPod Shuffle, Apple has also adjusted the price of its iPod Touch with updated configuration. The company is now offering the iPod Touch in 32GB and 128GB configuration. The prior will cost you $199 while the latter is priced at $299 in the United States. Moreover, 32GB is the base line storage option for the iPod Touch now as the 16GB variant has been discontinued along with 64GB option. [...] The new co",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "DESCRIPTIVE",
+      "relevance_score": 0.31,
+      "investigator": "SupplyAgent",
+      "publication_date": null,
+      "strategy": "SupplyStrategy",
+      "shared_source_hypotheses": []
+    },
+    {
+      "evidence_id": "evd_825d2e20a9cd",
+      "event_id": "evt_93d1bff328d88dc7",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "query_id": "q_5c0ac2b6d1",
+      "result_id": "res_5b32457fda71",
+      "source_url": "https://www.hollywoodreporter.com/business/digital/apple-kills-ipod-nano-shuffle-1024978",
+      "source_domain": "www.hollywoodreporter.com",
+      "source_title": "Apple Kills iPod Nano and Shuffle",
+      "retrieved_at": "2026-10-17T16:32:23.230058+00:00",
+      "claim": "In a show of its commitment to the iPod Touch, Apple doubled the storage capacity of its top-of-line model to 128 gigabytes.",
+      "evidence_text": "In a show of its commitment to the iPod Touch, Apple doubled the storage capacity of its top-of-line model to 128 gigabytes. That version costs $300. An iPod Touch with 32 gigabytes of storage sells for $200.\n\nThe Nano and Shuffle came out in 2005 as less expensive and smaller alternatives to Apple\u2019s standard iPod. The Cupertino, California, company stopped updating the Nano and Shuffle several years ago. [...] The company discontinued sales of the two music players Thursday in a move reflecting the waning popularity of the devices in an era when most people store or stream their tunes on smartphones.\n\nThe iPod product line still remains alive, though. Apple plans to continue selling its internet-connected iPod Touch.",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "DESCRIPTIVE",
+      "relevance_score": 0.31,
+      "investigator": "SupplyAgent",
+      "publication_date": null,
+      "strategy": "SupplyStrategy",
+      "shared_source_hypotheses": [
+        "PROMOTION"
+      ]
+    },
+    {
+      "evidence_id": "evd_1d5b87284634",
+      "event_id": "evt_93d1bff328d88dc7",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "query_id": "q_e59ecfbb8b",
+      "result_id": "res_66b3e729182a",
+      "source_url": "https://eoe.works/collections/refurbished-apple-ipod-touch-6th-generation",
+      "source_domain": "eoe.works",
+      "source_title": "Apple iPod Touch 6th Generation \u2013 Elite Obsolete Electronics",
+      "retrieved_at": "2026-10-17T16:32:28.438768+00:00",
+      "claim": "Contact Us\n\n Sign in\n or\n Sign up\n\nCart 0\n\nContact Us\n\nCart 0\n\nElite Obsolete Electronics\n\n# Apple iPod Touch 6th Generation\n\nUsed Apple iPod Touch 6th Generation Space Gray 16GB 32GB 128GB A1574 MKH6",
+      "evidence_text": "Contact Us\n\n Sign in\n or\n Sign up\n\nCart 0\n\nContact Us\n\nCart 0\n\nElite Obsolete Electronics\n\n# Apple iPod Touch 6th Generation\n\nUsed Apple iPod Touch 6th Generation Space Gray 16GB 32GB 128GB A1574 MKH62LL/A MKJ02LL/A MKWU2LL/A\n\n \n\nUsed Apple iPod Touch 6th Generation Space Gray 16GB 32GB 128GB A1574 MKH62LL/A MKJ02LL/A MKWU2LL/A\n\n$ Regular price ~~$79.99~~ From $59.99\n\nRefurbished Apple iPod Touch 6th Generation Space Gray 16GB 32GB 64GB 128GB A1574 MKH62LL/A MKJ02LL/A MKHL2LL/A MKWU2LL/A [...] Refurbished Apple iPod Touch 6th Generation Space Gray 16GB 32GB 64GB 128GB A1574 MKH62LL/A MKJ02LL/A MKHL2LL/A MKWU2LL/A\n\n$ Regular price ~~$105.99~~ From $89.99\n\nRare iOS 8 9 10 11 Apple iPod Touch 6th Generation 16GB 32GB 64GB Space Gray A1574 MKH62LL/A MKJ02LL/A MKHL2LL/A\n\n \n\nRare iOS 8 9 10 11 A",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.24,
+      "investigator": "SupplyAgent",
+      "publication_date": null,
+      "strategy": "SupplyStrategy",
+      "shared_source_hypotheses": [
+        "PRODUCT_EVENT",
+        "PROMOTION"
+      ]
+    },
+    {
+      "evidence_id": "evd_0e981b6bd718",
+      "event_id": "evt_93d1bff328d88dc7",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "query_id": "q_e59ecfbb8b",
+      "result_id": "res_ad67c1757397",
+      "source_url": "https://eoe.works/collections/apple-ipod-touch-6th-generation",
+      "source_domain": "eoe.works",
+      "source_title": "Apple iPod Touch 6th Generation \u2013 Elite Obsolete Electronics",
+      "retrieved_at": "2026-10-17T16:32:28.439144+00:00",
+      "claim": "Refurbished Apple iPod Touch 6th Generation Space Gray 16GB 32GB 64GB 128GB A1574 MKH62LL/A MKJ02LL/A MKHL2LL/A MKWU2LL/A\n\n$ Regular price ~~$105.99~~ From $89.99\n\nRefurbished Apple iPod Touch 6th Gen",
+      "evidence_text": "Refurbished Apple iPod Touch 6th Generation Space Gray 16GB 32GB 64GB 128GB A1574 MKH62LL/A MKJ02LL/A MKHL2LL/A MKWU2LL/A\n\n$ Regular price ~~$105.99~~ From $89.99\n\nRefurbished Apple iPod Touch 6th Generation Product Red 32GB 64GB 128GB A1574 MKJ22LL/A MKHN2LL/A MKWW2LL/A\n\n \n\nRefurbished Apple iPod Touch 6th Generation Product Red 32GB 64GB 128GB A1574 MKJ22LL/A MKHN2LL/A MKWW2LL/A\n\n$ Regular price ~~$117.99~~ From $99.99 [...] Used Apple iPod Touch 6th Generation Silver 16GB 32GB 128GB A1574 MKH42LL/A MKHX2LL/A MKWR2LL/A\n\n$ Regular price ~~$89.99~~ From $49.99\n\nUsed Apple iPod Touch 6th Generation Space Gray 16GB 32GB 128GB A1574 MKH62LL/A MKJ02LL/A MKWU2LL/A\n\n \n\nUsed Apple iPod Touch 6th Generation Space Gray 16GB 32GB 128GB A1574 MKH62LL/A MKJ02LL/A MKWU2LL/A\n\n$ Regular price ~~$79.99~~ ",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.24,
+      "investigator": "SupplyAgent",
+      "publication_date": null,
+      "strategy": "SupplyStrategy",
+      "shared_source_hypotheses": [
+        "PROMOTION"
+      ]
+    },
+    {
+      "evidence_id": "evd_59ca9dbfbc70",
+      "event_id": "evt_93d1bff328d88dc7",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "query_id": "q_5770d398b3",
+      "result_id": "res_f89bc643ec57",
+      "source_url": "https://9to5mac.com/2022/05/12/apple-selling-out-of-last-ipods-ever-heres-where-you-can-still-buy-an-ipod-touch",
+      "source_domain": "9to5mac.com",
+      "source_title": "Here's where you can still buy an iPod touch - 9to5Mac",
+      "retrieved_at": "2026-10-17T16:32:29.979315+00:00",
+      "claim": "While we don\u2019t have exact inventory counts, here\u2019s what we know is in stock.",
+      "evidence_text": "While we don\u2019t have exact inventory counts, here\u2019s what we know is in stock. We\u2019ll continue to update periodically as inventory changes.\n\n## Apple\n\nOn Apple\u2019s website, the iPod touch is completely sold out.\n\n## Best Buy\n\nBest Buy is sold out of all of the 32GB options with the exception of the Space Gray model. For 128GB, you can still buy a Blue and a Space Gray. Additionally, all of the 256GB models are out of stock. [...] ## Walmart\n\nWalmart is where you\u2019ll find some of the best prices for an iPod touch. 32GB is no longer available in Blue or (PRODUCT)RED. The 128GB is available in Space Gray and Pink. Walmart is entirely sold out of 256GB options as those seem to be the most popular models at many retailers.\n\n## Amazon\n\nThe iPod touch is currently listed as a best seller on Amazon and ",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "DESCRIPTIVE",
+      "relevance_score": 0.24,
+      "investigator": "SupplyAgent",
+      "publication_date": null,
+      "strategy": "SupplyStrategy",
+      "shared_source_hypotheses": [
+        "PRODUCT_EVENT",
+        "PROMOTION"
+      ]
+    },
+    {
+      "evidence_id": "evd_7e457ba4f50c",
+      "event_id": "evt_93d1bff328d88dc7",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "query_id": "q_5770d398b3",
+      "result_id": "res_abee9bd04372",
+      "source_url": "https://www.macworld.com/article/673469/new-ipod-touch-apple-updates-processor-adds-256gb-option.html",
+      "source_domain": "www.macworld.com",
+      "source_title": "New iPod Touch: Apple Updates Processor, adds 256GB Option | Macworld",
+      "retrieved_at": "2026-10-17T16:32:29.981932+00:00",
+      "claim": "The iPod touch (7th generation) uses the A10 fusion chip found in the iPhone 7 and 7 Plus (which were introduced in September 2016.) It still has the same 8MB camera as its predecessor and offers just",
+      "evidence_text": "The iPod touch (7th generation) uses the A10 fusion chip found in the iPhone 7 and 7 Plus (which were introduced in September 2016.) It still has the same 8MB camera as its predecessor and offers just 802.11ac Wi-Fi support and Bluetooth 4.1.\n\nThe iPod touch (6th generation) used the A8 chip and M8 motion coprocessor found in the iPhone 6 and 6 Plus. It had an 8Mp rear camera with slo-mo and burst mode. The top of the range model included 128GB storage. [...] Apple hadn\u2019t updated the iPod touch since July 2015 \u2013 that\u2019s when the sixth-generation model came out. Since then, the company has discontinued all the other iPods \u2013 as of July 2017. So we had been expecting that the iPod touch would be next for the cull\u2026 at least we were until respected analyst Ming-Chi Kuo  said to expect a new iPod",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "DESCRIPTIVE",
+      "relevance_score": 0.31,
+      "investigator": "SupplyAgent",
+      "publication_date": null,
+      "strategy": "SupplyStrategy",
+      "shared_source_hypotheses": [
+        "PRODUCT_EVENT"
+      ]
+    },
+    {
+      "evidence_id": "evd_9db7a6bd1d56",
+      "event_id": "evt_93d1bff328d88dc7",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "query_id": "q_1abfc55d03",
+      "result_id": "res_9a71a4aae71a",
+      "source_url": "https://eoe.works/collections/refurbished-apple-ipod-touch-6th-generation",
+      "source_domain": "eoe.works",
+      "source_title": "Apple iPod Touch 6th Generation \u2013 Elite Obsolete Electronics",
+      "retrieved_at": "2026-10-17T16:32:35.016146+00:00",
+      "claim": "Refurbished Apple iPod Touch 6th Generation Space Gray 16GB 32GB 64GB 128GB A1574 MKH62LL/A MKJ02LL/A MKHL2LL/A MKWU2LL/A\n\n$ Regular price ~~$105.99~~ From $89.99\n\nRare iOS 8 9 10 11 Apple iPod Touch ",
+      "evidence_text": "Refurbished Apple iPod Touch 6th Generation Space Gray 16GB 32GB 64GB 128GB A1574 MKH62LL/A MKJ02LL/A MKHL2LL/A MKWU2LL/A\n\n$ Regular price ~~$105.99~~ From $89.99\n\nRare iOS 8 9 10 11 Apple iPod Touch 6th Generation 16GB 32GB 64GB Space Gray A1574 MKH62LL/A MKJ02LL/A MKHL2LL/A\n\n \n\nRare iOS 8 9 10 11 Apple iPod Touch 6th Generation 16GB 32GB 64GB Space Gray A1574 MKH62LL/A MKJ02LL/A MKHL2LL/A\n\nFrom $154.99 [...] Contact Us\n\n Sign in\n or\n Sign up\n\nCart 0\n\nContact Us\n\nCart 0\n\nElite Obsolete Electronics\n\n# Apple iPod Touch 6th Generation\n\nUsed Apple iPod Touch 6th Generation Space Gray 16GB 32GB 128GB A1574 MKH62LL/A MKJ02LL/A MKWU2LL/A\n\n \n\nUsed Apple iPod Touch 6th Generation Space Gray 16GB 32GB 128GB A1574 MKH62LL/A MKJ02LL/A MKWU2LL/A\n\n$ Regular price ~~$79.99~~ From $59.99\n\nRefurbished App",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.24,
+      "investigator": "SupplyAgent",
+      "publication_date": null,
+      "strategy": "SupplyStrategy",
+      "shared_source_hypotheses": [
+        "PRODUCT_EVENT",
+        "PROMOTION"
+      ]
+    },
+    {
+      "evidence_id": "evd_d242114480a7",
+      "event_id": "evt_93d1bff328d88dc7",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "query_id": "q_1abfc55d03",
+      "result_id": "res_1e07870e13bc",
+      "source_url": "https://www.walmart.com/c/kp/ipod-touch-generation",
+      "source_domain": "www.walmart.com",
+      "source_title": "Shop iPod Touch Generation Electronics Online",
+      "retrieved_at": "2026-10-17T16:32:35.017211+00:00",
+      "claim": "Walmart\nBanner title icon\nWalmart+\nBanner title icon\n\n## Ipod Touch Generation(172)\n\n### Restored Apple iPod Touch 6th Generation 32GB, Space Gray (Refurbished) $132.99\n\nRestored Apple iPod Touch 6th ",
+      "evidence_text": "Walmart\nBanner title icon\nWalmart+\nBanner title icon\n\n## Ipod Touch Generation(172)\n\n### Restored Apple iPod Touch 6th Generation 32GB, Space Gray (Refurbished) $132.99\n\nRestored Apple iPod Touch 6th Generation 32GB, Space Gray (Refurbished)\n\n### Restored Apple iPod Touch 6th Generation 32GB, Space Gray (Refurbished)\n\n### Restored Apple iPod Touch 6th Generation 32GB (Refurbished) $129.00\n\nRestored Apple iPod Touch 6th Generation 32GB (Refurbished) [...] ### Restored Apple iPod Touch 6th Generation 32GB, Space Gray (Refurbished) $132.99\n\nRestored Apple iPod Touch 6th Generation 32GB, Space Gray (Refurbished)\n\n### Restored Apple iPod Touch 6th Generation 32GB, Space Gray (Refurbished)\n\n### Restored USED Apple iPod Touch 6th Generation 16GB\n\nRestored USED Apple iPod Touch 6th Generation 16GB",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.24,
+      "investigator": "SupplyAgent",
+      "publication_date": null,
+      "strategy": "SupplyStrategy",
+      "shared_source_hypotheses": [
+        "PRODUCT_EVENT"
+      ]
+    },
+    {
+      "evidence_id": "evd_0e5ac476b503",
+      "event_id": "evt_93d1bff328d88dc7",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "query_id": "q_5aeb830514",
+      "result_id": "res_aa0ec1f51113",
+      "source_url": "https://eoe.works/collections/refurbished-apple-ipod-touch-6th-generation",
+      "source_domain": "eoe.works",
+      "source_title": "Apple iPod Touch 6th Generation \u2013 Elite Obsolete Electronics",
+      "retrieved_at": "2026-10-17T16:32:40.221804+00:00",
+      "claim": "Contact Us\n\n Sign in\n or\n Sign up\n\nCart 0\n\nContact Us\n\nCart 0\n\nElite Obsolete Electronics\n\n# Apple iPod Touch 6th Generation\n\nUsed Apple iPod Touch 6th Generation Space Gray 16GB 32GB 128GB A1574 MKH6",
+      "evidence_text": "Contact Us\n\n Sign in\n or\n Sign up\n\nCart 0\n\nContact Us\n\nCart 0\n\nElite Obsolete Electronics\n\n# Apple iPod Touch 6th Generation\n\nUsed Apple iPod Touch 6th Generation Space Gray 16GB 32GB 128GB A1574 MKH62LL/A MKJ02LL/A MKWU2LL/A\n\n \n\nUsed Apple iPod Touch 6th Generation Space Gray 16GB 32GB 128GB A1574 MKH62LL/A MKJ02LL/A MKWU2LL/A\n\n$ Regular price ~~$79.99~~ From $59.99\n\nRefurbished Apple iPod Touch 6th Generation Space Gray 16GB 32GB 64GB 128GB A1574 MKH62LL/A MKJ02LL/A MKHL2LL/A MKWU2LL/A [...] Refurbished Apple iPod Touch 6th Generation Space Gray 16GB 32GB 64GB 128GB A1574 MKH62LL/A MKJ02LL/A MKHL2LL/A MKWU2LL/A\n\n$ Regular price ~~$105.99~~ From $89.99\n\nRare iOS 8 9 10 11 Apple iPod Touch 6th Generation 16GB 32GB 64GB Space Gray A1574 MKH62LL/A MKJ02LL/A MKHL2LL/A\n\n \n\nRare iOS 8 9 10 11 A",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.24,
+      "investigator": "SupplyAgent",
+      "publication_date": null,
+      "strategy": "SupplyStrategy",
+      "shared_source_hypotheses": [
+        "PRODUCT_EVENT",
+        "PROMOTION"
+      ]
+    },
+    {
+      "evidence_id": "evd_3702989ce7b1",
+      "event_id": "evt_93d1bff328d88dc7",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "query_id": "q_5aeb830514",
+      "result_id": "res_e53dc8191e1d",
+      "source_url": "https://eoe.works/collections/apple-ipod-touch-6th-generation",
+      "source_domain": "eoe.works",
+      "source_title": "Apple iPod Touch 6th Generation \u2013 Elite Obsolete Electronics",
+      "retrieved_at": "2026-10-17T16:32:40.222214+00:00",
+      "claim": "Refurbished Apple iPod Touch 6th Generation Space Gray 16GB 32GB 64GB 128GB A1574 MKH62LL/A MKJ02LL/A MKHL2LL/A MKWU2LL/A\n\n$ Regular price ~~$105.99~~ From $89.99\n\nRefurbished Apple iPod Touch 6th Gen",
+      "evidence_text": "Refurbished Apple iPod Touch 6th Generation Space Gray 16GB 32GB 64GB 128GB A1574 MKH62LL/A MKJ02LL/A MKHL2LL/A MKWU2LL/A\n\n$ Regular price ~~$105.99~~ From $89.99\n\nRefurbished Apple iPod Touch 6th Generation Product Red 32GB 64GB 128GB A1574 MKJ22LL/A MKHN2LL/A MKWW2LL/A\n\n \n\nRefurbished Apple iPod Touch 6th Generation Product Red 32GB 64GB 128GB A1574 MKJ22LL/A MKHN2LL/A MKWW2LL/A\n\n$ Regular price ~~$117.99~~ From $99.99 [...] Used Apple iPod Touch 6th Generation Silver 16GB 32GB 128GB A1574 MKH42LL/A MKHX2LL/A MKWR2LL/A\n\n$ Regular price ~~$89.99~~ From $49.99\n\nUsed Apple iPod Touch 6th Generation Space Gray 16GB 32GB 128GB A1574 MKH62LL/A MKJ02LL/A MKWU2LL/A\n\n \n\nUsed Apple iPod Touch 6th Generation Space Gray 16GB 32GB 128GB A1574 MKH62LL/A MKJ02LL/A MKWU2LL/A\n\n$ Regular price ~~$79.99~~ ",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.24,
+      "investigator": "SupplyAgent",
+      "publication_date": null,
+      "strategy": "SupplyStrategy",
+      "shared_source_hypotheses": [
+        "PROMOTION"
+      ]
+    }
+  ],
+  "evidence_verifications": [
+    {
+      "evidence_id": "evd_f26a819fd477",
+      "hypothesis_type": "PROMOTION",
+      "support_level": "INSUFFICIENT_EVIDENCE",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.85,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.5,
+        "specificity": 0.1,
+        "source_independence": 0.3,
+        "causal_strength": 0.25,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.85 (domain: 9to5mac.com); temporal_alignment=0.40; product_match=0.60 (text-based, product='128GB iPod touch (Space Gray) (6th Generation)'); merchant_match=0.50; specificity=0.10; source_independence=0.30 (SYNDICATED); causal_strength=0.25 (relationship=DESCRIPTIVE); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_67db722064fc",
+      "hypothesis_type": "PROMOTION",
+      "support_level": "CONSISTENT_WITH",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.5,
+        "source_independence": 0.3,
+        "causal_strength": 0.25,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.55 (domain: www.hollywoodreporter.com); temporal_alignment=0.40; product_match=0.60 (text-based, product='128GB iPod touch (Space Gray) (6th Generation)'); merchant_match=0.00; specificity=0.50; source_independence=0.30 (SYNDICATED); causal_strength=0.25 (relationship=DESCRIPTIVE); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_70bdd2c5c0d6",
+      "hypothesis_type": "PROMOTION",
+      "support_level": "CONTRADICTS",
+      "independence_class": "CONTRADICTING",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.0,
+        "merchant_match": 0.5,
+        "specificity": 0.7,
+        "source_independence": 0.0,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 1.0
+      },
+      "notes": "source_quality=0.55 (domain: www.bankmycell.com); temporal_alignment=0.40; product_match=0.00 (text-based, product='128GB iPod touch (Space Gray) (6th Generation)'); merchant_match=0.50; specificity=0.70; source_independence=0.00 (CONTRADICTING); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=1.00"
+    },
+    {
+      "evidence_id": "evd_98e741e640dd",
+      "hypothesis_type": "PROMOTION",
+      "support_level": "CONSISTENT_WITH",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.7,
+        "source_independence": 0.3,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.55 (domain: www.theapplepost.com); temporal_alignment=0.40; product_match=0.60 (text-based, product='128GB iPod touch (Space Gray) (6th Generation)'); merchant_match=0.00; specificity=0.70; source_independence=0.30 (SYNDICATED); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_528de60a5608",
+      "hypothesis_type": "PROMOTION",
+      "support_level": "CONTRADICTS",
+      "independence_class": "CONTRADICTING",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.5,
+        "source_independence": 0.0,
+        "causal_strength": 0.25,
+        "contradiction_penalty": 1.0
+      },
+      "notes": "source_quality=0.55 (domain: www.trustedreviews.com); temporal_alignment=0.40; product_match=0.60 (text-based, product='128GB iPod touch (Space Gray) (6th Generation)'); merchant_match=0.00; specificity=0.50; source_independence=0.00 (CONTRADICTING); causal_strength=0.25 (relationship=DESCRIPTIVE); contradiction_penalty=1.00"
+    },
+    {
+      "evidence_id": "evd_c2beb7b7ce6e",
+      "hypothesis_type": "PROMOTION",
+      "support_level": "CONTRADICTS",
+      "independence_class": "CONTRADICTING",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.1,
+        "source_independence": 0.0,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 1.0
+      },
+      "notes": "source_quality=0.55 (domain: www.amazon.com); temporal_alignment=0.40; product_match=0.60 (text-based, product='128GB iPod touch (Space Gray) (6th Generation)'); merchant_match=0.00; specificity=0.10; source_independence=0.00 (CONTRADICTING); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=1.00"
+    },
+    {
+      "evidence_id": "evd_9b13e0780cd6",
+      "hypothesis_type": "PROMOTION",
+      "support_level": "CONSISTENT_WITH",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.35,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.5,
+        "source_independence": 0.3,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.35 (domain: eoe.works); temporal_alignment=0.40; product_match=0.60 (text-based, product='128GB iPod touch (Space Gray) (6th Generation)'); merchant_match=0.00; specificity=0.50; source_independence=0.30 (SYNDICATED); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_fc3ab9718db2",
+      "hypothesis_type": "PROMOTION",
+      "support_level": "CONSISTENT_WITH",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.35,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.5,
+        "source_independence": 0.3,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.35 (domain: eoe.works); temporal_alignment=0.40; product_match=0.60 (text-based, product='128GB iPod touch (Space Gray) (6th Generation)'); merchant_match=0.00; specificity=0.50; source_independence=0.30 (SYNDICATED); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_946d83047e46",
+      "hypothesis_type": "PROMOTION",
+      "support_level": "CONTRADICTS",
+      "independence_class": "CONTRADICTING",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 1.0,
+        "source_independence": 0.0,
+        "causal_strength": 0.2,
+        "contradiction_penalty": 1.0
+      },
+      "notes": "source_quality=0.55 (domain: everymac.com); temporal_alignment=0.40; product_match=0.60 (text-based, product='128GB iPod touch (Space Gray) (6th Generation)'); merchant_match=0.00; specificity=1.00; source_independence=0.00 (CONTRADICTING); causal_strength=0.20 (relationship=CORRELATIONAL); contradiction_penalty=1.00"
+    },
+    {
+      "evidence_id": "evd_b2fd42939b3d",
+      "hypothesis_type": "PROMOTION",
+      "support_level": "CONTRADICTS",
+      "independence_class": "CONTRADICTING",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.5,
+        "source_independence": 0.0,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 1.0
+      },
+      "notes": "source_quality=0.55 (domain: reebelo.com); temporal_alignment=0.40; product_match=0.60 (text-based, product='128GB iPod touch (Space Gray) (6th Generation)'); merchant_match=0.00; specificity=0.50; source_independence=0.00 (CONTRADICTING); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=1.00"
+    },
+    {
+      "evidence_id": "evd_c3ed0e175472",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "support_level": "CONTRADICTS",
+      "independence_class": "CONTRADICTING",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.6,
+        "source_independence": 0.0,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 1.0
+      },
+      "notes": "source_quality=0.55 (domain: en.wikipedia.org); temporal_alignment=0.40; product_match=0.60 (text-based, product='128GB iPod touch (Space Gray) (6th Generation)'); merchant_match=0.00; specificity=0.60; source_independence=0.00 (CONTRADICTING); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=1.00"
+    },
+    {
+      "evidence_id": "evd_e44700d000a9",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "support_level": "CONTRADICTS",
+      "independence_class": "CONTRADICTING",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.6,
+        "source_independence": 0.0,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 1.0
+      },
+      "notes": "source_quality=0.55 (domain: en.wikipedia.org); temporal_alignment=0.40; product_match=0.60 (text-based, product='128GB iPod touch (Space Gray) (6th Generation)'); merchant_match=0.00; specificity=0.60; source_independence=0.00 (CONTRADICTING); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=1.00"
+    },
+    {
+      "evidence_id": "evd_d43638f329a9",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "support_level": "INSUFFICIENT_EVIDENCE",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.85,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.5,
+        "specificity": 0.1,
+        "source_independence": 0.3,
+        "causal_strength": 0.25,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.85 (domain: 9to5mac.com); temporal_alignment=0.40; product_match=0.60 (text-based, product='128GB iPod touch (Space Gray) (6th Generation)'); merchant_match=0.50; specificity=0.10; source_independence=0.30 (SYNDICATED); causal_strength=0.25 (relationship=DESCRIPTIVE); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_9437837aabee",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "support_level": "CONTRADICTS",
+      "independence_class": "CONTRADICTING",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 1.0,
+        "source_independence": 0.0,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 1.0
+      },
+      "notes": "source_quality=0.55 (domain: www.backmarket.com); temporal_alignment=0.40; product_match=0.60 (text-based, product='128GB iPod touch (Space Gray) (6th Generation)'); merchant_match=0.00; specificity=1.00; source_independence=0.00 (CONTRADICTING); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=1.00"
+    },
+    {
+      "evidence_id": "evd_6eda10da9615",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "support_level": "CONTRADICTS",
+      "independence_class": "CONTRADICTING",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.8,
+        "source_independence": 0.0,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 1.0
+      },
+      "notes": "source_quality=0.55 (domain: www.macrumors.com); temporal_alignment=0.40; product_match=0.60 (text-based, product='128GB iPod touch (Space Gray) (6th Generation)'); merchant_match=0.00; specificity=0.80; source_independence=0.00 (CONTRADICTING); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=1.00"
+    },
+    {
+      "evidence_id": "evd_ce67f88ea32c",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "support_level": "CONSISTENT_WITH",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.35,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.5,
+        "source_independence": 0.3,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.35 (domain: eoe.works); temporal_alignment=0.40; product_match=0.60 (text-based, product='128GB iPod touch (Space Gray) (6th Generation)'); merchant_match=0.00; specificity=0.50; source_independence=0.30 (SYNDICATED); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_fc5b9bc104fc",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "support_level": "CONSISTENT_WITH",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.5,
+        "source_independence": 0.3,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.55 (domain: www.walmart.com); temporal_alignment=0.40; product_match=0.60 (text-based, product='128GB iPod touch (Space Gray) (6th Generation)'); merchant_match=0.00; specificity=0.50; source_independence=0.30 (SYNDICATED); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_dc9e4a4ee8df",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "support_level": "CONTRADICTS",
+      "independence_class": "CONTRADICTING",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.0,
+        "merchant_match": 0.0,
+        "specificity": 0.1,
+        "source_independence": 0.0,
+        "causal_strength": 0.25,
+        "contradiction_penalty": 1.0
+      },
+      "notes": "source_quality=0.55 (domain: en.wikipedia.org); temporal_alignment=0.40; product_match=0.00 (text-based, product='128GB iPod touch (Space Gray) (6th Generation)'); merchant_match=0.00; specificity=0.10; source_independence=0.00 (CONTRADICTING); causal_strength=0.25 (relationship=DESCRIPTIVE); contradiction_penalty=1.00"
+    },
+    {
+      "evidence_id": "evd_2f15f1534d6a",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "support_level": "CONSISTENT_WITH",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.6,
+        "source_independence": 0.3,
+        "causal_strength": 0.25,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.55 (domain: www.macworld.com); temporal_alignment=0.40; product_match=0.60 (text-based, product='128GB iPod touch (Space Gray) (6th Generation)'); merchant_match=0.00; specificity=0.60; source_independence=0.30 (SYNDICATED); causal_strength=0.25 (relationship=DESCRIPTIVE); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_a2b708cdddbf",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "support_level": "CONTRADICTS",
+      "independence_class": "CONTRADICTING",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.0,
+        "merchant_match": 0.0,
+        "specificity": 0.6,
+        "source_independence": 0.0,
+        "causal_strength": 0.2,
+        "contradiction_penalty": 1.0
+      },
+      "notes": "source_quality=0.55 (domain: everymac.com); temporal_alignment=0.40; product_match=0.00 (text-based, product='128GB iPod touch (Space Gray) (6th Generation)'); merchant_match=0.00; specificity=0.60; source_independence=0.00 (CONTRADICTING); causal_strength=0.20 (relationship=CORRELATIONAL); contradiction_penalty=1.00"
+    },
+    {
+      "evidence_id": "evd_416eeea620b9",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "support_level": "CONSISTENT_WITH",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.4,
+        "source_independence": 0.3,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.55 (domain: www.theapplepost.com); temporal_alignment=0.40; product_match=0.60 (text-based, product='128GB iPod touch (Space Gray) (6th Generation)'); merchant_match=0.00; specificity=0.40; source_independence=0.30 (SYNDICATED); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_cacd2fdfe1d7",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "support_level": "CONTRADICTS",
+      "independence_class": "CONTRADICTING",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.6,
+        "source_independence": 0.0,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 1.0
+      },
+      "notes": "source_quality=0.55 (domain: en.wikipedia.org); temporal_alignment=0.40; product_match=0.60 (text-based, product='128GB iPod touch (Space Gray) (6th Generation)'); merchant_match=0.00; specificity=0.60; source_independence=0.00 (CONTRADICTING); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=1.00"
+    },
+    {
+      "evidence_id": "evd_9dc8ee5100b2",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "support_level": "CONTRADICTS",
+      "independence_class": "CONTRADICTING",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.4,
+        "source_independence": 0.0,
+        "causal_strength": 0.4,
+        "contradiction_penalty": 1.0
+      },
+      "notes": "source_quality=0.55 (domain: www.macrumors.com); temporal_alignment=0.40; product_match=0.60 (text-based, product='128GB iPod touch (Space Gray) (6th Generation)'); merchant_match=0.00; specificity=0.40; source_independence=0.00 (CONTRADICTING); causal_strength=0.40 (relationship=CAUSAL); contradiction_penalty=1.00"
+    },
+    {
+      "evidence_id": "evd_766eede6beb4",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "support_level": "INSUFFICIENT_EVIDENCE",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.85,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.5,
+        "specificity": 0.1,
+        "source_independence": 0.3,
+        "causal_strength": 0.25,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.85 (domain: 9to5mac.com); temporal_alignment=0.40; product_match=0.60 (text-based, product='128GB iPod touch (Space Gray) (6th Generation)'); merchant_match=0.50; specificity=0.10; source_independence=0.30 (SYNDICATED); causal_strength=0.25 (relationship=DESCRIPTIVE); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_73cddfa06c14",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "support_level": "CONTRADICTS",
+      "independence_class": "CONTRADICTING",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.8,
+        "source_independence": 0.0,
+        "causal_strength": 0.25,
+        "contradiction_penalty": 1.0
+      },
+      "notes": "source_quality=0.55 (domain: wccftech.com); temporal_alignment=0.40; product_match=0.60 (text-based, product='128GB iPod touch (Space Gray) (6th Generation)'); merchant_match=0.00; specificity=0.80; source_independence=0.00 (CONTRADICTING); causal_strength=0.25 (relationship=DESCRIPTIVE); contradiction_penalty=1.00"
+    },
+    {
+      "evidence_id": "evd_825d2e20a9cd",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "support_level": "CONSISTENT_WITH",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.8,
+        "source_independence": 0.3,
+        "causal_strength": 0.25,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.55 (domain: www.hollywoodreporter.com); temporal_alignment=0.40; product_match=0.60 (text-based, product='128GB iPod touch (Space Gray) (6th Generation)'); merchant_match=0.00; specificity=0.80; source_independence=0.30 (SYNDICATED); causal_strength=0.25 (relationship=DESCRIPTIVE); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_1d5b87284634",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "support_level": "CONSISTENT_WITH",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.35,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.5,
+        "source_independence": 0.3,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.35 (domain: eoe.works); temporal_alignment=0.40; product_match=0.60 (text-based, product='128GB iPod touch (Space Gray) (6th Generation)'); merchant_match=0.00; specificity=0.50; source_independence=0.30 (SYNDICATED); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_0e981b6bd718",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "support_level": "CONSISTENT_WITH",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.35,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.5,
+        "source_independence": 0.3,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.35 (domain: eoe.works); temporal_alignment=0.40; product_match=0.60 (text-based, product='128GB iPod touch (Space Gray) (6th Generation)'); merchant_match=0.00; specificity=0.50; source_independence=0.30 (SYNDICATED); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_59ca9dbfbc70",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "support_level": "INSUFFICIENT_EVIDENCE",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.85,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.5,
+        "specificity": 0.1,
+        "source_independence": 0.3,
+        "causal_strength": 0.25,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.85 (domain: 9to5mac.com); temporal_alignment=0.40; product_match=0.60 (text-based, product='128GB iPod touch (Space Gray) (6th Generation)'); merchant_match=0.50; specificity=0.10; source_independence=0.30 (SYNDICATED); causal_strength=0.25 (relationship=DESCRIPTIVE); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_7e457ba4f50c",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "support_level": "CONSISTENT_WITH",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.6,
+        "source_independence": 0.3,
+        "causal_strength": 0.25,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.55 (domain: www.macworld.com); temporal_alignment=0.40; product_match=0.60 (text-based, product='128GB iPod touch (Space Gray) (6th Generation)'); merchant_match=0.00; specificity=0.60; source_independence=0.30 (SYNDICATED); causal_strength=0.25 (relationship=DESCRIPTIVE); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_9db7a6bd1d56",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "support_level": "CONSISTENT_WITH",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.35,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.5,
+        "source_independence": 0.3,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.35 (domain: eoe.works); temporal_alignment=0.40; product_match=0.60 (text-based, product='128GB iPod touch (Space Gray) (6th Generation)'); merchant_match=0.00; specificity=0.50; source_independence=0.30 (SYNDICATED); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_d242114480a7",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "support_level": "CONSISTENT_WITH",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.5,
+        "source_independence": 0.3,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.55 (domain: www.walmart.com); temporal_alignment=0.40; product_match=0.60 (text-based, product='128GB iPod touch (Space Gray) (6th Generation)'); merchant_match=0.00; specificity=0.50; source_independence=0.30 (SYNDICATED); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_0e5ac476b503",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "support_level": "CONSISTENT_WITH",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.35,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.5,
+        "source_independence": 0.3,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.35 (domain: eoe.works); temporal_alignment=0.40; product_match=0.60 (text-based, product='128GB iPod touch (Space Gray) (6th Generation)'); merchant_match=0.00; specificity=0.50; source_independence=0.30 (SYNDICATED); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_3702989ce7b1",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "support_level": "CONSISTENT_WITH",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.35,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.5,
+        "source_independence": 0.3,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.35 (domain: eoe.works); temporal_alignment=0.40; product_match=0.60 (text-based, product='128GB iPod touch (Space Gray) (6th Generation)'); merchant_match=0.00; specificity=0.50; source_independence=0.30 (SYNDICATED); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    }
+  ],
+  "hypothesis_assessments": [
+    {
+      "hypothesis_id": "hyp_04ebf5a6ee13",
+      "hypothesis_type": "PROMOTION",
+      "support_level": "CONTRADICTS",
+      "supporting_evidence_ids": [],
+      "contradicting_evidence_ids": [
+        "evd_70bdd2c5c0d6",
+        "evd_528de60a5608",
+        "evd_c2beb7b7ce6e",
+        "evd_946d83047e46",
+        "evd_b2fd42939b3d"
+      ],
+      "independent_source_count": 0,
+      "duplicated_source_count": 5,
+      "component_scores": {
+        "source_quality": 0.54,
+        "temporal_alignment": 0.4,
+        "product_match": 0.54,
+        "merchant_match": 0.1,
+        "specificity": 0.51,
+        "source_independence": 0.15,
+        "causal_strength": 0.155,
+        "contradiction_penalty": 0.5
+      },
+      "explanation": "Evidence contradicts the PROMOTION hypothesis. 5 contradicting evidence item(s) found. Source independence could not be confirmed."
+    },
+    {
+      "hypothesis_id": "hyp_c039e4bf4e4a",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "support_level": "CONTRADICTS",
+      "supporting_evidence_ids": [],
+      "contradicting_evidence_ids": [
+        "evd_c3ed0e175472",
+        "evd_e44700d000a9",
+        "evd_9437837aabee",
+        "evd_6eda10da9615",
+        "evd_dc9e4a4ee8df",
+        "evd_a2b708cdddbf",
+        "evd_cacd2fdfe1d7",
+        "evd_9dc8ee5100b2"
+      ],
+      "independent_source_count": 0,
+      "duplicated_source_count": 5,
+      "component_scores": {
+        "source_quality": 0.558,
+        "temporal_alignment": 0.4,
+        "product_match": 0.508,
+        "merchant_match": 0.038,
+        "specificity": 0.523,
+        "source_independence": 0.115,
+        "causal_strength": 0.165,
+        "contradiction_penalty": 0.615
+      },
+      "explanation": "Evidence contradicts the PRODUCT_EVENT hypothesis. 8 contradicting evidence item(s) found. Source independence could not be confirmed."
+    },
+    {
+      "hypothesis_id": "hyp_a43e361da64b",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "support_level": "CONTRADICTS",
+      "supporting_evidence_ids": [],
+      "contradicting_evidence_ids": [
+        "evd_73cddfa06c14"
+      ],
+      "independent_source_count": 0,
+      "duplicated_source_count": 10,
+      "component_scores": {
+        "source_quality": 0.514,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.091,
+        "specificity": 0.491,
+        "source_independence": 0.273,
+        "causal_strength": 0.168,
+        "contradiction_penalty": 0.091
+      },
+      "explanation": "Evidence contradicts the INVENTORY_LIQUIDATION hypothesis. 1 contradicting evidence item(s) found. Source independence could not be confirmed."
+    }
+  ],
+  "independent_source_count": 0,
+  "duplicated_source_count": 20,
+  "uncertainty_factors": [
+    "Source independence could not be confirmed for any evidence."
+  ],
+  "summary": "Event evt_93d1bff328d88dc7: 128GB iPod touch (Space Gray) (6th Generation) at Bestbuy.com. Observed decrease of 30.0% on 2017-10-10. Hypothesis assessments:   PROMOTION: CONTRADICTS   PRODUCT_EVENT: CONTRADICTS   INVENTORY_LIQUIDATION: CONTRADICTS 34 evidence item(s) collected.",
+  "event_summary": {
+    "event_id": "evt_93d1bff328d88dc7",
+    "product_name": "128GB iPod touch (Space Gray) (6th Generation)",
+    "brand": "Apple",
+    "merchant": "Bestbuy.com",
+    "previous_price": 399.99,
+    "current_price": 279.99,
+    "price_change_pct": -30.000750018750466,
+    "change_direction": "decrease",
+    "observed_at": "2017-10-10T05:00:00+00:00",
+    "category": "Electronics"
+  },
+  "agent_failures": [],
+  "search_failures": []
+}

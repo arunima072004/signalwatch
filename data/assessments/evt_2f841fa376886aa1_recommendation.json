@@ -1,0 +1,145 @@
+{
+  "event_id": "evt_2f841fa376886aa1",
+  "product_id": "AVqVGVqWv8e3D1O-ldFk",
+  "product_name": "Rocketfish\u2122 - 4-Port 4K HDMI Switch Box - Black",
+  "merchant": "Bestbuy.com",
+  "current_price": 39.99,
+  "competitor_price": 39.99,
+  "our_assumed_price": 79.99,
+  "median_price_before": 79.99,
+  "cost": 63.992,
+  "chosen_action": "raise_2pct",
+  "profit_table": {
+    "hold": {
+      "no_response": 10.7659,
+      "match": 1599.8,
+      "undercut": 1444.6077
+    },
+    "match": {
+      "no_response": -2400.2,
+      "match": -2400.2,
+      "undercut": -2167.3631
+    },
+    "raise_2pct": {
+      "no_response": 9.6956,
+      "match": 1759.78,
+      "undercut": 1589.0685
+    },
+    "undercut_2pct": {
+      "no_response": -2741.0228,
+      "match": -2480.18,
+      "undercut": -2239.5844
+    },
+    "undercut_5pct": {
+      "no_response": -3338.6587,
+      "match": -2600.15,
+      "undercut": -2347.9165
+    }
+  },
+  "regret_table": {
+    "hold": {
+      "no_response": 0.0,
+      "match": 159.98,
+      "undercut": 144.4608
+    },
+    "match": {
+      "no_response": 2410.9659,
+      "match": 4159.98,
+      "undercut": 3756.4316
+    },
+    "raise_2pct": {
+      "no_response": 1.0703,
+      "match": 0.0,
+      "undercut": 0.0
+    },
+    "undercut_2pct": {
+      "no_response": 2751.7887,
+      "match": 4239.96,
+      "undercut": 3828.6529
+    },
+    "undercut_5pct": {
+      "no_response": 3349.4246,
+      "match": 4359.93,
+      "undercut": 3936.985
+    }
+  },
+  "expected_profit_ranking": [
+    [
+      "raise_2pct",
+      1119.5147
+    ],
+    [
+      "hold",
+      1018.3912
+    ],
+    [
+      "match",
+      -2322.5877
+    ],
+    [
+      "undercut_2pct",
+      -2486.9291
+    ],
+    [
+      "undercut_5pct",
+      -2762.2417
+    ]
+  ],
+  "scenario_probabilities": {
+    "no_response": 0.3333333333333333,
+    "match": 0.3333333333333333,
+    "undercut": 0.3333333333333333,
+    "sample_size": 1,
+    "confidence": "LOW_DATA",
+    "reason": "fewer than 5 events",
+    "response_days": 7
+  },
+  "sensitivity": {
+    "2.0": {
+      "0.7": "raise_2pct",
+      "0.8": "raise_2pct",
+      "0.9": "raise_2pct"
+    },
+    "5.0": {
+      "0.7": "raise_2pct",
+      "0.8": "raise_2pct",
+      "0.9": "raise_2pct"
+    },
+    "8.0": {
+      "0.7": "raise_2pct",
+      "0.8": "raise_2pct",
+      "0.9": "raise_2pct"
+    }
+  },
+  "assumptions": [
+    "our_price = 79.99  (pre-event price; NOT our actual listing price)",
+    "competitor_price = 39.99  (the observed market price after change)",
+    "median_price_before = 79.99  (median market price before the event)",
+    "cost = 63.99  = cost_ratio (0.8) x median_price_before \u2014 CONSTANT for this event",
+    "beta = 5.0  (demand sensitivity; default 5 \u2014 ASSUMPTION, not estimated from data)",
+    "base_demand = 100.0  (relative units at price parity; not actual sales volume)",
+    "Demand = base_demand * exp(-beta * (our_price - comp_price) / comp_price)",
+    "Actions: hold, match, raise_2pct, undercut_2pct, undercut_5pct",
+    "Competitor scenarios: no_response (stays at comp_price), match (mirrors our price), undercut (2% below ours)",
+    "*** MODEL-ASSUMPTION DEMO: cost, beta, and base_demand are not estimated from data. ***"
+  ],
+  "investigation_verdicts": [
+    {
+      "hypothesis": "PROMOTION",
+      "support_level": "CONTRADICTS"
+    },
+    {
+      "hypothesis": "PRODUCT_EVENT",
+      "support_level": "INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "hypothesis": "INVENTORY_LIQUIDATION",
+      "support_level": "CONSISTENT_WITH"
+    },
+    {
+      "hypothesis": "SEASONAL_EVENT",
+      "support_level": "CONTRADICTS"
+    }
+  ],
+  "generated_at": "2026-10-19T17:44:56.678154+00:00"
+}

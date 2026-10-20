@@ -1,337 +1,238 @@
 # SignalWatch
 
-**Market intelligence pipeline for detecting and investigating unusual product pricing.**
-
-SignalWatch monitors historical retail pricing data, detects statistically significant price changes using Bayesian Online Change-Point Detection (BOCPD), and then automatically investigates the most plausible explanations by running targeted web searches, extracting evidence, and producing a structured, evidence-backed assessment for each event.
+Competitive pricing intelligence: detect unusual price changes, investigate their causes, and generate pricing recommendations.
 
 ---
 
-## What it does
+## Architecture
 
-```
-Raw pricing data (CSV)
-         |
-         v
-Phase 1 — Statistical Detection
-         |
-         +---> Preprocessing & feature engineering
-         +---> BOCPD change-point detection
-         +---> Change event generation
-         +---> Weak supervision labelling
-         |
-         v
-Phase 2 — Investigation & Verification
-         |
-         +---> Hypothesis generation (8 hypothesis types)
-         +---> Six investigation strategies (parallel)
-         +---> Targeted web search via Tavily API
-         +---> Evidence extraction with full provenance
-         +---> Source independence analysis
-         +---> Multi-dimensional verification
-         +---> Structured EventAssessment (JSON + Markdown report)
-```
+`
+Channel3 API (live, current prices)
+    |
+    v  Channel3Adapter -> PriceObservation
+    |
+    v  SQLite (observations grow each cycle)
+    |
+    v  Incremental BOCPD (per product-merchant pair, state persisted)
+    |
+    |-- no change point -> wait for next cycle
+    |
+    v  ChangeEvent (same schema as Phase 1 batch)
+    |
+    v  HypothesisGenerator (8 hypothesis types)
+    |
+    v  InvestigationAgent (6 strategies, Tavily, cached)
+    |
+    v  VerificationAgent (8-dimensional evidence scoring)
+    |
+    v  EventAssessment (JSON + Markdown report)
+    |
+    v  DecisionRecommendation (minimax regret, scenario model)
+    |
+    v  Streamlit dashboard
+`
 
-**Phase 1** answers: *"Did something unusual happen to this price?"*
-
-**Phase 2** answers: *"What plausible explanations can we find evidence for?"*
-
----
-
-## Project structure
-
-```
-signalwatch/
-├── src/
-│   ├── bocpd/                  Bayesian Online Change-Point Detection
-│   ├── data/                   Data loading, profiling, preprocessing
-│   ├── timeseries/             Time-series construction per product-merchant pair
-│   ├── features/               Price features + competitive features
-│   ├── events/                 ChangeEvent generation from BOCPD results
-│   ├── weak_supervision/       Heuristic labelling (promotion, competitive, etc.)
-│   ├── query_generation/       Legacy deterministic query generator (Phase 1)
-│   │
-│   ├── investigation/          Phase 2 investigation pipeline
-│   │   ├── hypothesis_generator.py   Generate hypotheses from ChangeEvent signals
-│   │   ├── investigation_agent.py    InvestigationAgent + 6 strategies
-│   │   ├── verification_agent.py     8-dimension evidence verification
-│   │   └── orchestrator.py           End-to-end pipeline coordinator
-│   │
-│   ├── evidence/                Evidence extraction and HTML parsing
-│   ├── search/                  SearchProvider abstraction
-│   │   ├── provider_interface.py     Abstract base class
-│   │   ├── mock_provider.py          Deterministic test double
-│   │   ├── tavily_provider.py        Live Tavily API (with retry + domain exclusions)
-│   │   └── cached_provider.py        Disk-backed cache wrapper
-│   └── models/                  Data models (Hypothesis, Evidence, Assessment, etc.)
-│
-├── scripts/
-│   ├── preprocess.py            Run Phase 1 preprocessing
-│   ├── build_timeseries.py      Build time-series from preprocessed data
-│   ├── run_bocpd.py             Run BOCPD detection
-│   ├── generate_events.py       Generate ChangeEvent objects
-│   ├── generate_queries.py      Generate deterministic queries (Phase 1 legacy)
-│   ├── investigate_event.py     Investigate a single historical event (Phase 2)
-│   └── generate_report.py       Generate Markdown report from assessment JSON
-│
-├── tests/
-│   ├── test_bocpd.py ...        Phase 1 regression tests (112 tests)
-│   ├── investigation/           Phase 2 unit tests
-│   └── integration/             End-to-end pipeline tests (all 24 events, mock)
-│
-├── data/
-│   ├── processed/               Preprocessed CSVs
-│   ├── events/                  change_events.json (24 detected events)
-│   ├── assessments/             EventAssessment JSONs + Markdown reports
-│   ├── search_cache/            Cached Tavily search results (populated on first run)
-│   └── figures/                 Visualisation charts from Phase 1 notebooks
-│
-├── notebooks/                   Exploratory Jupyter notebooks (Phase 1 analysis)
-└── .env.example                 Environment variable template
-```
-
----
-
-## Current dataset
-
-- **Source:** Datafiniti Electronics Product Pricing (historical CSV)
-- **Observations:** 33,869 cleaned price observations
-- **Product-merchant pairs:** 2,268 usable pairs
-- **Detected change events:** 24 (from BOCPD with cp_probability >= 0.30)
-- **Investigations completed:** 4 events investigated with real Tavily searches
-
----
-
-## Hypothesis types
-
-Each detected ChangeEvent is investigated against eight plausible explanations simultaneously. The system never forces a single winner — multiple hypotheses can be supported at once.
-
-| Type | Question investigated |
-|---|---|
-| PROMOTION | Was this product specifically discounted or promoted? |
-| COMPETITOR_RESPONSE | Did a competing retailer change price for the same product? |
-| PRODUCT_EVENT | Was there a launch, discontinuation, recall, or successor announcement? |
-| SEASONAL_EVENT | Was the retailer running a seasonal campaign (back-to-school, Black Friday)? |
-| MARKET_EVENT | Were there broader industry, supply chain, or macroeconomic factors? |
-| INVENTORY_LIQUIDATION | Is there external evidence of clearance or overstock? |
-| MANUFACTURER_CHANGE | Did the manufacturer change MSRP or announce a product change? |
-| DATA_ISSUE | Does the price change look like a data quality problem? |
-
----
-
-## Verification
-
-Each hypothesis is assessed across 8 dimensions:
-
-| Dimension | What it measures |
-|---|---|
-| source_quality | Domain authority (known retailers, news, .gov/.edu) |
-| temporal_alignment | Evidence publication date vs. event date |
-| product_match | Does text name the specific product or brand? |
-| merchant_match | Does text name the specific retailer? |
-| specificity | Quantitative data, named entities, concrete claims |
-| source_independence | INDEPENDENT / DUPLICATED / SYNDICATED / CONTRADICTING |
-| causal_strength | Causal language present AND specific (keywords alone are not proof) |
-| contradiction_penalty | Conflicting evidence detected |
-
-Support levels (conservative vocabulary):
-
-```
-SUPPORTS                Strong, specific, direct, corroborated causal evidence
-PARTIALLY_SUPPORTS      Some relevant evidence but incomplete
-CONSISTENT_WITH         Temporal/topical alignment; no causation established
-INSUFFICIENT_EVIDENCE   Too little or too vague to assess
-CONTRADICTS             Evidence conflicts with the hypothesis
-```
+**Replay mode:** same pipeline, driven by historical CSV data instead of Channel3.
+This is the main demo path — all 24 historical events have been detected and investigated.
 
 ---
 
 ## Quick start
 
-### Prerequisites
-
-```bash
+`ash
 pip install -r requirements.txt
-```
+cp .env.example .env   # add CHANNEL3_API_KEY and TAVILY_API_KEY
+`
 
-Requires Python 3.10+. For live web search, also install:
+### Dataset
 
-```bash
-pip install tavily-python>=0.5.0 python-dotenv>=1.0.0
-```
+The replay demo uses the [Datafiniti Electronics Products Pricing Data](https://www.kaggle.com/datasets/datafiniti/electronic-products-prices)
+(14,592 product listings, 33,869 price observations after exploding `dateSeen` and cleaning;
+licensed [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)).
 
-### Run Phase 1 (already done — outputs are in data/)
+The CSV is **not included** in this repository due to its size and license.
 
-```bash
-python scripts/preprocess.py
-python scripts/build_timeseries.py
-python scripts/run_bocpd.py
-python scripts/generate_events.py
-```
+1. Download `DatafinitiElectronicsProductsPricingData.csv` from the Kaggle link above.
+2. Place it **one level above** this repository:
+   `../DatafinitiElectronicsProductsPricingData.csv`
+3. Run preprocessing: `python scripts/preprocess.py`
 
-### Investigate a single event (mock provider — no API key needed)
+The derived outputs (`data/events/`, `data/assessments/`, `data/replay_demo.db`) are
+committed to this repository and shared under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+for non-commercial use, in accordance with the source data license.
+Pre-processed outputs are included so the dashboard works without re-running preprocessing.
 
-```bash
-python scripts/investigate_event.py --list
-python scripts/investigate_event.py --event-id evt_835c783f6785e8bf --provider mock
-```
+The data/search_cache/ directory contains Tavily search snippets (title, URL, publication date,
+and a short excerpt) cached for offline reproducibility. Each snippet belongs to its original
+publisher. No full page bodies are stored. These snippets are included solely to allow the replay
+demo to run without issuing live API calls or reproducing full copyrighted text.
 
-### Investigate with live Tavily search
 
-1. Copy `.env.example` to `.env` and add your Tavily API key:
+### Manage watchlist
 
-```bash
-cp .env.example .env
-# edit .env: set TAVILY_API_KEY=tvly-your-key-here
-```
+`ash
+python scripts/manage_watchlist.py list
+python scripts/manage_watchlist.py add --query "Sony headphones"
+python scripts/manage_watchlist.py add --product-id rmAiFzV
+python scripts/manage_watchlist.py remove --product-id rmAiFzV
+`
 
-Get a free key at https://app.tavily.com (1,000 credits/month, no credit card).
+### Run one live cycle
 
-2. Run 2-3 events to populate the cache:
+`ash
+python scripts/run_cycle.py --source channel3 --provider cached
+`
 
-```bash
-python scripts/investigate_event.py --event-id evt_835c783f6785e8bf --provider tavily
-python scripts/investigate_event.py --event-id evt_c22613db89e21b31 --provider tavily
-```
+### Run replay demo (historical data)
 
-3. All subsequent runs use the cache (zero API credits):
+`ash
+python scripts/run_cycle.py --source replay --provider cached --cycles 200 \
+    --window-days 14 --db data/replay_demo.db
+`
 
-```bash
-python scripts/investigate_event.py --event-id evt_835c783f6785e8bf --provider cached
-```
+### Database statistics
 
-### Generate a Markdown report
+`ash
+python scripts/db_stats.py                        # live DB
+python scripts/db_stats.py --db data/replay_demo.db  # replay DB
+`
 
-```bash
-# Single event
-python scripts/generate_report.py data/assessments/evt_835c783f6785e8bf_assessment.json
+### Generate a pricing recommendation  *(model-assumption demo)*
 
-# All saved assessments
-python scripts/generate_report.py --all data/assessments/
-```
+> **The decision layer is a model-assumption demo, not a validated pricing policy.**
+> Cost, demand sensitivity (beta), and base demand are configurable parameters,
+> not estimates from historical sales data. The sensitivity table shows how
+> the recommendation changes across different assumptions. For price-decrease
+> events with LOW_DATA scenario probabilities, the model uniformly recommends
+> RAISE_2PCT regardless of beta or cost_ratio — a structural consequence of
+> assuming 100% no_response probability when there is only one historical event.
+> Do not use this output as a production pricing decision.
+### Generate a pricing recommendation
 
----
+`ash
+python scripts/recommend.py --event-id evt_835c783f6785e8bf \
+    --db data/replay_demo.db --save
+`
 
-## Example output
+### Start the dashboard
 
-**Apple MacBook 12 (Core m5) — Bestbuy.com — August 2017 — price drop 26.7%**
+`ash
+streamlit run dashboard/app.py
+`
 
-```
-PROMOTION              -> CONSISTENT_WITH
-INVENTORY_LIQUIDATION  -> INSUFFICIENT_EVIDENCE
-PRODUCT_EVENT          -> INSUFFICIENT_EVIDENCE
-SEASONAL_EVENT         -> CONSISTENT_WITH
-```
+Opens at http://localhost:8501. Switch between Live and Replay databases in the sidebar.
 
-The evidence is consistent with a back-to-school promotional campaign at Best Buy in August 2017. Source independence could not be confirmed (multiple results from the same domain). No causal evidence was retrieved.
+### Start the live loop
 
-**Sherwood A/V Receiver — Walmart.com — December 2017 — price increase 44.9%**
+**Windows (foreground):**
+`powershell
+.\scripts\start_live.ps1 -IntervalMinutes 360
+`
 
-```
-PRODUCT_EVENT -> CONSISTENT_WITH
-PROMOTION     -> CONTRADICTS
-```
+**Windows (background window):**
+`powershell
+Start-Process powershell -ArgumentList "-NoExit -File .\scripts\start_live.ps1"
+`
 
-The PRODUCT_EVENT hypothesis is consistent with available evidence. The PROMOTION hypothesis is contradicted — "Sherwood" collides with the place name Sherwood, Oregon, pulling in local business listings. Domain exclusions (yelp.com, indeed.com, mapquest.com, rocketreach.co) are applied automatically to suppress this kind of noise.
+**Linux/macOS:**
+`ash
+nohup ./scripts/start_live.sh 360 > logs/live.log 2>&1 &
+`
 
----
-
-## Configuration
-
-All configuration via environment variables in `.env`:
-
-| Variable | Default | Description |
-|---|---|---|
-| `SEARCH_PROVIDER` | `mock` | Which provider: `mock`, `tavily`, `cached` |
-| `TAVILY_API_KEY` | — | Tavily API key (required for `tavily` and `cached`) |
-| `TAVILY_SEARCH_DEPTH` | `basic` | `basic` (1 credit) or `advanced` (2 credits) |
-
-### Domain exclusions
-
-The Tavily provider excludes a default set of domains that produce irrelevant results for product-pricing queries:
-
-```python
-# Job boards, local directories, people-search sites
-yelp.com, indeed.com, mapquest.com, rocketreach.co,
-glassdoor.com, linkedin.com, zillow.com, yellowpages.com
-```
-
-Override for a specific run:
-
-```python
-from src.search.tavily_provider import TavilySearchProvider
-
-# Add extra exclusions
-provider = TavilySearchProvider(
-    exclude_domains=["yelp.com", "indeed.com", "reddit.com"]
-)
-
-# Disable exclusions entirely
-provider = TavilySearchProvider(exclude_domains=[])
-```
+Logs go to logs/live.log.
 
 ---
 
-## Search result caching
+## .env variables
 
-The `CachedSearchProvider` wraps any real provider with a disk cache at `data/search_cache/`. Cache key is the SHA-256 hash of the query text.
+`
+# Search provider
+SEARCH_PROVIDER=cached
+TAVILY_API_KEY=tvly-your-key-here
+TAVILY_SEARCH_DEPTH=basic
 
-```
-First run  (--provider tavily):   hits API, writes cache files
-All later  (--provider cached):   reads from disk, zero API calls
-```
+# Channel3 live pricing
+CHANNEL3_API_KEY=your-channel3-key-here
 
-Cache files are plain JSON and can be inspected or deleted individually.
+# Budget guards
+MAX_INVESTIGATIONS_PER_CYCLE=3
+MAX_SEARCH_QUERIES_PER_DAY=150
+MAX_CHANNEL3_CALLS_PER_CYCLE=50
+MAX_CHANNEL3_CALLS_PER_DAY=200
+`
 
----
-
-## Tests
-
-```bash
-# All tests
-pytest tests/ -q
-
-# Phase 1 regression only
-pytest tests/test_bocpd.py tests/test_events.py tests/test_preprocessing.py -q
-
-# Phase 2 unit tests
-pytest tests/investigation/ -q
-
-# Integration (all 24 events, mock provider)
-pytest tests/integration/ -q
-```
-
-**Current status: 263 tests passing** (112 Phase 1 + 151 Phase 2 + integration).
+The budget guard checks **before starting** each investigation, not after it finishes.
+An investigation that starts when `queries_today + cycle_queries = 149` (one below the cap)
+will run to completion even if it issues 15–20 queries, finishing at ~164–169 total.
+The cap is therefore a soft limit on when new investigations are *started*, not a hard
+ceiling on total queries per day. To reduce over-run, lower `MAX_SEARCH_QUERIES_PER_DAY`
+by one investigation's worth of queries (typically 15–25).
 
 ---
 
-## What is NOT implemented
+## What is not implemented
 
-These are intentionally deferred:
-
-- Real-time / streaming ingestion (Channel3)
-- Dashboard or frontend UI
-- RAG, embeddings, or vector databases
-- LLM-based query refinement
-- Reinforcement learning or pricing optimization
-- PostgreSQL or other production databases
-- Multi-user access / authentication
+- Pricing recommendations, RL, forecasting, scenario simulation: Phase 4
+- Dashboard alerting, authentication, multi-user access: Phase 5
+- RAG, embeddings, vector databases, LLM integration
+- PostgreSQL (SQLite is used; swap via repository interface)
+- Real-time streaming (polling loop is the current mechanism)
 
 ---
 
-## Architecture notes
+## Limitations
 
-**Phase 2 uses one `InvestigationAgent` class with six strategy classes** (Promotion, Competitor, ProductEvent, News, RetailerEvent, Supply). All strategies run for every event — there is no early exit or confidence-based skipping. This is intentional: it prevents hypothesis anchoring and ensures minority explanations are always investigated.
+**(a) Live change events need accumulated price history.**
+The incremental BOCPD requires many observations per product-merchant pair before
+detecting a regime change. A new watchlist produces no change events for days or
+weeks, depending on price stability and polling frequency. Zero live events is
+expected immediately after onboarding.
 
-**Evidence is two-dimensional:** `evidence_specificity` (DIRECT / INDIRECT) and `relationship_type` (CAUSAL / CORRELATIONAL / DESCRIPTIVE / UNKNOWN) are separate fields on every evidence item. Causal keywords in text are signals, not proof — the verification layer determines whether causality is genuinely established.
+**(b) Replay demonstrates the trigger using historical data.**
+The replay pipeline re-runs 2015-2018 Datafiniti pricing data through the identical
+detection and investigation pipeline. It does not mix historical prices with live
+Channel3 prices (there is an 8-year gap that would create false change points).
 
-**Source independence is heuristic:** classifications (INDEPENDENT / DUPLICATED / SYNDICATED / CONTRADICTING) are best-effort approximations based on text similarity, attribution phrases, and cross-hypothesis URL sharing. They should be interpreted as signals, not ground truth.
+**(c) The decision layer uses assumptions, not estimates.**
+elasticity, margin, and our_price in the ScenarioModel are configurable
+parameters, not values estimated from sales data. The disclaimer
+"Decision support under stated assumptions; elasticity and margin are not estimated
+from data." appears in every recommendation output.
+
+**(d) Investigation verdicts are heuristic and not accuracy-validated.**
+Evidence extraction uses keyword matching and structural signals. Support levels
+(SUPPORTS, CONSISTENT_WITH, etc.) are best-effort, not validated against ground truth.
+
+**(e) Brand names that collide with common words pull irrelevant results.**
+The domain exclusion list (yelp.com, indeed.com, etc.) reduces noise but cannot
+eliminate it. The Sherwood A/V receiver is a documented example.
+
+**(f) Channel3 returns current prices only.**
+Price history exists only from when polling started. Investigations run on live
+events will have thin evidence until enough history accumulates.
+
+**(g) Channel3 offers contain no SKU or variant fields.**
+A single Channel3 listing for "65 Inch 4K OLED Smart TV" may aggregate
+prices from different screen-size variants or model years. The `offers`
+array contains `url`, `domain`, `price`, `availability`, `condition`,
+`max_commission_rate`, and `dimensions` only — no `sku`, `variant`, or
+`model_number` fields. Cross-retailer price comparisons for large-SKU
+categories (TVs, appliances) may conflate variant differences with genuine
+price changes.
 
 ---
 
-## Citation
+## Test suite
 
-**Dataset:** Datafiniti (2019). *Electronics Products Prices*. Kaggle. https://www.kaggle.com/datasets/datafiniti/electronic-products-prices
+335 tests passing, 4 skipped when the Datafiniti CSV is absent:
+- Phase 1 (BOCPD, preprocessing, features, events): 112
+- Phase 2 (investigation, verification, search): 151
+- Phase 3 (adapters, incremental BOCPD, storage, pipeline): 71
+- Dashboard integration (AppTest, missing-DB): 1
 
-**Algorithm:** Adams, R.P. & MacKay, D.J.C. (2007). *Bayesian Online Changepoint Detection*. https://arxiv.org/abs/0710.3742
-
-**Live search:** Tavily Search API. https://tavily.com
+The 4 skipped tests require data/processed/cleaned_data.csv (derived from the
+Datafiniti CSV via python scripts/preprocess.py):
+- 	ests/adapters/test_adapters.py::TestCsvAdapter::test_csv_adapter_produces_price_observations
+- 	ests/adapters/test_adapters.py::TestCsvAdapter::test_csv_adapter_is_sale_not_false_when_missing
+- 	ests/adapters/test_adapters.py::TestCsvAdapter::test_csv_adapter_watchlist_filter
+- 	ests/bocpd/test_incremental.py::TestBatchEquivalence::test_equivalence_on_historical_series

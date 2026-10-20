@@ -1,0 +1,15 @@
+[
+  {
+    "result_id": "res_1f83c899cc85",
+    "query_id": "q_af2bb54bc4",
+    "event_id": "evt_728c4dccf7f8bdb0",
+    "title": "Apple New MacBook Release Date and Price",
+    "url": "https://9to5mac.com/2017/06/apple-macbook-new-release-2017",
+    "snippet": "Apple's new MacBook release in 2017 features a refreshed processor lineup. The 12-inch model is available in three configurations.",
+    "source_domain": "9to5mac.com",
+    "retrieved_at": "2026-10-12T06:02:27.025792+00:00",
+    "provider": "mock",
+    "full_content": null,
+    "publication_date": "2017-06-05"
+  }
+]

@@ -1,0 +1,137 @@
+{
+  "event_id": "evt_31dae025e57ac2d6",
+  "product_id": "AVpfvGnyLJeJML43Cy-b",
+  "product_name": "Sherwood - 200W 2.0-Ch. A/V Home Theater Receiver - Black",
+  "merchant": "Walmart.com",
+  "current_price": 189.83,
+  "competitor_price": 189.83,
+  "our_assumed_price": 130.99,
+  "median_price_before": 130.99,
+  "cost": 104.79200000000002,
+  "chosen_action": "undercut_5pct",
+  "profit_table": {
+    "hold": {
+      "no_response": 12340.7365,
+      "match": 2619.8,
+      "undercut": 2365.6603
+    },
+    "match": {
+      "no_response": 8503.8,
+      "match": 8503.8,
+      "undercut": 7678.8693
+    },
+    "raise_2pct": {
+      "no_response": 12669.6838,
+      "match": 2881.78,
+      "undercut": 2602.2263
+    },
+    "undercut_2pct": {
+      "no_response": 8978.5633,
+      "match": 8124.14,
+      "undercut": 7336.0391
+    },
+    "undercut_5pct": {
+      "no_response": 9700.3626,
+      "match": 7554.65,
+      "undercut": 6821.7938
+    }
+  },
+  "regret_table": {
+    "hold": {
+      "no_response": 328.9473,
+      "match": 5884.0,
+      "undercut": 5313.209
+    },
+    "match": {
+      "no_response": 4165.8838,
+      "match": 0.0,
+      "undercut": 0.0
+    },
+    "raise_2pct": {
+      "no_response": 0.0,
+      "match": 5622.02,
+      "undercut": 5076.643
+    },
+    "undercut_2pct": {
+      "no_response": 3691.1205,
+      "match": 379.66,
+      "undercut": 342.8302
+    },
+    "undercut_5pct": {
+      "no_response": 2969.3212,
+      "match": 949.15,
+      "undercut": 857.0755
+    }
+  },
+  "expected_profit_ranking": [
+    [
+      "match",
+      8228.8231
+    ],
+    [
+      "undercut_2pct",
+      8146.2475
+    ],
+    [
+      "undercut_5pct",
+      8025.6021
+    ],
+    [
+      "raise_2pct",
+      6051.23
+    ],
+    [
+      "hold",
+      5775.3989
+    ]
+  ],
+  "scenario_probabilities": {
+    "no_response": 0.3333333333333333,
+    "match": 0.3333333333333333,
+    "undercut": 0.3333333333333333,
+    "sample_size": 1,
+    "confidence": "LOW_DATA",
+    "reason": "fewer than 5 events",
+    "response_days": 7
+  },
+  "sensitivity": {
+    "2.0": {
+      "0.7": "match",
+      "0.8": "match",
+      "0.9": "match"
+    },
+    "5.0": {
+      "0.7": "raise_2pct",
+      "0.8": "undercut_5pct",
+      "0.9": "undercut_2pct"
+    },
+    "8.0": {
+      "0.7": "raise_2pct",
+      "0.8": "raise_2pct",
+      "0.9": "raise_2pct"
+    }
+  },
+  "assumptions": [
+    "our_price = 130.99  (pre-event price; NOT our actual listing price)",
+    "competitor_price = 189.83  (the observed market price after change)",
+    "median_price_before = 130.99  (median market price before the event)",
+    "cost = 104.79  = cost_ratio (0.8) x median_price_before \u2014 CONSTANT for this event",
+    "beta = 5.0  (demand sensitivity; default 5 \u2014 ASSUMPTION, not estimated from data)",
+    "base_demand = 100.0  (relative units at price parity; not actual sales volume)",
+    "Demand = base_demand * exp(-beta * (our_price - comp_price) / comp_price)",
+    "Actions: hold, match, raise_2pct, undercut_2pct, undercut_5pct",
+    "Competitor scenarios: no_response (stays at comp_price), match (mirrors our price), undercut (2% below ours)",
+    "*** MODEL-ASSUMPTION DEMO: cost, beta, and base_demand are not estimated from data. ***"
+  ],
+  "investigation_verdicts": [
+    {
+      "hypothesis": "PRODUCT_EVENT",
+      "support_level": "CONSISTENT_WITH"
+    },
+    {
+      "hypothesis": "PROMOTION",
+      "support_level": "CONTRADICTS"
+    }
+  ],
+  "generated_at": "2026-10-19T17:44:55.232126+00:00"
+}

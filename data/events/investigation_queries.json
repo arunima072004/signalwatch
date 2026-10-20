@@ -1,0 +1,1520 @@
+[
+  {
+    "event_id": "evt_d017edc4338a3caa",
+    "investigation_target": {
+      "product_id": "AV1YDJTZvKc47QAVgpci",
+      "product_name": "NETGEAR - AC600 Dual-Band WiFi USB Mini Adapter - Black",
+      "brand": "NETGEAR",
+      "merchant": "Walmart.com",
+      "category": "Electronics",
+      "observed_at": "2017-10-24T01:00:00+00:00",
+      "change_direction": "increase",
+      "percentage_change": 70.525918,
+      "previous_price": 26.43,
+      "current_price": 45.07,
+      "cp_probability": 0.36629464578268,
+      "weak_labels": [
+        "promotion_related"
+      ],
+      "competitor_count": 0,
+      "competitors_changed_7d": 0
+    },
+    "queries": {
+      "promotion_agent": [
+        "NETGEAR - AC600 Dual-Band WiFi USB Mini Adapter - Black Walmart price increase October 2017",
+        "NETGEAR - AC600 Dual-Band WiFi USB Mini Adapter - Black NETGEAR price hike 2017",
+        "NETGEAR Electronics price increase October 2017",
+        "Walmart Electronics price change October 2017"
+      ],
+      "competitor_agent": [
+        "NETGEAR - AC600 Dual-Band WiFi USB Mini Adapter - Black competitor price comparison October 2017",
+        "NETGEAR - AC600 Dual-Band WiFi USB Mini Adapter - Black NETGEAR price Walmart vs competitors 2017",
+        "NETGEAR Electronics price war October 2017",
+        "NETGEAR - AC600 Dual-Band WiFi USB Mini Adapter - Black best price October 2017",
+        "NETGEAR Electronics pricing competition 2017",
+        "NETGEAR - AC600 Dual-Band WiFi USB Mini Adapter - Black retailer price comparison October 2017"
+      ],
+      "product_event_agent": [
+        "NETGEAR - AC600 Dual-Band WiFi USB Mini Adapter - Black new version 2017",
+        "NETGEAR - AC600 Dual-Band WiFi USB Mini Adapter - Black successor replacement 2017",
+        "NETGEAR NETGEAR - AC600 Dual-Band WiFi USB Mini Adapter - Black discontinued 2017",
+        "NETGEAR - AC600 Dual-Band WiFi USB Mini Adapter - Black launch release October 2017",
+        "NETGEAR new product announcement October 2017",
+        "NETGEAR - AC600 Dual-Band WiFi USB Mini Adapter - Black updated model 2017"
+      ],
+      "news_agent": [
+        "NETGEAR - AC600 Dual-Band WiFi USB Mini Adapter - Black NETGEAR news October 2017",
+        "NETGEAR - AC600 Dual-Band WiFi USB Mini Adapter - Black review 2017",
+        "NETGEAR Electronics news October 2017",
+        "NETGEAR pricing strategy 2017",
+        "NETGEAR - AC600 Dual-Band WiFi USB Mini Adapter - Black Walmart news October 2017"
+      ],
+      "retailer_event_agent": [
+        "Walmart sale event October 2017",
+        "Walmart October 2017 deals",
+        "Walmart Black Friday Cyber Monday 2017",
+        "Walmart clearance event 2017",
+        "Walmart price match 2017",
+        "Walmart promotional event October 2017"
+      ],
+      "supply_agent": [
+        "NETGEAR - AC600 Dual-Band WiFi USB Mini Adapter - Black supply shortage October 2017",
+        "NETGEAR Electronics supply chain 2017",
+        "NETGEAR - AC600 Dual-Band WiFi USB Mini Adapter - Black stock availability October 2017",
+        "NETGEAR Electronics production issue 2017",
+        "NETGEAR - AC600 Dual-Band WiFi USB Mini Adapter - Black tariff import cost 2017",
+        "NETGEAR component shortage 2017"
+      ]
+    }
+  },
+  {
+    "event_id": "evt_835c783f6785e8bf",
+    "investigation_target": {
+      "product_id": "AVpe4lBzLJeJML43xc_m",
+      "product_name": "Apple MacBook - 12 - Core m5 - 8 GB RAM - 512 GB flash storage - English\"",
+      "brand": "Apple",
+      "merchant": "Bestbuy.com",
+      "category": "Electronics",
+      "observed_at": "2017-08-19T08:00:00+00:00",
+      "change_direction": "decrease",
+      "percentage_change": -26.666844,
+      "previous_price": 1499.99,
+      "current_price": 1099.99,
+      "cp_probability": 0.3806123844028702,
+      "weak_labels": [
+        "promotion_related"
+      ],
+      "competitor_count": 0,
+      "competitors_changed_7d": 0
+    },
+    "queries": {
+      "promotion_agent": [
+        "Apple MacBook - 12 - Core m5 - 8 GB RAM - 512 GB flash storage - English\" Bestbuy sale August 2017",
+        "Apple MacBook - 12 - Core m5 - 8 GB RAM - 512 GB flash storage - English\" Bestbuy discount August 2017",
+        "Apple MacBook - 12 - Core m5 - 8 GB RAM - 512 GB flash storage - English\" Apple promotion August 2017",
+        "Apple MacBook - 12 - Core m5 - 8 GB RAM - 512 GB flash storage - English\" price drop August 2017",
+        "Apple Electronics sale August 2017",
+        "Bestbuy Electronics discount August 2017"
+      ],
+      "competitor_agent": [
+        "Apple MacBook - 12 - Core m5 - 8 GB RAM - 512 GB flash storage - English\" competitor price comparison August 2017",
+        "Apple MacBook - 12 - Core m5 - 8 GB RAM - 512 GB flash storage - English\" Apple price Bestbuy vs competitors 2017",
+        "Apple Electronics price war August 2017",
+        "Apple MacBook - 12 - Core m5 - 8 GB RAM - 512 GB flash storage - English\" best price August 2017",
+        "Apple Electronics pricing competition 2017",
+        "Apple MacBook - 12 - Core m5 - 8 GB RAM - 512 GB flash storage - English\" retailer price comparison August 2017"
+      ],
+      "product_event_agent": [
+        "Apple MacBook - 12 - Core m5 - 8 GB RAM - 512 GB flash storage - English\" new version 2017",
+        "Apple MacBook - 12 - Core m5 - 8 GB RAM - 512 GB flash storage - English\" successor replacement 2017",
+        "Apple Apple MacBook - 12 - Core m5 - 8 GB RAM - 512 GB flash storage - English\" discontinued 2017",
+        "Apple MacBook - 12 - Core m5 - 8 GB RAM - 512 GB flash storage - English\" launch release August 2017",
+        "Apple new product announcement August 2017",
+        "Apple MacBook - 12 - Core m5 - 8 GB RAM - 512 GB flash storage - English\" updated model 2017"
+      ],
+      "news_agent": [
+        "Apple MacBook - 12 - Core m5 - 8 GB RAM - 512 GB flash storage - English\" Apple news August 2017",
+        "Apple MacBook - 12 - Core m5 - 8 GB RAM - 512 GB flash storage - English\" review 2017",
+        "Apple Electronics news August 2017",
+        "Apple pricing strategy 2017",
+        "Apple MacBook - 12 - Core m5 - 8 GB RAM - 512 GB flash storage - English\" Bestbuy news August 2017"
+      ],
+      "retailer_event_agent": [
+        "Bestbuy sale event August 2017",
+        "Bestbuy August 2017 deals",
+        "Bestbuy Black Friday Cyber Monday 2017",
+        "Bestbuy clearance event 2017",
+        "Bestbuy price match 2017",
+        "Bestbuy promotional event August 2017"
+      ]
+    }
+  },
+  {
+    "event_id": "evt_c22613db89e21b31",
+    "investigation_target": {
+      "product_id": "AVpe7Jc6ilAPnD_xQ_GS",
+      "product_name": "MH30 Foldable On-Ear Headphones (Gunmetal)",
+      "brand": "Master Dynamic",
+      "merchant": "bhphotovideo.com",
+      "category": "Electronics",
+      "observed_at": "2018-06-02T15:00:00+00:00",
+      "change_direction": "decrease",
+      "percentage_change": -43.257525,
+      "previous_price": 299.0,
+      "current_price": 169.66,
+      "cp_probability": 0.6851932086841301,
+      "weak_labels": [
+        "promotion_related"
+      ],
+      "competitor_count": 0,
+      "competitors_changed_7d": 0
+    },
+    "queries": {
+      "promotion_agent": [
+        "MH30 Foldable On-Ear Headphones (Gunmetal) bhphotovideo sale June 2018",
+        "MH30 Foldable On-Ear Headphones (Gunmetal) bhphotovideo discount June 2018",
+        "MH30 Foldable On-Ear Headphones (Gunmetal) Master Dynamic promotion June 2018",
+        "MH30 Foldable On-Ear Headphones (Gunmetal) price drop June 2018",
+        "Master Dynamic Electronics sale June 2018",
+        "bhphotovideo Electronics discount June 2018"
+      ],
+      "competitor_agent": [
+        "MH30 Foldable On-Ear Headphones (Gunmetal) competitor price comparison June 2018",
+        "MH30 Foldable On-Ear Headphones (Gunmetal) Master Dynamic price bhphotovideo vs competitors 2018",
+        "Master Dynamic Electronics price war June 2018",
+        "MH30 Foldable On-Ear Headphones (Gunmetal) best price June 2018",
+        "Master Dynamic Electronics pricing competition 2018",
+        "MH30 Foldable On-Ear Headphones (Gunmetal) retailer price comparison June 2018"
+      ],
+      "product_event_agent": [
+        "MH30 Foldable On-Ear Headphones (Gunmetal) new version 2018",
+        "MH30 Foldable On-Ear Headphones (Gunmetal) successor replacement 2018",
+        "Master Dynamic MH30 Foldable On-Ear Headphones (Gunmetal) discontinued 2018",
+        "MH30 Foldable On-Ear Headphones (Gunmetal) launch release June 2018",
+        "Master Dynamic new product announcement June 2018",
+        "MH30 Foldable On-Ear Headphones (Gunmetal) updated model 2018"
+      ],
+      "news_agent": [
+        "MH30 Foldable On-Ear Headphones (Gunmetal) Master Dynamic news June 2018",
+        "MH30 Foldable On-Ear Headphones (Gunmetal) review 2018",
+        "Master Dynamic Electronics news June 2018",
+        "Master Dynamic pricing strategy 2018",
+        "MH30 Foldable On-Ear Headphones (Gunmetal) bhphotovideo news June 2018"
+      ],
+      "retailer_event_agent": [
+        "bhphotovideo sale event June 2018",
+        "bhphotovideo June 2018 deals",
+        "bhphotovideo Black Friday Cyber Monday 2018",
+        "bhphotovideo clearance event 2018",
+        "bhphotovideo price match 2018",
+        "bhphotovideo promotional event June 2018"
+      ]
+    }
+  },
+  {
+    "event_id": "evt_2fd9e48e78d9c541",
+    "investigation_target": {
+      "product_id": "AVpf2pgLilAPnD_xjed4",
+      "product_name": "Details About *brand New* Pny Anarchy 16gb Kit (2x8gb) Ddr4 2400mhz Pc419200 Desktop Memory",
+      "brand": "Pny",
+      "merchant": "Bestbuy.com",
+      "category": "Electronics",
+      "observed_at": "2018-05-26T08:00:00+00:00",
+      "change_direction": "increase",
+      "percentage_change": 42.860204,
+      "previous_price": 139.99,
+      "current_price": 199.99,
+      "cp_probability": 0.3705834659524567,
+      "weak_labels": [
+        "promotion_related"
+      ],
+      "competitor_count": 0,
+      "competitors_changed_7d": 0
+    },
+    "queries": {
+      "promotion_agent": [
+        "Details About *brand New* Pny Anarchy 16gb Kit (2x8gb) Ddr4 2400mhz Pc419200 Desktop Memory Bestbuy price increase May 2018",
+        "Details About *brand New* Pny Anarchy 16gb Kit (2x8gb) Ddr4 2400mhz Pc419200 Desktop Memory Pny price hike 2018",
+        "Pny Electronics price increase May 2018",
+        "Bestbuy Electronics price change May 2018"
+      ],
+      "competitor_agent": [
+        "Details About *brand New* Pny Anarchy 16gb Kit (2x8gb) Ddr4 2400mhz Pc419200 Desktop Memory competitor price comparison May 2018",
+        "Details About *brand New* Pny Anarchy 16gb Kit (2x8gb) Ddr4 2400mhz Pc419200 Desktop Memory Pny price Bestbuy vs competitors 2018",
+        "Pny Electronics price war May 2018",
+        "Details About *brand New* Pny Anarchy 16gb Kit (2x8gb) Ddr4 2400mhz Pc419200 Desktop Memory best price May 2018",
+        "Pny Electronics pricing competition 2018",
+        "Details About *brand New* Pny Anarchy 16gb Kit (2x8gb) Ddr4 2400mhz Pc419200 Desktop Memory retailer price comparison May 2018"
+      ],
+      "product_event_agent": [
+        "Details About *brand New* Pny Anarchy 16gb Kit (2x8gb) Ddr4 2400mhz Pc419200 Desktop Memory new version 2018",
+        "Details About *brand New* Pny Anarchy 16gb Kit (2x8gb) Ddr4 2400mhz Pc419200 Desktop Memory successor replacement 2018",
+        "Pny Details About *brand New* Pny Anarchy 16gb Kit (2x8gb) Ddr4 2400mhz Pc419200 Desktop Memory discontinued 2018",
+        "Details About *brand New* Pny Anarchy 16gb Kit (2x8gb) Ddr4 2400mhz Pc419200 Desktop Memory launch release May 2018",
+        "Pny new product announcement May 2018",
+        "Details About *brand New* Pny Anarchy 16gb Kit (2x8gb) Ddr4 2400mhz Pc419200 Desktop Memory updated model 2018"
+      ],
+      "news_agent": [
+        "Details About *brand New* Pny Anarchy 16gb Kit (2x8gb) Ddr4 2400mhz Pc419200 Desktop Memory Pny news May 2018",
+        "Details About *brand New* Pny Anarchy 16gb Kit (2x8gb) Ddr4 2400mhz Pc419200 Desktop Memory review 2018",
+        "Pny Electronics news May 2018",
+        "Pny pricing strategy 2018",
+        "Details About *brand New* Pny Anarchy 16gb Kit (2x8gb) Ddr4 2400mhz Pc419200 Desktop Memory Bestbuy news May 2018"
+      ],
+      "retailer_event_agent": [
+        "Bestbuy sale event May 2018",
+        "Bestbuy May 2018 deals",
+        "Bestbuy Black Friday Cyber Monday 2018",
+        "Bestbuy clearance event 2018",
+        "Bestbuy price match 2018",
+        "Bestbuy promotional event May 2018"
+      ],
+      "supply_agent": [
+        "Details About *brand New* Pny Anarchy 16gb Kit (2x8gb) Ddr4 2400mhz Pc419200 Desktop Memory supply shortage May 2018",
+        "Pny Electronics supply chain 2018",
+        "Details About *brand New* Pny Anarchy 16gb Kit (2x8gb) Ddr4 2400mhz Pc419200 Desktop Memory stock availability May 2018",
+        "Pny Electronics production issue 2018",
+        "Details About *brand New* Pny Anarchy 16gb Kit (2x8gb) Ddr4 2400mhz Pc419200 Desktop Memory tariff import cost 2018",
+        "Pny component shortage 2018"
+      ]
+    }
+  },
+  {
+    "event_id": "evt_a17c592e3f65b271",
+    "investigation_target": {
+      "product_id": "AVpf3_M4ilAPnD_xj0ph",
+      "product_name": "Russound - 150W Indoor/Outdoor Speaker (Each) - Black",
+      "brand": "Russound",
+      "merchant": "Bestbuy.com",
+      "category": "Electronics",
+      "observed_at": "2018-06-14T07:00:00+00:00",
+      "change_direction": "decrease",
+      "percentage_change": -27.205088,
+      "previous_price": 249.99,
+      "current_price": 181.98,
+      "cp_probability": 0.4347624779425449,
+      "weak_labels": [
+        "promotion_related"
+      ],
+      "competitor_count": 0,
+      "competitors_changed_7d": 0
+    },
+    "queries": {
+      "promotion_agent": [
+        "Russound - 150W Indoor/Outdoor Speaker (Each) - Black Bestbuy sale June 2018",
+        "Russound - 150W Indoor/Outdoor Speaker (Each) - Black Bestbuy discount June 2018",
+        "Russound - 150W Indoor/Outdoor Speaker (Each) - Black Russound promotion June 2018",
+        "Russound - 150W Indoor/Outdoor Speaker (Each) - Black price drop June 2018",
+        "Russound Electronics sale June 2018",
+        "Bestbuy Electronics discount June 2018"
+      ],
+      "competitor_agent": [
+        "Russound - 150W Indoor/Outdoor Speaker (Each) - Black competitor price comparison June 2018",
+        "Russound - 150W Indoor/Outdoor Speaker (Each) - Black Russound price Bestbuy vs competitors 2018",
+        "Russound Electronics price war June 2018",
+        "Russound - 150W Indoor/Outdoor Speaker (Each) - Black best price June 2018",
+        "Russound Electronics pricing competition 2018",
+        "Russound - 150W Indoor/Outdoor Speaker (Each) - Black retailer price comparison June 2018"
+      ],
+      "product_event_agent": [
+        "Russound - 150W Indoor/Outdoor Speaker (Each) - Black new version 2018",
+        "Russound - 150W Indoor/Outdoor Speaker (Each) - Black successor replacement 2018",
+        "Russound Russound - 150W Indoor/Outdoor Speaker (Each) - Black discontinued 2018",
+        "Russound - 150W Indoor/Outdoor Speaker (Each) - Black launch release June 2018",
+        "Russound new product announcement June 2018",
+        "Russound - 150W Indoor/Outdoor Speaker (Each) - Black updated model 2018"
+      ],
+      "news_agent": [
+        "Russound - 150W Indoor/Outdoor Speaker (Each) - Black Russound news June 2018",
+        "Russound - 150W Indoor/Outdoor Speaker (Each) - Black review 2018",
+        "Russound Electronics news June 2018",
+        "Russound pricing strategy 2018",
+        "Russound - 150W Indoor/Outdoor Speaker (Each) - Black Bestbuy news June 2018"
+      ],
+      "retailer_event_agent": [
+        "Bestbuy sale event June 2018",
+        "Bestbuy June 2018 deals",
+        "Bestbuy Black Friday Cyber Monday 2018",
+        "Bestbuy clearance event 2018",
+        "Bestbuy price match 2018",
+        "Bestbuy promotional event June 2018"
+      ]
+    }
+  },
+  {
+    "event_id": "evt_0b5da99768629112",
+    "investigation_target": {
+      "product_id": "AVpf4cQxLJeJML43FZ00",
+      "product_name": "myCharge - RAZOR PLUS USB Portable Power Bank - Silver",
+      "brand": "myCharge",
+      "merchant": "Bestbuy.com",
+      "category": "Electronics",
+      "observed_at": "2017-08-30T08:00:00+00:00",
+      "change_direction": "decrease",
+      "percentage_change": -33.344448,
+      "previous_price": 29.99,
+      "current_price": 19.99,
+      "cp_probability": 0.7621127181556289,
+      "weak_labels": [
+        "promotion_related"
+      ],
+      "competitor_count": 0,
+      "competitors_changed_7d": 0
+    },
+    "queries": {
+      "promotion_agent": [
+        "myCharge - RAZOR PLUS USB Portable Power Bank - Silver Bestbuy sale August 2017",
+        "myCharge - RAZOR PLUS USB Portable Power Bank - Silver Bestbuy discount August 2017",
+        "myCharge - RAZOR PLUS USB Portable Power Bank - Silver myCharge promotion August 2017",
+        "myCharge - RAZOR PLUS USB Portable Power Bank - Silver price drop August 2017",
+        "myCharge Electronics sale August 2017",
+        "Bestbuy Electronics discount August 2017"
+      ],
+      "competitor_agent": [
+        "myCharge - RAZOR PLUS USB Portable Power Bank - Silver competitor price comparison August 2017",
+        "myCharge - RAZOR PLUS USB Portable Power Bank - Silver myCharge price Bestbuy vs competitors 2017",
+        "myCharge Electronics price war August 2017",
+        "myCharge - RAZOR PLUS USB Portable Power Bank - Silver best price August 2017",
+        "myCharge Electronics pricing competition 2017",
+        "myCharge - RAZOR PLUS USB Portable Power Bank - Silver retailer price comparison August 2017"
+      ],
+      "product_event_agent": [
+        "myCharge - RAZOR PLUS USB Portable Power Bank - Silver new version 2017",
+        "myCharge - RAZOR PLUS USB Portable Power Bank - Silver successor replacement 2017",
+        "myCharge myCharge - RAZOR PLUS USB Portable Power Bank - Silver discontinued 2017",
+        "myCharge - RAZOR PLUS USB Portable Power Bank - Silver launch release August 2017",
+        "myCharge new product announcement August 2017",
+        "myCharge - RAZOR PLUS USB Portable Power Bank - Silver updated model 2017"
+      ],
+      "news_agent": [
+        "myCharge - RAZOR PLUS USB Portable Power Bank - Silver myCharge news August 2017",
+        "myCharge - RAZOR PLUS USB Portable Power Bank - Silver review 2017",
+        "myCharge Electronics news August 2017",
+        "myCharge pricing strategy 2017",
+        "myCharge - RAZOR PLUS USB Portable Power Bank - Silver Bestbuy news August 2017"
+      ],
+      "retailer_event_agent": [
+        "Bestbuy sale event August 2017",
+        "Bestbuy August 2017 deals",
+        "Bestbuy Black Friday Cyber Monday 2017",
+        "Bestbuy clearance event 2017",
+        "Bestbuy price match 2017",
+        "Bestbuy promotional event August 2017"
+      ]
+    }
+  },
+  {
+    "event_id": "evt_91fdc16843608f0c",
+    "investigation_target": {
+      "product_id": "AVpfC4Po1cnluZ0-csCf",
+      "product_name": "Cyber-shot DSC-WX350 Digital Camera Deluxe Kit (Black)",
+      "brand": "Sony",
+      "merchant": "Bestbuy.com",
+      "category": "Electronics",
+      "observed_at": "2017-05-31T15:00:00+00:00",
+      "change_direction": "decrease",
+      "percentage_change": -29.630727,
+      "previous_price": 269.99,
+      "current_price": 189.99,
+      "cp_probability": 0.4207717725562644,
+      "weak_labels": [
+        "promotion_related"
+      ],
+      "competitor_count": 0,
+      "competitors_changed_7d": 0
+    },
+    "queries": {
+      "promotion_agent": [
+        "Cyber-shot DSC-WX350 Digital Camera Deluxe Kit (Black) Bestbuy sale May 2017",
+        "Cyber-shot DSC-WX350 Digital Camera Deluxe Kit (Black) Bestbuy discount May 2017",
+        "Cyber-shot DSC-WX350 Digital Camera Deluxe Kit (Black) Sony promotion May 2017",
+        "Cyber-shot DSC-WX350 Digital Camera Deluxe Kit (Black) price drop May 2017",
+        "Sony Electronics sale May 2017",
+        "Bestbuy Electronics discount May 2017"
+      ],
+      "competitor_agent": [
+        "Cyber-shot DSC-WX350 Digital Camera Deluxe Kit (Black) competitor price comparison May 2017",
+        "Cyber-shot DSC-WX350 Digital Camera Deluxe Kit (Black) Sony price Bestbuy vs competitors 2017",
+        "Sony Electronics price war May 2017",
+        "Cyber-shot DSC-WX350 Digital Camera Deluxe Kit (Black) best price May 2017",
+        "Sony Electronics pricing competition 2017",
+        "Cyber-shot DSC-WX350 Digital Camera Deluxe Kit (Black) retailer price comparison May 2017"
+      ],
+      "product_event_agent": [
+        "Cyber-shot DSC-WX350 Digital Camera Deluxe Kit (Black) new version 2017",
+        "Cyber-shot DSC-WX350 Digital Camera Deluxe Kit (Black) successor replacement 2017",
+        "Sony Cyber-shot DSC-WX350 Digital Camera Deluxe Kit (Black) discontinued 2017",
+        "Cyber-shot DSC-WX350 Digital Camera Deluxe Kit (Black) launch release May 2017",
+        "Sony new product announcement May 2017",
+        "Cyber-shot DSC-WX350 Digital Camera Deluxe Kit (Black) updated model 2017"
+      ],
+      "news_agent": [
+        "Cyber-shot DSC-WX350 Digital Camera Deluxe Kit (Black) Sony news May 2017",
+        "Cyber-shot DSC-WX350 Digital Camera Deluxe Kit (Black) review 2017",
+        "Sony Electronics news May 2017",
+        "Sony pricing strategy 2017",
+        "Cyber-shot DSC-WX350 Digital Camera Deluxe Kit (Black) Bestbuy news May 2017"
+      ],
+      "retailer_event_agent": [
+        "Bestbuy sale event May 2017",
+        "Bestbuy May 2017 deals",
+        "Bestbuy Black Friday Cyber Monday 2017",
+        "Bestbuy clearance event 2017",
+        "Bestbuy price match 2017",
+        "Bestbuy promotional event May 2017"
+      ]
+    }
+  },
+  {
+    "event_id": "evt_31dae025e57ac2d6",
+    "investigation_target": {
+      "product_id": "AVpfvGnyLJeJML43Cy-b",
+      "product_name": "Sherwood - 200W 2.0-Ch. A/V Home Theater Receiver - Black",
+      "brand": "Sherwood",
+      "merchant": "Walmart.com",
+      "category": "Electronics",
+      "observed_at": "2017-12-14T06:00:00+00:00",
+      "change_direction": "increase",
+      "percentage_change": 44.91946,
+      "previous_price": 130.99,
+      "current_price": 189.83,
+      "cp_probability": 0.6557830495753216,
+      "weak_labels": [
+        "promotion_related"
+      ],
+      "competitor_count": 0,
+      "competitors_changed_7d": 0
+    },
+    "queries": {
+      "promotion_agent": [
+        "Sherwood - 200W 2.0-Ch. A/V Home Theater Receiver - Black Walmart price increase December 2017",
+        "Sherwood - 200W 2.0-Ch. A/V Home Theater Receiver - Black Sherwood price hike 2017",
+        "Sherwood Electronics price increase December 2017",
+        "Walmart Electronics price change December 2017"
+      ],
+      "competitor_agent": [
+        "Sherwood - 200W 2.0-Ch. A/V Home Theater Receiver - Black competitor price comparison December 2017",
+        "Sherwood - 200W 2.0-Ch. A/V Home Theater Receiver - Black Sherwood price Walmart vs competitors 2017",
+        "Sherwood Electronics price war December 2017",
+        "Sherwood - 200W 2.0-Ch. A/V Home Theater Receiver - Black best price December 2017",
+        "Sherwood Electronics pricing competition 2017",
+        "Sherwood - 200W 2.0-Ch. A/V Home Theater Receiver - Black retailer price comparison December 2017"
+      ],
+      "product_event_agent": [
+        "Sherwood - 200W 2.0-Ch. A/V Home Theater Receiver - Black new version 2017",
+        "Sherwood - 200W 2.0-Ch. A/V Home Theater Receiver - Black successor replacement 2017",
+        "Sherwood Sherwood - 200W 2.0-Ch. A/V Home Theater Receiver - Black discontinued 2017",
+        "Sherwood - 200W 2.0-Ch. A/V Home Theater Receiver - Black launch release December 2017",
+        "Sherwood new product announcement December 2017",
+        "Sherwood - 200W 2.0-Ch. A/V Home Theater Receiver - Black updated model 2017"
+      ],
+      "news_agent": [
+        "Sherwood - 200W 2.0-Ch. A/V Home Theater Receiver - Black Sherwood news December 2017",
+        "Sherwood - 200W 2.0-Ch. A/V Home Theater Receiver - Black review 2017",
+        "Sherwood Electronics news December 2017",
+        "Sherwood pricing strategy 2017",
+        "Sherwood - 200W 2.0-Ch. A/V Home Theater Receiver - Black Walmart news December 2017"
+      ],
+      "retailer_event_agent": [
+        "Walmart sale event December 2017",
+        "Walmart December 2017 deals",
+        "Walmart Black Friday Cyber Monday 2017",
+        "Walmart clearance event 2017",
+        "Walmart price match 2017",
+        "Walmart promotional event December 2017"
+      ],
+      "supply_agent": [
+        "Sherwood - 200W 2.0-Ch. A/V Home Theater Receiver - Black supply shortage December 2017",
+        "Sherwood Electronics supply chain 2017",
+        "Sherwood - 200W 2.0-Ch. A/V Home Theater Receiver - Black stock availability December 2017",
+        "Sherwood Electronics production issue 2017",
+        "Sherwood - 200W 2.0-Ch. A/V Home Theater Receiver - Black tariff import cost 2017",
+        "Sherwood component shortage 2017"
+      ]
+    }
+  },
+  {
+    "event_id": "evt_6ba7eba86b875dbe",
+    "investigation_target": {
+      "product_id": "AVpfw_CgLJeJML43DUlI",
+      "product_name": "h.ear go Wireless Speaker (Bordeaux Pink)",
+      "brand": "Sony",
+      "merchant": "bhphotovideo.com",
+      "category": "Electronics",
+      "observed_at": "2018-06-01T15:00:00+00:00",
+      "change_direction": "decrease",
+      "percentage_change": -41.944444,
+      "previous_price": 198.0,
+      "current_price": 114.95,
+      "cp_probability": 0.4516399799092864,
+      "weak_labels": [
+        "promotion_related"
+      ],
+      "competitor_count": 0,
+      "competitors_changed_7d": 0
+    },
+    "queries": {
+      "promotion_agent": [
+        "h.ear go Wireless Speaker (Bordeaux Pink) bhphotovideo sale June 2018",
+        "h.ear go Wireless Speaker (Bordeaux Pink) bhphotovideo discount June 2018",
+        "h.ear go Wireless Speaker (Bordeaux Pink) Sony promotion June 2018",
+        "h.ear go Wireless Speaker (Bordeaux Pink) price drop June 2018",
+        "Sony Electronics sale June 2018",
+        "bhphotovideo Electronics discount June 2018"
+      ],
+      "competitor_agent": [
+        "h.ear go Wireless Speaker (Bordeaux Pink) competitor price comparison June 2018",
+        "h.ear go Wireless Speaker (Bordeaux Pink) Sony price bhphotovideo vs competitors 2018",
+        "Sony Electronics price war June 2018",
+        "h.ear go Wireless Speaker (Bordeaux Pink) best price June 2018",
+        "Sony Electronics pricing competition 2018",
+        "h.ear go Wireless Speaker (Bordeaux Pink) retailer price comparison June 2018"
+      ],
+      "product_event_agent": [
+        "h.ear go Wireless Speaker (Bordeaux Pink) new version 2018",
+        "h.ear go Wireless Speaker (Bordeaux Pink) successor replacement 2018",
+        "Sony h.ear go Wireless Speaker (Bordeaux Pink) discontinued 2018",
+        "h.ear go Wireless Speaker (Bordeaux Pink) launch release June 2018",
+        "Sony new product announcement June 2018",
+        "h.ear go Wireless Speaker (Bordeaux Pink) updated model 2018"
+      ],
+      "news_agent": [
+        "h.ear go Wireless Speaker (Bordeaux Pink) Sony news June 2018",
+        "h.ear go Wireless Speaker (Bordeaux Pink) review 2018",
+        "Sony Electronics news June 2018",
+        "Sony pricing strategy 2018",
+        "h.ear go Wireless Speaker (Bordeaux Pink) bhphotovideo news June 2018"
+      ],
+      "retailer_event_agent": [
+        "bhphotovideo sale event June 2018",
+        "bhphotovideo June 2018 deals",
+        "bhphotovideo Black Friday Cyber Monday 2018",
+        "bhphotovideo clearance event 2018",
+        "bhphotovideo price match 2018",
+        "bhphotovideo promotional event June 2018"
+      ]
+    }
+  },
+  {
+    "event_id": "evt_c413c46751073c65",
+    "investigation_target": {
+      "product_id": "AVpg54pb1cnluZ0-7xsM",
+      "product_name": "1500-Watt Digital Infrared Heater with Wi-Fi Phone App - White",
+      "brand": "Crane",
+      "merchant": "Bestbuy.com",
+      "category": "Electronics",
+      "observed_at": "2017-03-13T03:00:00+00:00",
+      "change_direction": "decrease",
+      "percentage_change": -55.266067,
+      "previous_price": 189.99,
+      "current_price": 84.99,
+      "cp_probability": 0.463868618099088,
+      "weak_labels": [
+        "promotion_related"
+      ],
+      "competitor_count": 0,
+      "competitors_changed_7d": 0
+    },
+    "queries": {
+      "promotion_agent": [
+        "1500-Watt Digital Infrared Heater with Wi-Fi Phone App - White Bestbuy sale March 2017",
+        "1500-Watt Digital Infrared Heater with Wi-Fi Phone App - White Bestbuy discount March 2017",
+        "1500-Watt Digital Infrared Heater with Wi-Fi Phone App - White Crane promotion March 2017",
+        "1500-Watt Digital Infrared Heater with Wi-Fi Phone App - White price drop March 2017",
+        "Crane Electronics sale March 2017",
+        "Bestbuy Electronics discount March 2017"
+      ],
+      "competitor_agent": [
+        "1500-Watt Digital Infrared Heater with Wi-Fi Phone App - White competitor price comparison March 2017",
+        "1500-Watt Digital Infrared Heater with Wi-Fi Phone App - White Crane price Bestbuy vs competitors 2017",
+        "Crane Electronics price war March 2017",
+        "1500-Watt Digital Infrared Heater with Wi-Fi Phone App - White best price March 2017",
+        "Crane Electronics pricing competition 2017",
+        "1500-Watt Digital Infrared Heater with Wi-Fi Phone App - White retailer price comparison March 2017"
+      ],
+      "product_event_agent": [
+        "1500-Watt Digital Infrared Heater with Wi-Fi Phone App - White new version 2017",
+        "1500-Watt Digital Infrared Heater with Wi-Fi Phone App - White successor replacement 2017",
+        "Crane 1500-Watt Digital Infrared Heater with Wi-Fi Phone App - White discontinued 2017",
+        "1500-Watt Digital Infrared Heater with Wi-Fi Phone App - White launch release March 2017",
+        "Crane new product announcement March 2017",
+        "1500-Watt Digital Infrared Heater with Wi-Fi Phone App - White updated model 2017"
+      ],
+      "news_agent": [
+        "1500-Watt Digital Infrared Heater with Wi-Fi Phone App - White Crane news March 2017",
+        "1500-Watt Digital Infrared Heater with Wi-Fi Phone App - White review 2017",
+        "Crane Electronics news March 2017",
+        "Crane pricing strategy 2017",
+        "1500-Watt Digital Infrared Heater with Wi-Fi Phone App - White Bestbuy news March 2017"
+      ],
+      "retailer_event_agent": [
+        "Bestbuy sale event March 2017",
+        "Bestbuy March 2017 deals",
+        "Bestbuy Black Friday Cyber Monday 2017",
+        "Bestbuy clearance event 2017",
+        "Bestbuy price match 2017",
+        "Bestbuy promotional event March 2017"
+      ]
+    }
+  },
+  {
+    "event_id": "evt_badcf4efc3715e4f",
+    "investigation_target": {
+      "product_id": "AVpgkbEJ1cnluZ0-3UNS",
+      "product_name": "Sennheiser - CX 3.00 Earbud Headphones - Red",
+      "brand": "Sennheiser",
+      "merchant": "Bestbuy.com",
+      "category": "Electronics",
+      "observed_at": "2018-05-27T08:00:00+00:00",
+      "change_direction": "increase",
+      "percentage_change": 61.782877,
+      "previous_price": 33.99,
+      "current_price": 54.99,
+      "cp_probability": 0.7980859261212454,
+      "weak_labels": [
+        "promotion_related"
+      ],
+      "competitor_count": 0,
+      "competitors_changed_7d": 0
+    },
+    "queries": {
+      "promotion_agent": [
+        "Sennheiser - CX 3.00 Earbud Headphones - Red Bestbuy price increase May 2018",
+        "Sennheiser - CX 3.00 Earbud Headphones - Red Sennheiser price hike 2018",
+        "Sennheiser Electronics price increase May 2018",
+        "Bestbuy Electronics price change May 2018"
+      ],
+      "competitor_agent": [
+        "Sennheiser - CX 3.00 Earbud Headphones - Red competitor price comparison May 2018",
+        "Sennheiser - CX 3.00 Earbud Headphones - Red Sennheiser price Bestbuy vs competitors 2018",
+        "Sennheiser Electronics price war May 2018",
+        "Sennheiser - CX 3.00 Earbud Headphones - Red best price May 2018",
+        "Sennheiser Electronics pricing competition 2018",
+        "Sennheiser - CX 3.00 Earbud Headphones - Red retailer price comparison May 2018"
+      ],
+      "product_event_agent": [
+        "Sennheiser - CX 3.00 Earbud Headphones - Red new version 2018",
+        "Sennheiser - CX 3.00 Earbud Headphones - Red successor replacement 2018",
+        "Sennheiser Sennheiser - CX 3.00 Earbud Headphones - Red discontinued 2018",
+        "Sennheiser - CX 3.00 Earbud Headphones - Red launch release May 2018",
+        "Sennheiser new product announcement May 2018",
+        "Sennheiser - CX 3.00 Earbud Headphones - Red updated model 2018"
+      ],
+      "news_agent": [
+        "Sennheiser - CX 3.00 Earbud Headphones - Red Sennheiser news May 2018",
+        "Sennheiser - CX 3.00 Earbud Headphones - Red review 2018",
+        "Sennheiser Electronics news May 2018",
+        "Sennheiser pricing strategy 2018",
+        "Sennheiser - CX 3.00 Earbud Headphones - Red Bestbuy news May 2018"
+      ],
+      "retailer_event_agent": [
+        "Bestbuy sale event May 2018",
+        "Bestbuy May 2018 deals",
+        "Bestbuy Black Friday Cyber Monday 2018",
+        "Bestbuy clearance event 2018",
+        "Bestbuy price match 2018",
+        "Bestbuy promotional event May 2018"
+      ],
+      "supply_agent": [
+        "Sennheiser - CX 3.00 Earbud Headphones - Red supply shortage May 2018",
+        "Sennheiser Electronics supply chain 2018",
+        "Sennheiser - CX 3.00 Earbud Headphones - Red stock availability May 2018",
+        "Sennheiser Electronics production issue 2018",
+        "Sennheiser - CX 3.00 Earbud Headphones - Red tariff import cost 2018",
+        "Sennheiser component shortage 2018"
+      ]
+    }
+  },
+  {
+    "event_id": "evt_57e691e6b503c4c4",
+    "investigation_target": {
+      "product_id": "AVphi5BYilAPnD_x6qXR",
+      "product_name": "Genuine GoPro The Strap (Hand + Wrist + Arm + Leg Mount)",
+      "brand": "Gopro",
+      "merchant": "Bestbuy.com",
+      "category": "Electronics",
+      "observed_at": "2017-08-12T14:00:00+00:00",
+      "change_direction": "decrease",
+      "percentage_change": -45.007501,
+      "previous_price": 59.99,
+      "current_price": 32.99,
+      "cp_probability": 0.783624157873326,
+      "weak_labels": [
+        "promotion_related"
+      ],
+      "competitor_count": 0,
+      "competitors_changed_7d": 0
+    },
+    "queries": {
+      "promotion_agent": [
+        "Genuine GoPro The Strap (Hand + Wrist + Arm + Leg Mount) Bestbuy sale August 2017",
+        "Genuine GoPro The Strap (Hand + Wrist + Arm + Leg Mount) Bestbuy discount August 2017",
+        "Genuine GoPro The Strap (Hand + Wrist + Arm + Leg Mount) Gopro promotion August 2017",
+        "Genuine GoPro The Strap (Hand + Wrist + Arm + Leg Mount) price drop August 2017",
+        "Gopro Electronics sale August 2017",
+        "Bestbuy Electronics discount August 2017"
+      ],
+      "competitor_agent": [
+        "Genuine GoPro The Strap (Hand + Wrist + Arm + Leg Mount) competitor price comparison August 2017",
+        "Genuine GoPro The Strap (Hand + Wrist + Arm + Leg Mount) Gopro price Bestbuy vs competitors 2017",
+        "Gopro Electronics price war August 2017",
+        "Genuine GoPro The Strap (Hand + Wrist + Arm + Leg Mount) best price August 2017",
+        "Gopro Electronics pricing competition 2017",
+        "Genuine GoPro The Strap (Hand + Wrist + Arm + Leg Mount) retailer price comparison August 2017"
+      ],
+      "product_event_agent": [
+        "Genuine GoPro The Strap (Hand + Wrist + Arm + Leg Mount) new version 2017",
+        "Genuine GoPro The Strap (Hand + Wrist + Arm + Leg Mount) successor replacement 2017",
+        "Gopro Genuine GoPro The Strap (Hand + Wrist + Arm + Leg Mount) discontinued 2017",
+        "Genuine GoPro The Strap (Hand + Wrist + Arm + Leg Mount) launch release August 2017",
+        "Gopro new product announcement August 2017",
+        "Genuine GoPro The Strap (Hand + Wrist + Arm + Leg Mount) updated model 2017"
+      ],
+      "news_agent": [
+        "Genuine GoPro The Strap (Hand + Wrist + Arm + Leg Mount) Gopro news August 2017",
+        "Genuine GoPro The Strap (Hand + Wrist + Arm + Leg Mount) review 2017",
+        "Gopro Electronics news August 2017",
+        "Gopro pricing strategy 2017",
+        "Genuine GoPro The Strap (Hand + Wrist + Arm + Leg Mount) Bestbuy news August 2017"
+      ],
+      "retailer_event_agent": [
+        "Bestbuy sale event August 2017",
+        "Bestbuy August 2017 deals",
+        "Bestbuy Black Friday Cyber Monday 2017",
+        "Bestbuy clearance event 2017",
+        "Bestbuy price match 2017",
+        "Bestbuy promotional event August 2017"
+      ]
+    }
+  },
+  {
+    "event_id": "evt_6e580ef412fe1f8b",
+    "investigation_target": {
+      "product_id": "AVpiGOez1cnluZ0-JzNW",
+      "product_name": "128GB iPod touch (Gold) (6th Generation)",
+      "brand": "Apple",
+      "merchant": "Bestbuy.com",
+      "category": "Electronics",
+      "observed_at": "2017-10-10T05:00:00+00:00",
+      "change_direction": "decrease",
+      "percentage_change": -30.00075,
+      "previous_price": 399.99,
+      "current_price": 279.99,
+      "cp_probability": 0.6914013560599961,
+      "weak_labels": [
+        "promotion_related"
+      ],
+      "competitor_count": 0,
+      "competitors_changed_7d": 0
+    },
+    "queries": {
+      "promotion_agent": [
+        "128GB iPod touch (Gold) (6th Generation) Bestbuy sale October 2017",
+        "128GB iPod touch (Gold) (6th Generation) Bestbuy discount October 2017",
+        "128GB iPod touch (Gold) (6th Generation) Apple promotion October 2017",
+        "128GB iPod touch (Gold) (6th Generation) price drop October 2017",
+        "Apple Electronics sale October 2017",
+        "Bestbuy Electronics discount October 2017"
+      ],
+      "competitor_agent": [
+        "128GB iPod touch (Gold) (6th Generation) competitor price comparison October 2017",
+        "128GB iPod touch (Gold) (6th Generation) Apple price Bestbuy vs competitors 2017",
+        "Apple Electronics price war October 2017",
+        "128GB iPod touch (Gold) (6th Generation) best price October 2017",
+        "Apple Electronics pricing competition 2017",
+        "128GB iPod touch (Gold) (6th Generation) retailer price comparison October 2017"
+      ],
+      "product_event_agent": [
+        "128GB iPod touch (Gold) (6th Generation) new version 2017",
+        "128GB iPod touch (Gold) (6th Generation) successor replacement 2017",
+        "Apple 128GB iPod touch (Gold) (6th Generation) discontinued 2017",
+        "128GB iPod touch (Gold) (6th Generation) launch release October 2017",
+        "Apple new product announcement October 2017",
+        "128GB iPod touch (Gold) (6th Generation) updated model 2017"
+      ],
+      "news_agent": [
+        "128GB iPod touch (Gold) (6th Generation) Apple news October 2017",
+        "128GB iPod touch (Gold) (6th Generation) review 2017",
+        "Apple Electronics news October 2017",
+        "Apple pricing strategy 2017",
+        "128GB iPod touch (Gold) (6th Generation) Bestbuy news October 2017"
+      ],
+      "retailer_event_agent": [
+        "Bestbuy sale event October 2017",
+        "Bestbuy October 2017 deals",
+        "Bestbuy Black Friday Cyber Monday 2017",
+        "Bestbuy clearance event 2017",
+        "Bestbuy price match 2017",
+        "Bestbuy promotional event October 2017"
+      ]
+    }
+  },
+  {
+    "event_id": "evt_b426e555973a4b0b",
+    "investigation_target": {
+      "product_id": "AVpiLlubilAPnD_xBoTa",
+      "product_name": "House of Marley Smile Jamaica In-Ear Earbuds",
+      "brand": "House of Marley",
+      "merchant": "Bestbuy.com",
+      "category": "Electronics",
+      "observed_at": "2017-08-30T07:00:00+00:00",
+      "change_direction": "decrease",
+      "percentage_change": -32.012805,
+      "previous_price": 24.99,
+      "current_price": 16.99,
+      "cp_probability": 0.6218786375056033,
+      "weak_labels": [
+        "promotion_related"
+      ],
+      "competitor_count": 0,
+      "competitors_changed_7d": 0
+    },
+    "queries": {
+      "promotion_agent": [
+        "House of Marley Smile Jamaica In-Ear Earbuds Bestbuy sale August 2017",
+        "House of Marley Smile Jamaica In-Ear Earbuds Bestbuy discount August 2017",
+        "House of Marley Smile Jamaica In-Ear Earbuds House of Marley promotion August 2017",
+        "House of Marley Smile Jamaica In-Ear Earbuds price drop August 2017",
+        "House of Marley Electronics sale August 2017",
+        "Bestbuy Electronics discount August 2017"
+      ],
+      "competitor_agent": [
+        "House of Marley Smile Jamaica In-Ear Earbuds competitor price comparison August 2017",
+        "House of Marley Smile Jamaica In-Ear Earbuds House of Marley price Bestbuy vs competitors 2017",
+        "House of Marley Electronics price war August 2017",
+        "House of Marley Smile Jamaica In-Ear Earbuds best price August 2017",
+        "House of Marley Electronics pricing competition 2017",
+        "House of Marley Smile Jamaica In-Ear Earbuds retailer price comparison August 2017"
+      ],
+      "product_event_agent": [
+        "House of Marley Smile Jamaica In-Ear Earbuds new version 2017",
+        "House of Marley Smile Jamaica In-Ear Earbuds successor replacement 2017",
+        "House of Marley House of Marley Smile Jamaica In-Ear Earbuds discontinued 2017",
+        "House of Marley Smile Jamaica In-Ear Earbuds launch release August 2017",
+        "House of Marley new product announcement August 2017",
+        "House of Marley Smile Jamaica In-Ear Earbuds updated model 2017"
+      ],
+      "news_agent": [
+        "House of Marley Smile Jamaica In-Ear Earbuds House of Marley news August 2017",
+        "House of Marley Smile Jamaica In-Ear Earbuds review 2017",
+        "House of Marley Electronics news August 2017",
+        "House of Marley pricing strategy 2017",
+        "House of Marley Smile Jamaica In-Ear Earbuds Bestbuy news August 2017"
+      ],
+      "retailer_event_agent": [
+        "Bestbuy sale event August 2017",
+        "Bestbuy August 2017 deals",
+        "Bestbuy Black Friday Cyber Monday 2017",
+        "Bestbuy clearance event 2017",
+        "Bestbuy price match 2017",
+        "Bestbuy promotional event August 2017"
+      ]
+    }
+  },
+  {
+    "event_id": "evt_ca8abddec306fc61",
+    "investigation_target": {
+      "product_id": "AVqVGOLmU2_QcyX9OzaC",
+      "product_name": "Mevo Live Event Camera Kit with Mevo Boost, Stand Case (Black)",
+      "brand": "Mevo",
+      "merchant": "Bestbuy.com",
+      "category": "Electronics",
+      "observed_at": "2018-05-26T15:00:00+00:00",
+      "change_direction": "decrease",
+      "percentage_change": -25.000625,
+      "previous_price": 399.99,
+      "current_price": 299.99,
+      "cp_probability": 0.575692531121136,
+      "weak_labels": [
+        "promotion_related"
+      ],
+      "competitor_count": 0,
+      "competitors_changed_7d": 0
+    },
+    "queries": {
+      "promotion_agent": [
+        "Mevo Live Event Camera Kit with Mevo Boost, Stand Case (Black) Bestbuy sale May 2018",
+        "Mevo Live Event Camera Kit with Mevo Boost, Stand Case (Black) Bestbuy discount May 2018",
+        "Mevo Live Event Camera Kit with Mevo Boost, Stand Case (Black) Mevo promotion May 2018",
+        "Mevo Live Event Camera Kit with Mevo Boost, Stand Case (Black) price drop May 2018",
+        "Mevo Electronics sale May 2018",
+        "Bestbuy Electronics discount May 2018"
+      ],
+      "competitor_agent": [
+        "Mevo Live Event Camera Kit with Mevo Boost, Stand Case (Black) competitor price comparison May 2018",
+        "Mevo Live Event Camera Kit with Mevo Boost, Stand Case (Black) Mevo price Bestbuy vs competitors 2018",
+        "Mevo Electronics price war May 2018",
+        "Mevo Live Event Camera Kit with Mevo Boost, Stand Case (Black) best price May 2018",
+        "Mevo Electronics pricing competition 2018",
+        "Mevo Live Event Camera Kit with Mevo Boost, Stand Case (Black) retailer price comparison May 2018"
+      ],
+      "product_event_agent": [
+        "Mevo Live Event Camera Kit with Mevo Boost, Stand Case (Black) new version 2018",
+        "Mevo Live Event Camera Kit with Mevo Boost, Stand Case (Black) successor replacement 2018",
+        "Mevo Mevo Live Event Camera Kit with Mevo Boost, Stand Case (Black) discontinued 2018",
+        "Mevo Live Event Camera Kit with Mevo Boost, Stand Case (Black) launch release May 2018",
+        "Mevo new product announcement May 2018",
+        "Mevo Live Event Camera Kit with Mevo Boost, Stand Case (Black) updated model 2018"
+      ],
+      "news_agent": [
+        "Mevo Live Event Camera Kit with Mevo Boost, Stand Case (Black) Mevo news May 2018",
+        "Mevo Live Event Camera Kit with Mevo Boost, Stand Case (Black) review 2018",
+        "Mevo Electronics news May 2018",
+        "Mevo pricing strategy 2018",
+        "Mevo Live Event Camera Kit with Mevo Boost, Stand Case (Black) Bestbuy news May 2018"
+      ],
+      "retailer_event_agent": [
+        "Bestbuy sale event May 2018",
+        "Bestbuy May 2018 deals",
+        "Bestbuy Black Friday Cyber Monday 2018",
+        "Bestbuy clearance event 2018",
+        "Bestbuy price match 2018",
+        "Bestbuy promotional event May 2018"
+      ]
+    }
+  },
+  {
+    "event_id": "evt_84f827901a732b1d",
+    "investigation_target": {
+      "product_id": "AVqVGRbUQMlgsOJE6eTI",
+      "product_name": "Apple iPod Touch 128GB Blue",
+      "brand": "Apple",
+      "merchant": "Bestbuy.com",
+      "category": "Electronics",
+      "observed_at": "2017-10-10T05:00:00+00:00",
+      "change_direction": "decrease",
+      "percentage_change": -30.00075,
+      "previous_price": 399.99,
+      "current_price": 279.99,
+      "cp_probability": 0.7473713115524162,
+      "weak_labels": [
+        "promotion_related"
+      ],
+      "competitor_count": 0,
+      "competitors_changed_7d": 0
+    },
+    "queries": {
+      "promotion_agent": [
+        "Apple iPod Touch 128GB Blue Bestbuy sale October 2017",
+        "Apple iPod Touch 128GB Blue Bestbuy discount October 2017",
+        "Apple iPod Touch 128GB Blue Apple promotion October 2017",
+        "Apple iPod Touch 128GB Blue price drop October 2017",
+        "Apple Electronics sale October 2017",
+        "Bestbuy Electronics discount October 2017"
+      ],
+      "competitor_agent": [
+        "Apple iPod Touch 128GB Blue competitor price comparison October 2017",
+        "Apple iPod Touch 128GB Blue Apple price Bestbuy vs competitors 2017",
+        "Apple Electronics price war October 2017",
+        "Apple iPod Touch 128GB Blue best price October 2017",
+        "Apple Electronics pricing competition 2017",
+        "Apple iPod Touch 128GB Blue retailer price comparison October 2017"
+      ],
+      "product_event_agent": [
+        "Apple iPod Touch 128GB Blue new version 2017",
+        "Apple iPod Touch 128GB Blue successor replacement 2017",
+        "Apple Apple iPod Touch 128GB Blue discontinued 2017",
+        "Apple iPod Touch 128GB Blue launch release October 2017",
+        "Apple new product announcement October 2017",
+        "Apple iPod Touch 128GB Blue updated model 2017"
+      ],
+      "news_agent": [
+        "Apple iPod Touch 128GB Blue Apple news October 2017",
+        "Apple iPod Touch 128GB Blue review 2017",
+        "Apple Electronics news October 2017",
+        "Apple pricing strategy 2017",
+        "Apple iPod Touch 128GB Blue Bestbuy news October 2017"
+      ],
+      "retailer_event_agent": [
+        "Bestbuy sale event October 2017",
+        "Bestbuy October 2017 deals",
+        "Bestbuy Black Friday Cyber Monday 2017",
+        "Bestbuy clearance event 2017",
+        "Bestbuy price match 2017",
+        "Bestbuy promotional event October 2017"
+      ]
+    }
+  },
+  {
+    "event_id": "evt_93d1bff328d88dc7",
+    "investigation_target": {
+      "product_id": "AVqVGRdfnnc1JgDc3jFH",
+      "product_name": "128GB iPod touch (Space Gray) (6th Generation)",
+      "brand": "Apple",
+      "merchant": "Bestbuy.com",
+      "category": "Electronics",
+      "observed_at": "2017-10-10T05:00:00+00:00",
+      "change_direction": "decrease",
+      "percentage_change": -30.00075,
+      "previous_price": 399.99,
+      "current_price": 279.99,
+      "cp_probability": 0.7234153851907829,
+      "weak_labels": [
+        "promotion_related"
+      ],
+      "competitor_count": 0,
+      "competitors_changed_7d": 0
+    },
+    "queries": {
+      "promotion_agent": [
+        "128GB iPod touch (Space Gray) (6th Generation) Bestbuy sale October 2017",
+        "128GB iPod touch (Space Gray) (6th Generation) Bestbuy discount October 2017",
+        "128GB iPod touch (Space Gray) (6th Generation) Apple promotion October 2017",
+        "128GB iPod touch (Space Gray) (6th Generation) price drop October 2017",
+        "Apple Electronics sale October 2017",
+        "Bestbuy Electronics discount October 2017"
+      ],
+      "competitor_agent": [
+        "128GB iPod touch (Space Gray) (6th Generation) competitor price comparison October 2017",
+        "128GB iPod touch (Space Gray) (6th Generation) Apple price Bestbuy vs competitors 2017",
+        "Apple Electronics price war October 2017",
+        "128GB iPod touch (Space Gray) (6th Generation) best price October 2017",
+        "Apple Electronics pricing competition 2017",
+        "128GB iPod touch (Space Gray) (6th Generation) retailer price comparison October 2017"
+      ],
+      "product_event_agent": [
+        "128GB iPod touch (Space Gray) (6th Generation) new version 2017",
+        "128GB iPod touch (Space Gray) (6th Generation) successor replacement 2017",
+        "Apple 128GB iPod touch (Space Gray) (6th Generation) discontinued 2017",
+        "128GB iPod touch (Space Gray) (6th Generation) launch release October 2017",
+        "Apple new product announcement October 2017",
+        "128GB iPod touch (Space Gray) (6th Generation) updated model 2017"
+      ],
+      "news_agent": [
+        "128GB iPod touch (Space Gray) (6th Generation) Apple news October 2017",
+        "128GB iPod touch (Space Gray) (6th Generation) review 2017",
+        "Apple Electronics news October 2017",
+        "Apple pricing strategy 2017",
+        "128GB iPod touch (Space Gray) (6th Generation) Bestbuy news October 2017"
+      ],
+      "retailer_event_agent": [
+        "Bestbuy sale event October 2017",
+        "Bestbuy October 2017 deals",
+        "Bestbuy Black Friday Cyber Monday 2017",
+        "Bestbuy clearance event 2017",
+        "Bestbuy price match 2017",
+        "Bestbuy promotional event October 2017"
+      ]
+    }
+  },
+  {
+    "event_id": "evt_64daea9b4df55408",
+    "investigation_target": {
+      "product_id": "AVqVGUFCv8e3D1O-ldFF",
+      "product_name": "Refurbished Samsung Curved 65 4K (2160P) Smart QLED TV (2017 Model) + 1 Year Extended Warranty (QN65Q7CAMFXZA)\"",
+      "brand": "Samsung",
+      "merchant": "Walmart.com",
+      "category": "Electronics",
+      "observed_at": "2018-05-24T11:00:00+00:00",
+      "change_direction": "increase",
+      "percentage_change": 74.900375,
+      "previous_price": 1999.99,
+      "current_price": 3497.99,
+      "cp_probability": 0.3995385671004939,
+      "weak_labels": [
+        "promotion_related"
+      ],
+      "competitor_count": 0,
+      "competitors_changed_7d": 0
+    },
+    "queries": {
+      "promotion_agent": [
+        "Refurbished Samsung Curved 65 4K (2160P) Smart QLED TV (2017 Model) + 1 Year Extended Warranty (QN65Q7CAMFXZA)\" Walmart price increase May 2018",
+        "Refurbished Samsung Curved 65 4K (2160P) Smart QLED TV (2017 Model) + 1 Year Extended Warranty (QN65Q7CAMFXZA)\" Samsung price hike 2018",
+        "Samsung Electronics price increase May 2018",
+        "Walmart Electronics price change May 2018"
+      ],
+      "competitor_agent": [
+        "Refurbished Samsung Curved 65 4K (2160P) Smart QLED TV (2017 Model) + 1 Year Extended Warranty (QN65Q7CAMFXZA)\" competitor price comparison May 2018",
+        "Refurbished Samsung Curved 65 4K (2160P) Smart QLED TV (2017 Model) + 1 Year Extended Warranty (QN65Q7CAMFXZA)\" Samsung price Walmart vs competitors 2018",
+        "Samsung Electronics price war May 2018",
+        "Refurbished Samsung Curved 65 4K (2160P) Smart QLED TV (2017 Model) + 1 Year Extended Warranty (QN65Q7CAMFXZA)\" best price May 2018",
+        "Samsung Electronics pricing competition 2018",
+        "Refurbished Samsung Curved 65 4K (2160P) Smart QLED TV (2017 Model) + 1 Year Extended Warranty (QN65Q7CAMFXZA)\" retailer price comparison May 2018"
+      ],
+      "product_event_agent": [
+        "Refurbished Samsung Curved 65 4K (2160P) Smart QLED TV (2017 Model) + 1 Year Extended Warranty (QN65Q7CAMFXZA)\" new version 2018",
+        "Refurbished Samsung Curved 65 4K (2160P) Smart QLED TV (2017 Model) + 1 Year Extended Warranty (QN65Q7CAMFXZA)\" successor replacement 2018",
+        "Samsung Refurbished Samsung Curved 65 4K (2160P) Smart QLED TV (2017 Model) + 1 Year Extended Warranty (QN65Q7CAMFXZA)\" discontinued 2018",
+        "Refurbished Samsung Curved 65 4K (2160P) Smart QLED TV (2017 Model) + 1 Year Extended Warranty (QN65Q7CAMFXZA)\" launch release May 2018",
+        "Samsung new product announcement May 2018",
+        "Refurbished Samsung Curved 65 4K (2160P) Smart QLED TV (2017 Model) + 1 Year Extended Warranty (QN65Q7CAMFXZA)\" updated model 2018"
+      ],
+      "news_agent": [
+        "Refurbished Samsung Curved 65 4K (2160P) Smart QLED TV (2017 Model) + 1 Year Extended Warranty (QN65Q7CAMFXZA)\" Samsung news May 2018",
+        "Refurbished Samsung Curved 65 4K (2160P) Smart QLED TV (2017 Model) + 1 Year Extended Warranty (QN65Q7CAMFXZA)\" review 2018",
+        "Samsung Electronics news May 2018",
+        "Samsung pricing strategy 2018",
+        "Refurbished Samsung Curved 65 4K (2160P) Smart QLED TV (2017 Model) + 1 Year Extended Warranty (QN65Q7CAMFXZA)\" Walmart news May 2018"
+      ],
+      "retailer_event_agent": [
+        "Walmart sale event May 2018",
+        "Walmart May 2018 deals",
+        "Walmart Black Friday Cyber Monday 2018",
+        "Walmart clearance event 2018",
+        "Walmart price match 2018",
+        "Walmart promotional event May 2018"
+      ],
+      "supply_agent": [
+        "Refurbished Samsung Curved 65 4K (2160P) Smart QLED TV (2017 Model) + 1 Year Extended Warranty (QN65Q7CAMFXZA)\" supply shortage May 2018",
+        "Samsung Electronics supply chain 2018",
+        "Refurbished Samsung Curved 65 4K (2160P) Smart QLED TV (2017 Model) + 1 Year Extended Warranty (QN65Q7CAMFXZA)\" stock availability May 2018",
+        "Samsung Electronics production issue 2018",
+        "Refurbished Samsung Curved 65 4K (2160P) Smart QLED TV (2017 Model) + 1 Year Extended Warranty (QN65Q7CAMFXZA)\" tariff import cost 2018",
+        "Samsung component shortage 2018"
+      ]
+    }
+  },
+  {
+    "event_id": "evt_2f841fa376886aa1",
+    "investigation_target": {
+      "product_id": "AVqVGVqWv8e3D1O-ldFk",
+      "product_name": "Rocketfish\u2122 - 4-Port 4K HDMI Switch Box - Black",
+      "brand": "Rocketfish\u2122",
+      "merchant": "Bestbuy.com",
+      "category": "Electronics",
+      "observed_at": "2017-08-28T07:00:00+00:00",
+      "change_direction": "decrease",
+      "percentage_change": -50.006251,
+      "previous_price": 79.99,
+      "current_price": 39.99,
+      "cp_probability": 0.6610905361530752,
+      "weak_labels": [
+        "promotion_related"
+      ],
+      "competitor_count": 0,
+      "competitors_changed_7d": 0
+    },
+    "queries": {
+      "promotion_agent": [
+        "Rocketfish\u2122 - 4-Port 4K HDMI Switch Box - Black Bestbuy sale August 2017",
+        "Rocketfish\u2122 - 4-Port 4K HDMI Switch Box - Black Bestbuy discount August 2017",
+        "Rocketfish\u2122 - 4-Port 4K HDMI Switch Box - Black Rocketfish\u2122 promotion August 2017",
+        "Rocketfish\u2122 - 4-Port 4K HDMI Switch Box - Black price drop August 2017",
+        "Rocketfish\u2122 Electronics sale August 2017",
+        "Bestbuy Electronics discount August 2017"
+      ],
+      "competitor_agent": [
+        "Rocketfish\u2122 - 4-Port 4K HDMI Switch Box - Black competitor price comparison August 2017",
+        "Rocketfish\u2122 - 4-Port 4K HDMI Switch Box - Black Rocketfish\u2122 price Bestbuy vs competitors 2017",
+        "Rocketfish\u2122 Electronics price war August 2017",
+        "Rocketfish\u2122 - 4-Port 4K HDMI Switch Box - Black best price August 2017",
+        "Rocketfish\u2122 Electronics pricing competition 2017",
+        "Rocketfish\u2122 - 4-Port 4K HDMI Switch Box - Black retailer price comparison August 2017"
+      ],
+      "product_event_agent": [
+        "Rocketfish\u2122 - 4-Port 4K HDMI Switch Box - Black new version 2017",
+        "Rocketfish\u2122 - 4-Port 4K HDMI Switch Box - Black successor replacement 2017",
+        "Rocketfish\u2122 Rocketfish\u2122 - 4-Port 4K HDMI Switch Box - Black discontinued 2017",
+        "Rocketfish\u2122 - 4-Port 4K HDMI Switch Box - Black launch release August 2017",
+        "Rocketfish\u2122 new product announcement August 2017",
+        "Rocketfish\u2122 - 4-Port 4K HDMI Switch Box - Black updated model 2017"
+      ],
+      "news_agent": [
+        "Rocketfish\u2122 - 4-Port 4K HDMI Switch Box - Black Rocketfish\u2122 news August 2017",
+        "Rocketfish\u2122 - 4-Port 4K HDMI Switch Box - Black review 2017",
+        "Rocketfish\u2122 Electronics news August 2017",
+        "Rocketfish\u2122 pricing strategy 2017",
+        "Rocketfish\u2122 - 4-Port 4K HDMI Switch Box - Black Bestbuy news August 2017"
+      ],
+      "retailer_event_agent": [
+        "Bestbuy sale event August 2017",
+        "Bestbuy August 2017 deals",
+        "Bestbuy Black Friday Cyber Monday 2017",
+        "Bestbuy clearance event 2017",
+        "Bestbuy price match 2017",
+        "Bestbuy promotional event August 2017"
+      ]
+    }
+  },
+  {
+    "event_id": "evt_7aa6e0918680e05e",
+    "investigation_target": {
+      "product_id": "AVqVGm4XU2_QcyX9Ozds",
+      "product_name": "KICKER - CS Series 4 2-Way Car Speakers with Polypropylene Cones (Pair) - Black\"",
+      "brand": "Kicker",
+      "merchant": "Bestbuy.com",
+      "category": "Electronics",
+      "observed_at": "2017-10-10T17:00:00+00:00",
+      "change_direction": "decrease",
+      "percentage_change": -31.671945,
+      "previous_price": 59.99,
+      "current_price": 40.99,
+      "cp_probability": 0.5949804615693889,
+      "weak_labels": [
+        "promotion_related"
+      ],
+      "competitor_count": 0,
+      "competitors_changed_7d": 0
+    },
+    "queries": {
+      "promotion_agent": [
+        "KICKER - CS Series 4 2-Way Car Speakers with Polypropylene Cones (Pair) - Black\" Bestbuy sale October 2017",
+        "KICKER - CS Series 4 2-Way Car Speakers with Polypropylene Cones (Pair) - Black\" Bestbuy discount October 2017",
+        "KICKER - CS Series 4 2-Way Car Speakers with Polypropylene Cones (Pair) - Black\" Kicker promotion October 2017",
+        "KICKER - CS Series 4 2-Way Car Speakers with Polypropylene Cones (Pair) - Black\" price drop October 2017",
+        "Kicker Electronics sale October 2017",
+        "Bestbuy Electronics discount October 2017"
+      ],
+      "competitor_agent": [
+        "KICKER - CS Series 4 2-Way Car Speakers with Polypropylene Cones (Pair) - Black\" competitor price comparison October 2017",
+        "KICKER - CS Series 4 2-Way Car Speakers with Polypropylene Cones (Pair) - Black\" Kicker price Bestbuy vs competitors 2017",
+        "Kicker Electronics price war October 2017",
+        "KICKER - CS Series 4 2-Way Car Speakers with Polypropylene Cones (Pair) - Black\" best price October 2017",
+        "Kicker Electronics pricing competition 2017",
+        "KICKER - CS Series 4 2-Way Car Speakers with Polypropylene Cones (Pair) - Black\" retailer price comparison October 2017"
+      ],
+      "product_event_agent": [
+        "KICKER - CS Series 4 2-Way Car Speakers with Polypropylene Cones (Pair) - Black\" new version 2017",
+        "KICKER - CS Series 4 2-Way Car Speakers with Polypropylene Cones (Pair) - Black\" successor replacement 2017",
+        "Kicker KICKER - CS Series 4 2-Way Car Speakers with Polypropylene Cones (Pair) - Black\" discontinued 2017",
+        "KICKER - CS Series 4 2-Way Car Speakers with Polypropylene Cones (Pair) - Black\" launch release October 2017",
+        "Kicker new product announcement October 2017",
+        "KICKER - CS Series 4 2-Way Car Speakers with Polypropylene Cones (Pair) - Black\" updated model 2017"
+      ],
+      "news_agent": [
+        "KICKER - CS Series 4 2-Way Car Speakers with Polypropylene Cones (Pair) - Black\" Kicker news October 2017",
+        "KICKER - CS Series 4 2-Way Car Speakers with Polypropylene Cones (Pair) - Black\" review 2017",
+        "Kicker Electronics news October 2017",
+        "Kicker pricing strategy 2017",
+        "KICKER - CS Series 4 2-Way Car Speakers with Polypropylene Cones (Pair) - Black\" Bestbuy news October 2017"
+      ],
+      "retailer_event_agent": [
+        "Bestbuy sale event October 2017",
+        "Bestbuy October 2017 deals",
+        "Bestbuy Black Friday Cyber Monday 2017",
+        "Bestbuy clearance event 2017",
+        "Bestbuy price match 2017",
+        "Bestbuy promotional event October 2017"
+      ]
+    }
+  },
+  {
+    "event_id": "evt_33b10cbdfb0b636c",
+    "investigation_target": {
+      "product_id": "AVqkGbtyU2_QcyX9O0XN",
+      "product_name": "AudioQuest NightOwl Carbon Closed-Back Around-the-Ear Headphones",
+      "brand": "Audioquest",
+      "merchant": "Bestbuy.com",
+      "category": "Electronics",
+      "observed_at": "2017-10-10T19:00:00+00:00",
+      "change_direction": "decrease",
+      "percentage_change": -28.572245,
+      "previous_price": 699.98,
+      "current_price": 499.98,
+      "cp_probability": 0.302353810343575,
+      "weak_labels": [
+        "promotion_related"
+      ],
+      "competitor_count": 0,
+      "competitors_changed_7d": 0
+    },
+    "queries": {
+      "promotion_agent": [
+        "AudioQuest NightOwl Carbon Closed-Back Around-the-Ear Headphones Bestbuy sale October 2017",
+        "AudioQuest NightOwl Carbon Closed-Back Around-the-Ear Headphones Bestbuy discount October 2017",
+        "AudioQuest NightOwl Carbon Closed-Back Around-the-Ear Headphones Audioquest promotion October 2017",
+        "AudioQuest NightOwl Carbon Closed-Back Around-the-Ear Headphones price drop October 2017",
+        "Audioquest Electronics sale October 2017",
+        "Bestbuy Electronics discount October 2017"
+      ],
+      "competitor_agent": [
+        "AudioQuest NightOwl Carbon Closed-Back Around-the-Ear Headphones competitor price comparison October 2017",
+        "AudioQuest NightOwl Carbon Closed-Back Around-the-Ear Headphones Audioquest price Bestbuy vs competitors 2017",
+        "Audioquest Electronics price war October 2017",
+        "AudioQuest NightOwl Carbon Closed-Back Around-the-Ear Headphones best price October 2017",
+        "Audioquest Electronics pricing competition 2017",
+        "AudioQuest NightOwl Carbon Closed-Back Around-the-Ear Headphones retailer price comparison October 2017"
+      ],
+      "product_event_agent": [
+        "AudioQuest NightOwl Carbon Closed-Back Around-the-Ear Headphones new version 2017",
+        "AudioQuest NightOwl Carbon Closed-Back Around-the-Ear Headphones successor replacement 2017",
+        "Audioquest AudioQuest NightOwl Carbon Closed-Back Around-the-Ear Headphones discontinued 2017",
+        "AudioQuest NightOwl Carbon Closed-Back Around-the-Ear Headphones launch release October 2017",
+        "Audioquest new product announcement October 2017",
+        "AudioQuest NightOwl Carbon Closed-Back Around-the-Ear Headphones updated model 2017"
+      ],
+      "news_agent": [
+        "AudioQuest NightOwl Carbon Closed-Back Around-the-Ear Headphones Audioquest news October 2017",
+        "AudioQuest NightOwl Carbon Closed-Back Around-the-Ear Headphones review 2017",
+        "Audioquest Electronics news October 2017",
+        "Audioquest pricing strategy 2017",
+        "AudioQuest NightOwl Carbon Closed-Back Around-the-Ear Headphones Bestbuy news October 2017"
+      ],
+      "retailer_event_agent": [
+        "Bestbuy sale event October 2017",
+        "Bestbuy October 2017 deals",
+        "Bestbuy Black Friday Cyber Monday 2017",
+        "Bestbuy clearance event 2017",
+        "Bestbuy price match 2017",
+        "Bestbuy promotional event October 2017"
+      ]
+    }
+  },
+  {
+    "event_id": "evt_cc33ffe4d6bbd8af",
+    "investigation_target": {
+      "product_id": "AVs11mzrQMlgsOJE7f8V",
+      "product_name": "Escort iX Long Range Radar Laser Detector",
+      "brand": "Escort",
+      "merchant": "Amazon.com",
+      "category": "Electronics",
+      "observed_at": "2018-05-24T18:00:00+00:00",
+      "change_direction": "decrease",
+      "percentage_change": -37.753775,
+      "previous_price": 499.95,
+      "current_price": 311.2,
+      "cp_probability": 0.7387692052544116,
+      "weak_labels": [
+        "promotion_related"
+      ],
+      "competitor_count": 0,
+      "competitors_changed_7d": 0
+    },
+    "queries": {
+      "promotion_agent": [
+        "Escort iX Long Range Radar Laser Detector Amazon sale May 2018",
+        "Escort iX Long Range Radar Laser Detector Amazon discount May 2018",
+        "Escort iX Long Range Radar Laser Detector Escort promotion May 2018",
+        "Escort iX Long Range Radar Laser Detector price drop May 2018",
+        "Escort Electronics sale May 2018",
+        "Amazon Electronics discount May 2018"
+      ],
+      "competitor_agent": [
+        "Escort iX Long Range Radar Laser Detector competitor price comparison May 2018",
+        "Escort iX Long Range Radar Laser Detector Escort price Amazon vs competitors 2018",
+        "Escort Electronics price war May 2018",
+        "Escort iX Long Range Radar Laser Detector best price May 2018",
+        "Escort Electronics pricing competition 2018",
+        "Escort iX Long Range Radar Laser Detector retailer price comparison May 2018"
+      ],
+      "product_event_agent": [
+        "Escort iX Long Range Radar Laser Detector new version 2018",
+        "Escort iX Long Range Radar Laser Detector successor replacement 2018",
+        "Escort Escort iX Long Range Radar Laser Detector discontinued 2018",
+        "Escort iX Long Range Radar Laser Detector launch release May 2018",
+        "Escort new product announcement May 2018",
+        "Escort iX Long Range Radar Laser Detector updated model 2018"
+      ],
+      "news_agent": [
+        "Escort iX Long Range Radar Laser Detector Escort news May 2018",
+        "Escort iX Long Range Radar Laser Detector review 2018",
+        "Escort Electronics news May 2018",
+        "Escort pricing strategy 2018",
+        "Escort iX Long Range Radar Laser Detector Amazon news May 2018"
+      ],
+      "retailer_event_agent": [
+        "Amazon sale event May 2018",
+        "Amazon May 2018 deals",
+        "Amazon Black Friday Cyber Monday 2018",
+        "Amazon clearance event 2018",
+        "Amazon price match 2018",
+        "Amazon promotional event May 2018"
+      ]
+    }
+  },
+  {
+    "event_id": "evt_4d1d716640ebf4ee",
+    "investigation_target": {
+      "product_id": "AVs4UxXXnnc1JgDc4wO5",
+      "product_name": "Sony 65 Class 4K (2160P) Smart OLED TV (XBR65A1E)\"",
+      "brand": "Sony",
+      "merchant": "Amazon.com",
+      "category": "Electronics",
+      "observed_at": "2017-10-28T20:00:00+00:00",
+      "change_direction": "decrease",
+      "percentage_change": -27.308959,
+      "previous_price": 5499.99,
+      "current_price": 3998.0,
+      "cp_probability": 0.3739350199249314,
+      "weak_labels": [
+        "promotion_related"
+      ],
+      "competitor_count": 0,
+      "competitors_changed_7d": 0
+    },
+    "queries": {
+      "promotion_agent": [
+        "Sony 65 Class 4K (2160P) Smart OLED TV (XBR65A1E)\" Amazon sale October 2017",
+        "Sony 65 Class 4K (2160P) Smart OLED TV (XBR65A1E)\" Amazon discount October 2017",
+        "Sony 65 Class 4K (2160P) Smart OLED TV (XBR65A1E)\" Sony promotion October 2017",
+        "Sony 65 Class 4K (2160P) Smart OLED TV (XBR65A1E)\" price drop October 2017",
+        "Sony Electronics sale October 2017",
+        "Amazon Electronics discount October 2017"
+      ],
+      "competitor_agent": [
+        "Sony 65 Class 4K (2160P) Smart OLED TV (XBR65A1E)\" competitor price comparison October 2017",
+        "Sony 65 Class 4K (2160P) Smart OLED TV (XBR65A1E)\" Sony price Amazon vs competitors 2017",
+        "Sony Electronics price war October 2017",
+        "Sony 65 Class 4K (2160P) Smart OLED TV (XBR65A1E)\" best price October 2017",
+        "Sony Electronics pricing competition 2017",
+        "Sony 65 Class 4K (2160P) Smart OLED TV (XBR65A1E)\" retailer price comparison October 2017"
+      ],
+      "product_event_agent": [
+        "Sony 65 Class 4K (2160P) Smart OLED TV (XBR65A1E)\" new version 2017",
+        "Sony 65 Class 4K (2160P) Smart OLED TV (XBR65A1E)\" successor replacement 2017",
+        "Sony Sony 65 Class 4K (2160P) Smart OLED TV (XBR65A1E)\" discontinued 2017",
+        "Sony 65 Class 4K (2160P) Smart OLED TV (XBR65A1E)\" launch release October 2017",
+        "Sony new product announcement October 2017",
+        "Sony 65 Class 4K (2160P) Smart OLED TV (XBR65A1E)\" updated model 2017"
+      ],
+      "news_agent": [
+        "Sony 65 Class 4K (2160P) Smart OLED TV (XBR65A1E)\" Sony news October 2017",
+        "Sony 65 Class 4K (2160P) Smart OLED TV (XBR65A1E)\" review 2017",
+        "Sony Electronics news October 2017",
+        "Sony pricing strategy 2017",
+        "Sony 65 Class 4K (2160P) Smart OLED TV (XBR65A1E)\" Amazon news October 2017"
+      ],
+      "retailer_event_agent": [
+        "Amazon sale event October 2017",
+        "Amazon October 2017 deals",
+        "Amazon Black Friday Cyber Monday 2017",
+        "Amazon clearance event 2017",
+        "Amazon price match 2017",
+        "Amazon promotional event October 2017"
+      ]
+    }
+  },
+  {
+    "event_id": "evt_2c5e7aad6becf3a3",
+    "investigation_target": {
+      "product_id": "AVzYfJRcglJLPUi8F5Uj",
+      "product_name": "HD 4.40 BT Wireless Bluetooth Headphones",
+      "brand": "Sennheiser",
+      "merchant": "bhphotovideo.com",
+      "category": "Electronics",
+      "observed_at": "2018-04-26T16:00:00+00:00",
+      "change_direction": "decrease",
+      "percentage_change": -33.344448,
+      "previous_price": 149.95,
+      "current_price": 99.95,
+      "cp_probability": 0.5271629128946453,
+      "weak_labels": [
+        "promotion_related"
+      ],
+      "competitor_count": 0,
+      "competitors_changed_7d": 0
+    },
+    "queries": {
+      "promotion_agent": [
+        "HD 4.40 BT Wireless Bluetooth Headphones bhphotovideo sale April 2018",
+        "HD 4.40 BT Wireless Bluetooth Headphones bhphotovideo discount April 2018",
+        "HD 4.40 BT Wireless Bluetooth Headphones Sennheiser promotion April 2018",
+        "HD 4.40 BT Wireless Bluetooth Headphones price drop April 2018",
+        "Sennheiser Electronics sale April 2018",
+        "bhphotovideo Electronics discount April 2018"
+      ],
+      "competitor_agent": [
+        "HD 4.40 BT Wireless Bluetooth Headphones competitor price comparison April 2018",
+        "HD 4.40 BT Wireless Bluetooth Headphones Sennheiser price bhphotovideo vs competitors 2018",
+        "Sennheiser Electronics price war April 2018",
+        "HD 4.40 BT Wireless Bluetooth Headphones best price April 2018",
+        "Sennheiser Electronics pricing competition 2018",
+        "HD 4.40 BT Wireless Bluetooth Headphones retailer price comparison April 2018"
+      ],
+      "product_event_agent": [
+        "HD 4.40 BT Wireless Bluetooth Headphones new version 2018",
+        "HD 4.40 BT Wireless Bluetooth Headphones successor replacement 2018",
+        "Sennheiser HD 4.40 BT Wireless Bluetooth Headphones discontinued 2018",
+        "HD 4.40 BT Wireless Bluetooth Headphones launch release April 2018",
+        "Sennheiser new product announcement April 2018",
+        "HD 4.40 BT Wireless Bluetooth Headphones updated model 2018"
+      ],
+      "news_agent": [
+        "HD 4.40 BT Wireless Bluetooth Headphones Sennheiser news April 2018",
+        "HD 4.40 BT Wireless Bluetooth Headphones review 2018",
+        "Sennheiser Electronics news April 2018",
+        "Sennheiser pricing strategy 2018",
+        "HD 4.40 BT Wireless Bluetooth Headphones bhphotovideo news April 2018"
+      ],
+      "retailer_event_agent": [
+        "bhphotovideo sale event April 2018",
+        "bhphotovideo April 2018 deals",
+        "bhphotovideo Black Friday Cyber Monday 2018",
+        "bhphotovideo clearance event 2018",
+        "bhphotovideo price match 2018",
+        "bhphotovideo promotional event April 2018"
+      ]
+    }
+  }
+]

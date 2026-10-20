@@ -1,0 +1,15 @@
+[
+  {
+    "result_id": "res_5494f444af44",
+    "query_id": "q_8976f285fb",
+    "event_id": "evt_test_000",
+    "title": "Apple MacBook 12 Discounted at Best Buy",
+    "url": "https://9to5mac.com/2017/08/macbook-discount-bestbuy",
+    "snippet": "Best Buy is discounting the Apple MacBook 12-inch (MLHF2LL/A) by $400, bringing the price to $1099.99.",
+    "source_domain": "9to5mac.com",
+    "retrieved_at": "2026-10-12T06:02:27.081024+00:00",
+    "provider": "mock",
+    "full_content": null,
+    "publication_date": "2017-08-15"
+  }
+]

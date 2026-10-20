@@ -1,0 +1,28 @@
+[
+  {
+    "result_id": "res_eb7600d0d368",
+    "query_id": "q_fc80d3e2fe",
+    "event_id": "evt_728c4dccf7f8bdb0",
+    "title": "Apple MacBook Air Successor Announced at WWDC",
+    "url": "https://www.theverge.com/2018/10/30/18044962/apple-macbook-air-2018-announced",
+    "snippet": "Apple announced the new MacBook Air as the successor to the MacBook 12-inch, replacing the older model in the lineup.",
+    "source_domain": "theverge.com",
+    "retrieved_at": "2026-10-12T06:02:27.023511+00:00",
+    "provider": "mock",
+    "full_content": null,
+    "publication_date": "2018-10-30"
+  },
+  {
+    "result_id": "res_b7cc48450618",
+    "query_id": "q_fc80d3e2fe",
+    "event_id": "evt_728c4dccf7f8bdb0",
+    "title": "Apple MacBook 12 Replacement Model Review",
+    "url": "https://www.pcmag.com/reviews/apple-macbook-air-2018",
+    "snippet": "The 2018 MacBook Air is effectively the replacement model for the discontinued MacBook 12-inch, offering better performance.",
+    "source_domain": "pcmag.com",
+    "retrieved_at": "2026-10-12T06:02:27.023511+00:00",
+    "provider": "mock",
+    "full_content": null,
+    "publication_date": "2018-11-01"
+  }
+]

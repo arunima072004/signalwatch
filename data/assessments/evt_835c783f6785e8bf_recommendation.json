@@ -1,0 +1,145 @@
+{
+  "event_id": "evt_835c783f6785e8bf",
+  "product_id": "AVpe4lBzLJeJML43xc_m",
+  "product_name": "Apple MacBook - 12 - Core m5 - 8 GB RAM - 512 GB flash storage - English\"",
+  "merchant": "Bestbuy.com",
+  "current_price": 1099.99,
+  "competitor_price": 1099.99,
+  "our_assumed_price": 1499.99,
+  "median_price_before": 1499.99,
+  "cost": 1199.992,
+  "chosen_action": "raise_2pct",
+  "profit_table": {
+    "hold": {
+      "no_response": 4869.5054,
+      "match": 29999.8,
+      "undercut": 27089.6002
+    },
+    "match": {
+      "no_response": -10000.2,
+      "match": -10000.2,
+      "undercut": -9030.1075
+    },
+    "raise_2pct": {
+      "no_response": 4673.6417,
+      "match": 32999.78,
+      "undercut": 29798.5602
+    },
+    "undercut_2pct": {
+      "no_response": -13483.2841,
+      "match": -12200.18,
+      "undercut": -11016.6734
+    },
+    "undercut_5pct": {
+      "no_response": -19902.5866,
+      "match": -15500.15,
+      "undercut": -13996.5222
+    }
+  },
+  "regret_table": {
+    "hold": {
+      "no_response": 0.0,
+      "match": 2999.98,
+      "undercut": 2708.96
+    },
+    "match": {
+      "no_response": 14869.7054,
+      "match": 42999.98,
+      "undercut": 38828.6677
+    },
+    "raise_2pct": {
+      "no_response": 195.8637,
+      "match": 0.0,
+      "undercut": 0.0
+    },
+    "undercut_2pct": {
+      "no_response": 18352.7895,
+      "match": 45199.96,
+      "undercut": 40815.2336
+    },
+    "undercut_5pct": {
+      "no_response": 24772.092,
+      "match": 48499.93,
+      "undercut": 43795.0824
+    }
+  },
+  "expected_profit_ranking": [
+    [
+      "raise_2pct",
+      22490.6606
+    ],
+    [
+      "hold",
+      20652.9685
+    ],
+    [
+      "match",
+      -9676.8358
+    ],
+    [
+      "undercut_2pct",
+      -12233.3792
+    ],
+    [
+      "undercut_5pct",
+      -16466.4196
+    ]
+  ],
+  "scenario_probabilities": {
+    "no_response": 0.3333333333333333,
+    "match": 0.3333333333333333,
+    "undercut": 0.3333333333333333,
+    "sample_size": 1,
+    "confidence": "LOW_DATA",
+    "reason": "fewer than 5 events",
+    "response_days": 7
+  },
+  "sensitivity": {
+    "2.0": {
+      "0.7": "raise_2pct",
+      "0.8": "raise_2pct",
+      "0.9": "raise_2pct"
+    },
+    "5.0": {
+      "0.7": "raise_2pct",
+      "0.8": "raise_2pct",
+      "0.9": "raise_2pct"
+    },
+    "8.0": {
+      "0.7": "raise_2pct",
+      "0.8": "raise_2pct",
+      "0.9": "raise_2pct"
+    }
+  },
+  "assumptions": [
+    "our_price = 1499.99  (pre-event price; NOT our actual listing price)",
+    "competitor_price = 1099.99  (the observed market price after change)",
+    "median_price_before = 1499.99  (median market price before the event)",
+    "cost = 1199.99  = cost_ratio (0.8) x median_price_before \u2014 CONSTANT for this event",
+    "beta = 5.0  (demand sensitivity; default 5 \u2014 ASSUMPTION, not estimated from data)",
+    "base_demand = 100.0  (relative units at price parity; not actual sales volume)",
+    "Demand = base_demand * exp(-beta * (our_price - comp_price) / comp_price)",
+    "Actions: hold, match, raise_2pct, undercut_2pct, undercut_5pct",
+    "Competitor scenarios: no_response (stays at comp_price), match (mirrors our price), undercut (2% below ours)",
+    "*** MODEL-ASSUMPTION DEMO: cost, beta, and base_demand are not estimated from data. ***"
+  ],
+  "investigation_verdicts": [
+    {
+      "hypothesis": "PROMOTION",
+      "support_level": "CONTRADICTS"
+    },
+    {
+      "hypothesis": "INVENTORY_LIQUIDATION",
+      "support_level": "CONSISTENT_WITH"
+    },
+    {
+      "hypothesis": "PRODUCT_EVENT",
+      "support_level": "CONTRADICTS"
+    },
+    {
+      "hypothesis": "SEASONAL_EVENT",
+      "support_level": "CONSISTENT_WITH"
+    }
+  ],
+  "generated_at": "2026-10-19T17:44:55.617179+00:00"
+}

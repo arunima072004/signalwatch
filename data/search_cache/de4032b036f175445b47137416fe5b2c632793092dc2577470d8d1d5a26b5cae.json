@@ -1,0 +1,15 @@
+[
+  {
+    "result_id": "res_1e5bcdcddf4a",
+    "query_id": "q_e182040157",
+    "event_id": "evt_728c4dccf7f8bdb0",
+    "title": "No specific results found",
+    "url": "https://example.com/no-results",
+    "snippet": "No closely matching content found for this query.",
+    "source_domain": "example.com",
+    "retrieved_at": "2026-10-12T06:02:27.047259+00:00",
+    "provider": "mock",
+    "full_content": null,
+    "publication_date": null
+  }
+]

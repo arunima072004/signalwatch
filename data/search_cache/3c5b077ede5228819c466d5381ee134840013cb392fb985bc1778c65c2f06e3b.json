@@ -1,0 +1,15 @@
+[
+  {
+    "result_id": "res_542ec035cbd9",
+    "query_id": "q_19199280a4",
+    "event_id": "evt_728c4dccf7f8bdb0",
+    "title": "Apple Recall Notice for MacBook Battery",
+    "url": "https://www.apple.com/support/macbook-battery-recall",
+    "snippet": "Apple issued a voluntary recall for certain MacBook batteries that may pose a fire safety risk. Affected models include select 2015-2017 units.",
+    "source_domain": "apple.com",
+    "retrieved_at": "2026-10-12T06:02:27.034291+00:00",
+    "provider": "mock",
+    "full_content": null,
+    "publication_date": "2017-09-20"
+  }
+]

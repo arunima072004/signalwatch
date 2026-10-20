@@ -1,0 +1,755 @@
+{
+  "assessment_id": "asmnt_6b56881ac60b",
+  "event_id": "evt_91fdc16843608f0c",
+  "assessed_at": "2026-10-17T16:27:20.409071+00:00",
+  "hypotheses": [
+    {
+      "hypothesis_id": "hyp_8abc859fe26c",
+      "event_id": "evt_91fdc16843608f0c",
+      "hypothesis_type": "PROMOTION",
+      "signal_score": 0.752,
+      "rationale": "Hypothesis type PROMOTION generated from signals: price decrease -29.6%; offer URL present.",
+      "signals_matched": [
+        "price decrease -29.6%",
+        "offer URL present"
+      ],
+      "assigned_agents": [
+        "PromotionAgent",
+        "RetailerEventAgent"
+      ],
+      "requires_external_evidence": false,
+      "generated_at": "2026-10-17T16:27:20.409269+00:00"
+    },
+    {
+      "hypothesis_id": "hyp_eb1beb87a58a",
+      "event_id": "evt_91fdc16843608f0c",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "signal_score": 0.61,
+      "rationale": "Hypothesis type PRODUCT_EVENT generated from signals: extreme price change -29.6%; short run length (1) suggests new regime.",
+      "signals_matched": [
+        "extreme price change -29.6%",
+        "short run length (1) suggests new regime"
+      ],
+      "assigned_agents": [
+        "ProductEventAgent"
+      ],
+      "requires_external_evidence": true,
+      "generated_at": "2026-10-17T16:27:20.409269+00:00"
+    },
+    {
+      "hypothesis_id": "hyp_f77dd2723752",
+      "event_id": "evt_91fdc16843608f0c",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "signal_score": 0.4,
+      "rationale": "Hypothesis type INVENTORY_LIQUIDATION generated from signals: large price decrease -29.6%. Note: requires external web evidence; availability field alone is insufficient.",
+      "signals_matched": [
+        "large price decrease -29.6%"
+      ],
+      "assigned_agents": [
+        "SupplyAgent"
+      ],
+      "requires_external_evidence": true,
+      "generated_at": "2026-10-17T16:27:20.409269+00:00"
+    }
+  ],
+  "queries_generated": 15,
+  "results_retrieved": 75,
+  "evidence": [
+    {
+      "evidence_id": "evd_db67e88f0252",
+      "event_id": "evt_91fdc16843608f0c",
+      "hypothesis_type": "PROMOTION",
+      "query_id": "q_edf6c98ea0",
+      "result_id": "res_3b74e014204b",
+      "source_url": "https://www.ebay.com/shop/sony-cybershot-dsc-h-10?_nkw=sony+cybershot+dsc+h+10",
+      "source_domain": "www.ebay.com",
+      "source_title": "25+ Sony Cybershot Dsc H 10 for sale | Updated Oct 2026",
+      "retrieved_at": "2026-10-17T16:27:22.368381+00:00",
+      "claim": "its 8.1 megapixels sensor, 10x optical zoom, and a 3-inch LCD screen.",
+      "evidence_text": "its 8.1 megapixels sensor, 10x optical zoom, and a 3-inch LCD screen. Pre-Owned $127.77 Free delivery Free returns. Sony Cyber-shot DSC-WX350 18.2MP Digital",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.24,
+      "investigator": "PromotionAgent",
+      "publication_date": null,
+      "strategy": "PromotionStrategy",
+      "shared_source_hypotheses": []
+    },
+    {
+      "evidence_id": "evd_9ff5b69fb42b",
+      "event_id": "evt_91fdc16843608f0c",
+      "hypothesis_type": "PROMOTION",
+      "query_id": "q_edf6c98ea0",
+      "result_id": "res_816fd6765120",
+      "source_url": "https://www.bestbuy.com/site/sony-digital-cameras/sony-vlogging-cameras/pcmcat1698102164736.c?id=pcmcat1698102164736",
+      "source_domain": "www.bestbuy.com",
+      "source_title": "Sony Vlogging Cameras (20)",
+      "retrieved_at": "2026-10-17T16:27:22.368987+00:00",
+      "claim": "Shop Best Buy for a selection of Sony vlogging cameras, including selfie-friendly cameras.",
+      "evidence_text": "Shop Best Buy for a selection of Sony vlogging cameras, including selfie-friendly cameras. $1,299.99$1,29999. Rating 4.7 out of 5 stars with 421 reviews (421)",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.24,
+      "investigator": "PromotionAgent",
+      "publication_date": null,
+      "strategy": "PromotionStrategy",
+      "shared_source_hypotheses": []
+    },
+    {
+      "evidence_id": "evd_fe1831e975f1",
+      "event_id": "evt_91fdc16843608f0c",
+      "hypothesis_type": "PROMOTION",
+      "query_id": "q_537c590712",
+      "result_id": "res_1d481fe89845",
+      "source_url": "https://www.ebay.com/shop/sony-wx-350?_nkw=sony+wx+350",
+      "source_domain": "www.ebay.com",
+      "source_title": "Sony Wx 350",
+      "retrieved_at": "2026-10-17T16:27:26.058984+00:00",
+      "claim": "SONY Cyber-shot DSC-WX350 black 18.2 MP 20x Digital Zoom Digital Camera English.",
+      "evidence_text": "SONY Cyber-shot DSC-WX350 black 18.2 MP 20x Digital Zoom Digital Camera English. Compact Pre-Owned $198.99 or Best Offer +$23.00 delivery Includes import fees",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.415,
+      "investigator": "PromotionAgent",
+      "publication_date": null,
+      "strategy": "PromotionStrategy",
+      "shared_source_hypotheses": []
+    },
+    {
+      "evidence_id": "evd_b06dd9d083ae",
+      "event_id": "evt_91fdc16843608f0c",
+      "hypothesis_type": "PROMOTION",
+      "query_id": "q_537c590712",
+      "result_id": "res_8c9bc7b8f0ee",
+      "source_url": "https://baunow.at?o=460939591108",
+      "source_domain": "baunow.at",
+      "source_title": "Sony Cyber-shot DSC-WX350 Digital Camera Deluxe Kit ...",
+      "retrieved_at": "2026-10-17T16:27:26.059528+00:00",
+      "claim": "Sony Cyber-shot digital camera, : Login >> US$ 155 Pay in 4 interest-free payments of $38.75 \u2026 null Enjoy 20% off shipping US$",
+      "evidence_text": "Sony Cyber-shot digital camera, : Login >> US$ 155 Pay in 4 interest-free payments of $38.75 \u2026 null Enjoy 20% off shipping US$",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.328,
+      "investigator": "PromotionAgent",
+      "publication_date": null,
+      "strategy": "PromotionStrategy",
+      "shared_source_hypotheses": []
+    },
+    {
+      "evidence_id": "evd_fe042c1da6e7",
+      "event_id": "evt_91fdc16843608f0c",
+      "hypothesis_type": "PROMOTION",
+      "query_id": "q_aacca33877",
+      "result_id": "res_c3382a59e022",
+      "source_url": "https://www.ebay.com/itm/375846033208",
+      "source_domain": "www.ebay.com",
+      "source_title": "SONY Cyber Shot DSC WX350 B Digital Camera Optical ...",
+      "retrieved_at": "2026-10-17T16:27:28.326358+00:00",
+      "claim": "; used options and get the best deals for SONY Cyber Shot DSC WX350 B Digital Camera \u30fb $420.98or Best Offer Was $443.14 (5% off) The Shipping $99.00 Estimated",
+      "evidence_text": "; used options and get the best deals for SONY Cyber Shot DSC WX350 B Digital Camera \u30fb $420.98or Best Offer Was $443.14 (5% off) The Shipping $99.00 Estimated",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.502,
+      "investigator": "PromotionAgent",
+      "publication_date": null,
+      "strategy": "PromotionStrategy",
+      "shared_source_hypotheses": []
+    },
+    {
+      "evidence_id": "evd_9946cd5c7fbd",
+      "event_id": "evt_91fdc16843608f0c",
+      "hypothesis_type": "PROMOTION",
+      "query_id": "q_ef6457a504",
+      "result_id": "res_4ca4e819d645",
+      "source_url": "https://www.ebay.com/shop/sony-cybershot-w330?_nkw=sony+cybershot+w330",
+      "source_domain": "www.ebay.com",
+      "source_title": "25+ Sony Cybershot W330 for sale | Updated Oct 2026",
+      "retrieved_at": "2026-10-17T16:27:30.046370+00:00",
+      "claim": "$141.67 $135.67 with coupon \u2026 known for its compact size, 14.1 megapixels resolution, and a 4x optical zoom lens.",
+      "evidence_text": "$141.67 $135.67 with coupon \u2026 known for its compact size, 14.1 megapixels resolution, and a 4x optical zoom lens. Sony DSC-WX350 With Auto Focus Digital",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.328,
+      "investigator": "PromotionAgent",
+      "publication_date": null,
+      "strategy": "PromotionStrategy",
+      "shared_source_hypotheses": []
+    },
+    {
+      "evidence_id": "evd_57609e75c58d",
+      "event_id": "evt_91fdc16843608f0c",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "query_id": "q_b649228df4",
+      "result_id": "res_b30f4c32b959",
+      "source_url": "https://www.ebay.it/p/194407168",
+      "source_domain": "www.ebay.it",
+      "source_title": "Sony Cyber-shot DSC-WX350 18.2MP Digital Camera - Black | Acquisti Online su eBay",
+      "retrieved_at": "2026-10-17T16:27:40.189132+00:00",
+      "claim": "Title: Sony Cyber-shot DSC-WX350 18.2MP Digital Camera - Black | Acquisti Online su eBay\n## breadcrumb.",
+      "evidence_text": "Title: Sony Cyber-shot DSC-WX350 18.2MP Digital Camera - Black | Acquisti Online su eBay\n## breadcrumb. ## Foto 1 di 5. ![[Ricondizionato] Sony Cyber-shot WX350 Fotocamera Digitale 20x Zoom Ottico Nero - Foto 1 di 5](). # Sony Cyber-shot DSC-WX350 18.2MP Digital Camera - Black. ## Aggiunta al carrello in corso... ## Oops! Looks like we're having trouble connecting to our server. Refresh your browser window to try again. ## Informazioni su questo prodotto. ### Product Information. ### Product Identifiers. ### Product Key Features. ### Dimensions. ### Additional Product Features. ## Tutte le inserzioni per questo prodotto. Sony Cyber-Shot DSC-WX350 Camera 18.2MP 20x Black Tested WiFi Multilingual #6638. Sony Cyber Shot Dsc-wx350 18 MP Digital Camera (Black) 32gb Sd Card. ![[Refurbished] SONY",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.229,
+      "investigator": "ProductEventAgent",
+      "publication_date": null,
+      "strategy": "ProductEventStrategy",
+      "shared_source_hypotheses": []
+    },
+    {
+      "evidence_id": "evd_bbb143168823",
+      "event_id": "evt_91fdc16843608f0c",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "query_id": "q_b649228df4",
+      "result_id": "res_60b12b2356aa",
+      "source_url": "https://www.bhphotovideo.com/c/product/1029526-REG/sony_dsc_wx350_b_cyber_shot_dsc_wx350_digital_camera.html",
+      "source_domain": "www.bhphotovideo.com",
+      "source_title": "Sony Cyber-shot DSC-WX350 Digital Camera (Black)",
+      "retrieved_at": "2026-10-17T16:27:40.190596+00:00",
+      "claim": "Title: Sony Cyber-shot DSC-WX350 Digital Camera (Black)\nenhancements to ensure your B&H Shopping experience is as safe as it is enjoyable:.",
+      "evidence_text": "Title: Sony Cyber-shot DSC-WX350 Digital Camera (Black)\nenhancements to ensure your B&H Shopping experience is as safe as it is enjoyable:. Image 1: B&H Payboo Credit Card. Image 10: Sony Cyber-shot DSC-WX350 Digital Camera (Black)\"). *   20x Optical Zoom Sony G f/3.5-6.5 Lens. The black **Sony Cyber-shot DSC-WX350 Digital Camera** is a compact zoom point-and-shoot that features an 18.2MP Exmor R CMOS sensor with a BIONZ X image processor for notable low-light performance, and a powerful 20x optical zoom lens with an additional 40x Clear Image Zoom. A 4.3-86mm f/3.5-6.5 lens, which has a 35mm equivalent focal length of 25-500mm, establishes the camera as having considerable wide-angle to telephoto image capturing abilities. To view your images and high-resolution full HD 1080/60p AVCHD vid",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "CORRELATIONAL",
+      "relevance_score": 0.24,
+      "investigator": "ProductEventAgent",
+      "publication_date": null,
+      "strategy": "ProductEventStrategy",
+      "shared_source_hypotheses": [
+        "INVENTORY_LIQUIDATION"
+      ]
+    },
+    {
+      "evidence_id": "evd_bdc536c6625c",
+      "event_id": "evt_91fdc16843608f0c",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "query_id": "q_b649228df4",
+      "result_id": "res_c07c4d83618c",
+      "source_url": "https://usedlens.co.uk/product/sony-cyber-shot-dsc-wx350",
+      "source_domain": "usedlens.co.uk",
+      "source_title": "Used Sony Cyber-shot DSC-WX350 for sale from \u00a3121 | UsedLens.co.uk",
+      "retrieved_at": "2026-10-17T16:27:40.191082+00:00",
+      "claim": "Title: Used Sony Cyber-shot DSC-WX350 for sale from \u00a3121 | UsedLens.co.uk\nSony Cyber-shot DSC-WX350, representative image.",
+      "evidence_text": "Title: Used Sony Cyber-shot DSC-WX350 for sale from \u00a3121 | UsedLens.co.uk\nSony Cyber-shot DSC-WX350, representative image. London Camera Exchange \u00b7 used with permission Got a better photo? # Used Sony Cyber-shot DSC-WX350. Sony's 2014 travel-zoom compact, among the lightest cameras with a 20x zoom. The Sony Cyber-shot DSC-WX350 is a small travel-zoom compact announced in February 2014, positioned as one of the lightest cameras of its time to carry a 20x optical zoom. For UK used buyers the WX350 is attractive as a genuinely pocketable long-zoom camera at a modest price, with the common NP-BX1 battery making spares cheap and easy to find. Sony Cyber-shot DSC-WX350 18.2MP Digital Camera - White (POOR CONDITION) eBay. eBay Sony Cyber shot DSC-WX350 Recent eBay. eBay Sony Cyber shot DSC-WX350 ",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.419,
+      "investigator": "ProductEventAgent",
+      "publication_date": null,
+      "strategy": "ProductEventStrategy",
+      "shared_source_hypotheses": [
+        "INVENTORY_LIQUIDATION"
+      ]
+    },
+    {
+      "evidence_id": "evd_691c6daff0db",
+      "event_id": "evt_91fdc16843608f0c",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "query_id": "q_b649228df4",
+      "result_id": "res_4455c2395d4e",
+      "source_url": "https://picclick.co.uk/Sony-Cyber-shot-DSC-WX350-Pink-Digital-Camera-20x-Zoom-206235726283.html",
+      "source_domain": "picclick.co.uk",
+      "source_title": "SONY CYBER-SHOT DSC-WX350 Pink Digital Camera 20x Zoom 18.2MP Tested \u00a3264.07 - PicClick UK",
+      "retrieved_at": "2026-10-17T16:27:40.191579+00:00",
+      "claim": "Title: SONY CYBER-SHOT DSC-WX350 Pink Digital Camera 20x Zoom 18.2MP Tested \u00a3264.07 - PicClick UK\n3.",
+      "evidence_text": "Title: SONY CYBER-SHOT DSC-WX350 Pink Digital Camera 20x Zoom 18.2MP Tested \u00a3264.07 - PicClick UK\n3. ## Sony Cyber-shot DSC-WX350 Pink Digital Camera 20x Zoom 18.2MP Tested. Sony Cyber-shot DSC-WX350 Pink Digital Camera 20x Zoom 18.2MP Tested 1 of 3FREE Shipping \u2014 Only 1 left Sony Cyber-shot DSC-WX350 Pink Digital Camera 20x Zoom 18.2MP Tested 2 2 of 3 Sony Cyber-shot DSC-WX350 Pink Digital Camera 20x Zoom 18.2MP Tested 3 3 of 3 See More. **Seller:** animegoodsstore\\_japan525 \u2709\ufe0f (2,268) 99.9%, **Location:** Japan, JP, **Ships to:** EUROPE, **Item:** 206235726283   Sony Cyber-shot DSC-WX350 Pink Digital Camera 20x Zoom 18.2MP Tested. About language settings: Since this product is originally sold in the Japanese market, the default language is generally set toJapanese. You will not be charge",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.31,
+      "investigator": "ProductEventAgent",
+      "publication_date": null,
+      "strategy": "ProductEventStrategy",
+      "shared_source_hypotheses": [
+        "INVENTORY_LIQUIDATION"
+      ]
+    },
+    {
+      "evidence_id": "evd_beeca86ea208",
+      "event_id": "evt_91fdc16843608f0c",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "query_id": "q_768dfbfe76",
+      "result_id": "res_e7c4d18be281",
+      "source_url": "https://dokumen.pub/encyclopedia-of-color-science-and-technology-2nbsped-9783030898618-9783030898625.html",
+      "source_domain": "dokumen.pub",
+      "source_title": "Encyclopedia of Color Science and Technology [2&amp;nbsp;ed.]\r\n 9783030898618, 9783030898625 - DOKUMEN.PUB",
+      "retrieved_at": "2026-10-17T16:27:44.285676+00:00",
+      "claim": "Color Constancy, Fig.",
+      "evidence_text": "Color Constancy, Fig. 1 Photographs of the same scene lighted under two illuminants. Left image: Window daylight. Right image: A mixture of indoor arti\ufb01cial lighting sources. The photographs are taken by a Sony Cyber Shot DSC-WX350 compact camera with whitebalance turned off. Top panel: the patches show rectangular regions \ufb01lled with the color from roughly the same locations of the objects in the two images. Bottom panel: the images from which the patches were extracted. Notice [...] While the human visual system is equipped with good color constancy in most situations, the digital camera has to rely on color-balancing algorithm to discount the illumination effect and extract the invariable object color. This process is also called color balance or white balance. \u201cColor constancy\u201d means re",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "CORRELATIONAL",
+      "relevance_score": 0.24,
+      "investigator": "ProductEventAgent",
+      "publication_date": null,
+      "strategy": "ProductEventStrategy",
+      "shared_source_hypotheses": [
+        "INVENTORY_LIQUIDATION"
+      ]
+    },
+    {
+      "evidence_id": "evd_2b3c30d79a74",
+      "event_id": "evt_91fdc16843608f0c",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "query_id": "q_7591ad6346",
+      "result_id": "res_c155a964a109",
+      "source_url": "https://dokumen.pub/encyclopedia-of-color-science-and-technology-2nbsped-9783030898618-9783030898625.html",
+      "source_domain": "dokumen.pub",
+      "source_title": "Encyclopedia of Color Science and Technology [2&amp;nbsp;ed.]\r\n 9783030898618, 9783030898625 - DOKUMEN.PUB",
+      "retrieved_at": "2026-10-17T16:27:52.884408+00:00",
+      "claim": "Color Constancy, Fig.",
+      "evidence_text": "Color Constancy, Fig. 1 Photographs of the same scene lighted under two illuminants. Left image: Window daylight. Right image: A mixture of indoor arti\ufb01cial lighting sources. The photographs are taken by a Sony Cyber Shot DSC-WX350 compact camera with whitebalance turned off. Top panel: the patches show rectangular regions \ufb01lled with the color from roughly the same locations of the objects in the two images. Bottom panel: the images from which the patches were extracted. Notice [...] \u00f02\u00de  \n  \n Equation (2) is accurate within \u00060.01% for distances that are more than one decade greater than the radius [1]. Since a regular digital camera does not equip the photopic \ufb01lter, its pixels are speci\ufb01ed in a device-independent RGB color space in general. The photometric data can be calibrated from a c",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.24,
+      "investigator": "SupplyAgent",
+      "publication_date": null,
+      "strategy": "SupplyStrategy",
+      "shared_source_hypotheses": [
+        "PRODUCT_EVENT"
+      ]
+    },
+    {
+      "evidence_id": "evd_91dd5b2652d6",
+      "event_id": "evt_91fdc16843608f0c",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "query_id": "q_0acbeaf24f",
+      "result_id": "res_d72cd5eeeb02",
+      "source_url": "https://usedlens.co.uk/product/sony-cyber-shot-dsc-wx350",
+      "source_domain": "usedlens.co.uk",
+      "source_title": "Used Sony Cyber-shot DSC-WX350 for sale from \u00a3101 | UsedLens.co.uk",
+      "retrieved_at": "2026-10-17T16:27:57.095157+00:00",
+      "claim": "\u00a3219.99\n\neBay Sony Cyber-shot DSC-WX350 18.2MP Digital Camera - Black + BOXED + accessories eBay\n\n\u00a3230.00\n\neBay Sony Cyber-shot DSC-WX350 18.2MP Digital Camera - Black BOXED case + accessories eBay\n\n\u00a3",
+      "evidence_text": "\u00a3219.99\n\neBay Sony Cyber-shot DSC-WX350 18.2MP Digital Camera - Black + BOXED + accessories eBay\n\n\u00a3230.00\n\neBay Sony Cyber-shot DSC-WX350 18.2MP Digital Camera - Black BOXED case + accessories eBay\n\n\u00a3234.00\n\neBay Sony DSCWX350 Digital Compact Camera with Wi-Fi/NFC (18.2 MP, 20x Optical Zoom) eBay\n\n\u00a3363.70\n\neBay Sony Cyber-shot DSC-WX350 Compact Digital Camera with SD card eBay\n\n\u00a3190.00\n\neBay Sony DSC-WX350 Cybershot Camera & Integrated 25-500mm Lens eBay\n\n\u00a3279.99\n\neBay [...] \u00a3172.90 \u00a3178.10\n\neBay Sony Cyber-shot DSC-WX350 | 18.2MP Compact Digital Camera | 20x Zoom | Black eBay\n\n\u00a3175.79\n\neBay Sony Cyber-shot DSC-WX350 18.2MP Digital Camera - Very Good Condition! eBay\n\n\u00a3189.95\n\neBay Sony Cyber-shot DSC-WX350 Compact Camera, Good Condition. eBay\n\n\u00a3189.99\n\neBay Sony Cyber-shot DSC-WX350 Compac",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.31,
+      "investigator": "SupplyAgent",
+      "publication_date": null,
+      "strategy": "SupplyStrategy",
+      "shared_source_hypotheses": [
+        "PRODUCT_EVENT"
+      ]
+    },
+    {
+      "evidence_id": "evd_7bf218dee96b",
+      "event_id": "evt_91fdc16843608f0c",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "query_id": "q_0acbeaf24f",
+      "result_id": "res_a8e7acf2016c",
+      "source_url": "https://www.bhphotovideo.com/c/product/1029526-REG/sony_dsc_wx350_b_cyber_shot_dsc_wx350_digital_camera.html",
+      "source_domain": "www.bhphotovideo.com",
+      "source_title": "Sony Cyber-shot DSC-WX350 Digital Camera (Black)",
+      "retrieved_at": "2026-10-17T16:27:57.095613+00:00",
+      "claim": "Title: Sony Cyber-shot DSC-WX350 Digital Camera (Black)\nenhancements to ensure your B&H Shopping experience is as safe as it is enjoyable:.",
+      "evidence_text": "Title: Sony Cyber-shot DSC-WX350 Digital Camera (Black)\nenhancements to ensure your B&H Shopping experience is as safe as it is enjoyable:. Image 1: B&H Payboo Credit Card. Image 10: Sony Cyber-shot DSC-WX350 Digital Camera (Black)\"). *   20x Optical Zoom Sony G f/3.5-6.5 Lens. The black **Sony Cyber-shot DSC-WX350 Digital Camera** is a compact zoom point-and-shoot that features an 18.2MP Exmor R CMOS sensor with a BIONZ X image processor for notable low-light performance, and a powerful 20x optical zoom lens with an additional 40x Clear Image Zoom. A 4.3-86mm f/3.5-6.5 lens, which has a 35mm equivalent focal length of 25-500mm, establishes the camera as having considerable wide-angle to telephoto image capturing abilities. To view your images and high-resolution full HD 1080/60p AVCHD vid",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "CORRELATIONAL",
+      "relevance_score": 0.24,
+      "investigator": "SupplyAgent",
+      "publication_date": null,
+      "strategy": "SupplyStrategy",
+      "shared_source_hypotheses": [
+        "PRODUCT_EVENT"
+      ]
+    },
+    {
+      "evidence_id": "evd_8359eb983fde",
+      "event_id": "evt_91fdc16843608f0c",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "query_id": "q_0acbeaf24f",
+      "result_id": "res_f35ba1383980",
+      "source_url": "https://picclick.co.uk/Sony-Cyber-shot-DSC-WX350-Pink-Digital-Camera-20x-Zoom-206235726283.html",
+      "source_domain": "picclick.co.uk",
+      "source_title": "SONY CYBER-SHOT DSC-WX350 Pink Digital Camera 20x Zoom 18.2MP Tested \u00a3264.07 - PicClick UK",
+      "retrieved_at": "2026-10-17T16:27:57.096592+00:00",
+      "claim": "Title: SONY CYBER-SHOT DSC-WX350 Pink Digital Camera 20x Zoom 18.2MP Tested \u00a3264.07 - PicClick UK\n3.",
+      "evidence_text": "Title: SONY CYBER-SHOT DSC-WX350 Pink Digital Camera 20x Zoom 18.2MP Tested \u00a3264.07 - PicClick UK\n3. ## Sony Cyber-shot DSC-WX350 Pink Digital Camera 20x Zoom 18.2MP Tested. Sony Cyber-shot DSC-WX350 Pink Digital Camera 20x Zoom 18.2MP Tested 1 of 3FREE Shipping \u2014 Only 1 left Sony Cyber-shot DSC-WX350 Pink Digital Camera 20x Zoom 18.2MP Tested 2 2 of 3 Sony Cyber-shot DSC-WX350 Pink Digital Camera 20x Zoom 18.2MP Tested 3 3 of 3 See More. **Seller:** animegoodsstore\\_japan525 \u2709\ufe0f (2,268) 99.9%, **Location:** Japan, JP, **Ships to:** EUROPE, **Item:** 206235726283   Sony Cyber-shot DSC-WX350 Pink Digital Camera 20x Zoom 18.2MP Tested. About language settings: Since this product is originally sold in the Japanese market, the default language is generally set toJapanese. You will not be charge",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.31,
+      "investigator": "SupplyAgent",
+      "publication_date": null,
+      "strategy": "SupplyStrategy",
+      "shared_source_hypotheses": [
+        "PRODUCT_EVENT"
+      ]
+    },
+    {
+      "evidence_id": "evd_34de2aef0283",
+      "event_id": "evt_91fdc16843608f0c",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "query_id": "q_8d24aed1e6",
+      "result_id": "res_bd170c57469c",
+      "source_url": "https://www.ebay.com/p/857975756",
+      "source_domain": "www.ebay.com",
+      "source_title": "Sony Cyber-Shot WX350 18.2MP Digital Camera - Black",
+      "retrieved_at": "2026-10-17T16:27:59.024889+00:00",
+      "claim": "Sony Cyber-Shot WX350 18.2MP Digital Camera.",
+      "evidence_text": "Sony Cyber-Shot WX350 18.2MP Digital Camera. World's smallest and lightest 20x optical zoom premium high zoom. Sensor $212.99 Free shipping",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.24,
+      "investigator": "SupplyAgent",
+      "publication_date": null,
+      "strategy": "SupplyStrategy",
+      "shared_source_hypotheses": []
+    }
+  ],
+  "evidence_verifications": [
+    {
+      "evidence_id": "evd_db67e88f0252",
+      "hypothesis_type": "PROMOTION",
+      "support_level": "CONSISTENT_WITH",
+      "independence_class": "INDEPENDENCE_UNCERTAIN",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.5,
+        "source_independence": 0.5,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.55 (domain: www.ebay.com); temporal_alignment=0.40; product_match=0.60 (text-based, product='Cyber-shot DSC-WX350 Digital Camera Deluxe Kit (Black)'); merchant_match=0.00; specificity=0.50; source_independence=0.50 (INDEPENDENCE_UNCERTAIN); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_9ff5b69fb42b",
+      "hypothesis_type": "PROMOTION",
+      "support_level": "CONSISTENT_WITH",
+      "independence_class": "INDEPENDENCE_UNCERTAIN",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.5,
+        "specificity": 0.5,
+        "source_independence": 0.5,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.55 (domain: www.bestbuy.com); temporal_alignment=0.40; product_match=0.60 (text-based, product='Cyber-shot DSC-WX350 Digital Camera Deluxe Kit (Black)'); merchant_match=0.50; specificity=0.50; source_independence=0.50 (INDEPENDENCE_UNCERTAIN); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_fe1831e975f1",
+      "hypothesis_type": "PROMOTION",
+      "support_level": "CONSISTENT_WITH",
+      "independence_class": "INDEPENDENCE_UNCERTAIN",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.5,
+        "specificity": 0.5,
+        "source_independence": 0.5,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.55 (domain: www.ebay.com); temporal_alignment=0.40; product_match=0.60 (text-based, product='Cyber-shot DSC-WX350 Digital Camera Deluxe Kit (Black)'); merchant_match=0.50; specificity=0.50; source_independence=0.50 (INDEPENDENCE_UNCERTAIN); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_b06dd9d083ae",
+      "hypothesis_type": "PROMOTION",
+      "support_level": "CONSISTENT_WITH",
+      "independence_class": "INDEPENDENCE_UNCERTAIN",
+      "component_scores": {
+        "source_quality": 0.35,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.5,
+        "source_independence": 0.5,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.35 (domain: baunow.at); temporal_alignment=0.40; product_match=0.60 (text-based, product='Cyber-shot DSC-WX350 Digital Camera Deluxe Kit (Black)'); merchant_match=0.00; specificity=0.50; source_independence=0.50 (INDEPENDENCE_UNCERTAIN); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_fe042c1da6e7",
+      "hypothesis_type": "PROMOTION",
+      "support_level": "CONSISTENT_WITH",
+      "independence_class": "INDEPENDENCE_UNCERTAIN",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.5,
+        "specificity": 0.5,
+        "source_independence": 0.5,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.55 (domain: www.ebay.com); temporal_alignment=0.40; product_match=0.60 (text-based, product='Cyber-shot DSC-WX350 Digital Camera Deluxe Kit (Black)'); merchant_match=0.50; specificity=0.50; source_independence=0.50 (INDEPENDENCE_UNCERTAIN); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_9946cd5c7fbd",
+      "hypothesis_type": "PROMOTION",
+      "support_level": "CONSISTENT_WITH",
+      "independence_class": "INDEPENDENCE_UNCERTAIN",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.5,
+        "source_independence": 0.5,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.55 (domain: www.ebay.com); temporal_alignment=0.40; product_match=0.60 (text-based, product='Cyber-shot DSC-WX350 Digital Camera Deluxe Kit (Black)'); merchant_match=0.00; specificity=0.50; source_independence=0.50 (INDEPENDENCE_UNCERTAIN); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_57609e75c58d",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "support_level": "CONTRADICTS",
+      "independence_class": "CONTRADICTING",
+      "component_scores": {
+        "source_quality": 0.35,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.1,
+        "source_independence": 0.0,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 1.0
+      },
+      "notes": "source_quality=0.35 (domain: www.ebay.it); temporal_alignment=0.40; product_match=0.60 (text-based, product='Cyber-shot DSC-WX350 Digital Camera Deluxe Kit (Black)'); merchant_match=0.00; specificity=0.10; source_independence=0.00 (CONTRADICTING); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=1.00"
+    },
+    {
+      "evidence_id": "evd_bbb143168823",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "support_level": "INSUFFICIENT_EVIDENCE",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.1,
+        "source_independence": 0.3,
+        "causal_strength": 0.2,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.55 (domain: www.bhphotovideo.com); temporal_alignment=0.40; product_match=0.60 (text-based, product='Cyber-shot DSC-WX350 Digital Camera Deluxe Kit (Black)'); merchant_match=0.00; specificity=0.10; source_independence=0.30 (SYNDICATED); causal_strength=0.20 (relationship=CORRELATIONAL); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_bdc536c6625c",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "support_level": "CONSISTENT_WITH",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 1.0,
+        "source_independence": 0.3,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.55 (domain: usedlens.co.uk); temporal_alignment=0.40; product_match=0.60 (text-based, product='Cyber-shot DSC-WX350 Digital Camera Deluxe Kit (Black)'); merchant_match=0.00; specificity=1.00; source_independence=0.30 (SYNDICATED); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_691c6daff0db",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "support_level": "CONSISTENT_WITH",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.5,
+        "source_independence": 0.3,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.55 (domain: picclick.co.uk); temporal_alignment=0.40; product_match=0.60 (text-based, product='Cyber-shot DSC-WX350 Digital Camera Deluxe Kit (Black)'); merchant_match=0.00; specificity=0.50; source_independence=0.30 (SYNDICATED); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_beeca86ea208",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "support_level": "CONSISTENT_WITH",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.35,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.4,
+        "source_independence": 0.3,
+        "causal_strength": 0.2,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.35 (domain: dokumen.pub); temporal_alignment=0.40; product_match=0.60 (text-based, product='Cyber-shot DSC-WX350 Digital Camera Deluxe Kit (Black)'); merchant_match=0.00; specificity=0.40; source_independence=0.30 (SYNDICATED); causal_strength=0.20 (relationship=CORRELATIONAL); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_2b3c30d79a74",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "support_level": "CONSISTENT_WITH",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.35,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.5,
+        "source_independence": 0.3,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.35 (domain: dokumen.pub); temporal_alignment=0.40; product_match=0.60 (text-based, product='Cyber-shot DSC-WX350 Digital Camera Deluxe Kit (Black)'); merchant_match=0.00; specificity=0.50; source_independence=0.30 (SYNDICATED); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_91dd5b2652d6",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "support_level": "CONSISTENT_WITH",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.5,
+        "source_independence": 0.3,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.55 (domain: usedlens.co.uk); temporal_alignment=0.40; product_match=0.60 (text-based, product='Cyber-shot DSC-WX350 Digital Camera Deluxe Kit (Black)'); merchant_match=0.00; specificity=0.50; source_independence=0.30 (SYNDICATED); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_7bf218dee96b",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "support_level": "INSUFFICIENT_EVIDENCE",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.1,
+        "source_independence": 0.3,
+        "causal_strength": 0.2,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.55 (domain: www.bhphotovideo.com); temporal_alignment=0.40; product_match=0.60 (text-based, product='Cyber-shot DSC-WX350 Digital Camera Deluxe Kit (Black)'); merchant_match=0.00; specificity=0.10; source_independence=0.30 (SYNDICATED); causal_strength=0.20 (relationship=CORRELATIONAL); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_8359eb983fde",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "support_level": "CONSISTENT_WITH",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.5,
+        "source_independence": 0.3,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.55 (domain: picclick.co.uk); temporal_alignment=0.40; product_match=0.60 (text-based, product='Cyber-shot DSC-WX350 Digital Camera Deluxe Kit (Black)'); merchant_match=0.00; specificity=0.50; source_independence=0.30 (SYNDICATED); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_34de2aef0283",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "support_level": "CONTRADICTS",
+      "independence_class": "CONTRADICTING",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.5,
+        "source_independence": 0.0,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 1.0
+      },
+      "notes": "source_quality=0.55 (domain: www.ebay.com); temporal_alignment=0.40; product_match=0.60 (text-based, product='Cyber-shot DSC-WX350 Digital Camera Deluxe Kit (Black)'); merchant_match=0.00; specificity=0.50; source_independence=0.00 (CONTRADICTING); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=1.00"
+    }
+  ],
+  "hypothesis_assessments": [
+    {
+      "hypothesis_id": "hyp_8abc859fe26c",
+      "hypothesis_type": "PROMOTION",
+      "support_level": "CONSISTENT_WITH",
+      "supporting_evidence_ids": [],
+      "contradicting_evidence_ids": [],
+      "independent_source_count": 0,
+      "duplicated_source_count": 0,
+      "component_scores": {
+        "source_quality": 0.517,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.25,
+        "specificity": 0.5,
+        "source_independence": 0.5,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "explanation": "Evidence is consistent with the PROMOTION hypothesis. Source independence could not be confirmed."
+    },
+    {
+      "hypothesis_id": "hyp_eb1beb87a58a",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "support_level": "CONTRADICTS",
+      "supporting_evidence_ids": [],
+      "contradicting_evidence_ids": [
+        "evd_57609e75c58d"
+      ],
+      "independent_source_count": 0,
+      "duplicated_source_count": 4,
+      "component_scores": {
+        "source_quality": 0.47,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.42,
+        "source_independence": 0.24,
+        "causal_strength": 0.14,
+        "contradiction_penalty": 0.2
+      },
+      "explanation": "Evidence contradicts the PRODUCT_EVENT hypothesis. 1 contradicting evidence item(s) found. Source independence could not be confirmed."
+    },
+    {
+      "hypothesis_id": "hyp_f77dd2723752",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "support_level": "CONTRADICTS",
+      "supporting_evidence_ids": [],
+      "contradicting_evidence_ids": [
+        "evd_34de2aef0283"
+      ],
+      "independent_source_count": 0,
+      "duplicated_source_count": 4,
+      "component_scores": {
+        "source_quality": 0.51,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.42,
+        "source_independence": 0.24,
+        "causal_strength": 0.12,
+        "contradiction_penalty": 0.2
+      },
+      "explanation": "Evidence contradicts the INVENTORY_LIQUIDATION hypothesis. 1 contradicting evidence item(s) found. Source independence could not be confirmed."
+    }
+  ],
+  "independent_source_count": 0,
+  "duplicated_source_count": 8,
+  "uncertainty_factors": [
+    "Source independence could not be confirmed for any evidence."
+  ],
+  "summary": "Event evt_91fdc16843608f0c: Cyber-shot DSC-WX350 Digital Camera Deluxe Kit (Black) at Bestbuy.com. Observed decrease of 29.6% on 2017-05-31. Hypothesis assessments:   PROMOTION: CONSISTENT_WITH   PRODUCT_EVENT: CONTRADICTS   INVENTORY_LIQUIDATION: CONTRADICTS 16 evidence item(s) collected.",
+  "event_summary": {
+    "event_id": "evt_91fdc16843608f0c",
+    "product_name": "Cyber-shot DSC-WX350 Digital Camera Deluxe Kit (Black)",
+    "brand": "Sony",
+    "merchant": "Bestbuy.com",
+    "previous_price": 269.99,
+    "current_price": 189.99,
+    "price_change_pct": -29.630727063965328,
+    "change_direction": "decrease",
+    "observed_at": "2017-05-31T15:00:00+00:00",
+    "category": "Electronics"
+  },
+  "agent_failures": [],
+  "search_failures": []
+}

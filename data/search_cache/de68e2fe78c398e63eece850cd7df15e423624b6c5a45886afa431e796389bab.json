@@ -1,0 +1,15 @@
+[
+  {
+    "result_id": "res_bb9e1987a60f",
+    "query_id": "q_992b61cbc1",
+    "event_id": "evt_test_000",
+    "title": "MacBook Supply Shortage Due to Component Issues",
+    "url": "https://www.bloomberg.com/news/articles/macbook-supply-chain-shortage-2017",
+    "snippet": "Apple is experiencing a supply shortage for certain MacBook components, causing limited availability at some retailers.",
+    "source_domain": "bloomberg.com",
+    "retrieved_at": "2026-10-12T06:02:27.085844+00:00",
+    "provider": "mock",
+    "full_content": null,
+    "publication_date": "2017-07-15"
+  }
+]

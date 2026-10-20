@@ -1,0 +1,141 @@
+{
+  "event_id": "evt_7aa6e0918680e05e",
+  "product_id": "AVqVGm4XU2_QcyX9Ozds",
+  "product_name": "KICKER - CS Series 4 2-Way Car Speakers with Polypropylene Cones (Pair) - Black\"",
+  "merchant": "Bestbuy.com",
+  "current_price": 40.99,
+  "competitor_price": 40.99,
+  "our_assumed_price": 59.99,
+  "median_price_before": 59.99,
+  "cost": 47.992000000000004,
+  "chosen_action": "raise_2pct",
+  "profit_table": {
+    "hold": {
+      "no_response": 118.1874,
+      "match": 1199.8,
+      "undercut": 1083.4106
+    },
+    "match": {
+      "no_response": -700.2,
+      "match": -700.2,
+      "undercut": -632.2755
+    },
+    "raise_2pct": {
+      "no_response": 112.3062,
+      "match": 1319.78,
+      "undercut": 1191.7517
+    },
+    "undercut_2pct": {
+      "no_response": -864.4426,
+      "match": -782.18,
+      "undercut": -706.3028
+    },
+    "undercut_5pct": {
+      "no_response": -1162.2356,
+      "match": -905.15,
+      "undercut": -817.3438
+    }
+  },
+  "regret_table": {
+    "hold": {
+      "no_response": 0.0,
+      "match": 119.98,
+      "undercut": 108.3411
+    },
+    "match": {
+      "no_response": 818.3874,
+      "match": 2019.98,
+      "undercut": 1824.0272
+    },
+    "raise_2pct": {
+      "no_response": 5.8812,
+      "match": 0.0,
+      "undercut": 0.0
+    },
+    "undercut_2pct": {
+      "no_response": 982.63,
+      "match": 2101.96,
+      "undercut": 1898.0545
+    },
+    "undercut_5pct": {
+      "no_response": 1280.423,
+      "match": 2224.93,
+      "undercut": 2009.0955
+    }
+  },
+  "expected_profit_ranking": [
+    [
+      "raise_2pct",
+      874.6126
+    ],
+    [
+      "hold",
+      800.466
+    ],
+    [
+      "match",
+      -677.5585
+    ],
+    [
+      "undercut_2pct",
+      -784.3085
+    ],
+    [
+      "undercut_5pct",
+      -961.5765
+    ]
+  ],
+  "scenario_probabilities": {
+    "no_response": 0.3333333333333333,
+    "match": 0.3333333333333333,
+    "undercut": 0.3333333333333333,
+    "sample_size": 1,
+    "confidence": "LOW_DATA",
+    "reason": "fewer than 5 events",
+    "response_days": 7
+  },
+  "sensitivity": {
+    "2.0": {
+      "0.7": "raise_2pct",
+      "0.8": "raise_2pct",
+      "0.9": "raise_2pct"
+    },
+    "5.0": {
+      "0.7": "raise_2pct",
+      "0.8": "raise_2pct",
+      "0.9": "raise_2pct"
+    },
+    "8.0": {
+      "0.7": "raise_2pct",
+      "0.8": "raise_2pct",
+      "0.9": "raise_2pct"
+    }
+  },
+  "assumptions": [
+    "our_price = 59.99  (pre-event price; NOT our actual listing price)",
+    "competitor_price = 40.99  (the observed market price after change)",
+    "median_price_before = 59.99  (median market price before the event)",
+    "cost = 47.99  = cost_ratio (0.8) x median_price_before \u2014 CONSTANT for this event",
+    "beta = 5.0  (demand sensitivity; default 5 \u2014 ASSUMPTION, not estimated from data)",
+    "base_demand = 100.0  (relative units at price parity; not actual sales volume)",
+    "Demand = base_demand * exp(-beta * (our_price - comp_price) / comp_price)",
+    "Actions: hold, match, raise_2pct, undercut_2pct, undercut_5pct",
+    "Competitor scenarios: no_response (stays at comp_price), match (mirrors our price), undercut (2% below ours)",
+    "*** MODEL-ASSUMPTION DEMO: cost, beta, and base_demand are not estimated from data. ***"
+  ],
+  "investigation_verdicts": [
+    {
+      "hypothesis": "PROMOTION",
+      "support_level": "CONTRADICTS"
+    },
+    {
+      "hypothesis": "PRODUCT_EVENT",
+      "support_level": "CONTRADICTS"
+    },
+    {
+      "hypothesis": "INVENTORY_LIQUIDATION",
+      "support_level": "INSUFFICIENT_EVIDENCE"
+    }
+  ],
+  "generated_at": "2026-10-19T17:45:15.982903+00:00"
+}

@@ -1,0 +1,226 @@
+{
+  "id": "mzM8m2o",
+  "title": "Samsung Galaxy Book4 15.6\" FHD Laptop",
+  "description": "The Samsung Galaxy Book 4 is a portable and slim 15.6-inch laptop designed for durability and performance. It features a full aluminum body, an FHD anti-glare display with a 170-degree viewing angle, and Dolby Atmos sound for an immersive experience. Powered by an Intel Core 7 150U processor, 16GB of DDR4 RAM, and a 512GB NVMe SSD, it provides smooth performance for multitasking, photo, and video editing. The laptop includes a backlit keyboard, Wi-Fi 6 connectivity, and a long-lasting battery capable of up to 10.9 hours of use.",
+  "brands": [
+    {
+      "id": "Mbqx",
+      "name": "Samsung"
+    }
+  ],
+  "images": [
+    {
+      "url": "https://cdn.trychannel3.com/34ff8507-f1ca-4a8f-a96f-ee24b8cde1be?aid=01M4Q4JCK6WSSWZDK53S83NBAE&mid=LFnL",
+      "cleaned_url": "https://cdn.trychannel3.com/b460f230-d18b-4216-95d5-375cced15abb?aid=01M4Q4JCK6WSSWZDK53S83NBAE&mid=LFnL",
+      "is_main_image": true,
+      "shot_type": "hero",
+      "alt_text": "White Samsung Galaxy Book 4 15.6 laptop with a dynamic screen display."
+    },
+    {
+      "url": "https://cdn.trychannel3.com/f6677e13-9c41-4634-b3a6-373fd9bc41a5?aid=01M4Q4JCK6WSSWZDK53S83NBAE&mid=LFnL",
+      "cleaned_url": "https://cdn.trychannel3.com/06977e8f-9baf-4974-9f25-314efdd6235b?aid=01M4Q4JCK6WSSWZDK53S83NBAE&mid=LFnL",
+      "is_main_image": false,
+      "shot_type": "hero",
+      "alt_text": "White Samsung Galaxy Book 4 15.6 laptop viewed from a slight angle."
+    },
+    {
+      "url": "https://cdn.trychannel3.com/8a118939-2451-4ae0-b07e-0db6cb744613?aid=01M4Q4JCK6WSSWZDK53S83NBAE&mid=LFnL",
+      "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/8a118939-2451-4ae0-b07e-0db6cb744613?aid=01M4Q4JCK6WSSWZDK53S83NBAE&mid=LFnL",
+      "is_main_image": false,
+      "shot_type": "hero",
+      "alt_text": "White Samsung Galaxy Book 4 15.6 laptop viewed from the side profile."
+    },
+    {
+      "url": "https://cdn.trychannel3.com/1e6a1610-750a-48f2-a283-074db99ed9e3?aid=01M4Q4JCK6WSSWZDK53S83NBAE&mid=LFnL",
+      "cleaned_url": null,
+      "is_main_image": false,
+      "shot_type": "hero",
+      "alt_text": "White Samsung Galaxy Book 4 15.6 laptop and its detached screen."
+    }
+  ],
+  "category": {
+    "slug": "laptops",
+    "title": "Laptops",
+    "path": [
+      {
+        "slug": "electronics",
+        "title": "Electronics"
+      },
+      {
+        "slug": "computers",
+        "title": "Computers"
+      },
+      {
+        "slug": "laptops",
+        "title": "Laptops"
+      }
+    ],
+    "has_children": false
+  },
+  "gender": null,
+  "age": "adult",
+  "materials": [
+    "metal"
+  ],
+  "key_features": [
+    "15.6\" FHD anti-glare display with 300-nit brightness",
+    "Intel Core 7 150U processor (up to 5.3GHz)",
+    "16GB DDR4 RAM",
+    "512GB NVMe SSD",
+    "Windows 11 Home operating system",
+    "Backlit keyboard",
+    "Wi-Fi 6 (802.11a/b/g/n/ac/ax)",
+    "63Wh lithium-ion battery",
+    "Fingerprint reader",
+    "Full aluminum body"
+  ],
+  "colors": [
+    {
+      "hex": "#020606",
+      "percentage": 0.5391
+    },
+    {
+      "hex": "#b6af9e",
+      "percentage": 0.1617
+    },
+    {
+      "hex": "#022022",
+      "percentage": 0.1255
+    },
+    {
+      "hex": "#e2dcc6",
+      "percentage": 0.097
+    },
+    {
+      "hex": "#493f27",
+      "percentage": 0.0767
+    }
+  ],
+  "offers": [
+    {
+      "url": "https://buy.trychannel3.com/mzM8m2o-LFnL-6ntYHS?o=01KZ5QB58A7SQX6XKPP48ZGXBX&aid=01M4Q4JCK6WSSWZDK53S83NBAE",
+      "domain": "staples.com",
+      "price": {
+        "price": 779.99,
+        "compare_at_price": null,
+        "currency": "USD"
+      },
+      "availability": "InStock",
+      "condition": "new",
+      "max_commission_rate": 0.03,
+      "dimensions": {
+        "length": {
+          "number": 9.02,
+          "unit": "in"
+        },
+        "width": {
+          "number": 14.04,
+          "unit": "in"
+        },
+        "height": {
+          "number": 0.61,
+          "unit": "in"
+        },
+        "weight": {
+          "number": 3.42,
+          "unit": "lb"
+        }
+      }
+    },
+    {
+      "url": "https://buy.trychannel3.com/mzM8m2o-dCgO-6ntYHS?o=01M4HYNSM6E1VRGX567S1JXSZ1&aid=01M4Q4JCK6WSSWZDK53S83NBAE",
+      "domain": "samsclub.com",
+      "price": {
+        "price": 899.0,
+        "compare_at_price": null,
+        "currency": "USD"
+      },
+      "availability": "InStock",
+      "condition": "new",
+      "max_commission_rate": 0.105,
+      "dimensions": {
+        "length": null,
+        "width": null,
+        "height": null,
+        "weight": {
+          "number": 3.42,
+          "unit": "lb"
+        }
+      }
+    }
+  ],
+  "variants": null,
+  "structured_attributes": {
+    "storage-drive-type-installed": [
+      "PCIe/NVMe SSD"
+    ],
+    "graphics-card-type": [
+      "Integrated",
+      "Dedicated"
+    ],
+    "storage-types-supported": [
+      "Solid-state drive (SSD)",
+      "PCIe/NVMe SSD"
+    ],
+    "memory-technology": [
+      "DDR4",
+      "DDR3"
+    ],
+    "operating-system": [
+      "Windows"
+    ],
+    "cosmetic-condition": [
+      "New"
+    ],
+    "display-resolution": [
+      "1920 x 1080",
+      "Full HD"
+    ],
+    "processor-family": [
+      "Intel core i7",
+      "Intel xeon",
+      "Intel celeron"
+    ],
+    "keyboard-type": [
+      "Backlit",
+      "Standard"
+    ],
+    "power-source": [
+      "Rechargeable",
+      "Battery-powered",
+      "AC-powered"
+    ],
+    "computer-form": [
+      "Notebook"
+    ],
+    "removable-storage-formats-supported": [
+      "microSD"
+    ],
+    "storage-capacity": [
+      "512 GB"
+    ],
+    "ram": [
+      "16 GB"
+    ],
+    "keyboard-layout": [
+      "QWERTY"
+    ],
+    "display-technology": [
+      "LCD"
+    ],
+    "computer-specialized-features": [
+      "Touchscreen"
+    ],
+    "processor-cores": [
+      "Multi"
+    ],
+    "optical-drive-type": [
+      "CD-ROM"
+    ]
+  },
+  "ratings": {
+    "value": 4.66,
+    "count": 115,
+    "source_count": 2
+  }
+}

@@ -1,0 +1,1352 @@
+{
+  "assessment_id": "asmnt_1149c054e81d",
+  "event_id": "evt_cc33ffe4d6bbd8af",
+  "assessed_at": "2026-10-17T16:34:11.391763+00:00",
+  "hypotheses": [
+    {
+      "hypothesis_id": "hyp_3fc8622755c1",
+      "event_id": "evt_cc33ffe4d6bbd8af",
+      "hypothesis_type": "PROMOTION",
+      "signal_score": 0.752,
+      "rationale": "Hypothesis type PROMOTION generated from signals: price decrease -37.8%; offer URL present.",
+      "signals_matched": [
+        "price decrease -37.8%",
+        "offer URL present"
+      ],
+      "assigned_agents": [
+        "PromotionAgent",
+        "RetailerEventAgent"
+      ],
+      "requires_external_evidence": false,
+      "generated_at": "2026-10-17T16:34:11.391923+00:00"
+    },
+    {
+      "hypothesis_id": "hyp_ae839a85a360",
+      "event_id": "evt_cc33ffe4d6bbd8af",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "signal_score": 0.61,
+      "rationale": "Hypothesis type PRODUCT_EVENT generated from signals: extreme price change -37.8%; short run length (1) suggests new regime.",
+      "signals_matched": [
+        "extreme price change -37.8%",
+        "short run length (1) suggests new regime"
+      ],
+      "assigned_agents": [
+        "ProductEventAgent"
+      ],
+      "requires_external_evidence": true,
+      "generated_at": "2026-10-17T16:34:11.391923+00:00"
+    },
+    {
+      "hypothesis_id": "hyp_85067c6470cb",
+      "event_id": "evt_cc33ffe4d6bbd8af",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "signal_score": 0.4,
+      "rationale": "Hypothesis type INVENTORY_LIQUIDATION generated from signals: large price decrease -37.8%. Note: requires external web evidence; availability field alone is insufficient.",
+      "signals_matched": [
+        "large price decrease -37.8%"
+      ],
+      "assigned_agents": [
+        "SupplyAgent"
+      ],
+      "requires_external_evidence": true,
+      "generated_at": "2026-10-17T16:34:11.391923+00:00"
+    }
+  ],
+  "queries_generated": 15,
+  "results_retrieved": 73,
+  "evidence": [
+    {
+      "evidence_id": "evd_0087be1e75d8",
+      "event_id": "evt_cc33ffe4d6bbd8af",
+      "hypothesis_type": "PROMOTION",
+      "query_id": "q_23a41b5b13",
+      "result_id": "res_ff90157bf976",
+      "source_url": "https://www.vortexradar.com/2017/10/escort-ix-review",
+      "source_domain": "www.vortexradar.com",
+      "source_title": "Escort iX Review",
+      "retrieved_at": "2026-10-17T16:34:13.509458+00:00",
+      "claim": "The Escort iX is a convenient plug-and-play radar detector ideally suited to the everyday driver.",
+      "evidence_text": "The Escort iX is a convenient plug-and-play radar detector ideally suited to the everyday driver. It offers reasonable performance and false",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.382,
+      "investigator": "PromotionAgent",
+      "publication_date": null,
+      "strategy": "PromotionStrategy",
+      "shared_source_hypotheses": [
+        "INVENTORY_LIQUIDATION",
+        "PRODUCT_EVENT"
+      ]
+    },
+    {
+      "evidence_id": "evd_03c8152c6171",
+      "event_id": "evt_cc33ffe4d6bbd8af",
+      "hypothesis_type": "PROMOTION",
+      "query_id": "q_23a41b5b13",
+      "result_id": "res_88da756c4544",
+      "source_url": "https://www.escortradar.com/products/escort_redline_360c",
+      "source_domain": "www.escortradar.com",
+      "source_title": "ESCORT Redline 360c Radar Detector - EscortRadar",
+      "retrieved_at": "2026-10-17T16:34:13.510459+00:00",
+      "claim": "See our General FAQ Page for more answers.",
+      "evidence_text": "See our General FAQ Page for more answers.\n\n###\n\n### You May Also Like\n\nESCORT MAX 3 Radar EscortRadar\n\nESCORT MAX 3\n\nESCORT MAX 360 MKII Radar EscortRadar   \n\nESCORT MAX 360 MKII\n\n~~$549.95~~$499.95\n\nESCORT MAX 360c MKII Radar EscortRadar\n\nESCORT MAX 360c MKII\n\n~~$599.95~~$529.95\n\nESCORT MAXcam 360c Radar ESCORT\n\nESCORT MAXcam 360c\n\nInvalid Password\n\n Enter;) [...] Find a better price online for any current Escort portable radar and we'll match it within 30 days.\n\n### Price Match Promise [...] $799.95\n\nIt\u2019s the best of the best. We didn\u2019t raise the bar, we changed the game. The Redline 360c features exceptional performance with 360\u00b0 coverage and true stealth technology.\n\nBuy Now\n\nESCORT Redline 360c Radar ESCORT\n\nESCORT Redline 360c Radar ESCORT   \n\nESCORT Redline 360c Radar ESCORT   \n\nES",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "CORRELATIONAL",
+      "relevance_score": 0.31,
+      "investigator": "PromotionAgent",
+      "publication_date": null,
+      "strategy": "PromotionStrategy",
+      "shared_source_hypotheses": [
+        "INVENTORY_LIQUIDATION"
+      ]
+    },
+    {
+      "evidence_id": "evd_7e302944740e",
+      "event_id": "evt_cc33ffe4d6bbd8af",
+      "hypothesis_type": "PROMOTION",
+      "query_id": "q_23a41b5b13",
+      "result_id": "res_4f05b1052b5d",
+      "source_url": "https://www.stealthveil.com/best-radar-detectors",
+      "source_domain": "www.stealthveil.com",
+      "source_title": "Best Radar Detectors 2026: Expert Reviews & Ultimate Buyer\u2019s Guide",
+      "retrieved_at": "2026-10-17T16:34:13.511027+00:00",
+      "claim": "Verify pricing on Amazon  \nCheck Availability at Escort\n\nBest Escort Conventional Directional (tied)\n\nEscort Max 360 MkII Radar Detector Alerting to MultaRadar Photo Enforcement\n\n### Escort MAX 360 Mk",
+      "evidence_text": "Check real-time stock at RadarBusters for zero sales tax options and promotional coupons.  \nVerify pricing on Amazon  \nCheck Availability at Escort\n\nBest Escort Conventional Directional (tied)\n\nEscort Max 360 MkII Radar Detector Alerting to MultaRadar Photo Enforcement\n\n### Escort MAX 360 MkII\n\nRead Escort MAX 360 MkII Review Summary\u2026\n\nVerify pricing on Amazon  \nCheck Availability at Escort\n\nBest Under $700 [...] Escort MAXcam 360c Radar Detector with Integrated Dash Cam\n\n### Escort MAXcam 360c\n\nRead Escort MAXcam 360c Review Summary\u2026\n\nCheck real-time stock at RadarBusters for zero sales tax options and promotional coupons.  \nVerify pricing on Amazon  \nCheck Availability at Escort\n\nBest Escort Conventional Directional (tied)\n\nEscort Max 360c MkII Radar Detector Alerting to Approaching Redl",
+      "evidence_specificity": "DIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.67,
+      "investigator": "PromotionAgent",
+      "publication_date": null,
+      "strategy": "PromotionStrategy",
+      "shared_source_hypotheses": [
+        "PRODUCT_EVENT"
+      ]
+    },
+    {
+      "evidence_id": "evd_1d00eebc50d6",
+      "event_id": "evt_cc33ffe4d6bbd8af",
+      "hypothesis_type": "PROMOTION",
+      "query_id": "q_f7bfdf005b",
+      "result_id": "res_959a4066ac27",
+      "source_url": "https://www.escortradar.com",
+      "source_domain": "www.escortradar.com",
+      "source_title": "Accurate Driver Alert Systems, Drive Smarter! | ESCORT Radar",
+      "retrieved_at": "2026-10-17T16:34:15.968826+00:00",
+      "claim": "Trade in your old detector and save!!",
+      "evidence_text": "Trade in your old detector and save!!\n\nTrade In. Trade Up. Or Pull Over! Trade In Your Old Detector and Save! Promotional offers cannot be combined with Trade In. Trade-in detectors cannot be returned. See terms and conditions\n\n| Purchase Price\\ | Current Detector Trade-In\\ | Trade In Credit |\n --- \n| $599 + | Yes | $120 |\n| $399 - $599 | Yes | $80 |\n| $599 + | No | $80 |\n| $399 - $599 | No | $40 |\n\n\\Purchase Price \u2013 Is the price of the New EscortRadar.com Detector prior to tax or shipping [...] The Trade-In Program may not be used in conjunction with any other promotional offers, sales, rebates, or coupons. One trade in is allowed per new radar detector purchased. Trade in detectors MUST be received within 30 days of delivery of your new detector to be eligible. If the Trade-In is added a",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.66,
+      "investigator": "PromotionAgent",
+      "publication_date": null,
+      "strategy": "PromotionStrategy",
+      "shared_source_hypotheses": [
+        "INVENTORY_LIQUIDATION"
+      ]
+    },
+    {
+      "evidence_id": "evd_9a8c0742d935",
+      "event_id": "evt_cc33ffe4d6bbd8af",
+      "hypothesis_type": "PROMOTION",
+      "query_id": "q_f7bfdf005b",
+      "result_id": "res_7dfd824e9875",
+      "source_url": "https://www.ebay.com/itm/298709769107?epid=1781230315&itmmeta=01M3KZ4SPYGG4C4FWCP0D24DG3&hash=item458c7d5b93%3Ag%3AebQAAeSwr5dquEeh&itmprp=enc%3AAQALAAAA4D8du%2BjVlrWqMmolE0DBMUW%2F6VNUo7YUqpfXoYBUlPl95T3WRtV%2BGrbhIj5UNbPhVOuCFYnI7WxpbQb3yZVH1HF8q82d07olLJYSkvbYWzTVa04OmGN8beWxArnImhYA0nEWfdjD5O3unB7a7%2B9Crf7txnhSi--TnhLXqlbAz5SqZLSa1wVY3rPI6P3NVGG3p0tP7HOfvGUyYoflGAuCNsmnSi1ua6VFc0r6RMUBFN4RCbRCnTnvA9467ugizLm7ajlCRCW8lNTn2TQsqc0OlQHZKjCCfMeav2G5BoGrdvkt%7Ctkp%3ABk9SR9Cbk_-caA",
+      "source_domain": "www.ebay.com",
+      "source_title": "ESCORT iX Long Range RADAR LASER DETECTOR Black ...",
+      "retrieved_at": "2026-10-17T16:34:15.969399+00:00",
+      "claim": "The Escort iX Long Range Radar Laser Detector in Black offers advanced features for detecting various types of radar bands including X Band, Ka Band,",
+      "evidence_text": "The Escort iX Long Range Radar Laser Detector in Black offers advanced features for detecting various types of radar bands including X Band, Ka Band,",
+      "evidence_specificity": "DIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.495,
+      "investigator": "PromotionAgent",
+      "publication_date": null,
+      "strategy": "PromotionStrategy",
+      "shared_source_hypotheses": []
+    },
+    {
+      "evidence_id": "evd_be71011ba697",
+      "event_id": "evt_cc33ffe4d6bbd8af",
+      "hypothesis_type": "PROMOTION",
+      "query_id": "q_f7bfdf005b",
+      "result_id": "res_4ae3834c124c",
+      "source_url": "https://www.stealthveil.com/best-radar-detectors",
+      "source_domain": "www.stealthveil.com",
+      "source_title": "Best Radar Detectors 2026: Expert Reviews & Ultimate Buyer\u2019s Guide",
+      "retrieved_at": "2026-10-17T16:34:15.969661+00:00",
+      "claim": "Verify pricing on Amazon  \nCheck Availability at Escort\n\nBest Escort Conventional Directional (tied)\n\nEscort Max 360c MkII Radar Detector Alerting to Approaching Redlight Camera Photo Enforcement\n\n###",
+      "evidence_text": "Escort MAXcam 360c Radar Detector with Integrated Dash Cam\n\n### Escort MAXcam 360c\n\nRead Escort MAXcam 360c Review Summary\u2026\n\nCheck real-time stock at RadarBusters for zero sales tax options and promotional coupons.  \nVerify pricing on Amazon  \nCheck Availability at Escort\n\nBest Escort Conventional Directional (tied)\n\nEscort Max 360c MkII Radar Detector Alerting to Approaching Redlight Camera Photo Enforcement\n\n### Escort MAX 360c MkII\n\nRead Escort MAX 360c MkII Review Summary\u2026 [...] This high-end detector is priced at the higher-end, but the Escort Redline 360c remains Escort biggest seller and for very good reason. It\u2019s best suited for those restricted in using detectors.\n\n### Escort MAXcam 360c Review\n\nEscort MAXcam 360c - Escort's high-end dashcam integrated detector\n\nSecure the Escort ",
+      "evidence_specificity": "DIRECT",
+      "relationship_type": "DESCRIPTIVE",
+      "relevance_score": 0.55,
+      "investigator": "PromotionAgent",
+      "publication_date": null,
+      "strategy": "PromotionStrategy",
+      "shared_source_hypotheses": [
+        "PRODUCT_EVENT"
+      ]
+    },
+    {
+      "evidence_id": "evd_ed783e320fe8",
+      "event_id": "evt_cc33ffe4d6bbd8af",
+      "hypothesis_type": "PROMOTION",
+      "query_id": "q_f7bfdf005b",
+      "result_id": "res_db1b6bdd2e15",
+      "source_url": "https://www.youtube.com/watch?v=BsNImqdryDo",
+      "source_domain": "www.youtube.com",
+      "source_title": "New & Updated Radar Detectors as of July 2026",
+      "retrieved_at": "2026-10-17T16:34:15.970408+00:00",
+      "claim": "[0:43] more about which detector is best for you.",
+      "evidence_text": "[0:43] more about which detector is best for you. Additionally, if you click on the deals button at the top of the page, that page will show you all of the current discounts and deals for all of\n[0:52] the popular radar detectors. And this page gets automatically updated every single day. That way you can save money on whatever radar detector, laser jammer, or dash cam you'd like to buy. [...] Escort: \nRedline 360c: \nFirmware update discussion: \niDatalink Maestro RR2: \nMid City Engineering: \n\nCobra: \nRAD 490i Review: \nRAD 490i: \nRAD 700i Update: \n\nGenevo: \nMain website: \nMax: \n\nALP: \nAntiLaser Priority: \n10% code: VortexRadar\nWarranty bump: \nEscort M14: \nDukes App: \nFlic Button: \n\n0:00 Intro\n1:15 Uniden\n4:36 Apple CarPlay\n5:21 Android Auto\n5:44 Escort\n6:07 Cobra\n7:20 Genevo\n8:45 ALP\n9:12 N",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "CORRELATIONAL",
+      "relevance_score": 0.59,
+      "investigator": "PromotionAgent",
+      "publication_date": null,
+      "strategy": "PromotionStrategy",
+      "shared_source_hypotheses": [
+        "PRODUCT_EVENT"
+      ]
+    },
+    {
+      "evidence_id": "evd_780bcffd1a28",
+      "event_id": "evt_cc33ffe4d6bbd8af",
+      "hypothesis_type": "PROMOTION",
+      "query_id": "q_eedb057914",
+      "result_id": "res_cd43ee5794e4",
+      "source_url": "https://www.escortradar.com",
+      "source_domain": "www.escortradar.com",
+      "source_title": "Accurate Driver Alert Systems, Drive Smarter! | ESCORT Radar",
+      "retrieved_at": "2026-10-17T16:34:18.624611+00:00",
+      "claim": "Trade in your old detector and save!!",
+      "evidence_text": "Trade in your old detector and save!!\n\nTrade In. Trade Up. Or Pull Over! Trade In Your Old Detector and Save! Promotional offers cannot be combined with Trade In. Trade-in detectors cannot be returned. See terms and conditions\n\n| Purchase Price\\ | Current Detector Trade-In\\ | Trade In Credit |\n --- \n| $599 + | Yes | $120 |\n| $399 - $599 | Yes | $80 |\n| $599 + | No | $80 |\n| $399 - $599 | No | $40 |\n\n\\Purchase Price \u2013 Is the price of the New EscortRadar.com Detector prior to tax or shipping [...] The Trade-In Program may not be used in conjunction with any other promotional offers, sales, rebates, or coupons. One trade in is allowed per new radar detector purchased. Trade in detectors MUST be received within 30 days of delivery of your new detector to be eligible. If the Trade-In is added a",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.66,
+      "investigator": "PromotionAgent",
+      "publication_date": null,
+      "strategy": "PromotionStrategy",
+      "shared_source_hypotheses": [
+        "INVENTORY_LIQUIDATION"
+      ]
+    },
+    {
+      "evidence_id": "evd_0e55b257f29f",
+      "event_id": "evt_cc33ffe4d6bbd8af",
+      "hypothesis_type": "PROMOTION",
+      "query_id": "q_eedb057914",
+      "result_id": "res_c9954d87187f",
+      "source_url": "https://www.youtube.com/watch?v=3kn77iTB4tA",
+      "source_domain": "www.youtube.com",
+      "source_title": "Top 5 Best Radar Detectors 2026 [Don't Buy Before Watching!]",
+      "retrieved_at": "2026-10-17T16:34:18.625915+00:00",
+      "claim": "[7:36] excellent daily driver for enthusiasts willing to optimize settings for peak performance.",
+      "evidence_text": "[7:36] excellent daily driver for enthusiasts willing to optimize settings for peak performance. Escort Redline 360C. The\n[7:44] Escort Redline 360C is a premium radar detector built for drivers who want maximum range, intelligent automation, and minimal day-to-day adjustment.\n[7:54] Featuring a powerful triple antenna design, it delivers exceptional long range detection with true 360\u00b0 coverage,\n[8:01] identifying X, K, CA, MRCD, MRCT, and laser threats with impressive accuracy. [...] [8:36] Built-in Wi-Fi and Bluetooth connectivity enable real-time updates and shared alerts through the Escort Live app, which frequently refreshes red\n[8:44] light and speed camera databases. The multiolor OLED display is crisp and intuitive using directional arrows and a\n[8:52] signal strength bar graph to ",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "CORRELATIONAL",
+      "relevance_score": 0.207,
+      "investigator": "PromotionAgent",
+      "publication_date": null,
+      "strategy": "PromotionStrategy",
+      "shared_source_hypotheses": []
+    },
+    {
+      "evidence_id": "evd_31a1909ad31e",
+      "event_id": "evt_cc33ffe4d6bbd8af",
+      "hypothesis_type": "PROMOTION",
+      "query_id": "q_a3498c8f24",
+      "result_id": "res_10e3488a17a6",
+      "source_url": "https://www.radarbusters.com/Escort-iX-Radar-Detector-p/escort-ix.htm",
+      "source_domain": "www.radarbusters.com",
+      "source_title": "Escort iX Review. SAVE on Escort's Newest Radar Detector",
+      "retrieved_at": "2026-10-17T16:34:22.414015+00:00",
+      "claim": "|  | | |  | | |  |  |  --- | | 5 of 5 Great Experience!",
+      "evidence_text": "|  | | |  | | |  |  |  --- | | 5 of 5 Great Experience! | Wednesday, May 2, 2018 | | Reviewer: Jeffrey Downing from Santa Fe, NM United States |  |  After much research (via your site) I chose the Escort iX and I could not be happier.  Along the way I asked a few question (via the site) and answers came quickly.  I received a modest discount and overall I would rank the experience as GREAT ! Works as advertised and on a recent long day of driving worked exceptionally well, on the return trip I [...] 3000 mile trip and will provide a review on the performance of the EscortiX.    Was this review helpful to you? | | | [...] Home\n Become a VIP & SAVE!\n  + Why Become a RadarBusters VIP?\n  + Benefits of Buying From Us\n  + Trade Up Program\n  + Email White List Instructions\n Products\n  + Radar Det",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.365,
+      "investigator": "PromotionAgent",
+      "publication_date": null,
+      "strategy": "PromotionStrategy",
+      "shared_source_hypotheses": []
+    },
+    {
+      "evidence_id": "evd_36693ba782b1",
+      "event_id": "evt_cc33ffe4d6bbd8af",
+      "hypothesis_type": "PROMOTION",
+      "query_id": "q_a3498c8f24",
+      "result_id": "res_7cdee8a314e8",
+      "source_url": "https://www.rdforum.org/threads/65255",
+      "source_domain": "www.rdforum.org",
+      "source_title": "Redline EX vs. Escort iX? | Radar Detector & Countermeasure Forum",
+      "retrieved_at": "2026-10-17T16:34:22.414691+00:00",
+      "claim": "Yeah $400 may be the sweet spot for it.",
+      "evidence_text": "Yeah $400 may be the sweet spot for it. Yeah there's the DFR7 at just under $300, but once you add Bluetooth, an OLED display, and autolockouts, autobrightness, a more frequently updated RLC database, and a few other little odds and ends, I could certainly see the appeal for the extra $100 or so. At that price you're running directly against the R3.  \n   \n At $500, you're looking at $100 more over the R3 for less performance, likely worse BSM filtering, but you get the automation stuff. [...] - - - Updated - - -  \n   \n> aim4squirrels said:\n>\n> If I was buying an Escort unit (which I'm not, and won't) I would pay the extra $100 for the K band segmentation, RDD immunity, range over the IX, and potential future proofing of MRCD detection.\n>\n> Click to expand... [...] use it for. Ease of use, ",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.31,
+      "investigator": "PromotionAgent",
+      "publication_date": null,
+      "strategy": "PromotionStrategy",
+      "shared_source_hypotheses": [
+        "PRODUCT_EVENT"
+      ]
+    },
+    {
+      "evidence_id": "evd_d63070a71d4a",
+      "event_id": "evt_cc33ffe4d6bbd8af",
+      "hypothesis_type": "PROMOTION",
+      "query_id": "q_a3498c8f24",
+      "result_id": "res_2f99b7f57a6d",
+      "source_url": "https://www.stealthveil.com/best-radar-detectors",
+      "source_domain": "www.stealthveil.com",
+      "source_title": "Best Radar Detectors 2026: Expert Reviews & Ultimate Buyer\u2019s Guide",
+      "retrieved_at": "2026-10-17T16:34:22.415562+00:00",
+      "claim": "Cedar Electronics, the parent company of both Escort and Cobra, made their first foray into a combination radar detector and dash camera several years ago with the attractive and now discontinued Cobr",
+      "evidence_text": "Cedar Electronics, the parent company of both Escort and Cobra, made their first foray into a combination radar detector and dash camera several years ago with the attractive and now discontinued Cobra Road Scout. With the new Escort MAXcam 360c, Escort fans now have an integrated dash camera and high performance police radar detector and police laser detector.\n\n#### \u2705 Pros [...] #### \u2705 Pros\n\n Slated to get a significant firmware update to improve detection performance in the very near future\n Class-leading filtering of radar based collision avoidance systems\n Escort\u2019s best radar detector and dash cam combo\n Exceptional police laser sensitivity\n High quality video dash camera\n Pricey (but goes on sale often)\n\n#### \u274c Cons\n\n Display is small and hard to read\n DriveSmarter often hangs/disconn",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.207,
+      "investigator": "PromotionAgent",
+      "publication_date": null,
+      "strategy": "PromotionStrategy",
+      "shared_source_hypotheses": [
+        "PRODUCT_EVENT"
+      ]
+    },
+    {
+      "evidence_id": "evd_f20948c30eab",
+      "event_id": "evt_cc33ffe4d6bbd8af",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "query_id": "q_203b1c2d9d",
+      "result_id": "res_7721269fe04d",
+      "source_url": "https://www.vortexradar.com/2017/10/escort-ix-review",
+      "source_domain": "www.vortexradar.com",
+      "source_title": "Escort iX Review: Radar Detecor Review by Vortex Radar",
+      "retrieved_at": "2026-10-17T16:34:24.572979+00:00",
+      "claim": "Escort Max2The Max2 came out before the iX, but Escort has since discontinued the Max2 and effectively replaced it by the iX.",
+      "evidence_text": "Escort Max2The Max2 came out before the iX, but Escort has since discontinued the Max2 and effectively replaced it by the iX. The Max2 had virtually all the same features (except for an earlier generation magnetic mount), but better performance and better filtering\u2026 plus you could find it online for less than the iX even though the MSRP of the Max2 was $100 more than the iX. However, the Max2 is now discontinued, the price is now sky high (the only people selling one are those asking ridiculous [...] If you don\u2019t need the RLC alerts or manually marking GPS locations, save even more money and get the DFR6. It\u2019s great at 34.7 which is what you\u2019ll see the most of and you don\u2019t need fancier K band filtering.  If you want something newer, DFR8. \n\n      If you want the RLC alerts, spring for the",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "DESCRIPTIVE",
+      "relevance_score": 0.529,
+      "investigator": "ProductEventAgent",
+      "publication_date": null,
+      "strategy": "ProductEventStrategy",
+      "shared_source_hypotheses": [
+        "PROMOTION",
+        "INVENTORY_LIQUIDATION"
+      ]
+    },
+    {
+      "evidence_id": "evd_6ea50058e015",
+      "event_id": "evt_cc33ffe4d6bbd8af",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "query_id": "q_203b1c2d9d",
+      "result_id": "res_809fbfe051c8",
+      "source_url": "https://www.vortexradar.com/2017/11/escort-radar-detector-reviews",
+      "source_domain": "www.vortexradar.com",
+      "source_title": "Escort Radar Detector Reviews: Which Detector is Best? - Vortex Radar",
+      "retrieved_at": "2026-10-17T16:34:24.573735+00:00",
+      "claim": "[...] Purchase the Escort X80 from Amazon\n\nPurchase the Escort X80 direct from Escort\n\n### Escort S75G / 9500ix: Inexpensive, automation over performance ($299)\n\nEscort S75G radar detectorIf you\u2019ve go",
+      "evidence_text": "Escort iX radar detectorIf you\u2019d like to save a little cash over the Max 360 and don\u2019t need the arrows, take a look at the Escort iX. The iX is a modernized update of Escort\u2019s best selling detector of all time, the now discontinued Escort 9500ix. [...] Purchase the Escort X80 from Amazon\n\nPurchase the Escort X80 direct from Escort\n\n### Escort S75G / 9500ix: Inexpensive, automation over performance ($299)\n\nEscort S75G radar detectorIf you\u2019ve got your heart set on having that plug-and-play user experience and your budget is locked around $299, take a look at the Escort S75G. It\u2019s a minor refresh of Escort\u2019s best selling detector of all time, the now discontinued Escort 9500ix. [...] Escort iX: Best mid-level Escort radar detector, convenient and easy to use like the Max 360, but without the ",
+      "evidence_specificity": "DIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.539,
+      "investigator": "ProductEventAgent",
+      "publication_date": null,
+      "strategy": "ProductEventStrategy",
+      "shared_source_hypotheses": [
+        "INVENTORY_LIQUIDATION"
+      ]
+    },
+    {
+      "evidence_id": "evd_5e1e4efca004",
+      "event_id": "evt_cc33ffe4d6bbd8af",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "query_id": "q_203b1c2d9d",
+      "result_id": "res_3905a63ac7e5",
+      "source_url": "https://www.rdforum.org/threads/65255",
+      "source_domain": "www.rdforum.org",
+      "source_title": "Redline EX vs. Escort iX? | Radar Detector & Countermeasure Forum",
+      "retrieved_at": "2026-10-17T16:34:24.574262+00:00",
+      "claim": "The 9500ix, Max, and Max2 would all fit the bill, but they've since been discontinued and remaining availability is drying up online now.",
+      "evidence_text": "The 9500ix, Max, and Max2 would all fit the bill, but they've since been discontinued and remaining availability is drying up online now. Currently Escort's only other option is the iX which I've never been a particularly big fan of simply because the Max2 did all the same stuff... while offering better performance and better filtering for less money. However, since the Max2 is going away too, that leaves us with the iX. [...] >    \n>  The 9500ix, Max, and Max2 would all fit the bill, but they've since been discontinued and remaining availability is drying up online now. Currently Escort's only other option is the iX which I've never been a particularly big fan of simply because the Max2 did all the same stuff... while offering better performance and better filtering for less money. Howeve",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "CAUSAL",
+      "relevance_score": 0.299,
+      "investigator": "ProductEventAgent",
+      "publication_date": null,
+      "strategy": "ProductEventStrategy",
+      "shared_source_hypotheses": [
+        "PROMOTION"
+      ]
+    },
+    {
+      "evidence_id": "evd_9ec3d0c7470c",
+      "event_id": "evt_cc33ffe4d6bbd8af",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "query_id": "q_203b1c2d9d",
+      "result_id": "res_474d8c42b0b1",
+      "source_url": "https://www.stealthveil.com/best-radar-detectors",
+      "source_domain": "www.stealthveil.com",
+      "source_title": "Best Radar Detectors 2026: Expert Reviews & Ultimate Buyer\u2019s Guide",
+      "retrieved_at": "2026-10-17T16:34:24.574629+00:00",
+      "claim": "Cedar Electronics, the parent company of both Escort and Cobra, made their first foray into a combination radar detector and dash camera several years ago with the attractive and now discontinued Cobr",
+      "evidence_text": "Cedar Electronics, the parent company of both Escort and Cobra, made their first foray into a combination radar detector and dash camera several years ago with the attractive and now discontinued Cobra Road Scout. With the new Escort MAXcam 360c, Escort fans now have an integrated dash camera and high performance police radar detector and police laser detector.\n\n#### \u2705 Pros",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.229,
+      "investigator": "ProductEventAgent",
+      "publication_date": null,
+      "strategy": "ProductEventStrategy",
+      "shared_source_hypotheses": [
+        "PROMOTION"
+      ]
+    },
+    {
+      "evidence_id": "evd_c8e88bfcf6e1",
+      "event_id": "evt_cc33ffe4d6bbd8af",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "query_id": "q_b6467599e9",
+      "result_id": "res_0eab24eb8b6d",
+      "source_url": "https://www.stealthveil.com/best-radar-detectors",
+      "source_domain": "www.stealthveil.com",
+      "source_title": "Best Radar Detectors 2026: Expert Reviews & Ultimate Buyer\u2019s Guide",
+      "retrieved_at": "2026-10-17T16:34:27.336016+00:00",
+      "claim": "#### \u2705 Pros [...] Secure the Escort MAX 360c MkII at RadarBusters to utilize active discount codes and skip sales tax  \nCompare marketplace pricing for the Escort MAX 360c MkII on Amazon  \nCheck Stock",
+      "evidence_text": "The Escort Redline 360c was supposedly a radar detector that Escort could never build. What Escort has done here is combine their best radar detector platform with all of the sophisticated bells and whistles of the very popular selling Escort Max 360c Mk II. The directional Redline 360c is the successor to the previous non-directional Redline and Redline EX radar detectors.\n\n#### \u2705 Pros [...] Secure the Escort MAX 360c MkII at RadarBusters to utilize active discount codes and skip sales tax  \nCompare marketplace pricing for the Escort MAX 360c MkII on Amazon  \nCheck Stock at Escort\n\nEscort\u2019s new MAX 360c MkII radar detector replaces the outgoing Escort MAX 360c. It gets an updated M13 platform, the same that can be found in the Escort MAXcam 360c, which ups its sensitivity by 3dB, equating",
+      "evidence_specificity": "DIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.539,
+      "investigator": "ProductEventAgent",
+      "publication_date": null,
+      "strategy": "ProductEventStrategy",
+      "shared_source_hypotheses": [
+        "PROMOTION"
+      ]
+    },
+    {
+      "evidence_id": "evd_b606e110f370",
+      "event_id": "evt_cc33ffe4d6bbd8af",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "query_id": "q_b6467599e9",
+      "result_id": "res_d7448c62c00e",
+      "source_url": "https://www.youtube.com/watch?v=pgGtWxIi1NI",
+      "source_domain": "www.youtube.com",
+      "source_title": "New & Updated Radar Detectors As of March 2026",
+      "retrieved_at": "2026-10-17T16:34:27.336532+00:00",
+      "claim": "# New & Updated Radar Detectors As of March 2026\n## Channel: Vortex Radar (verified)\n173K subscribers\n2.7K likes\n\n### Description\n115,019 views\nPosted: 2026-03-09\nHere's a look at all the latest news ",
+      "evidence_text": "# New & Updated Radar Detectors As of March 2026\n## Channel: Vortex Radar (verified)\n173K subscribers\n2.7K likes\n\n### Description\n115,019 views\nPosted: 2026-03-09\nHere's a look at all the latest news and info about radar detectors & laser jammers.\nLinks to all the countermeasures, firmware updates, & discussion: \nRadar Detectors: \n\nEscort:\n\nRedline 360c: \nRedline 360c Camo: \nFW Update: \n\nRedline Ci 360c: \nFW Update: \n\nMax 360c Mk II: \nFW Update: \n\nMax 360 Mk II: \nFW Update: [...] [1:24] improves the BSM filtering that adds a second K notch for like your Dodge TRX, Ram trucks, etc. Now, the other big news\n[1:31] is the fact that Escort is now finally starting to roll out the same updates here across many of their other detectors. We've got the updates\n[1:38] available now for the Redline CI",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "CORRELATIONAL",
+      "relevance_score": 0.409,
+      "investigator": "ProductEventAgent",
+      "publication_date": null,
+      "strategy": "ProductEventStrategy",
+      "shared_source_hypotheses": []
+    },
+    {
+      "evidence_id": "evd_3249c5ea5923",
+      "event_id": "evt_cc33ffe4d6bbd8af",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "query_id": "q_b6467599e9",
+      "result_id": "res_bf7e049e0932",
+      "source_url": "https://www.youtube.com/watch?v=BsNImqdryDo",
+      "source_domain": "www.youtube.com",
+      "source_title": "New & Updated Radar Detectors as of July 2026",
+      "retrieved_at": "2026-10-17T16:34:27.338481+00:00",
+      "claim": "[9:42] And so, I've never really been a huge fan of the UI.",
+      "evidence_text": "[9:42] And so, I've never really been a huge fan of the UI. Now, the reason it's been discontinued is that they've now replaced the NetRA DSP with the Escort\n[9:50] M14 radar detector, which is the exact same radar detector that's used in the Redline CI 360C. And so now you can run\n[9:58] the ALP for your laser jammer protection, which does work better than the uh Escort ZR6s and the Shifter Maxes and whatnot, uh, and get the Redline CI for the radar detector functionality. [...] Escort: \nRedline 360c: \nFirmware update discussion: \niDatalink Maestro RR2: \nMid City Engineering: \n\nCobra: \nRAD 490i Review: \nRAD 490i: \nRAD 700i Update: \n\nGenevo: \nMain website: \nMax: \n\nALP: \nAntiLaser Priority: \n10% code: VortexRadar\nWarranty bump: \nEscort M14: \nDukes App: \nFlic Button: \n\n0:00 Intro\n1:15 Uniden",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.459,
+      "investigator": "ProductEventAgent",
+      "publication_date": null,
+      "strategy": "ProductEventStrategy",
+      "shared_source_hypotheses": [
+        "PROMOTION"
+      ]
+    },
+    {
+      "evidence_id": "evd_5c26610c16c2",
+      "event_id": "evt_cc33ffe4d6bbd8af",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "query_id": "q_faa1ad8b82",
+      "result_id": "res_867853b07c39",
+      "source_url": "https://www.facebook.com/VortexRadar/posts/heres-a-first-look-at-the-new-escort-ixc-its-an-updated-version-of-the-ix-but-li/2267802286785234",
+      "source_domain": "www.facebook.com",
+      "source_title": "Escort IXC radar detector with WiFi",
+      "retrieved_at": "2026-10-17T16:34:30.099658+00:00",
+      "claim": "Here\u2019s a first look at the new Escort iXc.",
+      "evidence_text": "Here\u2019s a first look at the new Escort iXc. It\u2019s an updated version of the iX, but like the iX Ci, is based on the M4+ platform for better performance",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.229,
+      "investigator": "ProductEventAgent",
+      "publication_date": null,
+      "strategy": "ProductEventStrategy",
+      "shared_source_hypotheses": []
+    },
+    {
+      "evidence_id": "evd_901a35bd28c6",
+      "event_id": "evt_cc33ffe4d6bbd8af",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "query_id": "q_faa1ad8b82",
+      "result_id": "res_51e1def2cb4d",
+      "source_url": "https://www.vortexradar.com/best-radar-detectors",
+      "source_domain": "www.vortexradar.com",
+      "source_title": "Best Radar Detectors of 2026: Expert Reviews & Buyer's Guide",
+      "retrieved_at": "2026-10-17T16:34:30.099918+00:00",
+      "claim": "The Escort Redline 360c is a top pick for a long range and easy to use radar detector, especially for your everyday driver.",
+      "evidence_text": "The Escort Redline 360c is a top pick for a long range and easy to use radar detector, especially for your everyday driver. It\u2019s a long range detector with arrows, excellent false alert filtering, and some of the best hands-free automation. It ticks nearly every box you could want in terms of features and capabilities. [...] + Uniden: Laser updates released for flagship models in May, Jun, & Sept \u201926, plus new features added like Ka Blocks. In Aug \u201926, Uniden discontinued the R8 and the R4.\n  + Escort: Hotfix in Jun \u201926 for the Redline 360c, Redline Ci 360c, Max 360c Mk II, and Max 360 Mk II to improve communication with third-party vehicle integration systems. In May \u201926, ALP officially added integration with Escort\u2019s M14 radar antennas from the Redline Ci. [...] ### Uniden R8w\n\nUniden R8",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.409,
+      "investigator": "ProductEventAgent",
+      "publication_date": null,
+      "strategy": "ProductEventStrategy",
+      "shared_source_hypotheses": []
+    },
+    {
+      "evidence_id": "evd_837299c3bc7f",
+      "event_id": "evt_cc33ffe4d6bbd8af",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "query_id": "q_d001f7586d",
+      "result_id": "res_a61a831244b5",
+      "source_url": "https://www.vortexradar.com/2017/06/how-to-set-up-uniden-r3",
+      "source_domain": "www.vortexradar.com",
+      "source_title": "How to Set Up & Program your Uniden R1 & R3 Radar Detectors",
+      "retrieved_at": "2026-10-17T16:34:31.733984+00:00",
+      "claim": "Thanks for the detailed write up and set up guide!",
+      "evidence_text": "Thanks for the detailed write up and set up guide! I was leaning towards the Escort iX, but then the iXc came out. But, I didn\u2019t want to spend that much. I read this review and saw a deal pop for $275 for this R3 and I pulled the trigger. No more false signals like I was constantly getting from my Bel RX65! That detector served me well, and saved me countless times, but I very much wanted the newer filtering and longer range these newer ones have. [...] ## Recent Posts\n\n Best Cobra Radar Detector in 2026: Reviews & Comparison\n Uniden R8w vs. Valentine 1 Gen2 vs. Escort Redline 360c\n Police Laser Guns: A Visual Identification Guide\n Cobra RAD 700i Firmware Update: Extreme Mode\n Stalker DSR 2X+ Announced\n Valentine 1 Gen2 Firmware 4.1039: Photo Radar Improvements\n Uniden R8 Discontinued: Sho",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.529,
+      "investigator": "ProductEventAgent",
+      "publication_date": null,
+      "strategy": "ProductEventStrategy",
+      "shared_source_hypotheses": []
+    },
+    {
+      "evidence_id": "evd_b767615ce0f1",
+      "event_id": "evt_cc33ffe4d6bbd8af",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "query_id": "q_7fac2a248b",
+      "result_id": "res_71aed0310e2e",
+      "source_url": "https://www.gearhungry.com/best-car-gadgets",
+      "source_domain": "www.gearhungry.com",
+      "source_title": "Best Car Gadgets in 2022 [Buying Guide] \u2013 Gear Hungry",
+      "retrieved_at": "2026-10-17T16:34:33.301144+00:00",
+      "claim": "Key Features:\n\nDetermines police scanner activity up ahead, up to 3/4 for reliability\n\nFree annual updates on speed trap technology\n\nOLED display\n\nSpecification:\n\n BrandEscort\n Model1220044-1\n Weight1",
+      "evidence_text": "Key Features:\n\nDetermines police scanner activity up ahead, up to 3/4 for reliability\n\nFree annual updates on speed trap technology\n\nOLED display\n\nSpecification:\n\n BrandEscort\n Model1220044-1\n Weight1 pounds\n\nBUY ON AMAZON\n\n### 3 iOttie Easy One Touch Dashboard Phone Mount [...] Key Features:\n\nHolds phones and tablets\n\nAttaches uses 3M VHB strips\n\nSix Hexdymium magnets\n\nUltra-thin\n\nLightweight\n\nSpecification:\n\n BrandWUTEKU\n Model5060494270438\n Weight2.47 pounds\n\nBUY ON AMAZON\n\n### 2 Escort iX Long Range Radar Laser Detector [...] The installation process is a bit tricky, but this handy radar scanner keeps you ahead of the curve. For the daily commuter, if you\u2019re traveling through a new state and not sure what to expect, you need detection capabilities to give you a helping hand. There\u2019s no",
+      "evidence_specificity": "DIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.4,
+      "investigator": "ProductEventAgent",
+      "publication_date": null,
+      "strategy": "ProductEventStrategy",
+      "shared_source_hypotheses": []
+    },
+    {
+      "evidence_id": "evd_6903cd22f766",
+      "event_id": "evt_cc33ffe4d6bbd8af",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "query_id": "q_64d1ecffdb",
+      "result_id": "res_74fb2cdc547d",
+      "source_url": "https://www.vortexradar.com/2017/11/escort-radar-detector-reviews",
+      "source_domain": "www.vortexradar.com",
+      "source_title": "Escort Radar Detector Reviews: Which Detector is Best? - Vortex Radar",
+      "retrieved_at": "2026-10-17T16:34:34.923633+00:00",
+      "claim": "[...] Purchase the Escort X80 from Amazon\n\nPurchase the Escort X80 direct from Escort\n\n### Escort S75G / 9500ix: Inexpensive, automation over performance ($299)\n\nEscort S75G radar detectorIf you\u2019ve go",
+      "evidence_text": "Escort iX radar detectorIf you\u2019d like to save a little cash over the Max 360 and don\u2019t need the arrows, take a look at the Escort iX. The iX is a modernized update of Escort\u2019s best selling detector of all time, the now discontinued Escort 9500ix. [...] Purchase the Escort X80 from Amazon\n\nPurchase the Escort X80 direct from Escort\n\n### Escort S75G / 9500ix: Inexpensive, automation over performance ($299)\n\nEscort S75G radar detectorIf you\u2019ve got your heart set on having that plug-and-play user experience and your budget is locked around $299, take a look at the Escort S75G. It\u2019s a minor refresh of Escort\u2019s best selling detector of all time, the now discontinued Escort 9500ix. [...] Escort iX: Best mid-level Escort radar detector, convenient and easy to use like the Max 360, but without the ",
+      "evidence_specificity": "DIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.32,
+      "investigator": "SupplyAgent",
+      "publication_date": null,
+      "strategy": "SupplyStrategy",
+      "shared_source_hypotheses": [
+        "PRODUCT_EVENT"
+      ]
+    },
+    {
+      "evidence_id": "evd_914b696c7921",
+      "event_id": "evt_cc33ffe4d6bbd8af",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "query_id": "q_64d1ecffdb",
+      "result_id": "res_60174408fcc3",
+      "source_url": "https://www.escortradar.com/products/escort_redline_360c",
+      "source_domain": "www.escortradar.com",
+      "source_title": "ESCORT Redline 360c Radar Detector - EscortRadar",
+      "retrieved_at": "2026-10-17T16:34:34.924908+00:00",
+      "claim": "See our General FAQ Page for more answers.",
+      "evidence_text": "See our General FAQ Page for more answers.\n\n###\n\n### You May Also Like\n\nESCORT MAX 3 Radar EscortRadar\n\nESCORT MAX 3\n\nESCORT MAX 360 MKII Radar EscortRadar   \n\nESCORT MAX 360 MKII\n\n~~$549.95~~$499.95\n\nESCORT MAX 360c MKII Radar EscortRadar\n\nESCORT MAX 360c MKII\n\n~~$599.95~~$529.95\n\nESCORT MAXcam 360c Radar ESCORT\n\nESCORT MAXcam 360c\n\nInvalid Password\n\n Enter;) [...] Superheterodyne, Synthesized Varactor-Tuned VCO\n\nSoftware Defined Radio Receiver (SDR)\n\nBlackfin DSP processor\n\nPATENTED TOTALSHIELD TECHNOLOGY\n\nLASER DETECTION\n\nQuantum Limited Video Receiver\n\nMultiple Laser Sensor Diodes\n\nSENSITIVITY CONTROL\n\nHighway, Auto, Auto No X and Auto Lo K\n\nDISPLAY TYPE\n\nGraphic Multi-Color OLED\n\nBar Graph\n\n5 Levels of Brightness with Full Dark Mode\n\nMUTE, AUTOMUTE AND SMARTMUTE\n\nPOWER REQUIREMENT\n\n12",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "CORRELATIONAL",
+      "relevance_score": 0.31,
+      "investigator": "SupplyAgent",
+      "publication_date": null,
+      "strategy": "SupplyStrategy",
+      "shared_source_hypotheses": [
+        "PROMOTION"
+      ]
+    },
+    {
+      "evidence_id": "evd_5967db7e6037",
+      "event_id": "evt_cc33ffe4d6bbd8af",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "query_id": "q_7bb63297a9",
+      "result_id": "res_afe8146f414e",
+      "source_url": "https://www.vortexradar.com/2017/06/uniden-r1-uniden-r3-radar-detector-review",
+      "source_domain": "www.vortexradar.com",
+      "source_title": "Uniden R3 Review: Still Worth It In 2026?",
+      "retrieved_at": "2026-10-17T16:34:36.853898+00:00",
+      "claim": "Escort iXEscort iX: The iX is Escort\u2019s current arrow-less GPS detector so it is a more direct comparison with the R3.",
+      "evidence_text": "Escort iXEscort iX: The iX is Escort\u2019s current arrow-less GPS detector so it is a more direct comparison with the R3. The Max and Max2 have been discontinued so the iX is now Escort\u2019s direct competitor to the R3. The R3 offers better performance and BSM filtering than the iX. The iX is based off of simpler technology so it won\u2019t be getting the updated BSM filtering like the Max series detectors. It offers automatic lockouts and Bluetooth integration, but it also costs $100 more so unless you [...] Thank you. I reprogrammed the device. I noticed that the whole threat setting was off. I corrected this and went out to hunt again. Now everything is working as it should be.\n23.  Terry Hamilton on July 14, 2018 at 6:59 am\n     #\n     Reply\n\n    I currently have a escort 9500ix  \n     Is the R3 r",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "DESCRIPTIVE",
+      "relevance_score": 0.31,
+      "investigator": "SupplyAgent",
+      "publication_date": null,
+      "strategy": "SupplyStrategy",
+      "shared_source_hypotheses": []
+    },
+    {
+      "evidence_id": "evd_005fd83a3898",
+      "event_id": "evt_cc33ffe4d6bbd8af",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "query_id": "q_d1dd477cd0",
+      "result_id": "res_0837060c01f4",
+      "source_url": "https://www.vortexradar.com/2017/10/escort-ix-review",
+      "source_domain": "www.vortexradar.com",
+      "source_title": "Escort iX Review: Radar Detecor Review by Vortex Radar",
+      "retrieved_at": "2026-10-17T16:34:38.315132+00:00",
+      "claim": "Be sure to buy the detector directly from Amazon.com, not some random third party seller, so that you get the warranty from Escort.",
+      "evidence_text": "|  |\n\n| This website contains affiliate links and I sometimes earn commissions on purchases. All opinions are my own. I don\u2019t do paid or sponsored reviews. Read my affiliate disclosure. |\n\nSummary\n\nrecipe image\n\nReviewer\n\nVortex Radar\n\nLast Updated\n\nReviewed Item\n\nEscort iX\n\nAuthor Rating\n\n4\n\nProduct Name\n\nEscort iX\n\nPrice\n\nUSD 499\n\nProduct Availability\n\nOut of Stock\n\n ?\n\n   Appreciate your feedback  \n    Thanks [...] Escort S75GThe iX is the successor to the 9500ix / S75G and it shares the same underlying M4 platform along with the excellent automatic GPS lockout functionality. However, the iX has performance improvements for longer range and better reactivity, a multicolor OLED display, bluetooth built in for Escort Live integration, and improved BSM filtering. The iX is a worthy, modern",
+      "evidence_specificity": "DIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.2,
+      "investigator": "SupplyAgent",
+      "publication_date": null,
+      "strategy": "SupplyStrategy",
+      "shared_source_hypotheses": [
+        "PROMOTION",
+        "PRODUCT_EVENT"
+      ]
+    },
+    {
+      "evidence_id": "evd_77826466f077",
+      "event_id": "evt_cc33ffe4d6bbd8af",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "query_id": "q_d1dd477cd0",
+      "result_id": "res_68b47aa9140f",
+      "source_url": "https://www.escortradar.com",
+      "source_domain": "www.escortradar.com",
+      "source_title": "Accurate Driver Alert Systems, Drive Smarter! | ESCORT Radar",
+      "retrieved_at": "2026-10-17T16:34:38.315962+00:00",
+      "claim": "Trade in your old detector and save!!",
+      "evidence_text": "Trade in your old detector and save!!\n\nTrade In. Trade Up. Or Pull Over! Trade In Your Old Detector and Save! Promotional offers cannot be combined with Trade In. Trade-in detectors cannot be returned. See terms and conditions\n\n| Purchase Price\\ | Current Detector Trade-In\\ | Trade In Credit |\n --- \n| $599 + | Yes | $120 |\n| $399 - $599 | Yes | $80 |\n| $599 + | No | $80 |\n| $399 - $599 | No | $40 |\n\n\\Purchase Price \u2013 Is the price of the New EscortRadar.com Detector prior to tax or shipping [...] \\Current Detector Trade-In \u2013 Indicates that the detector you are trading in is currently for sales on Escortradar.com\n\nTrade-in Program Details [...] Skip to content\n\nFREE UPS Ground Shipping On All Orders $100+\n\nFREE 2-Day Shipping On All Orders w/ Redline 360c\n\nUPS logo UPS Access Point Pickup Av",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.24,
+      "investigator": "SupplyAgent",
+      "publication_date": null,
+      "strategy": "SupplyStrategy",
+      "shared_source_hypotheses": [
+        "PROMOTION"
+      ]
+    },
+    {
+      "evidence_id": "evd_eed59560cb2c",
+      "event_id": "evt_cc33ffe4d6bbd8af",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "query_id": "q_d1dd477cd0",
+      "result_id": "res_8640cc3f78cf",
+      "source_url": "https://www.walmart.com/browse/auto-tires/360-radar-detectors/91083_3947_52816_7892888",
+      "source_domain": "www.walmart.com",
+      "source_title": "360 Radar Detectors & Global Positioning Systems - Walmart.com",
+      "retrieved_at": "2026-10-17T16:34:38.316345+00:00",
+      "claim": "### Escort Redline 360c Laser Radar Detector \u2013 Extreme Range, AI Assisted Filtering, 360\u00b0 Directional Awareness, Rapid Response Times, Wi-Fi, GPS Based, Price $799.95\n\nEscort Redline 360c Laser Radar ",
+      "evidence_text": "### Escort Redline 360c Laser Radar Detector \u2013 Extreme Range, AI Assisted Filtering, 360\u00b0 Directional Awareness, Rapid Response Times, Wi-Fi, GPS Based, Price $799.95\n\nEscort Redline 360c Laser Radar Detector \u2013 Extreme Range, AI Assisted Filtering, 360\u00b0 Directional Awareness, Rapid Response Times, Wi-Fi, GPS Based\n\n### Escort MAX 360c MKII Radar Detector - Dual-Band Wi-Fi, Bluetooth, Exceptional Range, Apple CarPlay Android Auto, Price $529.95 [...] ### Escort Redline 360c Laser Radar Detector \u2013 Extreme Range, AI Assisted Filtering, 360\u00b0 Directional Awareness, Rapid Response Times, Wi-Fi, GPS Based $799.95\n\nEscort Redline 360c Laser Radar Detector \u2013 Extreme Range, AI Assisted Filtering, 360\u00b0 Directional Awareness, Rapid Response Times, Wi-Fi, GPS Based\n\n### Escort Redline 360c Laser Radar ",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.24,
+      "investigator": "SupplyAgent",
+      "publication_date": null,
+      "strategy": "SupplyStrategy",
+      "shared_source_hypotheses": []
+    },
+    {
+      "evidence_id": "evd_d3a0c9d910f2",
+      "event_id": "evt_cc33ffe4d6bbd8af",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "query_id": "q_eac20fe1b6",
+      "result_id": "res_19aa32a6d4a1",
+      "source_url": "https://www.stealthveil.com/best-radar-detector-reviews-2018-top-rated-radar-detectors",
+      "source_domain": "www.stealthveil.com",
+      "source_title": "Best radar detector reviews : top-rated radar detectors ranked",
+      "retrieved_at": "2026-10-17T16:34:41.499973+00:00",
+      "claim": "Escort iX Radar Detector Retail Price: $399.",
+      "evidence_text": "Escort iX Radar Detector Retail Price: $399. This new Escort iX is the detector to drive with for both highway and city driving. It's advanced",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.24,
+      "investigator": "SupplyAgent",
+      "publication_date": null,
+      "strategy": "SupplyStrategy",
+      "shared_source_hypotheses": []
+    },
+    {
+      "evidence_id": "evd_3dc41be9558f",
+      "event_id": "evt_cc33ffe4d6bbd8af",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "query_id": "q_eac20fe1b6",
+      "result_id": "res_9188b1b0b218",
+      "source_url": "https://www.vortexradar.com/2019/07/uniden-r7-radar-detector-review",
+      "source_domain": "www.vortexradar.com",
+      "source_title": "Uniden R7 Review - Long Range Radar Detector w/ Arrows - Vortex Radar",
+      "retrieved_at": "2026-10-17T16:34:41.500511+00:00",
+      "claim": "ALP Extreme Sensor Announced\n Radar Detector CarPlay Apps Compared\n Prime Day 2026 Deals on Radar Detectors & Dash Cams [...] Update: The original Max 360c has reached end of life, but you can still s",
+      "evidence_text": "Uniden R9wUniden R9w ($3,999, radar and laser)\n\nHigh performance radar detector & laser jammer combo\n\nRedline Ci 360c Escort Redline Ci 360c ($4,299, radar and laser)\n\nQuiet filtering, smaller laser jammer heads, fully RDD immune\n\nCompare all custom installed systems \u2192\n\n## Stay Up to Date\n\nGet my latest reviews, firmware updates, and deals by email.\n\n### Follow on Social Media\n\n### Follow on Google Search\n\nSee more Vortex Radar articles in Google Search.\n\n## Viewer & Reader Feedback [...] ## Recent Posts\n\n Best Cobra Radar Detector in 2026: Reviews & Comparison\n Uniden R8w vs. Valentine 1 Gen2 vs. Escort Redline 360c\n Police Laser Guns: A Visual Identification Guide\n Cobra RAD 700i Firmware Update: Extreme Mode\n Stalker DSR 2X+ Announced\n Valentine 1 Gen2 Firmware 4.1039: Photo Radar Impro",
+      "evidence_specificity": "DIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.39,
+      "investigator": "SupplyAgent",
+      "publication_date": null,
+      "strategy": "SupplyStrategy",
+      "shared_source_hypotheses": []
+    }
+  ],
+  "evidence_verifications": [
+    {
+      "evidence_id": "evd_0087be1e75d8",
+      "hypothesis_type": "PROMOTION",
+      "support_level": "INSUFFICIENT_EVIDENCE",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.1,
+        "source_independence": 0.3,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.55 (domain: www.vortexradar.com); temporal_alignment=0.40; product_match=0.60 (text-based, product='Escort iX Long Range Radar Laser Detector'); merchant_match=0.00; specificity=0.10; source_independence=0.30 (SYNDICATED); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_03c8152c6171",
+      "hypothesis_type": "PROMOTION",
+      "support_level": "CONSISTENT_WITH",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.7,
+        "source_independence": 0.3,
+        "causal_strength": 0.2,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.55 (domain: www.escortradar.com); temporal_alignment=0.40; product_match=0.60 (text-based, product='Escort iX Long Range Radar Laser Detector'); merchant_match=0.00; specificity=0.70; source_independence=0.30 (SYNDICATED); causal_strength=0.20 (relationship=CORRELATIONAL); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_7e302944740e",
+      "hypothesis_type": "PROMOTION",
+      "support_level": "PARTIALLY_SUPPORTS",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.9,
+        "specificity": 0.5,
+        "source_independence": 0.3,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.55 (domain: www.stealthveil.com); temporal_alignment=0.40; product_match=0.60 (text-based, product='Escort iX Long Range Radar Laser Detector'); merchant_match=0.90; specificity=0.50; source_independence=0.30 (SYNDICATED); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_1d00eebc50d6",
+      "hypothesis_type": "PROMOTION",
+      "support_level": "CONSISTENT_WITH",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.7,
+        "source_independence": 0.3,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.55 (domain: www.escortradar.com); temporal_alignment=0.40; product_match=0.60 (text-based, product='Escort iX Long Range Radar Laser Detector'); merchant_match=0.00; specificity=0.70; source_independence=0.30 (SYNDICATED); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_9a8c0742d935",
+      "hypothesis_type": "PROMOTION",
+      "support_level": "CONTRADICTS",
+      "independence_class": "CONTRADICTING",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 1.0,
+        "merchant_match": 0.0,
+        "specificity": 0.1,
+        "source_independence": 0.0,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 1.0
+      },
+      "notes": "source_quality=0.55 (domain: www.ebay.com); temporal_alignment=0.40; product_match=1.00 (text-based, product='Escort iX Long Range Radar Laser Detector'); merchant_match=0.00; specificity=0.10; source_independence=0.00 (CONTRADICTING); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=1.00"
+    },
+    {
+      "evidence_id": "evd_be71011ba697",
+      "hypothesis_type": "PROMOTION",
+      "support_level": "INSUFFICIENT_EVIDENCE",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.9,
+        "specificity": 0.1,
+        "source_independence": 0.3,
+        "causal_strength": 0.5,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.55 (domain: www.stealthveil.com); temporal_alignment=0.40; product_match=0.60 (text-based, product='Escort iX Long Range Radar Laser Detector'); merchant_match=0.90; specificity=0.10; source_independence=0.30 (SYNDICATED); causal_strength=0.50 (relationship=DESCRIPTIVE); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_ed783e320fe8",
+      "hypothesis_type": "PROMOTION",
+      "support_level": "CONSISTENT_WITH",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.5,
+        "source_independence": 0.3,
+        "causal_strength": 0.2,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.55 (domain: www.youtube.com); temporal_alignment=0.40; product_match=0.60 (text-based, product='Escort iX Long Range Radar Laser Detector'); merchant_match=0.00; specificity=0.50; source_independence=0.30 (SYNDICATED); causal_strength=0.20 (relationship=CORRELATIONAL); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_780bcffd1a28",
+      "hypothesis_type": "PROMOTION",
+      "support_level": "CONSISTENT_WITH",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.7,
+        "source_independence": 0.3,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.55 (domain: www.escortradar.com); temporal_alignment=0.40; product_match=0.60 (text-based, product='Escort iX Long Range Radar Laser Detector'); merchant_match=0.00; specificity=0.70; source_independence=0.30 (SYNDICATED); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_0e55b257f29f",
+      "hypothesis_type": "PROMOTION",
+      "support_level": "CONTRADICTS",
+      "independence_class": "CONTRADICTING",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 1.0,
+        "merchant_match": 0.0,
+        "specificity": 0.1,
+        "source_independence": 0.0,
+        "causal_strength": 0.2,
+        "contradiction_penalty": 1.0
+      },
+      "notes": "source_quality=0.55 (domain: www.youtube.com); temporal_alignment=0.40; product_match=1.00 (text-based, product='Escort iX Long Range Radar Laser Detector'); merchant_match=0.00; specificity=0.10; source_independence=0.00 (CONTRADICTING); causal_strength=0.20 (relationship=CORRELATIONAL); contradiction_penalty=1.00"
+    },
+    {
+      "evidence_id": "evd_31a1909ad31e",
+      "hypothesis_type": "PROMOTION",
+      "support_level": "CONSISTENT_WITH",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.6,
+        "source_independence": 0.3,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.55 (domain: www.radarbusters.com); temporal_alignment=0.40; product_match=0.60 (text-based, product='Escort iX Long Range Radar Laser Detector'); merchant_match=0.00; specificity=0.60; source_independence=0.30 (SYNDICATED); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_36693ba782b1",
+      "hypothesis_type": "PROMOTION",
+      "support_level": "CONSISTENT_WITH",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.7,
+        "source_independence": 0.3,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.55 (domain: www.rdforum.org); temporal_alignment=0.40; product_match=0.60 (text-based, product='Escort iX Long Range Radar Laser Detector'); merchant_match=0.00; specificity=0.70; source_independence=0.30 (SYNDICATED); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_d63070a71d4a",
+      "hypothesis_type": "PROMOTION",
+      "support_level": "CONSISTENT_WITH",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.4,
+        "source_independence": 0.3,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.55 (domain: www.stealthveil.com); temporal_alignment=0.40; product_match=0.60 (text-based, product='Escort iX Long Range Radar Laser Detector'); merchant_match=0.00; specificity=0.40; source_independence=0.30 (SYNDICATED); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_f20948c30eab",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "support_level": "CONSISTENT_WITH",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.8,
+        "source_independence": 0.3,
+        "causal_strength": 0.25,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.55 (domain: www.vortexradar.com); temporal_alignment=0.40; product_match=0.60 (text-based, product='Escort iX Long Range Radar Laser Detector'); merchant_match=0.00; specificity=0.80; source_independence=0.30 (SYNDICATED); causal_strength=0.25 (relationship=DESCRIPTIVE); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_6ea50058e015",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "support_level": "PARTIALLY_SUPPORTS",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.9,
+        "specificity": 0.8,
+        "source_independence": 0.3,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.55 (domain: www.vortexradar.com); temporal_alignment=0.40; product_match=0.60 (text-based, product='Escort iX Long Range Radar Laser Detector'); merchant_match=0.90; specificity=0.80; source_independence=0.30 (SYNDICATED); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_5e1e4efca004",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "support_level": "CONSISTENT_WITH",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.4,
+        "source_independence": 0.3,
+        "causal_strength": 0.4,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.55 (domain: www.rdforum.org); temporal_alignment=0.40; product_match=0.60 (text-based, product='Escort iX Long Range Radar Laser Detector'); merchant_match=0.00; specificity=0.40; source_independence=0.30 (SYNDICATED); causal_strength=0.40 (relationship=CAUSAL); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_9ec3d0c7470c",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "support_level": "CONSISTENT_WITH",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.4,
+        "source_independence": 0.3,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.55 (domain: www.stealthveil.com); temporal_alignment=0.40; product_match=0.60 (text-based, product='Escort iX Long Range Radar Laser Detector'); merchant_match=0.00; specificity=0.40; source_independence=0.30 (SYNDICATED); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_c8e88bfcf6e1",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "support_level": "PARTIALLY_SUPPORTS",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.9,
+        "specificity": 0.4,
+        "source_independence": 0.3,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.55 (domain: www.stealthveil.com); temporal_alignment=0.40; product_match=0.60 (text-based, product='Escort iX Long Range Radar Laser Detector'); merchant_match=0.90; specificity=0.40; source_independence=0.30 (SYNDICATED); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_b606e110f370",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "support_level": "CONTRADICTS",
+      "independence_class": "CONTRADICTING",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.3,
+        "source_independence": 0.0,
+        "causal_strength": 0.2,
+        "contradiction_penalty": 1.0
+      },
+      "notes": "source_quality=0.55 (domain: www.youtube.com); temporal_alignment=0.40; product_match=0.60 (text-based, product='Escort iX Long Range Radar Laser Detector'); merchant_match=0.00; specificity=0.30; source_independence=0.00 (CONTRADICTING); causal_strength=0.20 (relationship=CORRELATIONAL); contradiction_penalty=1.00"
+    },
+    {
+      "evidence_id": "evd_3249c5ea5923",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "support_level": "CONSISTENT_WITH",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.8,
+        "source_independence": 0.3,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.55 (domain: www.youtube.com); temporal_alignment=0.40; product_match=0.60 (text-based, product='Escort iX Long Range Radar Laser Detector'); merchant_match=0.00; specificity=0.80; source_independence=0.30 (SYNDICATED); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_5c26610c16c2",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "support_level": "CONTRADICTS",
+      "independence_class": "CONTRADICTING",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.1,
+        "source_independence": 0.0,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 1.0
+      },
+      "notes": "source_quality=0.55 (domain: www.facebook.com); temporal_alignment=0.40; product_match=0.60 (text-based, product='Escort iX Long Range Radar Laser Detector'); merchant_match=0.00; specificity=0.10; source_independence=0.00 (CONTRADICTING); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=1.00"
+    },
+    {
+      "evidence_id": "evd_901a35bd28c6",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "support_level": "CONTRADICTS",
+      "independence_class": "CONTRADICTING",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 1.0,
+        "merchant_match": 0.0,
+        "specificity": 0.6,
+        "source_independence": 0.0,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 1.0
+      },
+      "notes": "source_quality=0.55 (domain: www.vortexradar.com); temporal_alignment=0.40; product_match=1.00 (text-based, product='Escort iX Long Range Radar Laser Detector'); merchant_match=0.00; specificity=0.60; source_independence=0.00 (CONTRADICTING); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=1.00"
+    },
+    {
+      "evidence_id": "evd_837299c3bc7f",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "support_level": "CONTRADICTS",
+      "independence_class": "CONTRADICTING",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 1.0,
+        "merchant_match": 0.0,
+        "specificity": 0.8,
+        "source_independence": 0.0,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 1.0
+      },
+      "notes": "source_quality=0.55 (domain: www.vortexradar.com); temporal_alignment=0.40; product_match=1.00 (text-based, product='Escort iX Long Range Radar Laser Detector'); merchant_match=0.00; specificity=0.80; source_independence=0.00 (CONTRADICTING); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=1.00"
+    },
+    {
+      "evidence_id": "evd_b767615ce0f1",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "support_level": "CONTRADICTS",
+      "independence_class": "CONTRADICTING",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 1.0,
+        "merchant_match": 0.9,
+        "specificity": 0.1,
+        "source_independence": 0.0,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 1.0
+      },
+      "notes": "source_quality=0.55 (domain: www.gearhungry.com); temporal_alignment=0.40; product_match=1.00 (text-based, product='Escort iX Long Range Radar Laser Detector'); merchant_match=0.90; specificity=0.10; source_independence=0.00 (CONTRADICTING); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=1.00"
+    },
+    {
+      "evidence_id": "evd_6903cd22f766",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "support_level": "PARTIALLY_SUPPORTS",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.9,
+        "specificity": 0.8,
+        "source_independence": 0.3,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.55 (domain: www.vortexradar.com); temporal_alignment=0.40; product_match=0.60 (text-based, product='Escort iX Long Range Radar Laser Detector'); merchant_match=0.90; specificity=0.80; source_independence=0.30 (SYNDICATED); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_914b696c7921",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "support_level": "CONSISTENT_WITH",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.7,
+        "source_independence": 0.3,
+        "causal_strength": 0.2,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.55 (domain: www.escortradar.com); temporal_alignment=0.40; product_match=0.60 (text-based, product='Escort iX Long Range Radar Laser Detector'); merchant_match=0.00; specificity=0.70; source_independence=0.30 (SYNDICATED); causal_strength=0.20 (relationship=CORRELATIONAL); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_5967db7e6037",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "support_level": "CONTRADICTS",
+      "independence_class": "CONTRADICTING",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 1.0,
+        "source_independence": 0.0,
+        "causal_strength": 0.25,
+        "contradiction_penalty": 1.0
+      },
+      "notes": "source_quality=0.55 (domain: www.vortexradar.com); temporal_alignment=0.40; product_match=0.60 (text-based, product='Escort iX Long Range Radar Laser Detector'); merchant_match=0.00; specificity=1.00; source_independence=0.00 (CONTRADICTING); causal_strength=0.25 (relationship=DESCRIPTIVE); contradiction_penalty=1.00"
+    },
+    {
+      "evidence_id": "evd_005fd83a3898",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "support_level": "INSUFFICIENT_EVIDENCE",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.1,
+        "source_independence": 0.3,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.55 (domain: www.vortexradar.com); temporal_alignment=0.40; product_match=0.60 (text-based, product='Escort iX Long Range Radar Laser Detector'); merchant_match=0.00; specificity=0.10; source_independence=0.30 (SYNDICATED); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_77826466f077",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "support_level": "CONSISTENT_WITH",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.5,
+        "source_independence": 0.3,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.55 (domain: www.escortradar.com); temporal_alignment=0.40; product_match=0.60 (text-based, product='Escort iX Long Range Radar Laser Detector'); merchant_match=0.00; specificity=0.50; source_independence=0.30 (SYNDICATED); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_eed59560cb2c",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "support_level": "CONTRADICTS",
+      "independence_class": "CONTRADICTING",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.5,
+        "source_independence": 0.0,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 1.0
+      },
+      "notes": "source_quality=0.55 (domain: www.walmart.com); temporal_alignment=0.40; product_match=0.60 (text-based, product='Escort iX Long Range Radar Laser Detector'); merchant_match=0.00; specificity=0.50; source_independence=0.00 (CONTRADICTING); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=1.00"
+    },
+    {
+      "evidence_id": "evd_d3a0c9d910f2",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "support_level": "CONTRADICTS",
+      "independence_class": "CONTRADICTING",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.5,
+        "source_independence": 0.0,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 1.0
+      },
+      "notes": "source_quality=0.55 (domain: www.stealthveil.com); temporal_alignment=0.40; product_match=0.60 (text-based, product='Escort iX Long Range Radar Laser Detector'); merchant_match=0.00; specificity=0.50; source_independence=0.00 (CONTRADICTING); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=1.00"
+    },
+    {
+      "evidence_id": "evd_3dc41be9558f",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "support_level": "CONTRADICTS",
+      "independence_class": "CONTRADICTING",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.5,
+        "source_independence": 0.0,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 1.0
+      },
+      "notes": "source_quality=0.55 (domain: www.vortexradar.com); temporal_alignment=0.40; product_match=0.60 (text-based, product='Escort iX Long Range Radar Laser Detector'); merchant_match=0.00; specificity=0.50; source_independence=0.00 (CONTRADICTING); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=1.00"
+    }
+  ],
+  "hypothesis_assessments": [
+    {
+      "hypothesis_id": "hyp_3fc8622755c1",
+      "hypothesis_type": "PROMOTION",
+      "support_level": "CONTRADICTS",
+      "supporting_evidence_ids": [
+        "evd_7e302944740e"
+      ],
+      "contradicting_evidence_ids": [
+        "evd_9a8c0742d935",
+        "evd_0e55b257f29f"
+      ],
+      "independent_source_count": 0,
+      "duplicated_source_count": 10,
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.667,
+        "merchant_match": 0.15,
+        "specificity": 0.433,
+        "source_independence": 0.25,
+        "causal_strength": 0.158,
+        "contradiction_penalty": 0.167
+      },
+      "explanation": "Evidence contradicts the PROMOTION hypothesis. 1 supporting evidence item(s) found. 2 contradicting evidence item(s) found. Source independence could not be confirmed."
+    },
+    {
+      "hypothesis_id": "hyp_ae839a85a360",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "support_level": "CONTRADICTS",
+      "supporting_evidence_ids": [
+        "evd_6ea50058e015",
+        "evd_c8e88bfcf6e1"
+      ],
+      "contradicting_evidence_ids": [
+        "evd_b606e110f370",
+        "evd_5c26610c16c2",
+        "evd_901a35bd28c6",
+        "evd_837299c3bc7f",
+        "evd_b767615ce0f1"
+      ],
+      "independent_source_count": 0,
+      "duplicated_source_count": 6,
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.709,
+        "merchant_match": 0.245,
+        "specificity": 0.5,
+        "source_independence": 0.164,
+        "causal_strength": 0.15,
+        "contradiction_penalty": 0.455
+      },
+      "explanation": "Evidence contradicts the PRODUCT_EVENT hypothesis. 2 supporting evidence item(s) found. 5 contradicting evidence item(s) found. Source independence could not be confirmed."
+    },
+    {
+      "hypothesis_id": "hyp_85067c6470cb",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "support_level": "CONTRADICTS",
+      "supporting_evidence_ids": [
+        "evd_6903cd22f766"
+      ],
+      "contradicting_evidence_ids": [
+        "evd_5967db7e6037",
+        "evd_eed59560cb2c",
+        "evd_d3a0c9d910f2",
+        "evd_3dc41be9558f"
+      ],
+      "independent_source_count": 0,
+      "duplicated_source_count": 4,
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.113,
+        "specificity": 0.575,
+        "source_independence": 0.15,
+        "causal_strength": 0.131,
+        "contradiction_penalty": 0.5
+      },
+      "explanation": "Evidence contradicts the INVENTORY_LIQUIDATION hypothesis. 1 supporting evidence item(s) found. 4 contradicting evidence item(s) found. Source independence could not be confirmed."
+    }
+  ],
+  "independent_source_count": 0,
+  "duplicated_source_count": 20,
+  "uncertainty_factors": [
+    "Source independence could not be confirmed for any evidence."
+  ],
+  "summary": "Event evt_cc33ffe4d6bbd8af: Escort iX Long Range Radar Laser Detector at Amazon.com. Observed decrease of 37.8% on 2018-05-24. Hypothesis assessments:   PROMOTION: CONTRADICTS   PRODUCT_EVENT: CONTRADICTS   INVENTORY_LIQUIDATION: CONTRADICTS 31 evidence item(s) collected.",
+  "event_summary": {
+    "event_id": "evt_cc33ffe4d6bbd8af",
+    "product_name": "Escort iX Long Range Radar Laser Detector",
+    "brand": "Escort",
+    "merchant": "Amazon.com",
+    "previous_price": 499.95,
+    "current_price": 311.2,
+    "price_change_pct": -37.75377537753776,
+    "change_direction": "decrease",
+    "observed_at": "2018-05-24T18:00:00+00:00",
+    "category": "Electronics"
+  },
+  "agent_failures": [],
+  "search_failures": []
+}

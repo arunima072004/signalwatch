@@ -1,0 +1,67 @@
+[
+  {
+    "result_id": "res_1154c78f9292",
+    "query_id": "q_742ea4ec65",
+    "event_id": "evt_2f841fa376886aa1",
+    "title": "www.bigpockets.co.uk - the cheapest gadgets, TVs, laptops and PCs on the internet! - Free Delivery",
+    "url": "https://www.bigpockets.co.uk/all.php",
+    "snippet": "Nexus Tablets Touchscreen Pink [iPad Accessories] Kensington Virtuoso Stylus for iPad - Pink Kensington \u00a32.00 Brand New  Rocketfish Protective Silicone Case for Samsung Galaxy Tab 7 inch Black RF-GALSC [Tablet Accessories] \u00a32.00 Brand New  IJ Compat Epson C13T26364010 (26XL) BkCMY Combo [Epson Compatible] IJ Compat Epson C13T26364010 (26XL) BkCMY Combo Epson \u00a32.16 Brand New  \\WOW\\ ZAGG Samsung Galaxy Tab 8inch INVISIBLE SHIELD Screen Protector - Cut to size [Tablet Accessories] The precision [...] 480Mbps For \u00a31.99 Brand New  1.5M Figure 8 Mains Cable Laptop Charger 2 Pin Euro Plug Power Lead Cord Radio [Cables]  Pulls from working environment 1.5 Metre length 100% Brand new and high quality EU-C7 IEC Figure 8 Cord Color:Black Unbranded \u00a31.99 Brand New  Rocketfish RF-TABSG7 Genuine Leather Folio Case For Samsung Galaxy Tab 2 3 7 inch  [Tablet Accessories] Rocketfish Folio Leather Case for galaxy TAB 2 or 3 7\" \u00a32.00 Brand New  Kensington K39364EU Virtuoso Stylus iPad Galaxy Nexus Tablets [...] 4K Ultra HD 32\" LED Monitor- HDMI cable- Quick setup guide- Warranty card- Installation manual (CD)- Power cableVESA wall mount dimensions: 100 x 100Colour: BlackNative contrast ratio: 3000:1Response time: 4 msBrightness: 270 cd/m\u00b2Viewing angle: 178\u00b0 / 178\u00b0Dynamic contrast ratio:MegaRefresh rate:60 HzOverviewDisplay technology: AMD FreeSyncResolution: 4K Ultra HD 3840 x 2160pScreen technology:LEDScreen size: 32 inchSpeakers:No U32J590UQU \u00a3174.99 As New  Swann XTREEM WiFi Security Camera 1080p",
+    "source_domain": "www.bigpockets.co.uk",
+    "retrieved_at": "2026-10-17T16:29:14.500624+00:00",
+    "provider": "tavily",
+    "full_content": null,
+    "publication_date": null
+  },
+  {
+    "result_id": "res_3136b4aec1b1",
+    "query_id": "q_742ea4ec65",
+    "event_id": "evt_2f841fa376886aa1",
+    "title": "[PATCH] hwdata: update PCI/USB databases",
+    "url": "https://lists.ipfire.org/development/2f59c785-cb3d-d5d7-07bf-5183bd4ca305@ipfire.org/T",
+    "snippet": "> @@ -17948,6 +19290,7 @@ > 1203 MF691 [ T-Mobile webConnect Rocket 2.0] > 1217 MF652 > 1218 MF652 > + 1270 MF667 > 2000 MF627/MF628/MF628+/MF636+ HSDPA/HSUPA > fff2 Gobi Wireless Modem (QDL mode) > fff3 Gobi Wireless Modem > @@ -17959,11 +19302,15 @@ > 19f7 RODE Microphones > 0001 Podcaster > 19fa Gampaq Co.Ltd > + 0607 GAME CONTROLLER > 0703 Steering Wheel > +19fd MTI Instruments Inc. > 19ff Dynex > 0102 1.3MP Webcam > 0201 Rocketfish Wireless 2.4G Laser Mouse > + 0220 RF-HDWEBLT RocketFish [...] +31205,14 @@ bdbd Blackmagic Design + a141 UltraStudio 4K Extreme 3 + a142 UltraStudio HD Mini + a143 DeckLink Mini Recorder 4K + a144 DeckLink Mini Monitor 4K + a148 DeckLink SDI Micro + a14b DeckLink 8K Pro + a14e DeckLink Quad HDMI Recorder + a1ff eGPU RX580 @@ -28469,6 +31226,9 @@ caed Canny Edge + 0007 Luna K6 Hardware Security Module + 0008 Luna K7 Hardware Security Module +cc53 ScaleFlux Inc. @@ -28541,6 +31301,8 @@ dcba Dynamic Engineering +# 8 port 16550 compatible UART, PMC format, [...] +15253,29 @@ - ea60 CP2102/CP2109 UART Bridge Controller [CP210x family] + 89fb Qivicon ZigBee Stick + 8a3c C8051F38x HDBaseT Receiver [UHBX-R-XT] + 8a6c C8051F38x 4K HDMI Audio Extractor [EMX-AMP] + 8acb C8051F38x HDBaseT Wall Plate Receiver with IR, RS-232, and PoH [UHBX-R-WP] + 8af8 C8051F38x 4K HDMI Audio Extractor w/Audio Amplifier, HDBT Input, Line Audio Input RS-232 Ports and IP Control [VSA-X21] + 8b8c C8051F38x 4K HDMI Audio Extractor w/Audio Amplifier, HDBT Input, Line Audio Input",
+    "source_domain": "lists.ipfire.org",
+    "retrieved_at": "2026-10-17T16:29:14.500624+00:00",
+    "provider": "tavily",
+    "full_content": null,
+    "publication_date": null
+  },
+  {
+    "result_id": "res_05a5bac41a11",
+    "query_id": "q_742ea4ec65",
+    "event_id": "evt_2f841fa376886aa1",
+    "title": "The Least Popular DnD Opinion: aka \"The Problem With Warlocks\" \u2013 Page 15",
+    "url": "https://d20collective.com/blogs/divinations-from-the-collective/the-least-popular-dnd-opinion-aka-the-problem-with-warlocks?page=15&phcursor=eyJhbGciOiJIUzI1NiJ9.eyJzayI6ImNyZWF0ZWRfYXQiLCJzdiI6IjIwMjEtMDYtMTkgMjI6Mjk6NDMuMDAwMDAwIiwiZCI6ImIiLCJ1aWQiOjEyNzc3NTIxMTY3MywibCI6NTAsIm8iOjAsInIiOiJDUyIsInYiOjF9.6lzlZwohbAh0Y5x4WjCLGbv1kyRZ_-oshzPZYmr2zRk",
+    "snippet": "Onkyo tx-rz820Onkyo TX-RZ Channel 4K Network AV Receiver 8211 Black for sale online eBay\n\nRobertabrat\n\nRobertabrat\n\nLooking for\n\nDemise rise of the ku tan?\n\ndownload it\n\nDownload Demise: Rise of the Ku\u2019tan (Windows)  \n Navigation menu  \n Download Demise: Rise of the Ku\u2019tan (Windows) \u2013 My Abandonware\n\nDemise: Rise of the Ku\u2019tan [...] ene cir receiver driver windows 7  \n linksys wireless g usb adapters  \n n68-gs4 fx r2.0  \n antler outlet cover and phone holder  \n mars war logs trainer\n\nhtc hd7 t mobile  \n king of avalon gemstones  \n gopro firmware update failed  \n naruto shippuden ultimate ninja storm revolution demo  \n rt\\_7\\_lite\\_win7\\_vista\\_x64.exe\n\nalienware area 51 r2 drivers  \n sims freeplay christmas 2017  \n asrock h270 pro4 drivers  \n lexmark x5470 printer driver  \n bb bold 9900 ebay [...] super mario bros x androidm-audio fast track pro drivers windows 7 64-bitrisen 3 titan lords cheatsamd pci ide controllertl-wn881nd driver   \n total war warhammer 2 special buildingswireshark windows server 2003psiphon handler 2017 apkacer aspire 5810 tggta v aircraft carrier   \n arkham origins dark knight challengesyamaha rx v679 firmware updatebiostar ta970 ver. 5.3 am3+ amd 970 + sb950 sata 6gb/s usb 3.0 atx amdgoogle translate widget macdell studio xps 1340 drivers",
+    "source_domain": "d20collective.com",
+    "retrieved_at": "2026-10-17T16:29:14.500624+00:00",
+    "provider": "tavily",
+    "full_content": null,
+    "publication_date": null
+  },
+  {
+    "result_id": "res_5b9225fe7fec",
+    "query_id": "q_742ea4ec65",
+    "event_id": "evt_2f841fa376886aa1",
+    "title": "Easily Connect Bluetooth Speaker to Xbox One and Series S/X | Step-by-Step 2026 Guide",
+    "url": "https://www.soundcore.com/blogs/speaker/how-to-connect-bluetooth-speaker-to-xbox-one-without-issues",
+    "snippet": "Others\n\n Corporate and Bulk Orders\n Officially Certified Refurbished Products\n Education Discount\n Become an Affiliate\n Earn 10% Referral Reward\n Blogs\n soundcoreCredits\n\n ANKER Thus\u2122\n ACAA\n PartyCast\u2122\n HearID\n BassTurbo\n BassUp\u2122\n\nUnited States\n\nSelect Your Country/Region [...] Brand\n\n soundcore's Story\n Where to Buy\n\nProjectors\n\n Nebula Projectors\n 4K projectors\n Outdoor Projector\n Laser Projectors\n Portable Projectors\n\nHeadphones\n\n Headphones\n Over Ear Headphones\n Workout Headphones\n Noise Cancelling Headphones\n Headphone Accessories\n\nEarbuds\n\n True Wireless Earbuds\n Waterproof Earbuds\n Noise cancelling Earbuds\n Sport Earbuds\n Wireless Earbuds for Android\n Earbuds for Small Ears\n Sleep Earbuds\n Open-Ear Earbuds\n Clip-On Earbuds\n Earbuds Accessories\n\nSpeakers [...] Anker ChargingAnker SOLIXAnker eufyAnker eufyMakeAnker soundcore\n\nAnker Innovations\n\nFall Prime Day Deals: Up to 65% off. 2 Days Only to Save Big!\n\nIntroducing Anker soundcore AeroClip 2, Liberty Buds 2, and Space 2 Pro \u2014 Crystal-Clear calls in three ways\n\nBrand upgraded: soundcore is now Anker soundcore, under the unified Anker brand.\n\nBe the First to Try Sleep A30, Redefine Your Nights\n\nMy Cart\n\nFree Standard Shipping on All Orders.\n\nShop Now >>\n\nYour cart is empty\n\nContinue Shopping",
+    "source_domain": "www.soundcore.com",
+    "retrieved_at": "2026-10-17T16:29:14.500624+00:00",
+    "provider": "tavily",
+    "full_content": null,
+    "publication_date": null
+  },
+  {
+    "result_id": "res_b484e266002b",
+    "query_id": "q_742ea4ec65",
+    "event_id": "evt_2f841fa376886aa1",
+    "title": "Home Theater - March 2010 (True PDF) (Malestrom | PDF | Loudspeaker | Electronics",
+    "url": "https://www.scribd.com/document/46026108/Home-Theater-March-2010-True-PDF-Malestrom",
+    "snippet": "## Legal\n\n## Social\n\n## Get our free apps\n\nScribd - Download on the App Store\nScribd - Get it on Google Play\n\n## About\n\n## Legal\n\n## Support\n\n## Social\n\n## Get our free apps\n\nScribd - Download on the App Store\nScribd - Get it on Google Play [...] Scribd\n\n# Home Theater - March 2010 (True PDF) (Malestrom\n\nThe definitive technology mythos STS supertowers feature a built-in 300 watt subwoofer. The STS also won two Innovations Design and Engineering awards at CES 2009. The Mythos STS is available now at home theatermag.com.\n\n# Home Theater - March 2010 (True PDF) (Malestrom\n\nHome Theater - March 2010 (True PDF) (Malestrom\n\nAI-enhanced description\n\n## Uploaded by\n\n## Share this document\n\n## Footer menu\n\n## About\n\n## Support\n\n## Legal",
+    "source_domain": "www.scribd.com",
+    "retrieved_at": "2026-10-17T16:29:14.500624+00:00",
+    "provider": "tavily",
+    "full_content": null,
+    "publication_date": null
+  }
+]

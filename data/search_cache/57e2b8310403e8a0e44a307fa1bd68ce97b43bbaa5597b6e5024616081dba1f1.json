@@ -1,0 +1,67 @@
+[
+  {
+    "result_id": "res_fdf802c16b1d",
+    "query_id": "q_6f3a44a0e4",
+    "event_id": "evt_57e691e6b503c4c4",
+    "title": "Insta360 Camera Mount Price Starting From Rs 1109/Unit",
+    "url": "https://www.justdial.com/india/Insta360-Camera-Mount",
+    "snippet": "GoPro The Strap Hand + Wrist + Arm + Leg Mount [AHWBM-001] See Photos. GoPro The Strap Hand + Wrist + Arm + Leg Mount [AHWBM-001]. Kms Camera Canon. JD",
+    "source_domain": "www.justdial.com",
+    "retrieved_at": "2026-10-17T16:28:24.014000+00:00",
+    "provider": "tavily",
+    "full_content": null,
+    "publication_date": null
+  },
+  {
+    "result_id": "res_6568a3cb59db",
+    "query_id": "q_6f3a44a0e4",
+    "event_id": "evt_57e691e6b503c4c4",
+    "title": "A wearable wrist haptic display for motion tracking and force feedback in the operational space",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10936305",
+    "snippet": "The moving plate of the Delta, that also works as base for the gimbal, is designed as a ring as well. It is supported by the last joints of the Delta legs, and in turn it houses the first joints of the gimbal, which is simply realized as a layering of rotating arcs. The most internal arc is designed to match with the hand support made for the commercial GoPro4 action camera called The Strap,5 to which the user\u2019s backhand is anchored. In this way, the user does not have to grasp any handle, as [...] any handle, as the interface is fixed at the back of its hand through straps (see the video linked in the footnote to easily understand the Strap functioning). The moving plate and the gimbal arcs (brown in Figure 3a) are 3D printed in ABS, while the gimbal passive joints (light blue) are realized in aluminum and house the gimbal encoders. [...] forces only at the backhand anchor point. Please note that, with this kinematics, the device will automatically adapt to the user\u2019s arm lengths. Indeed, while the gimbal enables the wrist rotation, the Delta structure automatically adapts to the user arm (especially along the forearm axis), as it opposes resistance to hand movements only when a force actuation is commanded. Furthermore, since the W totally envelopes the user\u2019s forearm and hand, its kinematics can be used to reconstruct the pose",
+    "source_domain": "pmc.ncbi.nlm.nih.gov",
+    "retrieved_at": "2026-10-17T16:28:24.014000+00:00",
+    "provider": "tavily",
+    "full_content": null,
+    "publication_date": null
+  },
+  {
+    "result_id": "res_c566b81e01ed",
+    "query_id": "q_6f3a44a0e4",
+    "event_id": "evt_57e691e6b503c4c4",
+    "title": "Which GoPro mount should I get for travel? - I Am A Polar Bear",
+    "url": "https://iamapolarbear.com/2023/02/09/which-gopro-mount-should-i-get-for-travel",
+    "snippet": "I love the hand and wrist mount which looks much more secure than the official one, which is just a simple band. I don't have anything that",
+    "source_domain": "iamapolarbear.com",
+    "retrieved_at": "2026-10-17T16:28:24.014000+00:00",
+    "provider": "tavily",
+    "full_content": null,
+    "publication_date": null
+  },
+  {
+    "result_id": "res_3559abd11992",
+    "query_id": "q_6f3a44a0e4",
+    "event_id": "evt_57e691e6b503c4c4",
+    "title": "The 9 Best Vlogging Cameras and Gear for 2026 | Reviews by Wirecutter",
+    "url": "https://www.nytimes.com/wirecutter/reviews/best-vlogging-cameras?eafs_enabled=false",
+    "snippet": "Best for...\n\nOffering high-resolution, highly stabilized video, a forward-facing screen, replaceable lenses, and a waterproof body, this action camera is perfect for outdoor, active vlogs.\n\nThe GoPro Hero13 Black is our favorite action camera for two main reasons: image quality and stabilization. Both of those factors make it an excellent vlogging camera if your vlog includes any sort of energetic outdoor activity. [...] Whether you prefer iPhones or Android, we have smartphone recommendations for every budget.The Best Smartphones\n If you want to start vlogging, we have suggestions for gear that\u2019ll help you capture the best video you can get, even from a smartphone.The Best Vlogging Cameras and Gear\n If you want to take photos and videos in any situation, even extreme weather, the GoPro Hero13 Black is the best option for most people.The Best Action Camera [...] The Insta360 Flow 2 Pro is the best gimbal for smoothing out your videos, making them look more professional and easier to watch.The Best Android and iPhone Gimbal\n If you\u2019re new to Sony\u2019s mirrorless camera system, these are the first full-frame lenses you should consider.The First Sony E-Mount Lenses You Should Buy\n Life is too short to rely on bad USB flash drives. We have fast, reliable picks that won\u2019t hurt your wallet.The Best USB Flash Drives",
+    "source_domain": "www.nytimes.com",
+    "retrieved_at": "2026-10-17T16:28:24.014000+00:00",
+    "provider": "tavily",
+    "full_content": null,
+    "publication_date": null
+  },
+  {
+    "result_id": "res_f6a766990b08",
+    "query_id": "q_6f3a44a0e4",
+    "event_id": "evt_57e691e6b503c4c4",
+    "title": "What is the best way to mount a GoPro when I go sailing?",
+    "url": "https://www.quora.com/What-is-the-best-way-to-mount-a-GoPro-when-I-go-sailing",
+    "snippet": "What is the best way to mount a GoPro when I go sailing?",
+    "source_domain": "www.quora.com",
+    "retrieved_at": "2026-10-17T16:28:24.014000+00:00",
+    "provider": "tavily",
+    "full_content": null,
+    "publication_date": null
+  }
+]

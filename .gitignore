@@ -1,4 +1,4 @@
-# Python
+﻿# Python
 __pycache__/
 *.py[cod]
 *$py.class
@@ -20,11 +20,9 @@ env/
 .ipynb_checkpoints/
 *.ipynb_checkpoints
 
-# Data — processed artefacts (raw pointer kept)
+# Data — large derived artefacts, not committed
 data/processed/
 data/features/
-data/events/
-data/figures/
 data/processed/*.csv
 data/features/*.csv
 data/raw/*.csv
@@ -48,3 +46,12 @@ htmlcov/
 # Logs
 *.log
 logs/
+
+# Databases — replay DB is force-added as sample output
+*.db
+*.db-shm
+*.db-wal
+!data/replay_demo.db
+
+# Kiro IDE workspace files
+.kiro/

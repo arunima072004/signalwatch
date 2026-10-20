@@ -1,0 +1,67 @@
+[
+  {
+    "result_id": "res_7d4d02f5ec13",
+    "query_id": "q_2b92c105de",
+    "event_id": "evt_0b5da99768629112",
+    "title": "Portable Power for Camping & Road Trips",
+    "url": "https://www.bestbuy.ca/en-ca/shop/trend/home-living/portable-power-stations-and-chargers-for-camping-road-trips",
+    "snippet": "Portable Power Stations. Charge and power essentials at camp or at a stop with AC outlets, USB ports, and travel-friendly designs.",
+    "source_domain": "www.bestbuy.ca",
+    "retrieved_at": "2026-10-17T16:30:07.325214+00:00",
+    "provider": "tavily",
+    "full_content": null,
+    "publication_date": null
+  },
+  {
+    "result_id": "res_7998718e41f5",
+    "query_id": "q_2b92c105de",
+    "event_id": "evt_0b5da99768629112",
+    "title": "The 3 Best Portable Chargers and Power Banks for Phones and Tablets of 2026 | Reviews by Wirecutter",
+    "url": "https://www.nytimes.com/wirecutter/reviews/best-usb-battery-packs",
+    "snippet": "These power banks are robust yet portable, allowing you to charge small devices such as wireless headphones, computer mice, keyboards, vaporizers, digital cameras, and more. They are also helpful if you need a bit of backup power during a power outage or other emergency. [...] ## Who this is for\n\nMost people can find use for a USB power bank (also called an external battery pack, backup battery, or portable charger) to keep phones and other devices charged while on the go. Rather than tracking down a wall outlet, owning a USB power bank allows you to enjoy a conveniently portable (albeit limited) power supply. [...] By Sarah Witman\n\nSarah Witman is a writer focused on batteries and charging accessories. She has spent countless hours charging, discharging, and recharging batteries.\n\nWhether you\u2019re a glued-to-your-screen smartphone owner who can never make it through a day on a full charge, or you just need an occasional battery boost, USB power banks are a panacea for low-battery anxiety.",
+    "source_domain": "www.nytimes.com",
+    "retrieved_at": "2026-10-17T16:30:07.325214+00:00",
+    "provider": "tavily",
+    "full_content": null,
+    "publication_date": null
+  },
+  {
+    "result_id": "res_9d189d175f9e",
+    "query_id": "q_2b92c105de",
+    "event_id": "evt_0b5da99768629112",
+    "title": "Review: Nomad Roadtrip Battery Pack",
+    "url": "https://geekdad.com/2015/11/nomad-roadtrip",
+    "snippet": "The new Roadtrip car charger and battery (3000 mAh) aims to make carrying portable power with you even simpler. Keep the Roadtrip plugged into",
+    "source_domain": "geekdad.com",
+    "retrieved_at": "2026-10-17T16:30:07.325214+00:00",
+    "provider": "tavily",
+    "full_content": null,
+    "publication_date": null
+  },
+  {
+    "result_id": "res_6c3994c329b3",
+    "query_id": "q_2b92c105de",
+    "event_id": "evt_0b5da99768629112",
+    "title": "If your MagSafe cable or power adapter isn't working - Apple Support",
+    "url": "https://support.apple.com/en-us/102372",
+    "snippet": "6. Connect the USB-C power adapter to the wall outlet, connect the USB-C to MagSafe 3 Cable to the power adapter and to your Mac, then try charging again. [...] If your DC cable (the thin cord that attaches the MagSafe 2 or MagSafe connector to the power adapter) separates at either end of the cable, immediately stop using the cable and get your cable and power supply evaluated.\n\n## If the adapter gets warm\n\nThe power adapter can become warm during normal use, so be sure to use it in a well ventilated area. Always plug the power adapter directly into a power outlet using the AC plug, or place it on a table or other well ventilated area. [...] If the adapter works after this 60-second \"rest\", you most likely have a line noise issue with your power source. You should reset the adapter periodically by repeating this moment of rest. This issue occurs when the AC adapter's over-voltage protection feature senses ground noise and then turns off the adapter.",
+    "source_domain": "support.apple.com",
+    "retrieved_at": "2026-10-17T16:30:07.325214+00:00",
+    "provider": "tavily",
+    "full_content": null,
+    "publication_date": null
+  },
+  {
+    "result_id": "res_045c8a5b5829",
+    "query_id": "q_2b92c105de",
+    "event_id": "evt_0b5da99768629112",
+    "title": "ISD 883 Rockford Area Schools",
+    "url": "https://auditor.state.mn.us/media/nqrpx4l5/isd883rockfordareaschoolsletter.pdf",
+    "snippet": "The Office of the State Auditor (OSA) received concerns about Independent School District No. 883,. Rockford Area Schools (School District).",
+    "source_domain": "auditor.state.mn.us",
+    "retrieved_at": "2026-10-17T16:30:07.325214+00:00",
+    "provider": "tavily",
+    "full_content": null,
+    "publication_date": null
+  }
+]

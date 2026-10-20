@@ -1,0 +1,3528 @@
+{
+  "products": [
+    {
+      "id": "mzM8m2o",
+      "title": "Samsung Galaxy Book4 15.6\" FHD Laptop",
+      "description": "The Samsung Galaxy Book 4 is a portable and slim 15.6-inch laptop designed for durability and performance. It features a full aluminum body, an FHD anti-glare display with a 170-degree viewing angle, and Dolby Atmos sound for an immersive experience. Powered by an Intel Core 7 150U processor, 16GB of DDR4 RAM, and a 512GB NVMe SSD, it provides smooth performance for multitasking, photo, and video editing. The laptop includes a backlit keyboard, Wi-Fi 6 connectivity, and a long-lasting battery capable of up to 10.9 hours of use.",
+      "brands": [
+        {
+          "id": "Mbqx",
+          "name": "Samsung"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://cdn.trychannel3.com/34ff8507-f1ca-4a8f-a96f-ee24b8cde1be?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=LFnL",
+          "cleaned_url": "https://cdn.trychannel3.com/b460f230-d18b-4216-95d5-375cced15abb?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=LFnL",
+          "is_main_image": true,
+          "shot_type": "hero",
+          "alt_text": "White Samsung Galaxy Book 4 15.6 laptop with a dynamic screen display."
+        },
+        {
+          "url": "https://cdn.trychannel3.com/f6677e13-9c41-4634-b3a6-373fd9bc41a5?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=LFnL",
+          "cleaned_url": "https://cdn.trychannel3.com/06977e8f-9baf-4974-9f25-314efdd6235b?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=LFnL",
+          "is_main_image": false,
+          "shot_type": "hero",
+          "alt_text": "White Samsung Galaxy Book 4 15.6 laptop viewed from a slight angle."
+        },
+        {
+          "url": "https://cdn.trychannel3.com/8a118939-2451-4ae0-b07e-0db6cb744613?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=LFnL",
+          "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/8a118939-2451-4ae0-b07e-0db6cb744613?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=LFnL",
+          "is_main_image": false,
+          "shot_type": "hero",
+          "alt_text": "White Samsung Galaxy Book 4 15.6 laptop viewed from the side profile."
+        },
+        {
+          "url": "https://cdn.trychannel3.com/1e6a1610-750a-48f2-a283-074db99ed9e3?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=LFnL",
+          "cleaned_url": null,
+          "is_main_image": false,
+          "shot_type": "hero",
+          "alt_text": "White Samsung Galaxy Book 4 15.6 laptop and its detached screen."
+        }
+      ],
+      "category": {
+        "slug": "laptops",
+        "title": "Laptops",
+        "path": [
+          {
+            "slug": "electronics",
+            "title": "Electronics"
+          },
+          {
+            "slug": "computers",
+            "title": "Computers"
+          },
+          {
+            "slug": "laptops",
+            "title": "Laptops"
+          }
+        ],
+        "has_children": false
+      },
+      "gender": null,
+      "age": "adult",
+      "materials": [
+        "metal"
+      ],
+      "key_features": [
+        "15.6\" FHD anti-glare display with 300-nit brightness",
+        "Intel Core 7 150U processor (up to 5.3GHz)",
+        "16GB DDR4 RAM",
+        "512GB NVMe SSD",
+        "Windows 11 Home operating system",
+        "Backlit keyboard",
+        "Wi-Fi 6 (802.11a/b/g/n/ac/ax)",
+        "63Wh lithium-ion battery",
+        "Fingerprint reader",
+        "Full aluminum body"
+      ],
+      "colors": [
+        {
+          "hex": "#020606",
+          "percentage": 0.5391
+        },
+        {
+          "hex": "#b6af9e",
+          "percentage": 0.1617
+        },
+        {
+          "hex": "#022022",
+          "percentage": 0.1255
+        },
+        {
+          "hex": "#e2dcc6",
+          "percentage": 0.097
+        },
+        {
+          "hex": "#493f27",
+          "percentage": 0.0767
+        }
+      ],
+      "offers": [
+        {
+          "url": "https://buy.trychannel3.com/mzM8m2o-LFnL-6ntYHS?o=01KZ5QB58A7SQX6XKPP48ZGXBX&aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW",
+          "domain": "staples.com",
+          "price": {
+            "price": 779.99,
+            "compare_at_price": null,
+            "currency": "USD"
+          },
+          "availability": "InStock",
+          "condition": "new",
+          "max_commission_rate": 0.03,
+          "dimensions": {
+            "length": {
+              "number": 9.02,
+              "unit": "in"
+            },
+            "width": {
+              "number": 14.04,
+              "unit": "in"
+            },
+            "height": {
+              "number": 0.61,
+              "unit": "in"
+            },
+            "weight": {
+              "number": 3.42,
+              "unit": "lb"
+            }
+          }
+        },
+        {
+          "url": "https://buy.trychannel3.com/mzM8m2o-dCgO-6ntYHS?o=01M4HYNSM6E1VRGX567S1JXSZ1&aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW",
+          "domain": "samsclub.com",
+          "price": {
+            "price": 899.0,
+            "compare_at_price": null,
+            "currency": "USD"
+          },
+          "availability": "InStock",
+          "condition": "new",
+          "max_commission_rate": 0.105,
+          "dimensions": {
+            "length": null,
+            "width": null,
+            "height": null,
+            "weight": {
+              "number": 3.42,
+              "unit": "lb"
+            }
+          }
+        }
+      ],
+      "variants": null,
+      "structured_attributes": {
+        "storage-drive-type-installed": [
+          "PCIe/NVMe SSD"
+        ],
+        "graphics-card-type": [
+          "Integrated",
+          "Dedicated"
+        ],
+        "storage-types-supported": [
+          "Solid-state drive (SSD)",
+          "PCIe/NVMe SSD"
+        ],
+        "memory-technology": [
+          "DDR4",
+          "DDR3"
+        ],
+        "operating-system": [
+          "Windows"
+        ],
+        "cosmetic-condition": [
+          "New"
+        ],
+        "display-resolution": [
+          "1920 x 1080",
+          "Full HD"
+        ],
+        "processor-family": [
+          "Intel core i7",
+          "Intel xeon",
+          "Intel celeron"
+        ],
+        "keyboard-type": [
+          "Backlit",
+          "Standard"
+        ],
+        "power-source": [
+          "Rechargeable",
+          "Battery-powered",
+          "AC-powered"
+        ],
+        "computer-form": [
+          "Notebook"
+        ],
+        "removable-storage-formats-supported": [
+          "microSD"
+        ],
+        "storage-capacity": [
+          "512 GB"
+        ],
+        "ram": [
+          "16 GB"
+        ],
+        "keyboard-layout": [
+          "QWERTY"
+        ],
+        "display-technology": [
+          "LCD"
+        ],
+        "computer-specialized-features": [
+          "Touchscreen"
+        ],
+        "processor-cores": [
+          "Multi"
+        ],
+        "optical-drive-type": [
+          "CD-ROM"
+        ]
+      },
+      "ratings": {
+        "value": 4.66,
+        "count": 115,
+        "source_count": 2
+      }
+    },
+    {
+      "id": "an5oUrP",
+      "title": "Samsung Galaxy Book4 Laptop",
+      "description": "The Samsung Galaxy Book4 is a 15.6-inch FHD laptop featuring an Intel Core 5 120U processor, 16GB of LPDDR4X RAM, and a 512GB PCIe SSD. It runs on Windows 11 Pro and includes a backlit keyboard, fingerprint sensor, and IPS display. This specific bundle is professionally upgraded by Velztorm and includes a Dockztorm wireless mouse.",
+      "brands": [
+        {
+          "id": "Mbqx",
+          "name": "Samsung"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://cdn.trychannel3.com/ada64661-9838-4b16-8468-25113b2b38c1?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=p1PB",
+          "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/ada64661-9838-4b16-8468-25113b2b38c1?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=p1PB",
+          "is_main_image": true,
+          "shot_type": "hero",
+          "alt_text": "Samsung Galaxy Book4 front view with specs 16GB/512GB."
+        },
+        {
+          "url": "https://cdn.trychannel3.com/f9ce9033-4fb7-4886-9634-4283525c46ef?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=p1PB",
+          "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/f9ce9033-4fb7-4886-9634-4283525c46ef?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=p1PB",
+          "is_main_image": false,
+          "shot_type": "hero",
+          "alt_text": "Multiple views of the Samsung Galaxy Book4 laptop."
+        },
+        {
+          "url": "https://cdn.trychannel3.com/2aa9c1f4-b13c-49cd-a2b7-7be6770bceff?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=p1PB",
+          "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/2aa9c1f4-b13c-49cd-a2b7-7be6770bceff?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=p1PB",
+          "is_main_image": false,
+          "shot_type": "hero",
+          "alt_text": "Samsung Galaxy Book4 screen showing Core 5 processor info."
+        },
+        {
+          "url": "https://cdn.trychannel3.com/b0e5c960-5120-4315-8eb0-7f9ae0ad44f7?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=p1PB",
+          "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/b0e5c960-5120-4315-8eb0-7f9ae0ad44f7?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=p1PB",
+          "is_main_image": false,
+          "shot_type": "hero",
+          "alt_text": "Samsung Galaxy Book4 screen showing Intel Core 5 and AI Copilot."
+        },
+        {
+          "url": "https://cdn.trychannel3.com/ecf20d6b-a1e4-420e-9d2c-645a0c3b91cf?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=p1PB",
+          "cleaned_url": null,
+          "is_main_image": false,
+          "shot_type": "hero",
+          "alt_text": "Samsung Galaxy Book4 laptop in hero shot with screen display."
+        },
+        {
+          "url": "https://cdn.trychannel3.com/ea300a58-91d4-4e31-9ebb-aee9838e177e?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=p1PB",
+          "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/ea300a58-91d4-4e31-9ebb-aee9838e177e?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=p1PB",
+          "is_main_image": false,
+          "shot_type": "hero",
+          "alt_text": "Side view of Samsung Galaxy Book4 showing connectivity specs."
+        },
+        {
+          "url": "https://cdn.trychannel3.com/aa2212c4-ce3d-4d40-9305-8762eaffaa93?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=p1PB",
+          "cleaned_url": null,
+          "is_main_image": false,
+          "shot_type": "in_use",
+          "alt_text": "Person typing on the Samsung Galaxy Book4 laptop."
+        },
+        {
+          "url": "https://cdn.trychannel3.com/dbb267c8-0037-450a-89d3-23a8fdf0e3fb?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=p1PB",
+          "cleaned_url": null,
+          "is_main_image": false,
+          "shot_type": "lifestyle",
+          "alt_text": "Laptop displayed on a wooden table in a room."
+        },
+        {
+          "url": "https://cdn.trychannel3.com/329096e6-6db7-4644-8305-8d59d0097c56?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=p1PB",
+          "cleaned_url": null,
+          "is_main_image": false,
+          "shot_type": "lifestyle",
+          "alt_text": "Laptop showing travel scene and paired mobile devices."
+        },
+        {
+          "url": "https://cdn.trychannel3.com/2397baeb-1015-4cf6-a7c0-34dd71e04073?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=p1PB",
+          "cleaned_url": null,
+          "is_main_image": false,
+          "shot_type": "lifestyle",
+          "alt_text": "Woman using Samsung Galaxy Book4 laptop and mobile phone."
+        }
+      ],
+      "category": {
+        "slug": "laptops",
+        "title": "Laptops",
+        "path": [
+          {
+            "slug": "electronics",
+            "title": "Electronics"
+          },
+          {
+            "slug": "computers",
+            "title": "Computers"
+          },
+          {
+            "slug": "laptops",
+            "title": "Laptops"
+          }
+        ],
+        "has_children": false
+      },
+      "gender": null,
+      "age": null,
+      "materials": [],
+      "key_features": [
+        "15.6 IPS FHD (1920x1080) 60Hz Display",
+        "15th Gen Core 5 120U Processor",
+        "16GB OnBoard LPDDR4X RAM",
+        "512GB PCIe SSD",
+        "Backlit Keyboard",
+        "Fingerprint Sensor",
+        "Windows 11 Pro-64",
+        "Includes Dockztorm Wireless Mouse"
+      ],
+      "colors": [
+        {
+          "hex": "#121a2f",
+          "percentage": 0.3062
+        },
+        {
+          "hex": "#b3b5b9",
+          "percentage": 0.1586
+        },
+        {
+          "hex": "#586270",
+          "percentage": 0.131
+        },
+        {
+          "hex": "#86868e",
+          "percentage": 0.1159
+        },
+        {
+          "hex": "#383c46",
+          "percentage": 0.1032
+        },
+        {
+          "hex": "#cfdbe3",
+          "percentage": 0.1009
+        },
+        {
+          "hex": "#050711",
+          "percentage": 0.0843
+        }
+      ],
+      "offers": [
+        {
+          "url": "https://buy.trychannel3.com/an5oUrP-p1PB-6ntYHS?o=01KYQJAR32N614KS8ZWDHGS4QS&aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW",
+          "domain": "bestbuy.com",
+          "price": {
+            "price": 699.99,
+            "compare_at_price": null,
+            "currency": "USD"
+          },
+          "availability": "InStock",
+          "condition": "new",
+          "max_commission_rate": 0.004,
+          "dimensions": {
+            "length": {
+              "number": 14.15,
+              "unit": "in"
+            },
+            "width": {
+              "number": 9.0,
+              "unit": "in"
+            },
+            "height": {
+              "number": 0.9,
+              "unit": "in"
+            },
+            "weight": {
+              "number": 3.4,
+              "unit": "lb"
+            }
+          }
+        }
+      ],
+      "variants": null,
+      "structured_attributes": {
+        "removable-storage-formats-supported": [
+          "SD"
+        ],
+        "computer-form": [
+          "Notebook"
+        ],
+        "computer-specialized-features": [
+          "Touchscreen",
+          "AI-powered"
+        ],
+        "keyboard-layout": [
+          "QWERTY"
+        ],
+        "storage-types-supported": [
+          "Solid-state drive (SSD)"
+        ],
+        "processor-family": [
+          "Intel Core Ultra 5"
+        ],
+        "display-resolution": [
+          "1920 x 1080",
+          "Full HD"
+        ],
+        "power-source": [
+          "AC-powered"
+        ],
+        "operating-system": [
+          "Windows"
+        ],
+        "keyboard-type": [
+          "Backlit"
+        ],
+        "storage-drive-type-installed": [
+          "PCIe/NVMe SSD"
+        ],
+        "memory-technology": [
+          "DDR3"
+        ],
+        "graphics-card-type": [
+          "Integrated"
+        ],
+        "display-technology": [
+          "IPS"
+        ],
+        "cosmetic-condition": [
+          "New"
+        ],
+        "processor-cores": [
+          "Multi"
+        ]
+      },
+      "ratings": {
+        "value": 5.0,
+        "count": 1,
+        "source_count": 1
+      }
+    },
+    {
+      "id": "xFnmgHW",
+      "title": "Galaxy Book4 Laptop",
+      "description": "The Samsung Galaxy Book4 is a 15.6-inch Full HD laptop featuring an Intel Core 7 150U processor with 10 cores and 12 threads, providing smooth and reliable performance for productivity and entertainment. This slim silver laptop comes equipped with 16GB of RAM and a 512GB SSD, and it includes a bonus docking station set for expanded storage and connectivity. Key security and convenience features include a fingerprint reader and a backlit keyboard.",
+      "brands": [
+        {
+          "id": "Mbqx",
+          "name": "Samsung"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://cdn.trychannel3.com/820e5808-58bb-4a03-89d9-35d85e2d0688?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=p1PB",
+          "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/820e5808-58bb-4a03-89d9-35d85e2d0688?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=p1PB",
+          "is_main_image": true,
+          "shot_type": "hero",
+          "alt_text": "Silver laptop displaying a space scene with a planet."
+        },
+        {
+          "url": "https://cdn.trychannel3.com/25d93f8f-a036-40e2-ad11-9cadcb01eb3f?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=p1PB",
+          "cleaned_url": null,
+          "is_main_image": false,
+          "shot_type": "product_information",
+          "alt_text": "Kit of 7-in-1 docking station components and cables."
+        },
+        {
+          "url": "https://cdn.trychannel3.com/a74860f1-3c54-4026-8b25-24adf42d1efa?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=p1PB",
+          "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/a74860f1-3c54-4026-8b25-24adf42d1efa?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=p1PB",
+          "is_main_image": false,
+          "shot_type": "hero",
+          "alt_text": "White Galaxy Book4 laptop with a space theme."
+        },
+        {
+          "url": "https://cdn.trychannel3.com/8148c30d-7ae8-4fb1-9b32-9d10e4bd28d2?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=p1PB",
+          "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/8148c30d-7ae8-4fb1-9b32-9d10e4bd28d2?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=p1PB",
+          "is_main_image": false,
+          "shot_type": "scale_reference",
+          "alt_text": "Dimensions and weight specifications for the Galaxy Book4 laptop."
+        },
+        {
+          "url": "https://cdn.trychannel3.com/bce7b1bd-058d-48c9-8b5a-bcfd011e6436?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=p1PB",
+          "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/bce7b1bd-058d-48c9-8b5a-bcfd011e6436?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=p1PB",
+          "is_main_image": false,
+          "shot_type": "hero",
+          "alt_text": "Close-up of the 15.6-inch FHD display screen."
+        },
+        {
+          "url": "https://cdn.trychannel3.com/5cdab62f-d912-438b-ad67-f48ae3ff1705?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=p1PB",
+          "cleaned_url": null,
+          "is_main_image": false,
+          "shot_type": "in_use",
+          "alt_text": "Laptop screen showing multi-tasking video calls and features."
+        },
+        {
+          "url": "https://cdn.trychannel3.com/dc1ae696-cc05-4c14-8487-62e1347a4def?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=p1PB",
+          "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/dc1ae696-cc05-4c14-8487-62e1347a4def?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=p1PB",
+          "is_main_image": false,
+          "shot_type": "hero",
+          "alt_text": "Laptop screen showing Dolby display quality and immersive audio."
+        },
+        {
+          "url": "https://cdn.trychannel3.com/6b9c7dd9-15d6-4b5d-878c-436d80210a18?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=p1PB",
+          "cleaned_url": null,
+          "is_main_image": false,
+          "shot_type": "in_use",
+          "alt_text": "Hands typing on a laptop screen showing design software."
+        },
+        {
+          "url": "https://cdn.trychannel3.com/6369efd7-acc2-4260-bf4c-0518e5078fa9?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=p1PB",
+          "cleaned_url": null,
+          "is_main_image": false,
+          "shot_type": "lifestyle",
+          "alt_text": "Hands working on a laptop displaying data organization interface."
+        },
+        {
+          "url": "https://cdn.trychannel3.com/7e321277-5e3e-4bf7-9540-a0c1ad801ba0?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=p1PB",
+          "cleaned_url": null,
+          "is_main_image": false,
+          "shot_type": "product_information",
+          "alt_text": "Infographic showing the various multi-port connections on the laptop."
+        }
+      ],
+      "category": {
+        "slug": "laptops",
+        "title": "Laptops",
+        "path": [
+          {
+            "slug": "electronics",
+            "title": "Electronics"
+          },
+          {
+            "slug": "computers",
+            "title": "Computers"
+          },
+          {
+            "slug": "laptops",
+            "title": "Laptops"
+          }
+        ],
+        "has_children": false
+      },
+      "gender": null,
+      "age": null,
+      "materials": [],
+      "key_features": [
+        "15.6\" FHD Display",
+        "Intel Core 7 150U processor",
+        "Fingerprint reader for security",
+        "Backlit Keyboard",
+        "Includes Bonus Docking Station Set (7-in-1 Dock with 128GB storage, 32GB MicroSD card, cables, and cleaning cloth)"
+      ],
+      "colors": [
+        {
+          "hex": "#aab7bf",
+          "percentage": 0.1665
+        },
+        {
+          "hex": "#412619",
+          "percentage": 0.1557
+        },
+        {
+          "hex": "#df7326",
+          "percentage": 0.1552
+        },
+        {
+          "hex": "#0b0808",
+          "percentage": 0.1251
+        },
+        {
+          "hex": "#713618",
+          "percentage": 0.1159
+        },
+        {
+          "hex": "#211f23",
+          "percentage": 0.1068
+        },
+        {
+          "hex": "#5b6f8a",
+          "percentage": 0.104
+        },
+        {
+          "hex": "#edc879",
+          "percentage": 0.0707
+        }
+      ],
+      "offers": [
+        {
+          "url": "https://buy.trychannel3.com/xFnmgHW-p1PB-6ntYHS?o=01KYY43TSPPW8XPKEM5FSNRYX4&aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW",
+          "domain": "bestbuy.com",
+          "price": {
+            "price": 879.0,
+            "compare_at_price": 1189.0,
+            "currency": "USD"
+          },
+          "availability": "InStock",
+          "condition": "new",
+          "max_commission_rate": 0.004,
+          "dimensions": null
+        }
+      ],
+      "variants": null,
+      "structured_attributes": {
+        "computer-specialized-features": [
+          "AI-powered"
+        ],
+        "operating-system": [
+          "Windows"
+        ],
+        "processor-cores": [
+          "Deca"
+        ],
+        "graphics-card-type": [
+          "Integrated"
+        ],
+        "storage-types-supported": [
+          "Solid-state drive (SSD)"
+        ],
+        "display-resolution": [
+          "1920 x 1080",
+          "Full HD"
+        ],
+        "removable-storage-formats-supported": [
+          "microSD"
+        ],
+        "processor-family": [
+          "Intel celeron"
+        ],
+        "keyboard-type": [
+          "Backlit"
+        ],
+        "storage-drive-type-installed": [
+          "Solid-state drive (SSD)"
+        ],
+        "computer-form": [
+          "Notebook"
+        ]
+      },
+      "ratings": {
+        "value": 4.84,
+        "count": 80,
+        "source_count": 1
+      }
+    },
+    {
+      "id": "RNKfGWG",
+      "title": "Galaxy Book4 15.6\" FHD Laptop",
+      "description": "This Samsung Galaxy Book4 laptop features a 15.6\" Full HD display and is powered by an Intel Core 7 150U processor with Intel Graphics. It comes with 16GB of RAM and a substantial 4TB SSD, plus an additional 288GB in the included dock set. The laptop has a backlit keyboard, fingerprint reader, and runs on Windows 11. The silver finish gives it a sleek and modern look, and the slim profile makes it portable. The included docking station expands connectivity options.",
+      "brands": [
+        {
+          "id": "Mbqx",
+          "name": "Samsung"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://cdn.trychannel3.com/91f682c2-9e6f-402a-afc7-217155d08178?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=p1PB",
+          "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/91f682c2-9e6f-402a-afc7-217155d08178?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=p1PB",
+          "is_main_image": true,
+          "shot_type": "hero",
+          "alt_text": "Silver Galaxy Book4 laptop with space background and specs."
+        },
+        {
+          "url": "https://cdn.trychannel3.com/6bc47058-b7bf-4abc-9ab1-fd678d965a26?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=p1PB",
+          "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/6bc47058-b7bf-4abc-9ab1-fd678d965a26?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=p1PB",
+          "is_main_image": false,
+          "shot_type": "hero",
+          "alt_text": "White laptop showing astronaut theme and specs."
+        },
+        {
+          "url": "https://cdn.trychannel3.com/93453ac9-6d15-4f36-89ee-18d4714b3406?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=p1PB",
+          "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/93453ac9-6d15-4f36-89ee-18d4714b3406?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=p1PB",
+          "is_main_image": false,
+          "shot_type": "hero",
+          "alt_text": "Close-up of the laptop display showing Earth from space."
+        },
+        {
+          "url": "https://cdn.trychannel3.com/1ac80f8b-5601-4ecb-9540-f1a92fe00ebf?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=p1PB",
+          "cleaned_url": null,
+          "is_main_image": false,
+          "shot_type": "lifestyle",
+          "alt_text": "Laptop showing video conference and connectivity features."
+        },
+        {
+          "url": "https://cdn.trychannel3.com/e3a07c53-ba8d-4cb0-8bd1-e5407daf044f?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=p1PB",
+          "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/e3a07c53-ba8d-4cb0-8bd1-e5407daf044f?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=p1PB",
+          "is_main_image": false,
+          "shot_type": "hero",
+          "alt_text": "Laptop screen showing Dolby immersive audio display."
+        },
+        {
+          "url": "https://cdn.trychannel3.com/c59a1834-6838-4d8b-b153-e32af2eefca6?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=p1PB",
+          "cleaned_url": null,
+          "is_main_image": false,
+          "shot_type": "lifestyle",
+          "alt_text": "Hands working on a laptop showing data organization."
+        },
+        {
+          "url": "https://cdn.trychannel3.com/464c2020-93f0-412d-b7ba-c6b463faf039?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=p1PB",
+          "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/464c2020-93f0-412d-b7ba-c6b463faf039?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=p1PB",
+          "is_main_image": false,
+          "shot_type": "hero",
+          "alt_text": "Side view of the thin Galaxy Book4 laptop with dimensions."
+        },
+        {
+          "url": "https://cdn.trychannel3.com/5b6d6013-8dd9-4eb4-b63b-0b5d20d8f470?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=p1PB",
+          "cleaned_url": null,
+          "is_main_image": false,
+          "shot_type": "detail",
+          "alt_text": "Close-up of the laptop's multi-port connections."
+        }
+      ],
+      "category": {
+        "slug": "laptops",
+        "title": "Laptops",
+        "path": [
+          {
+            "slug": "electronics",
+            "title": "Electronics"
+          },
+          {
+            "slug": "computers",
+            "title": "Computers"
+          },
+          {
+            "slug": "laptops",
+            "title": "Laptops"
+          }
+        ],
+        "has_children": false
+      },
+      "gender": null,
+      "age": null,
+      "materials": [],
+      "key_features": [
+        "15.6\" FHD Display",
+        "Intel Core 7 150U Processor",
+        "16GB RAM",
+        "4TB SSD + 288GB Dock Set Storage",
+        "Backlit Keyboard",
+        "Fingerprint Reader",
+        "Windows 11",
+        "Slim profile",
+        "Dolby Atmos"
+      ],
+      "colors": [
+        {
+          "hex": "#1e1b19",
+          "percentage": 0.6204
+        },
+        {
+          "hex": "#482f22",
+          "percentage": 0.1622
+        },
+        {
+          "hex": "#e3b487",
+          "percentage": 0.1104
+        },
+        {
+          "hex": "#975635",
+          "percentage": 0.107
+        }
+      ],
+      "offers": [
+        {
+          "url": "https://buy.trychannel3.com/RNKfGWG-p1PB-6ntYHS?o=01KYY46EPW7P6WMRW35DT8V03X&aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW",
+          "domain": "bestbuy.com",
+          "price": {
+            "price": 879.0,
+            "compare_at_price": null,
+            "currency": "USD"
+          },
+          "availability": "InStock",
+          "condition": "new",
+          "max_commission_rate": 0.004,
+          "dimensions": null
+        }
+      ],
+      "variants": null,
+      "structured_attributes": {
+        "graphics-card-type": [
+          "Integrated"
+        ],
+        "processor-cores": [
+          "Multi"
+        ],
+        "keyboard-layout": [
+          "QWERTY"
+        ],
+        "memory-technology": [
+          "DDR4"
+        ],
+        "computer-specialized-features": [
+          "TPM (trusted platform module)",
+          "Kensington lock"
+        ],
+        "storage-drive-type-installed": [
+          "Solid-state drive (SSD)"
+        ],
+        "display-resolution": [
+          "1920 x 1080",
+          "Full HD"
+        ],
+        "computer-form": [
+          "Notebook"
+        ],
+        "processor-family": [
+          "Intel core i7"
+        ],
+        "power-source": [
+          "AC-powered"
+        ],
+        "display-technology": [
+          "LCD"
+        ],
+        "operating-system": [
+          "Windows"
+        ],
+        "removable-storage-formats-supported": [
+          "microSDXC",
+          "microSD",
+          "microSDHC",
+          "SD"
+        ],
+        "keyboard-type": [
+          "Backlit"
+        ],
+        "storage-types-supported": [
+          "Solid-state drive (SSD)"
+        ]
+      },
+      "ratings": {
+        "value": 4.9,
+        "count": 69,
+        "source_count": 1
+      }
+    },
+    {
+      "id": "ijDjZIh",
+      "title": "Samsung Galaxy Book6 14.0-in Laptop Intel Core 5 315 \u2013 8 GB RAM, 256 GB SSD",
+      "description": "The Samsung Galaxy Book6 is a sleek 14-inch laptop designed for everyday productivity and efficiency. It features an Intel Core 5 315 processor, 8GB of LPDDR5X RAM, and a 256GB SSD for fast boot times and responsive performance. The device boasts a WUXGA (1920 x 1200) display and integrated Intel graphics, making it suitable for work, study, and entertainment. It comes equipped with Windows 11 Home, Wi-Fi 6E, Bluetooth 5.4, and a variety of ports including HDMI, USB-A, and USB-C. With a lightweight design of 1.4 kg and a slim profile, it is highly portable for users on the go.",
+      "brands": [
+        {
+          "id": "Mbqx",
+          "name": "Samsung"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://cdn.trychannel3.com/34c1e0dc-d6af-417a-aca8-d27c1eb08fcf?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=ckmS",
+          "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/34c1e0dc-d6af-417a-aca8-d27c1eb08fcf?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=ckmS",
+          "is_main_image": true,
+          "shot_type": "hero",
+          "alt_text": "Laptop closed with a dark screen display on a white background."
+        },
+        {
+          "url": "https://cdn.trychannel3.com/0cb93744-97ec-444e-bb48-3fc867873a56?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=ckmS",
+          "cleaned_url": null,
+          "is_main_image": false,
+          "shot_type": "lifestyle",
+          "alt_text": "Galaxy Book6 laptop open on a light purple background with marketing text."
+        }
+      ],
+      "category": {
+        "slug": "laptops",
+        "title": "Laptops",
+        "path": [
+          {
+            "slug": "electronics",
+            "title": "Electronics"
+          },
+          {
+            "slug": "computers",
+            "title": "Computers"
+          },
+          {
+            "slug": "laptops",
+            "title": "Laptops"
+          }
+        ],
+        "has_children": false
+      },
+      "gender": null,
+      "age": null,
+      "materials": [],
+      "key_features": [
+        "Intel Core 5 315 processor",
+        "8 GB RAM LPDDR5X",
+        "256 GB SSD",
+        "14.0 in. WUXGA display (1920 x 1200)",
+        "Wi-Fi 6E + Bluetooth 5.4",
+        "Windows 11 Home",
+        "FHD Camera",
+        "Lightweight design (1.4 kg)"
+      ],
+      "colors": [
+        {
+          "hex": "#20252e",
+          "percentage": 0.3643
+        },
+        {
+          "hex": "#364456",
+          "percentage": 0.2745
+        },
+        {
+          "hex": "#6f7886",
+          "percentage": 0.1708
+        },
+        {
+          "hex": "#8ea1b8",
+          "percentage": 0.1108
+        },
+        {
+          "hex": "#506176",
+          "percentage": 0.0796
+        }
+      ],
+      "offers": [
+        {
+          "url": "https://buy.trychannel3.com/ijDjZIh-ckmS-6ntYHS?o=01M4DFXMNR45F5XZQTDWMJ7DWC&aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW",
+          "domain": "samsung.com",
+          "price": {
+            "price": 699.99,
+            "compare_at_price": null,
+            "currency": "USD"
+          },
+          "availability": "InStock",
+          "condition": "new",
+          "max_commission_rate": 0.016,
+          "dimensions": null
+        }
+      ],
+      "variants": null,
+      "structured_attributes": {
+        "processor-family": [
+          "Intel core i5"
+        ],
+        "operating-system": [
+          "Windows"
+        ],
+        "keyboard-layout": [
+          "QWERTY"
+        ],
+        "graphics-card-type": [
+          "Integrated"
+        ],
+        "storage-types-supported": [
+          "Solid-state drive (SSD)"
+        ],
+        "ram": [
+          "8 GB"
+        ],
+        "storage-capacity": [
+          "256 GB"
+        ],
+        "storage-drive-type-installed": [
+          "Solid-state drive (SSD)"
+        ],
+        "computer-form": [
+          "Notebook"
+        ],
+        "display-resolution": [
+          "1920 x 1080"
+        ],
+        "memory-technology": [
+          "DDR5"
+        ],
+        "cosmetic-condition": [
+          "New"
+        ]
+      },
+      "ratings": null
+    },
+    {
+      "id": "KXLRGK5",
+      "title": "Galaxy Book4 Laptop",
+      "description": "A professionally upgraded Samsung Galaxy Book4 15.6-inch Full HD laptop featuring an Intel Core 7 150U processor, 16GB of RAM, and a 2TB SSD. This sleek silver laptop is designed for premium productivity and portability, complete with a backlit keyboard, fingerprint reader, and Windows 11 Home. This specific bundle includes an additional 256GB dock for expanded storage.",
+      "brands": [
+        {
+          "id": "Mbqx",
+          "name": "Samsung"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://cdn.trychannel3.com/a14b4527-e945-4a5f-aafe-c8347c5d1b2c?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=p1PB",
+          "cleaned_url": null,
+          "is_main_image": true,
+          "shot_type": "hero",
+          "alt_text": "Laptop screen showing system specs and space theme."
+        }
+      ],
+      "category": {
+        "slug": "laptops",
+        "title": "Laptops",
+        "path": [
+          {
+            "slug": "electronics",
+            "title": "Electronics"
+          },
+          {
+            "slug": "computers",
+            "title": "Computers"
+          },
+          {
+            "slug": "laptops",
+            "title": "Laptops"
+          }
+        ],
+        "has_children": false
+      },
+      "gender": null,
+      "age": null,
+      "materials": [],
+      "key_features": [
+        "Professionally upgraded with brand-new components",
+        "15.6\" Full HD LED display",
+        "Intel Core 7 150U processor",
+        "Backlit keyboard for improved typing accuracy",
+        "Fingerprint reader for secure access",
+        "Windows 11 Home operating system",
+        "Includes 256GB dock"
+      ],
+      "colors": [
+        {
+          "hex": "#795664",
+          "percentage": 0.1481
+        },
+        {
+          "hex": "#4c3644",
+          "percentage": 0.1422
+        },
+        {
+          "hex": "#8d7f86",
+          "percentage": 0.1398
+        },
+        {
+          "hex": "#2f303a",
+          "percentage": 0.1363
+        },
+        {
+          "hex": "#040305",
+          "percentage": 0.1234
+        },
+        {
+          "hex": "#181d22",
+          "percentage": 0.1191
+        },
+        {
+          "hex": "#d7d6d7",
+          "percentage": 0.0992
+        },
+        {
+          "hex": "#475066",
+          "percentage": 0.0919
+        }
+      ],
+      "offers": [
+        {
+          "url": "https://buy.trychannel3.com/KXLRGK5-p1PB-6ntYHS?o=01KZW5BAJA18ZMRXHN44EWG8H9&aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW",
+          "domain": "bestbuy.com",
+          "price": {
+            "price": 1159.0,
+            "compare_at_price": 1659.0,
+            "currency": "USD"
+          },
+          "availability": "InStock",
+          "condition": "new",
+          "max_commission_rate": 0.004,
+          "dimensions": null
+        }
+      ],
+      "variants": null,
+      "structured_attributes": {
+        "computer-form": [
+          "Notebook"
+        ],
+        "cosmetic-condition": [
+          "New"
+        ],
+        "display-resolution": [
+          "1920 x 1080",
+          "Full HD"
+        ],
+        "display-technology": [
+          "LED"
+        ],
+        "graphics-card-type": [
+          "Integrated"
+        ],
+        "keyboard-type": [
+          "Backlit"
+        ],
+        "memory-technology": [
+          "DDR3"
+        ],
+        "operating-system": [
+          "Windows"
+        ],
+        "processor-family": [
+          "Intel core i7"
+        ],
+        "storage-drive-type-installed": [
+          "Solid-state drive (SSD)"
+        ],
+        "storage-types-supported": [
+          "Solid-state drive (SSD)"
+        ],
+        "storage-capacity": [
+          "2 TB"
+        ],
+        "ram": [
+          "16 GB"
+        ]
+      },
+      "ratings": null
+    },
+    {
+      "id": "ntaruDf",
+      "title": "Galaxy Book4 Edge 14\" Copilot+ PC Touchscreen Laptop",
+      "description": "The Samsung Galaxy Book4 Edge is a high-performance 14-inch Copilot+ PC laptop designed for productivity and portability. It features a stunning 14.0\u201d Dynamic AMOLED 2X touchscreen with WQXGA+ resolution (2880 x 1800) and a 120Hz refresh rate. Powered by the Snapdragon X Elite 12-core processor and 16GB of LPDDR5x RAM, it is optimized for AI tasks. The device includes a 512GB SSD, Wi-Fi 7, Bluetooth 5.3, and a slim aluminum chassis weighing approximately 2.56 lbs.",
+      "brands": [
+        {
+          "id": "Mbqx",
+          "name": "Samsung"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://cdn.trychannel3.com/ntaruDf?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=ZO25",
+          "cleaned_url": null,
+          "is_main_image": true,
+          "shot_type": null,
+          "alt_text": null
+        }
+      ],
+      "category": {
+        "slug": "laptops",
+        "title": "Laptops",
+        "path": [
+          {
+            "slug": "electronics",
+            "title": "Electronics"
+          },
+          {
+            "slug": "computers",
+            "title": "Computers"
+          },
+          {
+            "slug": "laptops",
+            "title": "Laptops"
+          }
+        ],
+        "has_children": false
+      },
+      "gender": null,
+      "age": null,
+      "materials": [
+        "aluminum"
+      ],
+      "key_features": [
+        "Snapdragon X Elite (12 Cores) X1E-80-100 Processor",
+        "14.0\u201d Dynamic AMOLED 2X Touchscreen (280x1800), 120Hz",
+        "16GB LPDDR5x RAM",
+        "512GB SSD",
+        "Wi-Fi 7 and Bluetooth 5.3",
+        "Backlit Keyboard with Fingerprint Reader",
+        "FHD 1080p Camera",
+        "Windows 1 Home"
+      ],
+      "colors": [],
+      "offers": [
+        {
+          "url": "https://buy.trychannel3.com/ntaruDf-ZO25-6ntYHS?o=01M2XTRZKDR5G1QVZBH045S47A&aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW",
+          "domain": "costco.com",
+          "price": {
+            "price": 1299.99,
+            "compare_at_price": null,
+            "currency": "USD"
+          },
+          "availability": "InStock",
+          "condition": "new",
+          "max_commission_rate": 0.0,
+          "dimensions": {
+            "length": null,
+            "width": null,
+            "height": null,
+            "weight": {
+              "number": 2.56,
+              "unit": "lb"
+            }
+          }
+        }
+      ],
+      "variants": null,
+      "structured_attributes": {
+        "keyboard-type": [
+          "Backlit",
+          "Standard"
+        ],
+        "graphics-card-type": [
+          "Integrated"
+        ],
+        "processor-family": [
+          "Qualcomm Snapdragon X Elite"
+        ],
+        "processor-cores": [
+          "Multi"
+        ],
+        "storage-types-supported": [
+          "Solid-state drive (SSD)",
+          "eMMC"
+        ],
+        "ram": [
+          "16 GB"
+        ],
+        "display-resolution": [
+          "2560\u2009x\u20091440"
+        ],
+        "computer-form": [
+          "Notebook"
+        ],
+        "storage-capacity": [
+          "512 GB"
+        ],
+        "computer-specialized-features": [
+          "AI-powered",
+          "Touchscreen"
+        ],
+        "display-technology": [
+          "AMOLED",
+          "LCD",
+          "LED",
+          "VA"
+        ],
+        "operating-system": [
+          "Windows"
+        ],
+        "memory-technology": [
+          "DDR5",
+          "DDR4"
+        ],
+        "storage-drive-type-installed": [
+          "Solid-state drive (SSD)",
+          "eMMC"
+        ],
+        "power-source": [
+          "Battery-powered",
+          "AC-powered",
+          "USB",
+          "Hardwire"
+        ],
+        "keyboard-layout": [
+          "QWERTY"
+        ],
+        "removable-storage-formats-supported": [
+          "microSD",
+          "microSDHC",
+          "microSDXC",
+          "SD",
+          "SDHC",
+          "SDXC"
+        ],
+        "cosmetic-condition": [
+          "New"
+        ]
+      },
+      "ratings": {
+        "value": 2.75,
+        "count": 4,
+        "source_count": 1
+      }
+    },
+    {
+      "id": "G0WH5Hm",
+      "title": "Samsung Galaxy Book4 Edge Windows Laptop 15.6\" Snapdragon X 16GB 256GB",
+      "description": "The Samsung Galaxy Book4 Edge is a modern, thin Windows laptop featuring a 15.6-inch FHD screen. Powered by the Qualcomm Snapdragon X X1-26-100 processor and 16GB of memory, it is designed for efficiency and productivity, bundled with 256GB of SSD storage and running on Windows 11 Home.",
+      "brands": [
+        {
+          "id": "Mbqx",
+          "name": "Samsung"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://cdn.trychannel3.com/ed5d3f44-cdeb-4e93-949f-3723989f8e4d?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=CCJD",
+          "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/ed5d3f44-cdeb-4e93-949f-3723989f8e4d?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=CCJD",
+          "is_main_image": true,
+          "shot_type": "hero",
+          "alt_text": "Samsung Galaxy Book4 Edge laptop with colorful fluid wallpaper."
+        },
+        {
+          "url": "https://cdn.trychannel3.com/0418721b-53c4-4814-a43c-10d19e782441?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=CCJD",
+          "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/0418721b-53c4-4814-a43c-10d19e782441?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=CCJD",
+          "is_main_image": false,
+          "shot_type": "hero",
+          "alt_text": "Samsung Galaxy Book4 Edge laptop with colorful fluid wallpaper."
+        },
+        {
+          "url": "https://cdn.trychannel3.com/7f416ec7-a772-4d79-a87d-2875e0b9eb0e?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=CCJD",
+          "cleaned_url": null,
+          "is_main_image": false,
+          "shot_type": "hero",
+          "alt_text": "Samsung Galaxy Book4 Edge laptop open showing colorful wallpaper."
+        },
+        {
+          "url": "https://cdn.trychannel3.com/17bed8c0-9575-480f-be3d-ffe9052b63d4?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=CCJD",
+          "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/17bed8c0-9575-480f-be3d-ffe9052b63d4?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=CCJD",
+          "is_main_image": false,
+          "shot_type": "hero",
+          "alt_text": "Samsung Galaxy Book4 Edge laptop side view with logo."
+        }
+      ],
+      "category": {
+        "slug": "laptops",
+        "title": "Laptops",
+        "path": [
+          {
+            "slug": "electronics",
+            "title": "Electronics"
+          },
+          {
+            "slug": "computers",
+            "title": "Computers"
+          },
+          {
+            "slug": "laptops",
+            "title": "Laptops"
+          }
+        ],
+        "has_children": false
+      },
+      "gender": null,
+      "age": null,
+      "materials": [
+        "metallic finish"
+      ],
+      "key_features": [
+        "15.6\" FHD (1920 x 1080) display",
+        "Qualcomm Snapdragon X X1-26-100 CPU",
+        "16GB RAM",
+        "256GB SSD storage",
+        "Windows 11 Home operating system",
+        "Qualcomm Adreno GPU",
+        "Copilot+ PC integration"
+      ],
+      "colors": [
+        {
+          "hex": "#a6bccf",
+          "percentage": 0.4529
+        },
+        {
+          "hex": "#8c8996",
+          "percentage": 0.1624
+        },
+        {
+          "hex": "#09254c",
+          "percentage": 0.1477
+        },
+        {
+          "hex": "#3e7fa0",
+          "percentage": 0.0947
+        },
+        {
+          "hex": "#4a3153",
+          "percentage": 0.0714
+        },
+        {
+          "hex": "#68b5d3",
+          "percentage": 0.0708
+        }
+      ],
+      "offers": [
+        {
+          "url": "https://buy.trychannel3.com/G0WH5Hm-CCJD-6ntYHS?o=01M4KTES4EQ12ZQ9XA09T9R7DV&aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW",
+          "domain": "canadacomputers.com",
+          "price": {
+            "price": 949.05,
+            "compare_at_price": null,
+            "currency": "USD"
+          },
+          "availability": "InStock",
+          "condition": "new",
+          "max_commission_rate": 0.0,
+          "dimensions": null
+        }
+      ],
+      "variants": null,
+      "structured_attributes": {
+        "processor-family": [
+          "Qualcomm Snapdragon X Elite"
+        ],
+        "computer-form": [
+          "Notebook"
+        ],
+        "graphics-card-type": [
+          "Integrated"
+        ],
+        "cosmetic-condition": [
+          "New"
+        ],
+        "storage-capacity": [
+          "256 GB"
+        ],
+        "operating-system": [
+          "Windows"
+        ],
+        "display-resolution": [
+          "1920 x 1080"
+        ],
+        "ram": [
+          "16 GB"
+        ],
+        "storage-drive-type-installed": [
+          "Solid-state drive (SSD)"
+        ]
+      },
+      "ratings": null
+    },
+    {
+      "id": "OLyLfU5",
+      "title": "Samsung Galaxy Book6 Pro Laptop",
+      "description": "The Samsung Galaxy Book6 Pro is a premium, ultra-slim laptop designed for high productivity and creativity. It features a 16-inch Dynamic AMOLED 2X touchscreen with a 120Hz adaptive refresh rate, powered by an Intel Core Ultra 7 processor and an integrated NPU for advanced AI performance. The device is built with a durable aluminum chassis, weighs 1.59kg, and offers an impressive battery life of up to 30 hours. It integrates Copilot+ PC features and Galaxy AI smarts, and is designed for seamless connectivity with other Galaxy devices.",
+      "brands": [
+        {
+          "id": "Mbqx",
+          "name": "Samsung"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://cdn.trychannel3.com/f108e0e2-f749-478e-b0df-a7823805f17a?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=LPzf",
+          "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/f108e0e2-f749-478e-b0df-a7823805f17a?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=LPzf",
+          "is_main_image": true,
+          "shot_type": "hero",
+          "alt_text": "Samsung Galaxy Book6 Pro 16 laptop with colorful wallpaper."
+        },
+        {
+          "url": "https://cdn.trychannel3.com/1db86a73-7b20-4c5e-9498-7d98da2930fa?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=LPzf",
+          "cleaned_url": null,
+          "is_main_image": false,
+          "shot_type": "hero",
+          "alt_text": "Laptop screen showing multitasking features and Intel Core Ultra 7."
+        },
+        {
+          "url": "https://cdn.trychannel3.com/1f0a0b84-74ad-411c-b6cf-af2d1cc34cf8?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=LPzf",
+          "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/1f0a0b84-74ad-411c-b6cf-af2d1cc34cf8?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=LPzf",
+          "is_main_image": false,
+          "shot_type": "hero",
+          "alt_text": "Thin and portable Samsung Galaxy Book6 Pro laptop design."
+        },
+        {
+          "url": "https://cdn.trychannel3.com/501d59f4-85f8-46b5-bae4-b216b401b63b?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=LPzf",
+          "cleaned_url": null,
+          "is_main_image": false,
+          "shot_type": "hero",
+          "alt_text": "Laptop screen showing bright, durable display with floral pattern."
+        },
+        {
+          "url": "https://cdn.trychannel3.com/e3ba5c6b-19b5-4e78-b856-5455a039d380?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=LPzf",
+          "cleaned_url": null,
+          "is_main_image": false,
+          "shot_type": "hero",
+          "alt_text": "Infographic showing Copilot+PC features and AI capabilities."
+        },
+        {
+          "url": "https://cdn.trychannel3.com/00c2cc80-0ee1-4bf2-a2d8-ee14ad08da09?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=LPzf",
+          "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/00c2cc80-0ee1-4bf2-a2d8-ee14ad08da09?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=LPzf",
+          "is_main_image": false,
+          "shot_type": "hero",
+          "alt_text": "Features showing seamless device switching and file sharing."
+        },
+        {
+          "url": "https://cdn.trychannel3.com/767d69bd-4d0c-439a-a906-57d23af6116d?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=LPzf",
+          "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/767d69bd-4d0c-439a-a906-57d23af6116d?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=LPzf",
+          "is_main_image": false,
+          "shot_type": "hero",
+          "alt_text": "Laptop screen demonstrating AI search and vision features."
+        },
+        {
+          "url": "https://cdn.trychannel3.com/2258c851-9093-4434-a695-2ddf29457bb6?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=LPzf",
+          "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/2258c851-9093-4434-a695-2ddf29457bb6?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=LPzf",
+          "is_main_image": false,
+          "shot_type": "hero",
+          "alt_text": "What's in the box for the Samsung Galaxy Book6 Pro."
+        },
+        {
+          "url": "https://cdn.trychannel3.com/abbcd7f4-801a-4a0b-b29a-350a318b730a?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=LPzf",
+          "cleaned_url": null,
+          "is_main_image": false,
+          "shot_type": "hero",
+          "alt_text": "Diagram showing the non-dongle ports on the laptop."
+        },
+        {
+          "url": "https://cdn.trychannel3.com/258b96f6-04e3-4ad2-8685-7de011d5cdbe?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=LPzf",
+          "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/258b96f6-04e3-4ad2-8685-7de011d5cdbe?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=LPzf",
+          "is_main_image": false,
+          "shot_type": "hero",
+          "alt_text": "Top-down view of the open laptop keyboard and screen."
+        },
+        {
+          "url": "https://cdn.trychannel3.com/5dacc23b-7032-4cf5-8ee0-b8e555de59b7?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=LPzf",
+          "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/5dacc23b-7032-4cf5-8ee0-b8e555de59b7?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=LPzf",
+          "is_main_image": false,
+          "shot_type": "hero",
+          "alt_text": "Side profile view of the Samsung Galaxy Book6 Pro laptop."
+        },
+        {
+          "url": "https://cdn.trychannel3.com/0e028f73-325e-4a81-8060-31874da56295?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=LPzf",
+          "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/0e028f73-325e-4a81-8060-31874da56295?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=LPzf",
+          "is_main_image": false,
+          "shot_type": "hero",
+          "alt_text": "Closed view of the compact Samsung Galaxy Book6 Pro laptop."
+        },
+        {
+          "url": "https://cdn.trychannel3.com/b8f44cbc-1931-4767-809d-8aefaff7a0b8?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=LPzf",
+          "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/b8f44cbc-1931-4767-809d-8aefaff7a0b8?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=LPzf",
+          "is_main_image": false,
+          "shot_type": "hero",
+          "alt_text": "Close-up of the laptop lid material and vents."
+        },
+        {
+          "url": "https://cdn.trychannel3.com/dc3ce3b4-10c8-45a9-b7d1-782ff5260a53?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=LPzf",
+          "cleaned_url": null,
+          "is_main_image": false,
+          "shot_type": "merchant_information",
+          "alt_text": "Promotional banner for Intel Core Ultra products and Adobe."
+        }
+      ],
+      "category": {
+        "slug": "laptops",
+        "title": "Laptops",
+        "path": [
+          {
+            "slug": "electronics",
+            "title": "Electronics"
+          },
+          {
+            "slug": "computers",
+            "title": "Computers"
+          },
+          {
+            "slug": "laptops",
+            "title": "Laptops"
+          }
+        ],
+        "has_children": false
+      },
+      "gender": null,
+      "age": null,
+      "materials": [
+        "aluminum"
+      ],
+      "key_features": [
+        "Intel Core Ultra 7 Processor with integrated NPU",
+        "16-inch Dynamic AMOLED 2X touchscreen with 120Hz refresh rate",
+        "Up to 30 hours of battery life",
+        "Ultra-slim aluminum frame (11.9mm thickness)",
+        "Galaxy AI and Copilot+ PC features",
+        "Thunderbolt 4 connectivity",
+        "Wi-Fi 7 onboard"
+      ],
+      "colors": [
+        {
+          "hex": "#aabccd",
+          "percentage": 0.2946
+        },
+        {
+          "hex": "#6f6f7e",
+          "percentage": 0.166
+        },
+        {
+          "hex": "#050713",
+          "percentage": 0.1629
+        },
+        {
+          "hex": "#4d3143",
+          "percentage": 0.1043
+        },
+        {
+          "hex": "#5195b3",
+          "percentage": 0.0955
+        },
+        {
+          "hex": "#79b6d2",
+          "percentage": 0.0942
+        },
+        {
+          "hex": "#143860",
+          "percentage": 0.0826
+        }
+      ],
+      "offers": [
+        {
+          "url": "https://buy.trychannel3.com/OLyLfU5-LPzf-6ntYHS?o=01M4MDVN4JNWPYA52C62FTNRZW&aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW",
+          "domain": "newegg.com",
+          "price": {
+            "price": 2729.99,
+            "compare_at_price": null,
+            "currency": "USD"
+          },
+          "availability": "InStock",
+          "condition": "new",
+          "max_commission_rate": 0.007,
+          "dimensions": {
+            "length": {
+              "number": 14.05,
+              "unit": "in"
+            },
+            "width": {
+              "number": 0.47,
+              "unit": "in"
+            },
+            "height": {
+              "number": 9.76,
+              "unit": "in"
+            },
+            "weight": {
+              "number": 3.44,
+              "unit": "lb"
+            }
+          }
+        }
+      ],
+      "variants": null,
+      "structured_attributes": {
+        "display-technology": [
+          "OLED",
+          "AMOLED"
+        ],
+        "graphics-card-type": [
+          "Integrated"
+        ],
+        "storage-capacity": [
+          "512 GB",
+          "1 TB"
+        ],
+        "storage-types-supported": [
+          "Solid-state drive (SSD)"
+        ],
+        "power-source": [
+          "Rechargeable",
+          "Battery-powered"
+        ],
+        "memory-technology": [
+          "DDR5"
+        ],
+        "ram": [
+          "16 GB"
+        ],
+        "operating-system": [
+          "Windows"
+        ],
+        "storage-drive-type-installed": [
+          "Solid-state drive (SSD)"
+        ],
+        "computer-specialized-features": [
+          "AI-powered",
+          "Touchscreen"
+        ],
+        "processor-family": [
+          "Intel Core Ultra 7"
+        ],
+        "keyboard-type": [
+          "Backlit"
+        ],
+        "computer-form": [
+          "Notebook"
+        ],
+        "processor-cores": [
+          "Hexadeca"
+        ],
+        "cosmetic-condition": [
+          "New"
+        ]
+      },
+      "ratings": {
+        "value": 4.43,
+        "count": 22,
+        "source_count": 2
+      }
+    },
+    {
+      "id": "1HYFMdh",
+      "title": "Galaxy Book6 Ultra",
+      "description": "The Samsung Galaxy Book6 Ultra is a high-performance 16-inch laptop designed for creators and power users. It features a slim aluminum chassis in gray and is powered by an Intel Core Ultra 7 356H processor and NVIDIA GeForce RTX 5060 graphics. The device is equipped with a stunning 16\" WQXGA+ AMOLED touchscreen display, 32GB of LPDDR5x onboard RAM, and a 1TB NVMe SSD. Connectivity options include WiFi 7 and Bluetooth 5.4, and it runs on Windows 11 Home.",
+      "brands": [
+        {
+          "id": "Mbqx",
+          "name": "Samsung"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://cdn.trychannel3.com/b476febf-cae6-4c24-9bd0-40323fa9e998?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=ckmS",
+          "cleaned_url": "https://cdn.trychannel3.com/265ee1e6-1651-4fda-8861-57ac1706141a?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=ckmS",
+          "is_main_image": true,
+          "shot_type": "hero",
+          "alt_text": "Laptop screen with colorful abstract wallpaper."
+        },
+        {
+          "url": "https://cdn.trychannel3.com/fc276bdd-9a05-487a-8b6b-39bf8c78921e?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=ckmS",
+          "cleaned_url": "https://cdn.trychannel3.com/86b98a35-f9da-4b2c-b45e-dbb43552a57f?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=ckmS",
+          "is_main_image": false,
+          "shot_type": "hero",
+          "alt_text": "Galaxy Book6 Ultra laptop with open lid."
+        },
+        {
+          "url": "https://cdn.trychannel3.com/eaa1dba2-a431-4071-af8b-08a78b16e04a?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=ckmS",
+          "cleaned_url": "https://cdn.trychannel3.com/9acf87cd-fc8a-4329-8cef-c94f3826d524?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=ckmS",
+          "is_main_image": false,
+          "shot_type": "hero",
+          "alt_text": "Galaxy Book6 Ultra laptop with colorful wallpaper."
+        }
+      ],
+      "category": {
+        "slug": "laptops",
+        "title": "Laptops",
+        "path": [
+          {
+            "slug": "electronics",
+            "title": "Electronics"
+          },
+          {
+            "slug": "computers",
+            "title": "Computers"
+          },
+          {
+            "slug": "laptops",
+            "title": "Laptops"
+          }
+        ],
+        "has_children": false
+      },
+      "gender": null,
+      "age": "adult",
+      "materials": [
+        "aluminum"
+      ],
+      "key_features": [
+        "Intel Core Ultra 7 356H (1.5GHz) Processor",
+        "32GB LPDDR5X Onboard RAM",
+        "NVIDIA GeForce RTX 5060 Graphics Card",
+        "1TB NVMe SSD",
+        "16\" WQXGA+ AMOLED Touchscreen Display",
+        "Wireless LAN WiFi 7 (802.11be), Bluetooth 5.4",
+        "Windows 11 Home",
+        "SDXC Memory Card Reader"
+      ],
+      "colors": [
+        {
+          "hex": "#abbdce",
+          "percentage": 0.2853
+        },
+        {
+          "hex": "#7b6f7c",
+          "percentage": 0.1695
+        },
+        {
+          "hex": "#050e28",
+          "percentage": 0.1286
+        },
+        {
+          "hex": "#382233",
+          "percentage": 0.1135
+        },
+        {
+          "hex": "#7db8d3",
+          "percentage": 0.1084
+        },
+        {
+          "hex": "#345575",
+          "percentage": 0.1017
+        },
+        {
+          "hex": "#549dbe",
+          "percentage": 0.093
+        }
+      ],
+      "offers": [
+        {
+          "url": "https://buy.trychannel3.com/1HYFMdh-ckmS-6ntYHS?o=01KQX2JHSQZ57H4B7XAV5BJECQ&aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW",
+          "domain": "samsung.com",
+          "price": {
+            "price": 1349.99,
+            "compare_at_price": 2799.99,
+            "currency": "USD"
+          },
+          "availability": "InStock",
+          "condition": "new",
+          "max_commission_rate": 0.016,
+          "dimensions": null
+        }
+      ],
+      "variants": {
+        "options": [],
+        "selected": [
+          {
+            "name": "Graphics",
+            "label": "NVIDIA\u00ae GeForce RTX\u2122 5070"
+          },
+          {
+            "name": "Processor",
+            "label": "Intel\u00ae Core\u2122 Ultra X7 358H"
+          },
+          {
+            "name": "Device",
+            "label": "Galaxy Book6 Ultra"
+          },
+          {
+            "name": "Size",
+            "label": "32 GB"
+          }
+        ]
+      },
+      "structured_attributes": {
+        "storage-types-supported": [
+          "PCIe/NVMe SSD",
+          "Solid-state drive (SSD)"
+        ],
+        "computer-form": [
+          "Notebook"
+        ],
+        "storage-drive-type-installed": [
+          "PCIe/NVMe SSD",
+          "Solid-state drive (SSD)"
+        ],
+        "graphics-card-type": [
+          "Dedicated",
+          "Integrated"
+        ],
+        "computer-specialized-features": [
+          "AI-powered",
+          "Quiet operation",
+          "Touchscreen",
+          "TPM (trusted platform module)"
+        ],
+        "processor-family": [
+          "Intel Core Ultra 9"
+        ],
+        "operating-system": [
+          "Windows"
+        ],
+        "pattern": [
+          "Abstract",
+          "Swirl",
+          "Graphic"
+        ],
+        "ram": [
+          "32 GB"
+        ],
+        "display-technology": [
+          "OLED",
+          "AMOLED"
+        ],
+        "keyboard-type": [
+          "Backlit"
+        ],
+        "memory-technology": [
+          "DDR5"
+        ],
+        "removable-storage-formats-supported": [
+          "SDXC"
+        ],
+        "power-source": [
+          "Rechargeable"
+        ],
+        "storage-capacity": [
+          "2 TB",
+          "1 TB"
+        ],
+        "cosmetic-condition": [
+          "New"
+        ]
+      },
+      "ratings": {
+        "value": 4.93,
+        "count": 128,
+        "source_count": 2
+      }
+    },
+    {
+      "id": "74g1ZWv",
+      "title": "Samsung Galaxy Book6 - Enterprise Edition - Copilot+ PC - 14\" - Intel Core Ultra 7 - 355 - 32 GB RAM - 512 GB SSD",
+      "description": "The Samsung Galaxy Book6 Enterprise Edition is a high-performance Copilot+ PC designed for professional and enterprise environments. It features a 14-inch IPS display with WUXGA resolution, powered by an Intel Core Ultra 7 355 processor and 32 GB of LPDDR5X RAM. This sleek, aluminum-chassis laptop offers hardware-rooted security via the Samsung Knox platform and is MIL-STD-810H tested for durability. With a 512 GB NVMe SSD, Windows 11 Pro, and a wide array of connectivity options including Wi-Fi 6E and multiple USB-C ports, it is optimized for AI-powered productivity and secure mobile work.",
+      "brands": [
+        {
+          "id": "Mbqx",
+          "name": "Samsung"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://cdn.trychannel3.com/5a6f2778-d8ff-4b98-b8df-486530c75100?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=TgS4",
+          "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/5a6f2778-d8ff-4b98-b8df-486530c75100?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=TgS4",
+          "is_main_image": true,
+          "shot_type": "hero",
+          "alt_text": "Silver laptop with colorful wallpaper on screen, viewed from the front."
+        }
+      ],
+      "category": {
+        "slug": "laptops",
+        "title": "Laptops",
+        "path": [
+          {
+            "slug": "electronics",
+            "title": "Electronics"
+          },
+          {
+            "slug": "computers",
+            "title": "Computers"
+          },
+          {
+            "slug": "laptops",
+            "title": "Laptops"
+          }
+        ],
+        "has_children": false
+      },
+      "gender": null,
+      "age": null,
+      "materials": [
+        "Aluminum"
+      ],
+      "key_features": [
+        "Copilot+ PC with Intel AI Boost NPU",
+        "Samsung Knox hardware-backed security",
+        "MIL-STD-810H durability tested",
+        "14\" IPS Anti-glare display (1920 x 1200)",
+        "Intel Core Ultra 7 355 processor",
+        "Windows 11 Pro operating system",
+        "Fingerprint reader and IR camera for Windows Hello"
+      ],
+      "colors": [
+        {
+          "hex": "#a9bece",
+          "percentage": 0.2908
+        },
+        {
+          "hex": "#7c6e7b",
+          "percentage": 0.152
+        },
+        {
+          "hex": "#111930",
+          "percentage": 0.1416
+        },
+        {
+          "hex": "#311f2b",
+          "percentage": 0.1219
+        },
+        {
+          "hex": "#7db8d4",
+          "percentage": 0.1044
+        },
+        {
+          "hex": "#579fbf",
+          "percentage": 0.098
+        },
+        {
+          "hex": "#244e75",
+          "percentage": 0.0913
+        }
+      ],
+      "offers": [
+        {
+          "url": "https://buy.trychannel3.com/74g1ZWv-TgS4-6ntYHS?o=01M44QQJVX74QH5QDBR4Y1XQM4&aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW",
+          "domain": "cdw.com",
+          "price": {
+            "price": 1830.0,
+            "compare_at_price": null,
+            "currency": "USD"
+          },
+          "availability": "InStock",
+          "condition": "new",
+          "max_commission_rate": 0.0,
+          "dimensions": {
+            "length": {
+              "number": 12.3,
+              "unit": "in"
+            },
+            "width": {
+              "number": 8.7,
+              "unit": "in"
+            },
+            "height": {
+              "number": 0.6,
+              "unit": "in"
+            },
+            "weight": {
+              "number": 3.15,
+              "unit": "lb"
+            }
+          }
+        }
+      ],
+      "variants": null,
+      "structured_attributes": {
+        "computer-specialized-features": [
+          "AI-powered",
+          "Kensington lock",
+          "TPM (trusted platform module)"
+        ],
+        "storage-drive-type-installed": [
+          "PCIe/NVMe SSD"
+        ],
+        "graphics-card-type": [
+          "Integrated"
+        ],
+        "removable-storage-formats-supported": [
+          "microSD"
+        ],
+        "storage-capacity": [
+          "512 GB"
+        ],
+        "power-source": [
+          "Rechargeable"
+        ],
+        "processor-cores": [
+          "Quad"
+        ],
+        "cosmetic-condition": [
+          "New"
+        ],
+        "memory-technology": [
+          "DDR"
+        ],
+        "operating-system": [
+          "Windows"
+        ],
+        "display-resolution": [
+          "1920 x 1080"
+        ],
+        "storage-types-supported": [
+          "PCIe/NVMe SSD"
+        ],
+        "processor-family": [
+          "Intel Core Ultra 7"
+        ],
+        "ram": [
+          "32 GB"
+        ],
+        "keyboard-type": [
+          "Backlit"
+        ],
+        "computer-form": [
+          "Notebook"
+        ],
+        "display-technology": [
+          "IPS"
+        ]
+      },
+      "ratings": null
+    },
+    {
+      "id": "C4ba6cc",
+      "title": "Galaxy Book5, 15.6\", Intel\u00ae Core\u2122 Ultra 7, 512GB, Silver",
+      "description": "A lightweight 15.6\" laptop powered by an Intel\u00ae Core\u2122 Ultra 7 processor that delivers outstanding performance for both work and play. Packed with 16\u202fGB of RAM and a 512\u202fGB SSD, the Galaxy Book5 comes in a sleek silver finish and runs Windows\u202f11 Home. It features a full HD display, a standard keyboard, touchpad, and a built\u2011in Wi\u2011Fi 6E and Bluetooth 5.2 connection for fast, reliable connectivity.",
+      "brands": [
+        {
+          "id": "Mbqx",
+          "name": "Samsung"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://cdn.trychannel3.com/4c624815-7012-48a7-bca8-9b9543902984?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=ckmS",
+          "cleaned_url": "https://cdn.trychannel3.com/2dae6e4b-0701-429d-999d-2f3a34558c41?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=ckmS",
+          "is_main_image": true,
+          "shot_type": "hero",
+          "alt_text": "Silver Galaxy Book5 laptop with glowing blue keyboard backlight."
+        }
+      ],
+      "category": {
+        "slug": "laptops",
+        "title": "Laptops",
+        "path": [
+          {
+            "slug": "electronics",
+            "title": "Electronics"
+          },
+          {
+            "slug": "computers",
+            "title": "Computers"
+          },
+          {
+            "slug": "laptops",
+            "title": "Laptops"
+          }
+        ],
+        "has_children": false
+      },
+      "gender": null,
+      "age": "adult",
+      "materials": [],
+      "key_features": [
+        "15.6\" Full HD display",
+        "Intel\u00ae Core\u2122 Ultra 7 processor (Series 2)",
+        "16\u202fGB RAM",
+        "512\u202fGB SSD",
+        "Windows\u202f11 Home",
+        "Lightweight aluminum chassis",
+        "Silver finish",
+        "Standard keyboard, touchpad, and Wi\u2011Fi 6E+ Bluetooth 5.2"
+      ],
+      "colors": [
+        {
+          "hex": "#02070f",
+          "percentage": 0.6363
+        },
+        {
+          "hex": "#232d31",
+          "percentage": 0.2699
+        },
+        {
+          "hex": "#6e9193",
+          "percentage": 0.0938
+        }
+      ],
+      "offers": [
+        {
+          "url": "https://buy.trychannel3.com/C4ba6cc-ckmS-6ntYHS?o=01KH578J8AVARVXM22ZCEG96YM&aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW",
+          "domain": "samsung.com",
+          "price": {
+            "price": 1199.99,
+            "compare_at_price": null,
+            "currency": "USD"
+          },
+          "availability": "InStock",
+          "condition": "new",
+          "max_commission_rate": 0.016,
+          "dimensions": null
+        }
+      ],
+      "variants": {
+        "options": [
+          {
+            "name": "Operating System",
+            "values": [
+              {
+                "label": "Windows 11 Home",
+                "exists": true,
+                "available": null,
+                "thumbnail_url": null,
+                "product_id": null
+              },
+              {
+                "label": "Windows 11 Pro",
+                "exists": true,
+                "available": null,
+                "thumbnail_url": null,
+                "product_id": null
+              }
+            ]
+          },
+          {
+            "name": "Processor",
+            "values": [
+              {
+                "label": "Intel\u00ae Core\u2122 Ultra 7",
+                "exists": true,
+                "available": null,
+                "thumbnail_url": null,
+                "product_id": null
+              }
+            ]
+          }
+        ],
+        "selected": [
+          {
+            "name": "Model",
+            "label": "Galaxy Book5"
+          },
+          {
+            "name": "Memory and Storage",
+            "label": "16GB (RAM) + 512GB (SSD)"
+          }
+        ]
+      },
+      "structured_attributes": {
+        "processor-family": [
+          "Intel Core Ultra 7"
+        ],
+        "graphics-card-type": [
+          "Integrated"
+        ],
+        "storage-types-supported": [
+          "Solid-state drive (SSD)"
+        ],
+        "operating-system": [
+          "Windows"
+        ],
+        "computer-form": [
+          "Notebook"
+        ],
+        "storage-drive-type-installed": [
+          "Solid-state drive (SSD)"
+        ],
+        "memory-technology": [
+          "DDR4"
+        ]
+      },
+      "ratings": {
+        "value": 4.69,
+        "count": 16,
+        "source_count": 1
+      }
+    },
+    {
+      "id": "VpVbZkk",
+      "title": "Galaxy Book4 Edge 16\" Laptop",
+      "description": "The Samsung Galaxy Book4 Edge is a slim and lightweight 16-inch laptop designed for portability and performance. It features a vibrant Quad HD+ AMOLED touchscreen and is powered by the Snapdragon X Elite CPU with a Qualcomm Hexagon NPU. With 16GB of LPDDR5x RAM and 1TB of eUFS storage, it is optimized for business trips and productivity. It runs on Windows 11 Home and comes in a sleek Blue finish.",
+      "brands": [
+        {
+          "id": "Mbqx",
+          "name": "Samsung"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://cdn.trychannel3.com/d222cc82-47b9-4bc2-bfa5-ef93b0c1a416?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=LPzf",
+          "cleaned_url": null,
+          "is_main_image": true,
+          "shot_type": "hero",
+          "alt_text": "Samsung Galaxy Book4 Edge laptop displaying colorful wallpaper."
+        },
+        {
+          "url": "https://cdn.trychannel3.com/3a40fbca-acd0-49d3-bd96-2f954f0cbefa?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=LPzf",
+          "cleaned_url": null,
+          "is_main_image": false,
+          "shot_type": "packaging",
+          "alt_text": "Box contents showing USB-C cable and power adapter for a laptop."
+        }
+      ],
+      "category": {
+        "slug": "laptops",
+        "title": "Laptops",
+        "path": [
+          {
+            "slug": "electronics",
+            "title": "Electronics"
+          },
+          {
+            "slug": "computers",
+            "title": "Computers"
+          },
+          {
+            "slug": "laptops",
+            "title": "Laptops"
+          }
+        ],
+        "has_children": false
+      },
+      "gender": null,
+      "age": null,
+      "materials": [],
+      "key_features": [
+        "16\" Quad HD+ AMOLED Touchscreen",
+        "Snapdragon X Elite CPU",
+        "16GB LPDDR5x RAM",
+        "1TB eUFS Storage Space",
+        "Qualcomm Hexagon NPU",
+        "Windows 11 Home",
+        "Slim and lightweight design"
+      ],
+      "colors": [
+        {
+          "hex": "#a4a4a4",
+          "percentage": 0.9457
+        },
+        {
+          "hex": "#7c7c7c",
+          "percentage": 0.0543
+        }
+      ],
+      "offers": [
+        {
+          "url": "https://buy.trychannel3.com/VpVbZkk-LPzf-6ntYHS?o=01M4MS7ZG2M35J7MYD019BHZCP&aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW",
+          "domain": "newegg.com",
+          "price": {
+            "price": 1129.99,
+            "compare_at_price": null,
+            "currency": "USD"
+          },
+          "availability": "InStock",
+          "condition": "new",
+          "max_commission_rate": 0.007,
+          "dimensions": {
+            "length": null,
+            "width": null,
+            "height": null,
+            "weight": {
+              "number": 3.4,
+              "unit": "lb"
+            }
+          }
+        }
+      ],
+      "variants": null,
+      "structured_attributes": {
+        "cosmetic-condition": [
+          "New"
+        ],
+        "display-technology": [
+          "AMOLED",
+          "OLED"
+        ],
+        "processor-family": [
+          "Qualcomm Snapdragon X Elite"
+        ],
+        "graphics-card-type": [
+          "Integrated"
+        ],
+        "display-resolution": [
+          "Quad HD"
+        ],
+        "removable-storage-formats-supported": [
+          "microSD"
+        ],
+        "storage-drive-type-installed": [
+          "Solid-state drive (SSD)"
+        ],
+        "operating-system": [
+          "Windows"
+        ],
+        "storage-capacity": [
+          "512 GB",
+          "1 TB"
+        ],
+        "power-source": [
+          "Battery-powered"
+        ],
+        "ram": [
+          "16 GB"
+        ],
+        "computer-specialized-features": [
+          "AI-powered",
+          "Touchscreen"
+        ],
+        "computer-form": [
+          "Notebook"
+        ],
+        "memory-technology": [
+          "DDR"
+        ]
+      },
+      "ratings": null
+    },
+    {
+      "id": "zxhIT6p",
+      "title": "Samsung Galaxy Book5 Pro 14\" Intel Core Ultra 7-258V 1TB SSD 32GB RAM Laptop",
+      "description": "The Samsung Galaxy Book5 PRO is a high-performance 14-inch touch laptop designed for productivity and efficiency. It features a stunning AMOLED touchscreen display with a resolution of 2880 x 1800 and is powered by the latest AI-enabled Intel Core Ultra 7 258V processor. With 32GB of LPDDR5X RAM and a 1TB SSD, it offers ample speed and storage for graphics-heavy applications. The laptop is built for portability, weighing only 0.46 lbs and measuring 8.81\" thin, and includes modern connectivity options such as Wi-Fi 7, Bluetooth 5.4, and multiple ports including Thunderbolt 4. It runs on Windows 11 Pro and integrates Copilot for AI-driven assistance.",
+      "brands": [
+        {
+          "id": "Mbqx",
+          "name": "Samsung"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://cdn.trychannel3.com/8ee2e3c7-5842-400a-8c8e-1a37ac52f109?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=TgS4",
+          "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/8ee2e3c7-5842-400a-8c8e-1a37ac52f109?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=TgS4",
+          "is_main_image": true,
+          "shot_type": "hero",
+          "alt_text": "Silver laptop with colorful abstract wallpaper, viewed from the front."
+        },
+        {
+          "url": "https://cdn.trychannel3.com/e7656357-a42f-4ac5-ade2-b2d2f3886899?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=TgS4",
+          "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/e7656357-a42f-4ac5-ade2-b2d2f3886899?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=TgS4",
+          "is_main_image": false,
+          "shot_type": "hero",
+          "alt_text": "Black tablet showing a digital drawing application interface."
+        }
+      ],
+      "category": {
+        "slug": "laptops",
+        "title": "Laptops",
+        "path": [
+          {
+            "slug": "electronics",
+            "title": "Electronics"
+          },
+          {
+            "slug": "computers",
+            "title": "Computers"
+          },
+          {
+            "slug": "laptops",
+            "title": "Laptops"
+          }
+        ],
+        "has_children": false
+      },
+      "gender": null,
+      "age": null,
+      "materials": [
+        "metal"
+      ],
+      "key_features": [
+        "14\" AMOLED touchscreen 2880 x 1800 (WQXGA+) @ 120 Hz",
+        "Intel Core Ultra 7-258V processor (up to 4.8 GHz)",
+        "32 GB LPDDR5X SDRAM",
+        "1 TB SSD NVMe storage",
+        "Intel Arc Graphics 140V",
+        "Windows 11 Pro",
+        "Wi-Fi 7 and Bluetooth 5.4 connectivity",
+        "Thunderbolt 4 and USB-C ports",
+        "Four stereo speakers with Dolby Atmos",
+        "1080p webcam"
+      ],
+      "colors": [
+        {
+          "hex": "#80b4cd",
+          "percentage": 0.2076
+        },
+        {
+          "hex": "#b0c8d9",
+          "percentage": 0.1646
+        },
+        {
+          "hex": "#0a101a",
+          "percentage": 0.1452
+        },
+        {
+          "hex": "#aaacb2",
+          "percentage": 0.1449
+        },
+        {
+          "hex": "#766d76",
+          "percentage": 0.1222
+        },
+        {
+          "hex": "#365d7a",
+          "percentage": 0.1137
+        },
+        {
+          "hex": "#312533",
+          "percentage": 0.1017
+        }
+      ],
+      "offers": [
+        {
+          "url": "https://buy.trychannel3.com/zxhIT6p-TgS4-6ntYHS?o=01M42GEF224M48TRMNEFNT0Z5C&aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW",
+          "domain": "cdw.com",
+          "price": {
+            "price": 1649.99,
+            "compare_at_price": null,
+            "currency": "USD"
+          },
+          "availability": "InStock",
+          "condition": "new",
+          "max_commission_rate": 0.0,
+          "dimensions": {
+            "length": {
+              "number": 12.3,
+              "unit": "in"
+            },
+            "width": {
+              "number": 8.8,
+              "unit": "in"
+            },
+            "height": {
+              "number": 0.5,
+              "unit": "in"
+            },
+            "weight": {
+              "number": 2.71,
+              "unit": "lb"
+            }
+          }
+        }
+      ],
+      "variants": null,
+      "structured_attributes": {
+        "power-source": [
+          "Rechargeable",
+          "Battery-powered"
+        ],
+        "computer-form": [
+          "Notebook"
+        ],
+        "graphics-card-type": [
+          "Integrated"
+        ],
+        "keyboard-type": [
+          "Backlit"
+        ],
+        "processor-family": [
+          "Intel Core Ultra 7"
+        ],
+        "processor-cores": [
+          "Octa"
+        ],
+        "operating-system": [
+          "Windows"
+        ],
+        "storage-drive-type-installed": [
+          "PCIe/NVMe SSD"
+        ],
+        "display-technology": [
+          "OLED",
+          "AMOLED"
+        ],
+        "computer-specialized-features": [
+          "AI-powered",
+          "Touchscreen",
+          "TPM (trusted platform module)"
+        ],
+        "ram": [
+          "32 GB"
+        ],
+        "storage-capacity": [
+          "1 TB"
+        ],
+        "storage-types-supported": [
+          "PCIe/NVMe SSD"
+        ],
+        "memory-technology": [
+          "DDR",
+          "DDR5"
+        ],
+        "removable-storage-formats-supported": [
+          "microSD"
+        ],
+        "cosmetic-condition": [
+          "New"
+        ]
+      },
+      "ratings": null
+    },
+    {
+      "id": "XVDxPL6",
+      "title": "Samsung Galaxy Book6 - Enterprise Edition - Copilot+ PC - 14\" - Intel Core Ultra 5 - 325 - 16 GB RAM - 256 GB SSD",
+      "description": "The Samsung Galaxy Book6 Enterprise Edition is a high-performance Copilot+ PC designed for modern professional environments. It features a 14-inch WUXGA IPS anti-glare display and is powered by an Intel Core Ultra 5 325 processor with integrated AI Boost NPU. The laptop is built for mobility and security, featuring a sleek aluminum chassis in Mocha Gray, Samsung Knox hardware-backed security, and MIL-STD-810H durability testing. It comes equipped with 16GB of LPDDR5X RAM, a 256GB NVMe SSD, and runs on Windows 11 Pro.",
+      "brands": [
+        {
+          "id": "Mbqx",
+          "name": "Samsung"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://cdn.trychannel3.com/e63a808c-891f-402c-a718-56d5e3ab32df?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=TgS4",
+          "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/e63a808c-891f-402c-a718-56d5e3ab32df?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=TgS4",
+          "is_main_image": true,
+          "shot_type": "hero",
+          "alt_text": "Samsung Galaxy Book6 laptop with colorful wallpaper, front view."
+        }
+      ],
+      "category": {
+        "slug": "laptops",
+        "title": "Laptops",
+        "path": [
+          {
+            "slug": "electronics",
+            "title": "Electronics"
+          },
+          {
+            "slug": "computers",
+            "title": "Computers"
+          },
+          {
+            "slug": "laptops",
+            "title": "Laptops"
+          }
+        ],
+        "has_children": false
+      },
+      "gender": null,
+      "age": null,
+      "materials": [
+        "Aluminum"
+      ],
+      "key_features": [
+        "Copilot+ PC with Intel AI Boost NPU",
+        "14\" IPS Anti-glare display (1920 x 1200)",
+        "Intel Core Ultra 5 325 processor (up to 4.5 GHz)",
+        "Samsung Knox enterprise-grade security",
+        "MIL-STD-810H tested for durability",
+        "Windows 11 Pro operating system",
+        "Lightweight aluminum chassis",
+        "Fingerprint reader and IR camera for Windows Hello"
+      ],
+      "colors": [
+        {
+          "hex": "#aabece",
+          "percentage": 0.2923
+        },
+        {
+          "hex": "#7b6d7b",
+          "percentage": 0.1514
+        },
+        {
+          "hex": "#321f2b",
+          "percentage": 0.1365
+        },
+        {
+          "hex": "#111933",
+          "percentage": 0.1271
+        },
+        {
+          "hex": "#7cb8d4",
+          "percentage": 0.1029
+        },
+        {
+          "hex": "#579fbf",
+          "percentage": 0.0982
+        },
+        {
+          "hex": "#264e74",
+          "percentage": 0.0916
+        }
+      ],
+      "offers": [
+        {
+          "url": "https://buy.trychannel3.com/XVDxPL6-TgS4-6ntYHS?o=01M42PCYFEFHDHEAC6J1Z05RTG&aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW",
+          "domain": "cdw.com",
+          "price": {
+            "price": 1330.0,
+            "compare_at_price": null,
+            "currency": "USD"
+          },
+          "availability": "InStock",
+          "condition": "new",
+          "max_commission_rate": 0.0,
+          "dimensions": {
+            "length": {
+              "number": 8.7,
+              "unit": "in"
+            },
+            "width": {
+              "number": 12.3,
+              "unit": "in"
+            },
+            "height": {
+              "number": 0.6,
+              "unit": "in"
+            },
+            "weight": {
+              "number": 3.15,
+              "unit": "lb"
+            }
+          }
+        }
+      ],
+      "variants": null,
+      "structured_attributes": {
+        "computer-form": [
+          "Notebook"
+        ],
+        "removable-storage-formats-supported": [
+          "microSD"
+        ],
+        "computer-specialized-features": [
+          "AI-powered",
+          "Kensington lock",
+          "TPM (trusted platform module)"
+        ],
+        "graphics-card-type": [
+          "Integrated"
+        ],
+        "storage-types-supported": [
+          "PCIe/NVMe SSD"
+        ],
+        "display-technology": [
+          "IPS"
+        ],
+        "keyboard-type": [
+          "Backlit"
+        ],
+        "processor-family": [
+          "Intel Core Ultra 5"
+        ],
+        "display-resolution": [
+          "1920 x 1080"
+        ],
+        "pattern": [
+          "Abstract"
+        ],
+        "operating-system": [
+          "Windows"
+        ],
+        "storage-capacity": [
+          "256 GB"
+        ],
+        "ram": [
+          "16 GB"
+        ],
+        "power-source": [
+          "Rechargeable"
+        ],
+        "processor-cores": [
+          "Octa"
+        ],
+        "storage-drive-type-installed": [
+          "PCIe/NVMe SSD"
+        ],
+        "memory-technology": [
+          "DDR5"
+        ],
+        "cosmetic-condition": [
+          "New"
+        ]
+      },
+      "ratings": null
+    },
+    {
+      "id": "RTHnowF",
+      "title": "Samsung Galaxy Book5 360",
+      "description": "Experience the power and versatility of the Galaxy Book5 360, a premium laptop designed for professionals and creators. Featuring a stunning 15.6\" display, this laptop boasts an Intel\u00ae Core\u2122 Ultra 7 processor for seamless multitasking and a spacious 512GB SSD for ample storage. Its sleek gray design and 360-degree hinge offer flexibility for any workflow, making it a true Copilot+ PC.",
+      "brands": [
+        {
+          "id": "Mbqx",
+          "name": "Samsung"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://cdn.trychannel3.com/c12fad01-cf20-4c12-95d6-616d1aed093d?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=ckmS",
+          "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/c12fad01-cf20-4c12-95d6-616d1aed093d?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=ckmS",
+          "is_main_image": true,
+          "shot_type": "hero",
+          "alt_text": "Silver Galaxy Book 360 laptop with vibrant light patterns on screen."
+        }
+      ],
+      "category": {
+        "slug": "laptops",
+        "title": "Laptops",
+        "path": [
+          {
+            "slug": "electronics",
+            "title": "Electronics"
+          },
+          {
+            "slug": "computers",
+            "title": "Computers"
+          },
+          {
+            "slug": "laptops",
+            "title": "Laptops"
+          }
+        ],
+        "has_children": false
+      },
+      "gender": null,
+      "age": "adult",
+      "materials": [],
+      "key_features": [
+        "Intel Core Ultra 7 256V (2.2GHz) Processor",
+        "16GB LPDDR5x RAM",
+        "Intel Arc 140V Integrated Graphics",
+        "512GB SSD",
+        "15.6\" Full HD AMOLED Touchscreen Display",
+        "2x2 Wireless LAN WiFi 7 (802.11be), Bluetooth 5.4",
+        "Windows 11 Home",
+        "MicroSD Memory Card Reader",
+        "360-degree hinge",
+        "Copilot+ PC capabilities"
+      ],
+      "colors": [
+        {
+          "hex": "#060203",
+          "percentage": 0.4781
+        },
+        {
+          "hex": "#281218",
+          "percentage": 0.3026
+        },
+        {
+          "hex": "#b8b9ba",
+          "percentage": 0.1535
+        },
+        {
+          "hex": "#5e5156",
+          "percentage": 0.0659
+        }
+      ],
+      "offers": [
+        {
+          "url": "https://buy.trychannel3.com/RTHnowF-ckmS-6ntYHS?o=01KQXHDMD76HMS3EDPC3V5HGYM&aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW",
+          "domain": "samsung.com",
+          "price": {
+            "price": 1299.99,
+            "compare_at_price": null,
+            "currency": "USD"
+          },
+          "availability": "InStock",
+          "condition": "new",
+          "max_commission_rate": 0.016,
+          "dimensions": null
+        }
+      ],
+      "variants": {
+        "options": [],
+        "selected": [
+          {
+            "name": "Operating System",
+            "label": "Windows 11 Home"
+          },
+          {
+            "name": "Color",
+            "label": "Gray"
+          },
+          {
+            "name": "Processor",
+            "label": "Intel\u00ae Core\u2122 Ultra 7"
+          }
+        ]
+      },
+      "structured_attributes": {
+        "ram": [
+          "16 GB"
+        ],
+        "removable-storage-formats-supported": [
+          "microSD"
+        ],
+        "display-technology": [
+          "AMOLED",
+          "LCD"
+        ],
+        "display-resolution": [
+          "1920 x 1080"
+        ],
+        "storage-types-supported": [
+          "Solid-state drive (SSD)"
+        ],
+        "computer-form": [
+          "Convertible",
+          "Notebook"
+        ],
+        "power-source": [
+          "Rechargeable",
+          "AC-powered"
+        ],
+        "operating-system": [
+          "Windows"
+        ],
+        "graphics-card-type": [
+          "Integrated"
+        ],
+        "computer-specialized-features": [
+          "AI-powered",
+          "Touchscreen",
+          "TPM (trusted platform module)"
+        ],
+        "processor-family": [
+          "Intel Core Ultra 7"
+        ],
+        "processor-cores": [
+          "Octa",
+          "Multi"
+        ],
+        "storage-drive-type-installed": [
+          "Solid-state drive (SSD)"
+        ],
+        "storage-capacity": [
+          "512 GB"
+        ],
+        "memory-technology": [
+          "DDR",
+          "DDR3"
+        ],
+        "cosmetic-condition": [
+          "New"
+        ],
+        "keyboard-layout": [
+          "QWERTY"
+        ],
+        "keyboard-type": [
+          "Standard"
+        ]
+      },
+      "ratings": {
+        "value": 4.8,
+        "count": 105,
+        "source_count": 2
+      }
+    },
+    {
+      "id": "1QPULot",
+      "title": "Samsung Galaxy Book6 - Enterprise Edition - Copilot+ PC - 16\" - Intel Core Ultra 5 - 325 - 16 GB RAM - 512 GB SSD - US",
+      "description": "The Samsung Galaxy Book6 Enterprise Edition is a high-performance Copilot+ PC designed for professional environments. It features a 16-inch WUXGA (1920 x 1200) IPS anti-glare display and is powered by an Intel Core Ultra 5 325 processor with an integrated NPU delivering 47 TOPS for AI acceleration. Equipped with 16 GB of LPDDR5X RAM and a 512 GB NVMe SSD, it ensures efficient multitasking and fast storage. The laptop includes a 1080p webcam, Dolby Atmos stereo speakers, and a wide array of connectivity options including USB-C (with Power Delivery), USB 3.2, HDMI, and Wi-Fi 6E. Encased in a sleek Mocha Gray chassis, it runs Windows 11 Pro and incorporates Samsung Knox security.",
+      "brands": [
+        {
+          "id": "Mbqx",
+          "name": "Samsung"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://cdn.trychannel3.com/cb7b1493-f0d0-43f7-b9c9-c02a1c809764?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=TgS4",
+          "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/cb7b1493-f0d0-43f7-b9c9-c02a1c809764?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=TgS4",
+          "is_main_image": true,
+          "shot_type": "hero",
+          "alt_text": "Silver Samsung Galaxy Book6 laptop with colorful abstract wallpaper."
+        }
+      ],
+      "category": {
+        "slug": "laptops",
+        "title": "Laptops",
+        "path": [
+          {
+            "slug": "electronics",
+            "title": "Electronics"
+          },
+          {
+            "slug": "computers",
+            "title": "Computers"
+          },
+          {
+            "slug": "laptops",
+            "title": "Laptops"
+          }
+        ],
+        "has_children": false
+      },
+      "gender": null,
+      "age": null,
+      "materials": [
+        "metallic"
+      ],
+      "key_features": [
+        "Copilot+ PC with Galaxy AI",
+        "Intel Core Ultra 5 325 processor",
+        "16\" WUXGA (1920 x 1200) IPS anti-glare display",
+        "16 GB LPDDR5X RAM",
+        "512 GB NVMe SSD",
+        "Windows 11 Pro",
+        "Dolby Atmos stereo speakers",
+        "Wi-Fi 6E and Bluetooth 5.4",
+        "1080p Webcam",
+        "Samsung Knox Security"
+      ],
+      "colors": [
+        {
+          "hex": "#aabdce",
+          "percentage": 0.2852
+        },
+        {
+          "hex": "#7b6d7a",
+          "percentage": 0.1614
+        },
+        {
+          "hex": "#121930",
+          "percentage": 0.1425
+        },
+        {
+          "hex": "#321f2b",
+          "percentage": 0.1148
+        },
+        {
+          "hex": "#7db8d4",
+          "percentage": 0.1069
+        },
+        {
+          "hex": "#579ebe",
+          "percentage": 0.0982
+        },
+        {
+          "hex": "#275076",
+          "percentage": 0.0911
+        }
+      ],
+      "offers": [
+        {
+          "url": "https://buy.trychannel3.com/1QPULot-TgS4-6ntYHS?o=01M44QQDPDRCHMWWXH7XWEFM7V&aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW",
+          "domain": "cdw.com",
+          "price": {
+            "price": 1480.0,
+            "compare_at_price": null,
+            "currency": "USD"
+          },
+          "availability": "InStock",
+          "condition": "new",
+          "max_commission_rate": 0.0,
+          "dimensions": {
+            "length": {
+              "number": 9.8,
+              "unit": "in"
+            },
+            "width": {
+              "number": 14.1,
+              "unit": "in"
+            },
+            "height": {
+              "number": 0.6,
+              "unit": "in"
+            },
+            "weight": {
+              "number": 3.84,
+              "unit": "lb"
+            }
+          }
+        }
+      ],
+      "variants": null,
+      "structured_attributes": {
+        "storage-capacity": [
+          "512 GB"
+        ],
+        "keyboard-type": [
+          "Backlit"
+        ],
+        "computer-form": [
+          "Notebook"
+        ],
+        "storage-types-supported": [
+          "PCIe/NVMe SSD"
+        ],
+        "memory-technology": [
+          "DDR5"
+        ],
+        "display-technology": [
+          "IPS",
+          "LCD"
+        ],
+        "keyboard-layout": [
+          "QWERTY"
+        ],
+        "power-source": [
+          "Battery-powered"
+        ],
+        "removable-storage-formats-supported": [
+          "microSD"
+        ],
+        "computer-specialized-features": [
+          "AI-powered",
+          "Kensington lock",
+          "TPM (trusted platform module)"
+        ],
+        "processor-family": [
+          "Intel Core Ultra 5"
+        ],
+        "operating-system": [
+          "Windows"
+        ],
+        "display-resolution": [
+          "1920 x 1080"
+        ],
+        "ram": [
+          "16 GB"
+        ],
+        "storage-drive-type-installed": [
+          "PCIe/NVMe SSD"
+        ],
+        "processor-cores": [
+          "Quad"
+        ],
+        "graphics-card-type": [
+          "Integrated"
+        ]
+      },
+      "ratings": null
+    },
+    {
+      "id": "rzjDzYm",
+      "title": "Samsung Galaxy Book4 Edge 15\"",
+      "description": "The Samsung Galaxy Book4 Edge is a 15.6-inch Copilot+ PC designed for AI-driven productivity and creativity. It features a Snapdragon X Plus processor (up to 3.4GHz), 16GB of LPDDR5X RAM, and a 1TB eUFS storage drive. The laptop boasts a glare-reducing FHD LED display, extensive battery life of up to 27 hours of video playback, and an ultralight, slim design for portability. It includes intuitive AI features such as automatic live captions and seamless integration with Galaxy AI phones.",
+      "brands": [
+        {
+          "id": "Mbqx",
+          "name": "Samsung"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://cdn.trychannel3.com/e7e9b89e-28e2-482a-9b81-a7c5f0a4e704?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=ZO25",
+          "cleaned_url": null,
+          "is_main_image": true,
+          "shot_type": "product_information",
+          "alt_text": "Specs graphic for Samsung Galaxy Book4 Edge 15 with memory and storage details."
+        },
+        {
+          "url": "https://cdn.trychannel3.com/b531eeb2-b515-448b-8d20-fd68a5cec839?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=ZO25",
+          "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/b531eeb2-b515-448b-8d20-fd68a5cec839?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=ZO25",
+          "is_main_image": false,
+          "shot_type": "hero",
+          "alt_text": "White laptop showing colorful abstract wallpaper on the screen."
+        },
+        {
+          "url": "https://cdn.trychannel3.com/a0f236c4-a480-4f70-a5af-1a9a58875e1b?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=ZO25",
+          "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/a0f236c4-a480-4f70-a5af-1a9a58875e1b?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=ZO25",
+          "is_main_image": false,
+          "shot_type": "hero",
+          "alt_text": "Front view of a white laptop with the screen open showing Windows interface."
+        },
+        {
+          "url": "https://cdn.trychannel3.com/0a478103-0927-4cd0-91b3-30e936bc1cc2?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=ZO25",
+          "cleaned_url": null,
+          "is_main_image": false,
+          "shot_type": "hero",
+          "alt_text": "Three-quarter view of the white laptop with the screen open."
+        },
+        {
+          "url": "https://cdn.trychannel3.com/2c30af76-53bc-4d5d-8f39-a0c91a14d696?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=ZO25",
+          "cleaned_url": null,
+          "is_main_image": false,
+          "shot_type": "hero",
+          "alt_text": "Profile view of the white laptop showing its thin profile."
+        },
+        {
+          "url": "https://cdn.trychannel3.com/e00f1eeb-f33c-4d54-9510-d9e7c842ddd3?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=ZO25",
+          "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/e00f1eeb-f33c-4d54-9510-d9e7c842ddd3?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=ZO25",
+          "is_main_image": false,
+          "shot_type": "detail",
+          "alt_text": "Close-up of the side ports and camera on the laptop."
+        },
+        {
+          "url": "https://cdn.trychannel3.com/331ce770-5a93-4a03-9bd4-857b30d3eb7d?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=ZO25",
+          "cleaned_url": null,
+          "is_main_image": false,
+          "shot_type": "lifestyle",
+          "alt_text": "White laptop next to its charging cable and wireless mouse."
+        },
+        {
+          "url": "https://cdn.trychannel3.com/528b48d0-196b-4177-8898-7e6c56f029a9?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=ZO25",
+          "cleaned_url": null,
+          "is_main_image": false,
+          "shot_type": "detail",
+          "alt_text": "Close-up of the bottom panel and vents of the laptop."
+        }
+      ],
+      "category": {
+        "slug": "laptops",
+        "title": "Laptops",
+        "path": [
+          {
+            "slug": "electronics",
+            "title": "Electronics"
+          },
+          {
+            "slug": "computers",
+            "title": "Computers"
+          },
+          {
+            "slug": "laptops",
+            "title": "Laptops"
+          }
+        ],
+        "has_children": false
+      },
+      "gender": null,
+      "age": null,
+      "materials": [],
+      "key_features": [
+        "Copilot+ PC with AI-integrated features",
+        "Snapdragon X Plus processor (8 cores up to 3.4 GHz)",
+        "15.6\" FHD LED Anti-Glare display",
+        "Up to 27 hours of video playback",
+        "Ultralight and slim design",
+        "Automatic Live Captions for real-time subtitles",
+        "Fingerprint Reader for security"
+      ],
+      "colors": [
+        {
+          "hex": "#a9c0d2",
+          "percentage": 0.3206
+        },
+        {
+          "hex": "#56455f",
+          "percentage": 0.1456
+        },
+        {
+          "hex": "#dae0eb",
+          "percentage": 0.1304
+        },
+        {
+          "hex": "#0c2345",
+          "percentage": 0.1267
+        },
+        {
+          "hex": "#8b8b95",
+          "percentage": 0.1077
+        },
+        {
+          "hex": "#78b7d4",
+          "percentage": 0.0896
+        },
+        {
+          "hex": "#3f7fa1",
+          "percentage": 0.0794
+        }
+      ],
+      "offers": [
+        {
+          "url": "https://buy.trychannel3.com/rzjDzYm-ZO25-6ntYHS?o=01M4EZK2EYE862TWBV0Y6D0679&aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW",
+          "domain": "costco.com",
+          "price": {
+            "price": 799.99,
+            "compare_at_price": null,
+            "currency": "USD"
+          },
+          "availability": "InStock",
+          "condition": "new",
+          "max_commission_rate": 0.0,
+          "dimensions": {
+            "length": {
+              "number": 14.04,
+              "unit": "in"
+            },
+            "width": {
+              "number": 9.05,
+              "unit": "in"
+            },
+            "height": {
+              "number": 0.59,
+              "unit": "in"
+            },
+            "weight": {
+              "number": 3.31,
+              "unit": "lb"
+            }
+          }
+        }
+      ],
+      "variants": null,
+      "structured_attributes": {
+        "operating-system": [
+          "Windows"
+        ],
+        "processor-cores": [
+          "Quad"
+        ],
+        "memory-technology": [
+          "DDR5"
+        ],
+        "removable-storage-formats-supported": [
+          "microSD"
+        ],
+        "display-technology": [
+          "LED"
+        ],
+        "computer-form": [
+          "Notebook"
+        ],
+        "power-source": [
+          "Rechargeable"
+        ],
+        "ram": [
+          "16 GB"
+        ],
+        "graphics-card-type": [
+          "Integrated"
+        ],
+        "processor-family": [
+          "Qualcomm Snapdragon X Plus"
+        ],
+        "computer-specialized-features": [
+          "AI-powered",
+          "TPM (trusted platform module)"
+        ],
+        "storage-capacity": [
+          "1 TB"
+        ],
+        "display-resolution": [
+          "1920 x 1080"
+        ],
+        "keyboard-type": [
+          "Standard"
+        ]
+      },
+      "ratings": {
+        "value": 4.1,
+        "count": 18,
+        "source_count": 1
+      }
+    },
+    {
+      "id": "jb66lSL",
+      "title": "Galaxy Book6",
+      "description": "The Samsung Galaxy Book6 is a high-performance 14-inch laptop designed for versatility and seamless integration with other Galaxy devices. It features an Intel Core Ultra 7 355 processor, 16GB of LPDDR5X RAM, and a 512GB SSD, ensuring smooth multitasking and reliable speed for everyday goals. The device is equipped with a 14\" WUXGA IPS anti-glare display, a backlit keyboard, and a fingerprint reader for secure access. Its lightweight design and comprehensive connectivity options, including WiFi 6E and Bluetooth 5.4, make it an ideal choice for work, school, or entertainment.",
+      "brands": [
+        {
+          "id": "Mbqx",
+          "name": "Samsung"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://cdn.trychannel3.com/055ba1b9-19ee-467c-8c14-af10341acb25?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=ckmS",
+          "cleaned_url": "https://cdn.trychannel3.com/87f5ed2d-1e32-46ad-b1fc-e955ba446436?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=ckmS",
+          "is_main_image": true,
+          "shot_type": "hero",
+          "alt_text": "Laptop with colorful abstract screen design on a plain background."
+        },
+        {
+          "url": "https://cdn.trychannel3.com/b805fea7-f6f6-452c-a6a8-e336405cb5c8?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=ckmS",
+          "cleaned_url": "https://cdn.trychannel3.com/3a733e6c-0689-4bd3-8007-2850ae8bdcd8?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=ckmS",
+          "is_main_image": false,
+          "shot_type": "hero",
+          "alt_text": "Galaxy Book6 laptop shown from the front."
+        },
+        {
+          "url": "https://cdn.trychannel3.com/f006b715-979b-4459-92e3-6bcbecdcb720?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=ckmS",
+          "cleaned_url": "https://cdn.trychannel3.com/1a20c4e0-3cf6-421d-b129-5d6d62a3d914?aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW&mid=ckmS",
+          "is_main_image": false,
+          "shot_type": "hero",
+          "alt_text": "Laptop with colorful abstract wallpaper on screen."
+        }
+      ],
+      "category": {
+        "slug": "laptops",
+        "title": "Laptops",
+        "path": [
+          {
+            "slug": "electronics",
+            "title": "Electronics"
+          },
+          {
+            "slug": "computers",
+            "title": "Computers"
+          },
+          {
+            "slug": "laptops",
+            "title": "Laptops"
+          }
+        ],
+        "has_children": false
+      },
+      "gender": null,
+      "age": "adult",
+      "materials": [],
+      "key_features": [
+        "Intel Core Ultra 7 355 (1.7GHz) Processor",
+        "16GB LPDDR5x RAM",
+        "512GB SSD",
+        "14\" WUXGA IPS Anti-Glare Display",
+        "WiFi 6E and Bluetooth 5.4",
+        "Windows 11 Home",
+        "Fingerprint Reader",
+        "Backlit Keyboard",
+        "Windows AI",
+        "Copilot+ PC"
+      ],
+      "colors": [
+        {
+          "hex": "#abbecd",
+          "percentage": 0.2806
+        },
+        {
+          "hex": "#70b0cd",
+          "percentage": 0.2159
+        },
+        {
+          "hex": "#7d717f",
+          "percentage": 0.1639
+        },
+        {
+          "hex": "#071129",
+          "percentage": 0.1437
+        },
+        {
+          "hex": "#341f2e",
+          "percentage": 0.1062
+        },
+        {
+          "hex": "#2c5880",
+          "percentage": 0.0896
+        }
+      ],
+      "offers": [
+        {
+          "url": "https://buy.trychannel3.com/jb66lSL-ckmS-6ntYHS?o=01M129Z67KDDHE02DCNPWW1Y03&aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW",
+          "domain": "shop.samsung.com",
+          "price": {
+            "price": 1240.0,
+            "compare_at_price": 1540.0,
+            "currency": "USD"
+          },
+          "availability": "InStock",
+          "condition": "new",
+          "max_commission_rate": 0.016,
+          "dimensions": null
+        },
+        {
+          "url": "https://buy.trychannel3.com/jb66lSL-p1PB-6ntYHS?o=01KYGRFPHAM8K7ZK9TB2XWC571&aid=01M4Q4JB6VCHFMFQGZ0P3ERGAW",
+          "domain": "bestbuy.com",
+          "price": {
+            "price": 1449.99,
+            "compare_at_price": null,
+            "currency": "USD"
+          },
+          "availability": "InStock",
+          "condition": "new",
+          "max_commission_rate": 0.005,
+          "dimensions": null
+        }
+      ],
+      "variants": {
+        "options": [
+          {
+            "name": "Storage",
+            "values": [
+              {
+                "label": "1 TB",
+                "exists": true,
+                "available": null,
+                "thumbnail_url": null,
+                "product_id": null
+              },
+              {
+                "label": "512 GB",
+                "exists": true,
+                "available": null,
+                "thumbnail_url": null,
+                "product_id": null
+              }
+            ]
+          },
+          {
+            "name": "Size",
+            "values": []
+          }
+        ],
+        "selected": [
+          {
+            "name": "Size",
+            "label": "16.0\""
+          },
+          {
+            "name": "Processor",
+            "label": "Intel\u00ae Core\u2122 Ultra 5 325"
+          }
+        ]
+      },
+      "structured_attributes": {
+        "power-source": [
+          "USB",
+          "AC-powered",
+          "Rechargeable"
+        ],
+        "display-technology": [
+          "IPS",
+          "LCD",
+          "LED"
+        ],
+        "processor-family": [
+          "Intel Core Ultra 7",
+          "Intel core i7",
+          "Intel core i5"
+        ],
+        "storage-types-supported": [
+          "PCIe/NVMe SSD",
+          "Solid-state drive (SSD)"
+        ],
+        "memory-technology": [
+          "DDR",
+          "DDR4"
+        ],
+        "display-resolution": [
+          "1920 x 1080",
+          "2560\u2009x\u20091440",
+          "Full HD"
+        ],
+        "storage-capacity": [
+          "512 GB"
+        ],
+        "cosmetic-condition": [
+          "New"
+        ],
+        "processor-cores": [
+          "Quad",
+          "Multi"
+        ],
+        "ram": [
+          "16 GB"
+        ],
+        "computer-specialized-features": [
+          "TPM (trusted platform module)",
+          "AI-powered"
+        ],
+        "operating-system": [
+          "Windows"
+        ],
+        "computer-form": [
+          "Notebook"
+        ],
+        "removable-storage-formats-supported": [
+          "microSD"
+        ],
+        "graphics-card-type": [
+          "Integrated"
+        ],
+        "storage-drive-type-installed": [
+          "Solid-state drive (SSD)"
+        ],
+        "keyboard-type": [
+          "Backlit",
+          "Standard"
+        ],
+        "pattern": [
+          "Abstract",
+          "Graphic"
+        ],
+        "keyboard-layout": [
+          "QWERTY"
+        ]
+      },
+      "ratings": {
+        "value": 4.62,
+        "count": 25,
+        "source_count": 3
+      }
+    }
+  ],
+  "next_page_token": "eyJjYWNoZV9rZXkiOiAic2VhcmNoOjBkMzAzZTgxNWQ2NzJmZjAiLCAib2Zmc2V0IjogMjB9"
+}

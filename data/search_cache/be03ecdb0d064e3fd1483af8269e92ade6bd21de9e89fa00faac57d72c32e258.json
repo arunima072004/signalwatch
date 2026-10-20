@@ -1,0 +1,41 @@
+[
+  {
+    "result_id": "res_bcd4831a87fc",
+    "query_id": "q_73b9a1ecc9",
+    "event_id": "evt_728c4dccf7f8bdb0",
+    "title": "Apple MacBook 12-inch Discontinued by Apple",
+    "url": "https://www.macrumors.com/2019/07/09/apple-discontinues-12-inch-macbook/",
+    "snippet": "Apple has discontinued the 12-inch MacBook from its lineup. The product page has been removed from Apple's website.",
+    "source_domain": "macrumors.com",
+    "retrieved_at": "2026-10-12T06:02:27.041628+00:00",
+    "provider": "mock",
+    "full_content": null,
+    "publication_date": "2019-07-09"
+  },
+  {
+    "result_id": "res_debfa77de810",
+    "query_id": "q_73b9a1ecc9",
+    "event_id": "evt_728c4dccf7f8bdb0",
+    "title": "MacBook 12 Discontinued Stock Clearance at Best Buy",
+    "url": "https://9to5mac.com/2019/07/10/macbook-12-discontinued-clearance",
+    "snippet": "Following Apple's discontinuation of the MacBook 12-inch, Best Buy is clearing remaining inventory at reduced prices.",
+    "source_domain": "9to5mac.com",
+    "retrieved_at": "2026-10-12T06:02:27.041628+00:00",
+    "provider": "mock",
+    "full_content": null,
+    "publication_date": "2019-07-10"
+  },
+  {
+    "result_id": "res_632693859cf4",
+    "query_id": "q_73b9a1ecc9",
+    "event_id": "evt_728c4dccf7f8bdb0",
+    "title": "Best Buy MacBook Clearance Sale August 2017",
+    "url": "https://www.bestbuy.com/site/clearance/macbook",
+    "snippet": "Best Buy is running a clearance event on MacBook models, with select configurations marked down to clear existing inventory.",
+    "source_domain": "bestbuy.com",
+    "retrieved_at": "2026-10-12T06:02:27.041628+00:00",
+    "provider": "mock",
+    "full_content": null,
+    "publication_date": "2017-08-12"
+  }
+]

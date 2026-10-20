@@ -1,0 +1,67 @@
+[
+  {
+    "result_id": "res_304d19374e7e",
+    "query_id": "q_9d6c33e251",
+    "event_id": "evt_d017edc4338a3caa",
+    "title": "TP-Link Archer T2U AC600 Mini USB WiFi Adapter Dual Band ...",
+    "url": "https://www.ebay.com/itm/317934921200?_skw=usb+wifi+adapter+for+tv&itmmeta=01M2Y4S3K0YSFHBGS9Y0YGC12V&hash=item4a0665e5f0%3Ag%3A764AAeSwJCVpotA~&itmprp=enc%3AAQALAAAA8D8du%2BjVlrWqMmolE0DBMUWjFcEBEdn%2BI6dMz5ghxd1Q6W%2FlzlKAQ1iLFiLLCAY4kvAp%2FYgRX%2BaykzkdvIpB4q5d96MHX7eL06lfvDVJfkVl2N%2BKyElokBtjg0Iic4McWXmd459Fyve5H%2Ff3cIiEBe6DzS1yZqQIGF6n7biH54Q7L9zQYM%2FuBN045QmA0z53c94XzPXGn71iSBHPKIHPW%2B2HcUi%2FZQ%2FVR8azVnGdin3eKLMAEczSkdfVPOXNb905IQ0%2FvVOQ4zulx%2FeC%2FfPfPy7c2QPM4y9%2FPuv9I7YKtfzPL7Or%2BdQ5qGPKXOw6IQGLFg%3D%3D%7Ctkp%3ABk9SR9K55MSXaA",
+    "snippet": "TP-Link Archer T2U AC600 Mini Wireless USB Adapter. Ideal for upgrading desktop or laptop WiFi connectivity. \u2022 Windows Compatible & Mac Support.",
+    "source_domain": "www.ebay.com",
+    "retrieved_at": "2026-10-17T16:33:26.812822+00:00",
+    "provider": "tavily",
+    "full_content": null,
+    "publication_date": null
+  },
+  {
+    "result_id": "res_0b00aa7c4d41",
+    "query_id": "q_9d6c33e251",
+    "event_id": "evt_d017edc4338a3caa",
+    "title": "Wireless Programming for FTC Robots - Jeremy Cole",
+    "url": "https://blog.jcole.us/2017/04/13/wireless-programming-for-ftc-robots",
+    "snippet": "Works on Mac OS X and Windows. NETGEAR AC600 Dual Band Wi-Fi USB Mini Adapter (A6100) Price: \u2248$31 (March 2017, Amazon.com). Windows-only.",
+    "source_domain": "blog.jcole.us",
+    "retrieved_at": "2026-10-17T16:33:26.812822+00:00",
+    "provider": "tavily",
+    "full_content": null,
+    "publication_date": null
+  },
+  {
+    "result_id": "res_d9913ef96315",
+    "query_id": "q_9d6c33e251",
+    "event_id": "evt_d017edc4338a3caa",
+    "title": "(updated) How To: Ubuntu 16.04 GNU / Linux - Netgear Wireless AC Adapter AC600 ( AC6100 ) Dual Band",
+    "url": "https://www.humans-enabled.com/2016/03/how-to-ubuntu-1604-gnu-linux-netgear.html",
+    "snippet": "### Search This Blog\n\n# Linux + GNU = Humans Enabled\n\nA Man with a mission: Enable Humans with Technology the GNU/Linux way! Disclaimer: This is my personal web blog. The opinions expressed here represent my own and not necessarily those of my employer.\n\n### (updated) How To: Ubuntu 16.04 GNU / Linux - Netgear Wireless AC Adapter AC600 ( AC6100 ) Dual Band\n\n Get link\n Facebook\n X\n Pinterest\n Email\n Other Apps\n\n-\n\nUpdate - 9/16/2017 SIMPLY DO THIS ONE STEP TO SEE IF IT MAKES YOUR ADAPTER WORK: [...] So, as it turns out, the driver for this nice little USB wireless adapter is not automagically installed with Ubuntu 16.04 GNU/Linux. The purpose of this post is to help you get this adapter working.  \n   \nFirst, follow the instructions below to ensure your new netgear wireless adapter matches the hardware in this post.  \n   \n When you run this command in the terminal(ctrl+alt+t):  \n $ lsusb|grep -i wireless  \n   \n You should see something like this: [...] Read more\")",
+    "source_domain": "www.humans-enabled.com",
+    "retrieved_at": "2026-10-17T16:33:26.812822+00:00",
+    "provider": "tavily",
+    "full_content": null,
+    "publication_date": null
+  },
+  {
+    "result_id": "res_9f10aaf7a849",
+    "query_id": "q_9d6c33e251",
+    "event_id": "evt_d017edc4338a3caa",
+    "title": "GitHub - chris1111/Wireless-USB-Adapter \u00b7 GitHub",
+    "url": "https://github.com/chris1111/wireless-usb-adapter",
+    "snippet": "Netgear\\_A6100\\_8812AU\n Netgear\\_A6200v2\\_8812AU\n PCI\\_BT-Micro3H2X\\_92CU\n PCI\\_GW\\_USEco300\\_92CU\n PCI\\_GW\\_USLight\\_92CU\n PCI\\_GW\\_USNano2\\_92CU\n PCI\\_GW\\_USValue\\_EZ\\_92CU\n PCI\\_SW\\_WF02-AD15\\_92CU\n PCI\\_GW-300S\\_92EU\n PCI\\_GW-450S\\_8812AU\n PCI\\_GW-900D\\_8812AU\n Proxim\\_USB-9100\\_8812AU\n RTL8188CTV\n RTL8188CTV\\_0A8A\n RTL8188CTV\\_8011\n RTL8188CU\n RTL8188CUS\\_1E1E\n RTL8188CUS\\_2E2E\n RTL8188CUS\\_5088\n RTL8188CUS\\_Combo\n RTL8188CUS\\_Combo\\_AFF8\n RTL8188CUS\\_Combo\\_AFFB\n RTL8188CUS\\_Combo\\_AFFC [...] ELECOM\\_8811AU\n ELECOM\\_WDB433SU2M\\_8811AU\n ELECOM\\_WDC1300DU3\\_8814AU\n ELECOM\\_WDC1300SU3\\_8814AU\n ELECOM\\_WDC150SU2M\\_88EU\n ELECOM\\_WDC433DU2\\_8812AU\n ELECOM\\_WDC433SU2M2\\_8811AU\n EDIMAX- EW-7722UTn V2\n EDIMAX N300\n EDIMAX EW-7811Un\n Edimax\\_AC1750\\_8814AU\n Edimax\\_AC1750\\_A834\\_8814AU\n Edimax\\_AC600\\_8812AU\n Edimax\\_EW-7611ULB\\_8723BU\n Edimax\\_EW-7811UAC\\_8812AU\n Edimax\\_EW-7822UAC\\_8812AU\n Edimax\\_EW-7822ULC\\_8812AU\n Edimax\\_GLP\\_8812AU\n Edimax\\_7811\\_92CU\n Edimax\\_7822\\_92CU [...] Edimax\\_7822\\_92CU\n Feixun\\_90\\_92CU\n Feixun\\_91\\_92CU\n EnGenius\\_AC\\_8812AU\n HP\\_92CU\n Hawking\\_HWDN3\\_92CU\n Hawking\\_HWUN4\\_92CU\n Hercules\\_HWUm300\\_92CU\n Hercules\\_HWUp150\\_92CU\n Hawking\\_8812AU\n Hawking\\_HW7ACU\\_8812AU\n IO\\_DATA\\_AC433UM\\_8812AU\n O\\_DATA\\_WN-AC867U\\_8812AU\n Infocus\\_INA-LCKEY\\_8812AU\n IO\\_DATA\\_92CU\n Linksys\\_WUSB6300\\_8812AU\n Logitec\\_92CU\n Loopcomm\\_ACA1\\_8812AU\n Netgear\\_A7000\n Netgear\\_N300MA\\_92CU\n Netgear\\_WNA1000M\\_92CU\n Netgear\\_WNA3100M\\_92CU",
+    "source_domain": "github.com",
+    "retrieved_at": "2026-10-17T16:33:26.812822+00:00",
+    "provider": "tavily",
+    "full_content": null,
+    "publication_date": null
+  },
+  {
+    "result_id": "res_715bc4ab45df",
+    "query_id": "q_9d6c33e251",
+    "event_id": "evt_d017edc4338a3caa",
+    "title": "TP-Link |1300Mbps USB WiFi Adapter | Dual Band MU- ...",
+    "url": "https://www.amazon.com/TP-Link-Archer-T4U-1300Mbps-Wireless/dp/B01MR6M8EC",
+    "snippet": "Ultra-fast 1300Mbps wireless speeds (400Mpbs on 2.4GHz or 867Mbps on 5GHz) with support for the next generation 802.11ac Wi-Fi standard; This new generation",
+    "source_domain": "www.amazon.com",
+    "retrieved_at": "2026-10-17T16:33:26.812822+00:00",
+    "provider": "tavily",
+    "full_content": null,
+    "publication_date": null
+  }
+]

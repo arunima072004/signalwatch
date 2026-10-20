@@ -1,0 +1,145 @@
+{
+  "event_id": "evt_57e691e6b503c4c4",
+  "product_id": "AVphi5BYilAPnD_x6qXR",
+  "product_name": "Genuine GoPro The Strap (Hand + Wrist + Arm + Leg Mount)",
+  "merchant": "Bestbuy.com",
+  "current_price": 32.99,
+  "competitor_price": 32.99,
+  "our_assumed_price": 59.99,
+  "median_price_before": 59.99,
+  "cost": 47.992000000000004,
+  "chosen_action": "raise_2pct",
+  "profit_table": {
+    "hold": {
+      "no_response": 20.0406,
+      "match": 1199.8,
+      "undercut": 1083.4106
+    },
+    "match": {
+      "no_response": -1500.2,
+      "match": -1500.2,
+      "undercut": -1354.6696
+    },
+    "raise_2pct": {
+      "no_response": 18.3794,
+      "match": 1319.78,
+      "undercut": 1191.7517
+    },
+    "undercut_2pct": {
+      "no_response": -1730.8966,
+      "match": -1566.18,
+      "undercut": -1414.2491
+    },
+    "undercut_5pct": {
+      "no_response": -2138.0949,
+      "match": -1665.15,
+      "undercut": -1503.6183
+    }
+  },
+  "regret_table": {
+    "hold": {
+      "no_response": 0.0,
+      "match": 119.98,
+      "undercut": 108.3411
+    },
+    "match": {
+      "no_response": 1520.2406,
+      "match": 2819.98,
+      "undercut": 2546.4213
+    },
+    "raise_2pct": {
+      "no_response": 1.6612,
+      "match": 0.0,
+      "undercut": 0.0
+    },
+    "undercut_2pct": {
+      "no_response": 1750.9372,
+      "match": 2885.96,
+      "undercut": 2606.0008
+    },
+    "undercut_5pct": {
+      "no_response": 2158.1355,
+      "match": 2984.93,
+      "undercut": 2695.37
+    }
+  },
+  "expected_profit_ranking": [
+    [
+      "raise_2pct",
+      843.3037
+    ],
+    [
+      "hold",
+      767.7504
+    ],
+    [
+      "match",
+      -1451.6899
+    ],
+    [
+      "undercut_2pct",
+      -1570.4419
+    ],
+    [
+      "undercut_5pct",
+      -1768.9544
+    ]
+  ],
+  "scenario_probabilities": {
+    "no_response": 0.3333333333333333,
+    "match": 0.3333333333333333,
+    "undercut": 0.3333333333333333,
+    "sample_size": 1,
+    "confidence": "LOW_DATA",
+    "reason": "fewer than 5 events",
+    "response_days": 7
+  },
+  "sensitivity": {
+    "2.0": {
+      "0.7": "raise_2pct",
+      "0.8": "raise_2pct",
+      "0.9": "raise_2pct"
+    },
+    "5.0": {
+      "0.7": "raise_2pct",
+      "0.8": "raise_2pct",
+      "0.9": "raise_2pct"
+    },
+    "8.0": {
+      "0.7": "raise_2pct",
+      "0.8": "raise_2pct",
+      "0.9": "raise_2pct"
+    }
+  },
+  "assumptions": [
+    "our_price = 59.99  (pre-event price; NOT our actual listing price)",
+    "competitor_price = 32.99  (the observed market price after change)",
+    "median_price_before = 59.99  (median market price before the event)",
+    "cost = 47.99  = cost_ratio (0.8) x median_price_before \u2014 CONSTANT for this event",
+    "beta = 5.0  (demand sensitivity; default 5 \u2014 ASSUMPTION, not estimated from data)",
+    "base_demand = 100.0  (relative units at price parity; not actual sales volume)",
+    "Demand = base_demand * exp(-beta * (our_price - comp_price) / comp_price)",
+    "Actions: hold, match, raise_2pct, undercut_2pct, undercut_5pct",
+    "Competitor scenarios: no_response (stays at comp_price), match (mirrors our price), undercut (2% below ours)",
+    "*** MODEL-ASSUMPTION DEMO: cost, beta, and base_demand are not estimated from data. ***"
+  ],
+  "investigation_verdicts": [
+    {
+      "hypothesis": "PROMOTION",
+      "support_level": "CONTRADICTS"
+    },
+    {
+      "hypothesis": "PRODUCT_EVENT",
+      "support_level": "CONTRADICTS"
+    },
+    {
+      "hypothesis": "INVENTORY_LIQUIDATION",
+      "support_level": "CONTRADICTS"
+    },
+    {
+      "hypothesis": "SEASONAL_EVENT",
+      "support_level": "CONTRADICTS"
+    }
+  ],
+  "generated_at": "2026-10-19T17:44:56.473835+00:00"
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "result_id": "res_ce3a5c7c840c",
+    "query_id": "q_38bd556b0c",
+    "event_id": "evt_728c4dccf7f8bdb0",
+    "title": "Best Buy Summer Sale: Up to 30% off Apple MacBooks",
+    "url": "https://www.bestbuy.com/site/promotions/summer-sale",
+    "snippet": "Best Buy is offering up to 30% off select MacBook models during the Summer 2017 sale event running August 13-20.",
+    "source_domain": "bestbuy.com",
+    "retrieved_at": "2026-10-12T06:02:27.048442+00:00",
+    "provider": "mock",
+    "full_content": null,
+    "publication_date": "2017-08-13"
+  },
+  {
+    "result_id": "res_c78b8c28e171",
+    "query_id": "q_38bd556b0c",
+    "event_id": "evt_728c4dccf7f8bdb0",
+    "title": "Apple MacBook Deals August 2017 - Best Buy",
+    "url": "https://www.bestbuy.com/site/apple/macbook/deals",
+    "snippet": "Save on the Apple MacBook 12-inch. Price reduced from $1499.99 to $1099.99 for a limited time.",
+    "source_domain": "bestbuy.com",
+    "retrieved_at": "2026-10-12T06:02:27.048442+00:00",
+    "provider": "mock",
+    "full_content": null,
+    "publication_date": "2017-08-14"
+  }
+]

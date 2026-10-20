@@ -1,0 +1,141 @@
+{
+  "event_id": "evt_2c5e7aad6becf3a3",
+  "product_id": "AVzYfJRcglJLPUi8F5Uj",
+  "product_name": "HD 4.40 BT Wireless Bluetooth Headphones",
+  "merchant": "bhphotovideo.com",
+  "current_price": 99.95,
+  "competitor_price": 99.95,
+  "our_assumed_price": 149.95,
+  "median_price_before": 149.95,
+  "cost": 119.96,
+  "chosen_action": "raise_2pct",
+  "profit_table": {
+    "hold": {
+      "no_response": 245.8652,
+      "match": 2999.0,
+      "undercut": 2708.0751
+    },
+    "match": {
+      "no_response": -2001.0,
+      "match": -2001.0,
+      "undercut": -1806.8884
+    },
+    "raise_2pct": {
+      "no_response": 232.7742,
+      "match": 3298.9,
+      "undercut": 2978.8826
+    },
+    "undercut_2pct": {
+      "no_response": -2432.3707,
+      "match": -2200.9,
+      "undercut": -1987.3966
+    },
+    "undercut_5pct": {
+      "no_response": -3211.0266,
+      "match": -2500.75,
+      "undercut": -2258.159
+    }
+  },
+  "regret_table": {
+    "hold": {
+      "no_response": 0.0,
+      "match": 299.9,
+      "undercut": 270.8075
+    },
+    "match": {
+      "no_response": 2246.8652,
+      "match": 5299.9,
+      "undercut": 4785.771
+    },
+    "raise_2pct": {
+      "no_response": 13.091,
+      "match": 0.0,
+      "undercut": 0.0
+    },
+    "undercut_2pct": {
+      "no_response": 2678.2359,
+      "match": 5499.8,
+      "undercut": 4966.2792
+    },
+    "undercut_5pct": {
+      "no_response": 3456.8918,
+      "match": 5799.65,
+      "undercut": 5237.0416
+    }
+  },
+  "expected_profit_ranking": [
+    [
+      "raise_2pct",
+      2170.1856
+    ],
+    [
+      "hold",
+      1984.3134
+    ],
+    [
+      "match",
+      -1936.2961
+    ],
+    [
+      "undercut_2pct",
+      -2206.8891
+    ],
+    [
+      "undercut_5pct",
+      -2656.6452
+    ]
+  ],
+  "scenario_probabilities": {
+    "no_response": 0.3333333333333333,
+    "match": 0.3333333333333333,
+    "undercut": 0.3333333333333333,
+    "sample_size": 1,
+    "confidence": "LOW_DATA",
+    "reason": "fewer than 5 events",
+    "response_days": 7
+  },
+  "sensitivity": {
+    "2.0": {
+      "0.7": "raise_2pct",
+      "0.8": "raise_2pct",
+      "0.9": "raise_2pct"
+    },
+    "5.0": {
+      "0.7": "raise_2pct",
+      "0.8": "raise_2pct",
+      "0.9": "raise_2pct"
+    },
+    "8.0": {
+      "0.7": "raise_2pct",
+      "0.8": "raise_2pct",
+      "0.9": "raise_2pct"
+    }
+  },
+  "assumptions": [
+    "our_price = 149.95  (pre-event price; NOT our actual listing price)",
+    "competitor_price = 99.95  (the observed market price after change)",
+    "median_price_before = 149.95  (median market price before the event)",
+    "cost = 119.96  = cost_ratio (0.8) x median_price_before \u2014 CONSTANT for this event",
+    "beta = 5.0  (demand sensitivity; default 5 \u2014 ASSUMPTION, not estimated from data)",
+    "base_demand = 100.0  (relative units at price parity; not actual sales volume)",
+    "Demand = base_demand * exp(-beta * (our_price - comp_price) / comp_price)",
+    "Actions: hold, match, raise_2pct, undercut_2pct, undercut_5pct",
+    "Competitor scenarios: no_response (stays at comp_price), match (mirrors our price), undercut (2% below ours)",
+    "*** MODEL-ASSUMPTION DEMO: cost, beta, and base_demand are not estimated from data. ***"
+  ],
+  "investigation_verdicts": [
+    {
+      "hypothesis": "PROMOTION",
+      "support_level": "CONTRADICTS"
+    },
+    {
+      "hypothesis": "PRODUCT_EVENT",
+      "support_level": "CONTRADICTS"
+    },
+    {
+      "hypothesis": "INVENTORY_LIQUIDATION",
+      "support_level": "CONTRADICTS"
+    }
+  ],
+  "generated_at": "2026-10-19T17:45:16.745847+00:00"
+}

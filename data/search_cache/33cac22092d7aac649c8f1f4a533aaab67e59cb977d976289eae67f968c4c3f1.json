@@ -1,0 +1,67 @@
+[
+  {
+    "result_id": "res_c428f52bc609",
+    "query_id": "q_1c369833d5",
+    "event_id": "evt_cc33ffe4d6bbd8af",
+    "title": "Long | Core API \u2013 Kotlin Programming Language",
+    "url": "https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-long",
+    "snippet": "Since Kotlin 1.0\n\nactual inline operator fun unaryPlus(): Long\n\nReturns this value.\n\nSince Kotlin 1.3\n\nactual inline operator fun unaryPlus(): Long\n\nReturns this value.\n\nSince Kotlin 1.8\n\nactual inline operator fun unaryPlus(): Long\n\nReturns this value.\n\nSince Kotlin 1.8\n\nLink copied to clipboard\n\ninfix fun Long.until(to: Byte): LongRange\n\ninfix fun Long.until(to: Int): LongRange\n\ninfix fun Long.until(to: Long): LongRange\n\ninfix fun Long.until(to: Short): LongRange [...] expect operator fun rangeUntil(other: Short): LongRange\n\nCreates a range from this value up to but excluding the specified other value.\n\nSince Kotlin 1.9\n\nactual operator fun rangeUntil(other: Byte): LongRange\n\nactual operator fun rangeUntil(other: Int): LongRange\n\nactual operator fun rangeUntil(other: Long): LongRange\n\nactual operator fun rangeUntil(other: Short): LongRange\n\nCreates a range from this value up to but excluding the specified other value.\n\nSince Kotlin 1.9 [...] Creates a range from this value up to but excluding the specified other value.\n\nSince Kotlin 1.9\n\nactual operator fun rangeUntil(other: Byte): LongRange\n\nactual operator fun rangeUntil(other: Int): LongRange\n\nactual operator fun rangeUntil(other: Long): LongRange\n\nactual operator fun rangeUntil(other: Short): LongRange\n\nCreates a range from this value up to but excluding the specified other value.\n\nSince Kotlin 1.9\n\nLink copied to clipboard\n\nexpect operator fun rem(other: Byte): Long",
+    "source_domain": "kotlinlang.org",
+    "retrieved_at": "2026-10-17T16:34:38.316989+00:00",
+    "provider": "tavily",
+    "full_content": null,
+    "publication_date": null
+  },
+  {
+    "result_id": "res_7ba6ff8b1a62",
+    "query_id": "q_1c369833d5",
+    "event_id": "evt_cc33ffe4d6bbd8af",
+    "title": "Long (Java Platform SE 8 )",
+    "url": "https://docs.oracle.com/javase/8/docs/api/java/lang/Long.html",
+    "snippet": "```\n      public static long parseUnsignedLong(String s) throws NumberFormatException\n      ```\n\n      Parses the string argument as an unsigned decimal `long`. The characters in the string must all be decimal digits, except that the first character may be an an ASCII plus sign `'+'` (`'\\u002B'`). The resulting integer value is returned, exactly as if the argument and the radix 10 were given as arguments to the `parseUnsignedLong(java.lang.String, int)` method. [...] These are the characters `'\\u0030'` through `'\\u0039'` and `'\\u0061'` through `'\\u0066'`. If uppercase letters are desired, the `String.toUpperCase()` method may be called on the result:\n      > `Long.toHexString(n).toUpperCase()`\n\n      Parameters:\n      :   `i` - a `long` to be converted to a string.\n\n      Returns:\n      :   the string representation of the unsigned `long` value represented by the argument in hexadecimal (base 16).\n\n      Since:\n      :   JDK 1.0.2 [...] In other words, this method returns a `Long` object equal to the value of:\n\n      > `new Long(Long.parseLong(s, radix))`\n\n      Parameters:\n      :   `s` - the string to be parsed\n      :   `radix` - the radix to be used in interpreting `s`\n\n      Returns:\n      :   a `Long` object holding the value represented by the string argument in the specified radix.\n\n      Throws:\n      :   `NumberFormatException` - If the `String` does not contain a parsable `long`.\n    - #### valueOf",
+    "source_domain": "docs.oracle.com",
+    "retrieved_at": "2026-10-17T16:34:38.316989+00:00",
+    "provider": "tavily",
+    "full_content": null,
+    "publication_date": null
+  },
+  {
+    "result_id": "res_893a95a4a9f4",
+    "query_id": "q_1c369833d5",
+    "event_id": "evt_cc33ffe4d6bbd8af",
+    "title": "LONG Definition & Meaning - Merriam-Webster",
+    "url": "https://www.merriam-webster.com/dictionary/long",
+    "snippet": "+ long on\n+ long-playing\n+ long-playing record\n+ long-range\n+ long reach\n+ long run\n+ long shot\n+ long-sighted\n+ long since\n+ long-standing\n+ long story\n+ long-suffering\n+ long suit\n+ long-tailed duck\n+ long-tailed macaque\n+ long-tailed weasel\n+ long-term\n+ long-term memory\n+ long-term potentiation\n+ long/thermal underwear\n+ long time no see\n+ long ton\n+ long underwear\n+ long vacation\n+ long view\n+ long weekend\n+ long-winded\n+ not by a long chalk\n+ not by a long shot\n+ not long ago [...] all summer long\n\n3\n\n: at a distant point of time\n\nlong before we arrived\n\nlong\n\n3 of 3\nverb\n\nlonged;  longing \n\n\u02c8l\u022f\u014b-i\u014b\n\n: to feel a strong desire or wish\n\nlonging to return home\n\nEtymology\n\nAdjective\n\nOld English long, lang \"extending a great distance\"\n\nVerb\n\nOld English langian \"to feel a strong desire for something\"\n\n## Legal Definition\n\nlong\n\nadjective\n\n: owning or accumulating securities, goods, or commodities especially in anticipation of a rise in prices\n\na buyer long on wheat [...] 11\n\n: subject to great odds\n\n\u2026 take a long chance for a large reward.\u2014W. P. Webb\n\n12\n\n: owning or accumulating securities or goods especially in anticipation of an advance in prices\n\nthey are now long on wheat\n\ntake a long position in steel\n\nlongness\n\n\u02c8l\u022f\u014b-n\u0259s\")\n\nnoun\n\nsee also:\n\nlong in the tooth\nnot long for\n\nlong\n\n2 of 6\n\n## adverb\n\n1\n\n: for or during a long time\n\nlong a popular hangout\n\n2\n\n: at or to a long distance : far\n\nlong-traveled\n\n3\n\n: for the duration of a specified period",
+    "source_domain": "www.merriam-webster.com",
+    "retrieved_at": "2026-10-17T16:34:38.316989+00:00",
+    "provider": "tavily",
+    "full_content": null,
+    "publication_date": null
+  },
+  {
+    "result_id": "res_8bc958c81be7",
+    "query_id": "q_1c369833d5",
+    "event_id": "evt_cc33ffe4d6bbd8af",
+    "title": "Tao Long (he/him)",
+    "url": "https://iamtaolong.github.io",
+    "snippet": "+ [02/2023] Washington, DC (aaai 23!)\n  + [01/2023] Nairobi, Kenya (kraft global fellow)\n  + [12/2022] Manassas, VA\n  + [11/2022] Pittsburgh, PA (cscw 22 virtual... also tried to date someone there lol)\n  + [10/2022] Raleigh, NC\n  + [09/2022] Miami, FL (gaga concert!)\n  + [08/2022] Palo Alto, CA (family reunion!)\n  + [07/2022] Ithaca, NY\n  + [06/2022] Manassas, VA\n senior year in ithaca...\n  + [05/2022] New York, NY (my graduation!)\n  + [04/2022] Miami, FL\n  + [03/2022] Chicago, IL [...] 4th year phd in the big apple...\n  + [03/2026] ...\n  + [02/2026] Washington DC + Palo Alto, CA\n  + [01/2026] Gainesville, VA\n  + [12/2025] Shenzhen, China (im crazy... 10 transpacific flight this year wtf)\n  + [11/2025] San Francisco, CA (Meta PhD Forum lol so flattered to be invited) + Tokyo, Japan (again...)\n  + [10/2025] Lhasa, China + Seoul, Busan Korea (uist 25! got my five-year F-1 visa)\n  + [09/2025] Beijing, Shenzhen, China (to renew my F-1, nervous...)\n  + [08/2025] NYC [...] + [07/2024] Copenhagen, Denmark (dis 24, first time in europe!!!)\n  + [06/2024] San Francisco, CA (my autodesk internship startssss -- sad that i didnt get my canadian visa on time to work in Toronto)\n 2nd year phd in the big apple...\n  + [05/2024] Honolulu, Hawai\u02bbi (chi 24!)\n  + [04/2024] Minneapolis, MN (cra ideals 24!) & Durham, NC\n  + [03/2024] Manassas, VA\n  + [02/2024] Palo Alto, CA (havent been with my family for lunar new year for 6 years!)\n  + [01/2024] Palo Alto, CA",
+    "source_domain": "iamtaolong.github.io",
+    "retrieved_at": "2026-10-17T16:34:38.316989+00:00",
+    "provider": "tavily",
+    "full_content": null,
+    "publication_date": null
+  },
+  {
+    "result_id": "res_3e1ac5de1188",
+    "query_id": "q_1c369833d5",
+    "event_id": "evt_cc33ffe4d6bbd8af",
+    "title": "Long Range Planning | Journal",
+    "url": "https://www.sciencedirect.com/journal/long-range-planning",
+    "snippet": "survey data, archival data, case study and other recognized approaches to data collection. [...] View all insights\n\n## Co-Editors-in-Chief\n\nView full editorial board\n\nImage 3: Photo of Thomas Lawton, PhD\n\nThomas Lawton, PhD\n\nUniversity College Cork, Cork, Ireland; Brunel University of London, London, U.K.\n\nImage 4: Photo of Roberto Vassolo\n\nRoberto Vassolo\n\nAustral University, Pilar, Argentina\n\n## Articles\n\n   Latest published \n   Articles in press \n   Top cited \n   Most downloaded \n   Most popular \n\nResearch article Abstract only [...] Latest issue\n       All issues\n       Articles in press\n       Special issues and article collections\n       Linked datasets\n        Sign in to set up alerts\n       RSS\n\n2.   About \n3.   Publish \n\nOrder journal\n\nSubmit your articleGuide for authors\n\n## About the journal\n\n## Aims & Scope\n\nInternational Journal of Strategic Management",
+    "source_domain": "www.sciencedirect.com",
+    "retrieved_at": "2026-10-17T16:34:38.316989+00:00",
+    "provider": "tavily",
+    "full_content": null,
+    "publication_date": null
+  }
+]

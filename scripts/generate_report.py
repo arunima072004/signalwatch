@@ -40,7 +40,7 @@ def _pct(v: Optional[float]) -> str:
 def _price(v: Optional[float]) -> str:
     if v is None:
         return "?"
-    return f""
+    return f"USD {v:.2f}"
 
 
 def _direction_arrow(direction: str) -> str:

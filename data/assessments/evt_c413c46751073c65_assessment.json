@@ -1,0 +1,561 @@
+{
+  "assessment_id": "asmnt_42e0cf13301d",
+  "event_id": "evt_c413c46751073c65",
+  "assessed_at": "2026-10-17T16:26:33.291488+00:00",
+  "hypotheses": [
+    {
+      "hypothesis_id": "hyp_11527a544273",
+      "event_id": "evt_c413c46751073c65",
+      "hypothesis_type": "PROMOTION",
+      "signal_score": 0.752,
+      "rationale": "Hypothesis type PROMOTION generated from signals: price decrease -55.3%; offer URL present.",
+      "signals_matched": [
+        "price decrease -55.3%",
+        "offer URL present"
+      ],
+      "assigned_agents": [
+        "PromotionAgent",
+        "RetailerEventAgent"
+      ],
+      "requires_external_evidence": false,
+      "generated_at": "2026-10-17T16:26:33.292021+00:00"
+    },
+    {
+      "hypothesis_id": "hyp_9d472d6f0162",
+      "event_id": "evt_c413c46751073c65",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "signal_score": 0.61,
+      "rationale": "Hypothesis type PRODUCT_EVENT generated from signals: extreme price change -55.3%; short run length (1) suggests new regime.",
+      "signals_matched": [
+        "extreme price change -55.3%",
+        "short run length (1) suggests new regime"
+      ],
+      "assigned_agents": [
+        "ProductEventAgent"
+      ],
+      "requires_external_evidence": true,
+      "generated_at": "2026-10-17T16:26:33.292021+00:00"
+    },
+    {
+      "hypothesis_id": "hyp_0b9b76946098",
+      "event_id": "evt_c413c46751073c65",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "signal_score": 0.4,
+      "rationale": "Hypothesis type INVENTORY_LIQUIDATION generated from signals: large price decrease -55.3%. Note: requires external web evidence; availability field alone is insufficient.",
+      "signals_matched": [
+        "large price decrease -55.3%"
+      ],
+      "assigned_agents": [
+        "SupplyAgent"
+      ],
+      "requires_external_evidence": true,
+      "generated_at": "2026-10-17T16:26:33.292021+00:00"
+    }
+  ],
+  "queries_generated": 15,
+  "results_retrieved": 70,
+  "evidence": [
+    {
+      "evidence_id": "evd_64c0b67724dd",
+      "event_id": "evt_c413c46751073c65",
+      "hypothesis_type": "PROMOTION",
+      "query_id": "q_b86a82c553",
+      "result_id": "res_c583b1fcb6a2",
+      "source_url": "https://www.cnbc.com/2017/11/27/the-best-cyber-monday-deals-you-can-get-right-now.html",
+      "source_domain": "www.cnbc.com",
+      "source_title": "The best Cyber Monday deals you can get right now",
+      "retrieved_at": "2026-10-17T16:26:36.406321+00:00",
+      "claim": "Panasonic Flash Xpress Toaster Oven\u2014$106.72 with coupon (Save $33): This cult-favorite toaster oven uses infrared heat instead of coils.",
+      "evidence_text": "Panasonic Flash Xpress Toaster Oven\u2014$106.72 with coupon (Save $33): This cult-favorite toaster oven uses infrared heat instead of coils. That means it heats up faster and toasts more evenly. A 4.5 star rating from over 2,100 reviews can't be wrong!\n Joule ChefSteps Sous Vide is $149 (Save $30): Our pick for the best sous vide immersion circulator with WiFi, the Joule has an impressive design and a simple, attractive app. This matches the lowest price we've ever seen for this model. [...] Anova Sous Vide Cooker With Bluetooth\u2014$99 from Anova (Save $50): 2017's hottest kitchen gadget lets you easily cook sous vide at home, and it's the same low sale price at Amazon as well. You can also get the WiFi + Bluetooth on Amazon for $126.65 (Save $72.35) right now. [...] Cyber Monday 2017 is upon us,",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "CORRELATIONAL",
+      "relevance_score": 0.54,
+      "investigator": "PromotionAgent",
+      "publication_date": null,
+      "strategy": "PromotionStrategy",
+      "shared_source_hypotheses": []
+    },
+    {
+      "evidence_id": "evd_a3210cf79781",
+      "event_id": "evt_c413c46751073c65",
+      "hypothesis_type": "PROMOTION",
+      "query_id": "q_8e9f6960e2",
+      "result_id": "res_1f6e6d767a1d",
+      "source_url": "https://www.turbro.com/pages/black-friday-cyber-monday-2023",
+      "source_domain": "www.turbro.com",
+      "source_title": "TURBRO Black Friday Cyber Monday 2023",
+      "retrieved_at": "2026-10-17T16:26:38.641484+00:00",
+      "claim": "Toasty Deals UP TO 30% OFF SITEWIDE.",
+      "evidence_text": "Toasty Deals UP TO 30% OFF SITEWIDE. BFCM15 OFF. TURBRO Smart WiFi Electric Fireplace with Realistic Flame and Crackling Sound, 1500W Infrared Quartz Heater",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.295,
+      "investigator": "PromotionAgent",
+      "publication_date": null,
+      "strategy": "PromotionStrategy",
+      "shared_source_hypotheses": []
+    },
+    {
+      "evidence_id": "evd_9fdb88578eed",
+      "event_id": "evt_c413c46751073c65",
+      "hypothesis_type": "PROMOTION",
+      "query_id": "q_38d23ccb0b",
+      "result_id": "res_5cea518aeb8d",
+      "source_url": "https://issuu.com/eberspacherenterprises/docs/2021_werning_cattle_co_catalog",
+      "source_domain": "issuu.com",
+      "source_title": "2021 Werning Cattle Co Sale Catalog",
+      "retrieved_at": "2026-10-17T16:26:41.819621+00:00",
+      "claim": "Discounts Purchased by one firm, discount starts with your 3rd bull as follows: 3 bulls = 3% discount; 4 bulls = 4% discount; 5 bulls = 5%",
+      "evidence_text": "Discounts Purchased by one firm, discount starts with your 3rd bull as follows: 3 bulls = 3% discount; 4 bulls = 4% discount; 5 bulls = 5%",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.207,
+      "investigator": "PromotionAgent",
+      "publication_date": null,
+      "strategy": "PromotionStrategy",
+      "shared_source_hypotheses": []
+    },
+    {
+      "evidence_id": "evd_e68bb34f06be",
+      "event_id": "evt_c413c46751073c65",
+      "hypothesis_type": "PROMOTION",
+      "query_id": "q_6ddfadc626",
+      "result_id": "res_f97501b875b2",
+      "source_url": "https://www.cnbc.com/make-it/2017/11/27/the-best-cyber-monday-deals-you-can-get-right-now.html",
+      "source_domain": "www.cnbc.com",
+      "source_title": "The best Cyber Monday deals you can get right now",
+      "retrieved_at": "2026-10-17T16:26:45.604874+00:00",
+      "claim": "Panasonic Flash Xpress Toaster Oven\u2014$106.72 with coupon (Save $33): This cult-favorite toaster oven uses infrared heat instead of coils.",
+      "evidence_text": "Panasonic Flash Xpress Toaster Oven\u2014$106.72 with coupon (Save $33): This cult-favorite toaster oven uses infrared heat instead of coils. That means it heats up faster and toasts more evenly. A 4.5 star rating from over 2,100 reviews can't be wrong!\n Joule ChefSteps Sous Vide is $149 (Save $30): Our pick for the best sous vide immersion circulator with WiFi, the Joule has an impressive design and a simple, attractive app. This matches the lowest price we've ever seen for this model. [...] Sensi WiFi Smart Thermostat (works with Amazon Alexa)\u2014$89.04 (Save $39.96): We've never seen the price drop so low for our smart thermostat Best Value winner. It may look like a regular thermostat, but this baby lets you control your home's heating and cooling with Alexa commands or through a smartphone ap",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "CORRELATIONAL",
+      "relevance_score": 0.365,
+      "investigator": "PromotionAgent",
+      "publication_date": null,
+      "strategy": "PromotionStrategy",
+      "shared_source_hypotheses": []
+    },
+    {
+      "evidence_id": "evd_b3c39b6f3260",
+      "event_id": "evt_c413c46751073c65",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "query_id": "q_165dfac334",
+      "result_id": "res_dc6819054f38",
+      "source_url": "https://www.njeda.gov/june-10-2026-eda-board-book",
+      "source_domain": "www.njeda.gov",
+      "source_title": "Members of the Authority Evan Weiss Chief Executive ...",
+      "retrieved_at": "2026-10-17T16:26:55.133246+00:00",
+      "claim": "Corp 2/4/2026 $ 62,500 n/a Bill Hodge Electrical Contractor Inc 2/4/2026 $ 187,500 n/a 2M ELECTRICAL CONTRACTORS, LLC 2/4/2026 $ 125,000 n/a EK Accounting Services LLC 2/4/2026 $ 62,500 n/a Domani Hom",
+      "evidence_text": "Corp 2/4/2026 $ 62,500 n/a Bill Hodge Electrical Contractor Inc 2/4/2026 $ 187,500 n/a 2M ELECTRICAL CONTRACTORS, LLC 2/4/2026 $ 125,000 n/a EK Accounting Services LLC 2/4/2026 $ 62,500 n/a Domani Home LLC 2/4/2026 $ 62,500 n/a N.E. Crane LLC 2/4/2026 $ 62,500 n/a The Closet Corner LLC 2/4/2026 $ 187,500 n/a Fischer Roofing LLC 2/4/2026 $ 100,000 n/a NJ Management Corp 2/4/2026 $ 62,500 n/a SAFE & SOUND SECURITY LLC 2/5/2026 $ 81,250 n/a Xway Solutions LLC 2/5/2026 $ 1,393,200 n/a Xway [...] to show the demand for each product. Following the receipt of a FY26 state budget appropriation of $4 million, and anticipating only an additional $4 million in the FY27 budget, current funding is insufficient to keep these products operational amid significant demand. The SBIG program closed on March ",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "CORRELATIONAL",
+      "relevance_score": 0.31,
+      "investigator": "ProductEventAgent",
+      "publication_date": null,
+      "strategy": "ProductEventStrategy",
+      "shared_source_hypotheses": []
+    },
+    {
+      "evidence_id": "evd_29760854c941",
+      "event_id": "evt_c413c46751073c65",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "query_id": "q_165dfac334",
+      "result_id": "res_4bcd3ae5f745",
+      "source_url": "https://apps.dot.illinois.gov/eplan/desenv/091925/012-62F86/62F86-012.pdf",
+      "source_domain": "apps.dot.illinois.gov",
+      "source_title": "Notice to Bidders, Specifications and Proposal",
+      "retrieved_at": "2026-10-17T16:26:55.133651+00:00",
+      "claim": "for the total cost of the work.",
+      "evidence_text": "for the total cost of the work. The Contractor shall pay this bill within 30 days of the date of receipt of the invoice or the cost of such work will be deducted from the amount due the Contractor. The Contractor shall allow the electrical maintenance contractor to inspect the traffic signal FAP 343A (IL-68/DUNDEE ROAD) PROJECT NHPP-NQHR(926) SECTION 2017-051RS COOK COUNTY CONTRACT NO. 62F86 30 installation that has been transferred to the Contractor for maintenance. Final replacement of [...] than $80,000 14% $80,000 to less than $100,000 12% $100,000 to less than $250,000 10% $250,000 to less than $500,000 9% $500,000 to $750,000 8% Over $750,000 7%\u201d FAP 343A (IL-68/DUNDEE ROAD) PROJECT NHPP-NQHR(926) SECTION 2017-051RS COOK COUNTY CONTRACT NO. 62F86 108 SUBMISSION OF BIDDERS LIST INFORM",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "DESCRIPTIVE",
+      "relevance_score": 0.299,
+      "investigator": "ProductEventAgent",
+      "publication_date": null,
+      "strategy": "ProductEventStrategy",
+      "shared_source_hypotheses": []
+    },
+    {
+      "evidence_id": "evd_6a7cb4f2eb67",
+      "event_id": "evt_c413c46751073c65",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "query_id": "q_165dfac334",
+      "result_id": "res_22b1a77dca19",
+      "source_url": "https://www.foxvalleyparkdistrict.org/wp-content/uploads/2026/07/July-2026-website.pdf",
+      "source_domain": "www.foxvalleyparkdistrict.org",
+      "source_title": "OPEN SESSION MEETING AGENDA July 13, 2026 5:00 PM",
+      "retrieved_at": "2026-10-17T16:26:55.134872+00:00",
+      "claim": "PARTS TREE.COM 6/3/2026 EQUIPMENT PARTS $77.19 PARTS TREE.COM 6/17/2026 EQUIPMENT PARTS $534.48 PARTS TREE.COM 6/17/2026 EQUIPMENT PARTS $72.13 PARTS TREE.COM TOTAL $683.80 PAUL L BUDDY PLUMBING & HEA",
+      "evidence_text": "PARTS TREE.COM 6/3/2026 EQUIPMENT PARTS $77.19 PARTS TREE.COM 6/17/2026 EQUIPMENT PARTS $534.48 PARTS TREE.COM 6/17/2026 EQUIPMENT PARTS $72.13 PARTS TREE.COM TOTAL $683.80 PAUL L BUDDY PLUMBING & HEATING, INC 6/3/2026 DOMESTIC WATER LEAK REPAIR DOWNSTAIRS PRISCO $1,178.00 PAUL L BUDDY PLUMBING & HEATING, INC 6/3/2026 REPAIR WATER HEATER $217.00 7.0 Payables Fox Valley Park District Bills List For month ending 6/30/2026 Vendor Paid Date Description Net Amount Page 27 of 37 Date/Time Run [...] of 37 Date/Time Run 7/1/2026 8:55:29 AM PAUL L BUDDY PLUMBING & HEATING, INC TOTAL $1,395.00 PAYROLL CHECK REPLACEMENT 6/3/2026 REPLACE PAYROLL CK 4050222 $68.25 PAYROLL CHECK REPLACEMENT 6/17/2026 REPLACE PAYROLL CK 405203 $625.08 PAYROLL CHECK REPLACEMENT TOTAL $693.33 PEPSI-COLA 6/3/2026 SPRING STA",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.31,
+      "investigator": "ProductEventAgent",
+      "publication_date": null,
+      "strategy": "ProductEventStrategy",
+      "shared_source_hypotheses": []
+    },
+    {
+      "evidence_id": "evd_b93174220489",
+      "event_id": "evt_c413c46751073c65",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "query_id": "q_044fc8c7c5",
+      "result_id": "res_cd5a1b404b84",
+      "source_url": "https://www.publications.usace.army.mil/Portals/76/EM%20385-1-1%20_EFFECTIVE%2015%20March%202024.pdf",
+      "source_domain": "www.publications.usace.army.mil",
+      "source_title": "Safety and Occupational Health Requirements",
+      "retrieved_at": "2026-10-17T16:26:59.411866+00:00",
+      "claim": "and include a description of the controls as part of the APP.",
+      "evidence_text": "and include a description of the controls as part of the APP. [...] (2) Perform operational testing at the following frequencies: EM 385-1-1 \u2022 15 March 2024 338 \n\n(a) Before the first use of a new or reinstalled crane or hoisting equipment. \n\n(b) Before using a crane or hoisting equipment after altering, replacing or repairing a load bearing or load controlling part or component, brake, travel component, or clutch (to include securing devices, skids, and barges for floating cranes). [...] (c-3) The material being handled by the crane is a structural steel member (steel joists, beams, columns, steel decking (bundled or unbundled) or a component of a systems-engineered metal building). \n\n(16) Rescue boat and lifeboat launch systems that are designated for launching \n\nrescue lifeboats and reg",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.299,
+      "investigator": "ProductEventAgent",
+      "publication_date": null,
+      "strategy": "ProductEventStrategy",
+      "shared_source_hypotheses": [
+        "INVENTORY_LIQUIDATION"
+      ]
+    },
+    {
+      "evidence_id": "evd_a329a86dd285",
+      "event_id": "evt_c413c46751073c65",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "query_id": "q_8685eb1acb",
+      "result_id": "res_94748b5d1981",
+      "source_url": "https://mdot.ms.gov/bidsystem_data/20260728/PROPOSALS/109902301000.pdf",
+      "source_domain": "mdot.ms.gov",
+      "source_title": "01",
+      "retrieved_at": "2026-10-17T16:27:03.004952+00:00",
+      "claim": "(4) independent regulated channels of 24 VDC each rated at 0.75 amps over the full NEMA operating temperature range of -30\u00b0F to +165\u00b0F.",
+      "evidence_text": "(4) independent regulated channels of 24 VDC each rated at 0.75 amps over the full NEMA operating temperature range of -30\u00b0F to +165\u00b0F. The output should be regulated to 24 VDC +/- 15%. Each of the four (4) outputs shall be independently fused, each with a separate LED for displaying output and fuse status for each of the four (4) outputs. Each of the four (4) outputs shall be protected against voltage transients by a minimum 1500 watt suppressor. All card racks shall be wired for the type [...] 14.50 0.00 OPERATOR: DRILL....................................$ 19.22 0.00 OPERATOR: DISTRIBUTOR..............................$ 12.59 0.00 OPERATOR: CRANE....................................$ 19.00 0.00 OPERATOR: CONCRETE SAW.............................$ 15.68 0.00 OPERATOR: BULLDOZER.............",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.31,
+      "investigator": "ProductEventAgent",
+      "publication_date": null,
+      "strategy": "ProductEventStrategy",
+      "shared_source_hypotheses": []
+    },
+    {
+      "evidence_id": "evd_9f2df7ce75ed",
+      "event_id": "evt_c413c46751073c65",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "query_id": "q_7ea13fec9e",
+      "result_id": "res_b3e171f91084",
+      "source_url": "https://www.publications.usace.army.mil/Portals/76/EM%20385-1-1%20_EFFECTIVE%2015%20March%202024.pdf",
+      "source_domain": "www.publications.usace.army.mil",
+      "source_title": "Safety and Occupational Health Requirements",
+      "retrieved_at": "2026-10-17T16:27:09.986695+00:00",
+      "claim": "(2) Each heater must have a safety data plate permanently affixed by the manufacturer.",
+      "evidence_text": "(2) Each heater must have a safety data plate permanently affixed by the manufacturer. The plate must show requirements or recommendations for: \n\n(a) Clearance from combustible materials. \n\n(b) Ventilation (minimum air requirements for fuel combustion). \n\n(c) Fuel type and input pressure. \n\n(d) Lighting, extinguishing, and relighting. \n\n(e) Electrical power supply characteristics. \n\n(f) Location, moving, and handling. \n\n(g) Name and address of the manufacturer. [...] (b) Equip heaters with an approved regulator in the supply line between the fuel cylinder and the heater unit. Provide cylinder connectors with an excess flow valve to minimize the flow of gas in the event the fuel line ruptures. [...] (8) Use of tag lines to control the load. EM 385-1-1 \u2022 15 March 2024 327 \n\n(9) Adequate comm",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.336,
+      "investigator": "SupplyAgent",
+      "publication_date": null,
+      "strategy": "SupplyStrategy",
+      "shared_source_hypotheses": [
+        "PRODUCT_EVENT"
+      ]
+    },
+    {
+      "evidence_id": "evd_fb5256380480",
+      "event_id": "evt_c413c46751073c65",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "query_id": "q_b01600138d",
+      "result_id": "res_1ed5bf51261b",
+      "source_url": "https://www.publications.usace.army.mil/Portals/76/EM%20385-1-1%20_EFFECTIVE%2015%20March%202024.pdf",
+      "source_domain": "www.publications.usace.army.mil",
+      "source_title": "Safety and Occupational Health Requirements",
+      "retrieved_at": "2026-10-17T16:27:20.016346+00:00",
+      "claim": "(e) Securely connect hose connectors to the heater by mechanical means.",
+      "evidence_text": "(e) Securely connect hose connectors to the heater by mechanical means. Do not use \"slip-end\" connectors (that is, connections that allow the hose end to be held only by the friction of the hose material against the metal fitting of the unit) nor ring keepers (that is, tightened over the hose to provide an increased force holding the hose to the metal fitting). [...] (2) Each heater must have a safety data plate permanently affixed by the manufacturer. The plate must show requirements or recommendations for: \n\n(a) Clearance from combustible materials. \n\n(b) Ventilation (minimum air requirements for fuel combustion). \n\n(c) Fuel type and input pressure. \n\n(d) Lighting, extinguishing, and relighting. \n\n(e) Electrical power supply characteristics. \n\n(f) Location, moving, and handling. \n\n(g) Na",
+      "evidence_specificity": "INDIRECT",
+      "relationship_type": "UNKNOWN",
+      "relevance_score": 0.336,
+      "investigator": "SupplyAgent",
+      "publication_date": null,
+      "strategy": "SupplyStrategy",
+      "shared_source_hypotheses": [
+        "PRODUCT_EVENT"
+      ]
+    }
+  ],
+  "evidence_verifications": [
+    {
+      "evidence_id": "evd_64c0b67724dd",
+      "hypothesis_type": "PROMOTION",
+      "support_level": "CONTRADICTS",
+      "independence_class": "CONTRADICTING",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.0,
+        "merchant_match": 0.5,
+        "specificity": 0.8,
+        "source_independence": 0.0,
+        "causal_strength": 0.2,
+        "contradiction_penalty": 1.0
+      },
+      "notes": "source_quality=0.55 (domain: www.cnbc.com); temporal_alignment=0.40; product_match=0.00 (text-based, product='1500-Watt Digital Infrared Heater with Wi-Fi Phone App - White'); merchant_match=0.50; specificity=0.80; source_independence=0.00 (CONTRADICTING); causal_strength=0.20 (relationship=CORRELATIONAL); contradiction_penalty=1.00"
+    },
+    {
+      "evidence_id": "evd_a3210cf79781",
+      "hypothesis_type": "PROMOTION",
+      "support_level": "CONTRADICTS",
+      "independence_class": "CONTRADICTING",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.0,
+        "merchant_match": 0.0,
+        "specificity": 0.5,
+        "source_independence": 0.0,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 1.0
+      },
+      "notes": "source_quality=0.55 (domain: www.turbro.com); temporal_alignment=0.40; product_match=0.00 (text-based, product='1500-Watt Digital Infrared Heater with Wi-Fi Phone App - White'); merchant_match=0.00; specificity=0.50; source_independence=0.00 (CONTRADICTING); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=1.00"
+    },
+    {
+      "evidence_id": "evd_9fdb88578eed",
+      "hypothesis_type": "PROMOTION",
+      "support_level": "CONTRADICTS",
+      "independence_class": "CONTRADICTING",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.0,
+        "merchant_match": 0.0,
+        "specificity": 0.8,
+        "source_independence": 0.0,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 1.0
+      },
+      "notes": "source_quality=0.55 (domain: issuu.com); temporal_alignment=0.40; product_match=0.00 (text-based, product='1500-Watt Digital Infrared Heater with Wi-Fi Phone App - White'); merchant_match=0.00; specificity=0.80; source_independence=0.00 (CONTRADICTING); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=1.00"
+    },
+    {
+      "evidence_id": "evd_e68bb34f06be",
+      "hypothesis_type": "PROMOTION",
+      "support_level": "CONTRADICTS",
+      "independence_class": "CONTRADICTING",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.0,
+        "merchant_match": 0.5,
+        "specificity": 0.7,
+        "source_independence": 0.0,
+        "causal_strength": 0.2,
+        "contradiction_penalty": 1.0
+      },
+      "notes": "source_quality=0.55 (domain: www.cnbc.com); temporal_alignment=0.40; product_match=0.00 (text-based, product='1500-Watt Digital Infrared Heater with Wi-Fi Phone App - White'); merchant_match=0.50; specificity=0.70; source_independence=0.00 (CONTRADICTING); causal_strength=0.20 (relationship=CORRELATIONAL); contradiction_penalty=1.00"
+    },
+    {
+      "evidence_id": "evd_b3c39b6f3260",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "support_level": "CONSISTENT_WITH",
+      "independence_class": "INDEPENDENCE_UNCERTAIN",
+      "component_scores": {
+        "source_quality": 0.9,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.7,
+        "source_independence": 0.5,
+        "causal_strength": 0.2,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.90 (domain: www.njeda.gov); temporal_alignment=0.40; product_match=0.60 (text-based, product='1500-Watt Digital Infrared Heater with Wi-Fi Phone App - White'); merchant_match=0.00; specificity=0.70; source_independence=0.50 (INDEPENDENCE_UNCERTAIN); causal_strength=0.20 (relationship=CORRELATIONAL); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_29760854c941",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "support_level": "INSUFFICIENT_EVIDENCE",
+      "independence_class": "INDEPENDENCE_UNCERTAIN",
+      "component_scores": {
+        "source_quality": 0.9,
+        "temporal_alignment": 0.4,
+        "product_match": 0.0,
+        "merchant_match": 0.0,
+        "specificity": 0.5,
+        "source_independence": 0.5,
+        "causal_strength": 0.25,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.90 (domain: apps.dot.illinois.gov); temporal_alignment=0.40; product_match=0.00 (text-based, product='1500-Watt Digital Infrared Heater with Wi-Fi Phone App - White'); merchant_match=0.00; specificity=0.50; source_independence=0.50 (INDEPENDENCE_UNCERTAIN); causal_strength=0.25 (relationship=DESCRIPTIVE); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_6a7cb4f2eb67",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "support_level": "INSUFFICIENT_EVIDENCE",
+      "independence_class": "INDEPENDENCE_UNCERTAIN",
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.0,
+        "merchant_match": 0.0,
+        "specificity": 0.5,
+        "source_independence": 0.5,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.55 (domain: www.foxvalleyparkdistrict.org); temporal_alignment=0.40; product_match=0.00 (text-based, product='1500-Watt Digital Infrared Heater with Wi-Fi Phone App - White'); merchant_match=0.00; specificity=0.50; source_independence=0.50 (INDEPENDENCE_UNCERTAIN); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_b93174220489",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "support_level": "CONSISTENT_WITH",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.35,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.6,
+        "source_independence": 0.3,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.35 (domain: www.publications.usace.army.mil); temporal_alignment=0.40; product_match=0.60 (text-based, product='1500-Watt Digital Infrared Heater with Wi-Fi Phone App - White'); merchant_match=0.00; specificity=0.60; source_independence=0.30 (SYNDICATED); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_a329a86dd285",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "support_level": "CONSISTENT_WITH",
+      "independence_class": "INDEPENDENCE_UNCERTAIN",
+      "component_scores": {
+        "source_quality": 0.9,
+        "temporal_alignment": 0.4,
+        "product_match": 0.6,
+        "merchant_match": 0.0,
+        "specificity": 0.5,
+        "source_independence": 0.5,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.90 (domain: mdot.ms.gov); temporal_alignment=0.40; product_match=0.60 (text-based, product='1500-Watt Digital Infrared Heater with Wi-Fi Phone App - White'); merchant_match=0.00; specificity=0.50; source_independence=0.50 (INDEPENDENCE_UNCERTAIN); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_9f2df7ce75ed",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "support_level": "INSUFFICIENT_EVIDENCE",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.35,
+        "temporal_alignment": 0.4,
+        "product_match": 0.0,
+        "merchant_match": 0.0,
+        "specificity": 0.6,
+        "source_independence": 0.3,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.35 (domain: www.publications.usace.army.mil); temporal_alignment=0.40; product_match=0.00 (text-based, product='1500-Watt Digital Infrared Heater with Wi-Fi Phone App - White'); merchant_match=0.00; specificity=0.60; source_independence=0.30 (SYNDICATED); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    },
+    {
+      "evidence_id": "evd_fb5256380480",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "support_level": "INSUFFICIENT_EVIDENCE",
+      "independence_class": "SYNDICATED",
+      "component_scores": {
+        "source_quality": 0.35,
+        "temporal_alignment": 0.4,
+        "product_match": 0.0,
+        "merchant_match": 0.0,
+        "specificity": 0.4,
+        "source_independence": 0.3,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "notes": "source_quality=0.35 (domain: www.publications.usace.army.mil); temporal_alignment=0.40; product_match=0.00 (text-based, product='1500-Watt Digital Infrared Heater with Wi-Fi Phone App - White'); merchant_match=0.00; specificity=0.40; source_independence=0.30 (SYNDICATED); causal_strength=0.10 (relationship=UNKNOWN); contradiction_penalty=0.00"
+    }
+  ],
+  "hypothesis_assessments": [
+    {
+      "hypothesis_id": "hyp_11527a544273",
+      "hypothesis_type": "PROMOTION",
+      "support_level": "CONTRADICTS",
+      "supporting_evidence_ids": [],
+      "contradicting_evidence_ids": [
+        "evd_64c0b67724dd",
+        "evd_a3210cf79781",
+        "evd_9fdb88578eed",
+        "evd_e68bb34f06be"
+      ],
+      "independent_source_count": 0,
+      "duplicated_source_count": 0,
+      "component_scores": {
+        "source_quality": 0.55,
+        "temporal_alignment": 0.4,
+        "product_match": 0.0,
+        "merchant_match": 0.25,
+        "specificity": 0.7,
+        "source_independence": 0.0,
+        "causal_strength": 0.15,
+        "contradiction_penalty": 1.0
+      },
+      "explanation": "Evidence contradicts the PROMOTION hypothesis. 4 contradicting evidence item(s) found. Source independence could not be confirmed."
+    },
+    {
+      "hypothesis_id": "hyp_9d472d6f0162",
+      "hypothesis_type": "PRODUCT_EVENT",
+      "support_level": "CONSISTENT_WITH",
+      "supporting_evidence_ids": [],
+      "contradicting_evidence_ids": [],
+      "independent_source_count": 0,
+      "duplicated_source_count": 1,
+      "component_scores": {
+        "source_quality": 0.72,
+        "temporal_alignment": 0.4,
+        "product_match": 0.36,
+        "merchant_match": 0.0,
+        "specificity": 0.56,
+        "source_independence": 0.46,
+        "causal_strength": 0.15,
+        "contradiction_penalty": 0.0
+      },
+      "explanation": "Evidence is consistent with the PRODUCT_EVENT hypothesis. Source independence could not be confirmed."
+    },
+    {
+      "hypothesis_id": "hyp_0b9b76946098",
+      "hypothesis_type": "INVENTORY_LIQUIDATION",
+      "support_level": "INSUFFICIENT_EVIDENCE",
+      "supporting_evidence_ids": [],
+      "contradicting_evidence_ids": [],
+      "independent_source_count": 0,
+      "duplicated_source_count": 2,
+      "component_scores": {
+        "source_quality": 0.35,
+        "temporal_alignment": 0.4,
+        "product_match": 0.0,
+        "merchant_match": 0.0,
+        "specificity": 0.5,
+        "source_independence": 0.3,
+        "causal_strength": 0.1,
+        "contradiction_penalty": 0.0
+      },
+      "explanation": "Insufficient evidence to assess the INVENTORY_LIQUIDATION hypothesis. Source independence could not be confirmed."
+    }
+  ],
+  "independent_source_count": 0,
+  "duplicated_source_count": 3,
+  "uncertainty_factors": [
+    "Source independence could not be confirmed for any evidence."
+  ],
+  "summary": "Event evt_c413c46751073c65: 1500-Watt Digital Infrared Heater with Wi-Fi Phone App - White at Bestbuy.com. Observed decrease of 55.3% on 2017-03-13. Hypothesis assessments:   PROMOTION: CONTRADICTS   PRODUCT_EVENT: CONSISTENT_WITH   INVENTORY_LIQUIDATION: INSUFFICIENT_EVIDENCE 11 evidence item(s) collected.",
+  "event_summary": {
+    "event_id": "evt_c413c46751073c65",
+    "product_name": "1500-Watt Digital Infrared Heater with Wi-Fi Phone App - White",
+    "brand": "Crane",
+    "merchant": "Bestbuy.com",
+    "previous_price": 189.99,
+    "current_price": 84.99,
+    "price_change_pct": -55.26606663508606,
+    "change_direction": "decrease",
+    "observed_at": "2017-03-13T03:00:00+00:00",
+    "category": "Electronics"
+  },
+  "agent_failures": [],
+  "search_failures": []
+}

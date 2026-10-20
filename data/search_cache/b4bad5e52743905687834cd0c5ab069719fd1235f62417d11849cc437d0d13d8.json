@@ -1,0 +1,54 @@
+[
+  {
+    "result_id": "res_5cea518aeb8d",
+    "query_id": "q_38d23ccb0b",
+    "event_id": "evt_c413c46751073c65",
+    "title": "2021 Werning Cattle Co Sale Catalog",
+    "url": "https://issuu.com/eberspacherenterprises/docs/2021_werning_cattle_co_catalog",
+    "snippet": "Discounts Purchased by one firm, discount starts with your 3rd bull as follows: 3 bulls = 3% discount; 4 bulls = 4% discount; 5 bulls = 5%",
+    "source_domain": "issuu.com",
+    "retrieved_at": "2026-10-17T16:26:40.388243+00:00",
+    "provider": "tavily",
+    "full_content": null,
+    "publication_date": null
+  },
+  {
+    "result_id": "res_cc88721238bd",
+    "query_id": "q_38d23ccb0b",
+    "event_id": "evt_c413c46751073c65",
+    "title": "Starbucks/Locations",
+    "url": "https://malls.fandom.com/wiki/Starbucks/Locations",
+    "snippet": "A&W\n               Arby's\n               Burger King\n               Chick-fil-A\n               Five Guys\n               Jack in the Box\n               KFC\n               McDonald's\n               Raising Cane's Chicken Fingers\n               Sonic\n               Vkusno i tochka\n               Wendy's\n               Whataburger\n               Zaxby's\n\n           Pizza [...] Belk\n               JCPenney\n               Macy's\n               Nordstrom\n               Saks Fifth Avenue\n               Sears\n               Zellers\n\n           Discount Stores\n\n               Kmart\n               Kohl's\n               Target\n               T.J. Maxx\n               Walmart\n               Winners\n\n           Big Box [...] Pizza\n\n               Boston Pizza\n               Chuck E. Cheese\n               Cici's Pizza\n               Domino's Pizza\n               Little Ceasers \n               Panago\n               Papa John's\n               Papa Murphy's\n               Pizza Hut\n               Sbarro\n\n           Ice Cream",
+    "source_domain": "malls.fandom.com",
+    "retrieved_at": "2026-10-17T16:26:40.388243+00:00",
+    "provider": "tavily",
+    "full_content": null,
+    "publication_date": null
+  },
+  {
+    "result_id": "res_c7931d35a834",
+    "query_id": "q_38d23ccb0b",
+    "event_id": "evt_c413c46751073c65",
+    "title": "Destruction of Troy Frames - catterall.net",
+    "url": "http://catterall.net/ME/dest_troy/Dest_troy_frames.html",
+    "snippet": "The Destruction of Troy. The longest of all the medieval alliterative poems, 22 chapters.",
+    "source_domain": "catterall.net",
+    "retrieved_at": "2026-10-17T16:26:40.388243+00:00",
+    "provider": "tavily",
+    "full_content": null,
+    "publication_date": null
+  },
+  {
+    "result_id": "res_247bff3012a6",
+    "query_id": "q_38d23ccb0b",
+    "event_id": "evt_c413c46751073c65",
+    "title": "Full text of \"Oakland, Alameda, Berkeley and San Leandro street address telephone directory\"",
+    "url": "https://archive.org/stream/oaklandalamedabe1938paci/oaklandalamedabe1938paci_djvu.txt",
+    "snippet": "Keep the news in the Wayback Machine. Sign Fight for the Future's letter.\n\n### Internet Archive Audio\n\n#### Featured\n\n#### Top\n\n### Images\n\n#### Featured\n\n#### Top\n\n### Software\n\n#### Featured\n\n#### Top\n\n### Texts\n\n#### Featured\n\n#### Top\n\n### Video\n\n#### Featured\n\n#### Top\n\nSearch the history of more than 1 trillion\nweb pages.\n\n#### Mobile Apps\n\n#### Browser Extensions\n\n#### Archive-It Subscription\n\n### Save Page Now [...] ### Save Page Now\n\nCapture a web page as it appears now for use as a trusted\ncitation in the future.\n\nPlease enter a valid web address\n\n# Full text of \"Oakland, Alameda, Berkeley and San Leandro street address telephone directory\"\n\n## See other formats",
+    "source_domain": "archive.org",
+    "retrieved_at": "2026-10-17T16:26:40.388243+00:00",
+    "provider": "tavily",
+    "full_content": null,
+    "publication_date": null
+  }
+]

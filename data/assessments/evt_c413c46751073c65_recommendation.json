@@ -1,0 +1,141 @@
+{
+  "event_id": "evt_c413c46751073c65",
+  "product_id": "AVpg54pb1cnluZ0-7xsM",
+  "product_name": "1500-Watt Digital Infrared Heater with Wi-Fi Phone App - White",
+  "merchant": "Bestbuy.com",
+  "current_price": 84.99,
+  "competitor_price": 84.99,
+  "our_assumed_price": 189.99,
+  "median_price_before": 189.99,
+  "cost": 151.99200000000002,
+  "chosen_action": "raise_2pct",
+  "profit_table": {
+    "hold": {
+      "no_response": 7.8893,
+      "match": 3799.8,
+      "undercut": 3431.1916
+    },
+    "match": {
+      "no_response": -6700.2,
+      "match": -6700.2,
+      "undercut": -6050.2316
+    },
+    "raise_2pct": {
+      "no_response": 6.9398,
+      "match": 4179.78,
+      "undercut": 3774.3108
+    },
+    "undercut_2pct": {
+      "no_response": -7592.7231,
+      "match": -6870.18,
+      "undercut": -6203.7223
+    },
+    "undercut_5pct": {
+      "no_response": -9148.8737,
+      "match": -7125.15,
+      "undercut": -6433.9584
+    }
+  },
+  "regret_table": {
+    "hold": {
+      "no_response": 0.0,
+      "match": 379.98,
+      "undercut": 343.1192
+    },
+    "match": {
+      "no_response": 6708.0893,
+      "match": 10879.98,
+      "undercut": 9824.5424
+    },
+    "raise_2pct": {
+      "no_response": 0.9495,
+      "match": 0.0,
+      "undercut": 0.0
+    },
+    "undercut_2pct": {
+      "no_response": 7600.6124,
+      "match": 11049.96,
+      "undercut": 9978.0331
+    },
+    "undercut_5pct": {
+      "no_response": 9156.763,
+      "match": 11304.93,
+      "undercut": 10208.2692
+    }
+  },
+  "expected_profit_ranking": [
+    [
+      "raise_2pct",
+      2653.6769
+    ],
+    [
+      "hold",
+      2412.9603
+    ],
+    [
+      "match",
+      -6483.5439
+    ],
+    [
+      "undercut_2pct",
+      -6888.8751
+    ],
+    [
+      "undercut_5pct",
+      -7569.3274
+    ]
+  ],
+  "scenario_probabilities": {
+    "no_response": 0.3333333333333333,
+    "match": 0.3333333333333333,
+    "undercut": 0.3333333333333333,
+    "sample_size": 1,
+    "confidence": "LOW_DATA",
+    "reason": "fewer than 5 events",
+    "response_days": 7
+  },
+  "sensitivity": {
+    "2.0": {
+      "0.7": "raise_2pct",
+      "0.8": "raise_2pct",
+      "0.9": "raise_2pct"
+    },
+    "5.0": {
+      "0.7": "raise_2pct",
+      "0.8": "raise_2pct",
+      "0.9": "raise_2pct"
+    },
+    "8.0": {
+      "0.7": "raise_2pct",
+      "0.8": "raise_2pct",
+      "0.9": "raise_2pct"
+    }
+  },
+  "assumptions": [
+    "our_price = 189.99  (pre-event price; NOT our actual listing price)",
+    "competitor_price = 84.99  (the observed market price after change)",
+    "median_price_before = 189.99  (median market price before the event)",
+    "cost = 151.99  = cost_ratio (0.8) x median_price_before \u2014 CONSTANT for this event",
+    "beta = 5.0  (demand sensitivity; default 5 \u2014 ASSUMPTION, not estimated from data)",
+    "base_demand = 100.0  (relative units at price parity; not actual sales volume)",
+    "Demand = base_demand * exp(-beta * (our_price - comp_price) / comp_price)",
+    "Actions: hold, match, raise_2pct, undercut_2pct, undercut_5pct",
+    "Competitor scenarios: no_response (stays at comp_price), match (mirrors our price), undercut (2% below ours)",
+    "*** MODEL-ASSUMPTION DEMO: cost, beta, and base_demand are not estimated from data. ***"
+  ],
+  "investigation_verdicts": [
+    {
+      "hypothesis": "PROMOTION",
+      "support_level": "CONTRADICTS"
+    },
+    {
+      "hypothesis": "PRODUCT_EVENT",
+      "support_level": "CONSISTENT_WITH"
+    },
+    {
+      "hypothesis": "INVENTORY_LIQUIDATION",
+      "support_level": "INSUFFICIENT_EVIDENCE"
+    }
+  ],
+  "generated_at": "2026-10-19T17:44:56.090235+00:00"
+}

@@ -1,0 +1,141 @@
+{
+  "event_id": "evt_badcf4efc3715e4f",
+  "product_id": "AVpgkbEJ1cnluZ0-3UNS",
+  "product_name": "Sennheiser - CX 3.00 Earbud Headphones - Red",
+  "merchant": "Bestbuy.com",
+  "current_price": 54.99,
+  "competitor_price": 54.99,
+  "our_assumed_price": 33.99,
+  "median_price_before": 33.99,
+  "cost": 27.192000000000004,
+  "chosen_action": "undercut_5pct",
+  "profit_table": {
+    "hold": {
+      "no_response": 4588.1709,
+      "match": 679.8,
+      "undercut": 613.8544
+    },
+    "match": {
+      "no_response": 2779.8,
+      "match": 2779.8,
+      "undercut": 2510.1391
+    },
+    "raise_2pct": {
+      "no_response": 4744.4731,
+      "match": 747.78,
+      "undercut": 675.2399
+    },
+    "undercut_2pct": {
+      "no_response": 2950.6074,
+      "match": 2669.82,
+      "undercut": 2410.828
+    },
+    "undercut_5pct": {
+      "no_response": 3216.2911,
+      "match": 2504.85,
+      "undercut": 2261.8612
+    }
+  },
+  "regret_table": {
+    "hold": {
+      "no_response": 156.3022,
+      "match": 2100.0,
+      "undercut": 1896.2847
+    },
+    "match": {
+      "no_response": 1964.6731,
+      "match": 0.0,
+      "undercut": 0.0
+    },
+    "raise_2pct": {
+      "no_response": 0.0,
+      "match": 2032.02,
+      "undercut": 1834.8992
+    },
+    "undercut_2pct": {
+      "no_response": 1793.8657,
+      "match": 109.98,
+      "undercut": 99.3111
+    },
+    "undercut_5pct": {
+      "no_response": 1528.182,
+      "match": 274.95,
+      "undercut": 248.2779
+    }
+  },
+  "expected_profit_ranking": [
+    [
+      "match",
+      2689.913
+    ],
+    [
+      "undercut_2pct",
+      2677.0851
+    ],
+    [
+      "undercut_5pct",
+      2661.0008
+    ],
+    [
+      "raise_2pct",
+      2055.831
+    ],
+    [
+      "hold",
+      1960.6084
+    ]
+  ],
+  "scenario_probabilities": {
+    "no_response": 0.3333333333333333,
+    "match": 0.3333333333333333,
+    "undercut": 0.3333333333333333,
+    "sample_size": 1,
+    "confidence": "LOW_DATA",
+    "reason": "fewer than 5 events",
+    "response_days": 7
+  },
+  "sensitivity": {
+    "2.0": {
+      "0.7": "match",
+      "0.8": "match",
+      "0.9": "match"
+    },
+    "5.0": {
+      "0.7": "raise_2pct",
+      "0.8": "undercut_5pct",
+      "0.9": "undercut_2pct"
+    },
+    "8.0": {
+      "0.7": "raise_2pct",
+      "0.8": "raise_2pct",
+      "0.9": "raise_2pct"
+    }
+  },
+  "assumptions": [
+    "our_price = 33.99  (pre-event price; NOT our actual listing price)",
+    "competitor_price = 54.99  (the observed market price after change)",
+    "median_price_before = 33.99  (median market price before the event)",
+    "cost = 27.19  = cost_ratio (0.8) x median_price_before \u2014 CONSTANT for this event",
+    "beta = 5.0  (demand sensitivity; default 5 \u2014 ASSUMPTION, not estimated from data)",
+    "base_demand = 100.0  (relative units at price parity; not actual sales volume)",
+    "Demand = base_demand * exp(-beta * (our_price - comp_price) / comp_price)",
+    "Actions: hold, match, raise_2pct, undercut_2pct, undercut_5pct",
+    "Competitor scenarios: no_response (stays at comp_price), match (mirrors our price), undercut (2% below ours)",
+    "*** MODEL-ASSUMPTION DEMO: cost, beta, and base_demand are not estimated from data. ***"
+  ],
+  "investigation_verdicts": [
+    {
+      "hypothesis": "PRODUCT_EVENT",
+      "support_level": "CONTRADICTS"
+    },
+    {
+      "hypothesis": "PROMOTION",
+      "support_level": "CONTRADICTS"
+    },
+    {
+      "hypothesis": "DATA_ISSUE",
+      "support_level": "INSUFFICIENT_EVIDENCE"
+    }
+  ],
+  "generated_at": "2026-10-19T17:45:17.365502+00:00"
+}

@@ -1,0 +1,15 @@
+[
+  {
+    "result_id": "res_de438bb74303",
+    "query_id": "q_a333f3393a",
+    "event_id": "evt_728c4dccf7f8bdb0",
+    "title": "Apple MacBook 12 Out of Stock at Major Retailers",
+    "url": "https://www.cnet.com/news/apple-macbook-12-out-of-stock-2017",
+    "snippet": "The Apple MacBook 12-inch is currently out of stock at Best Buy and Amazon, suggesting supply constraints or discontinuation.",
+    "source_domain": "cnet.com",
+    "retrieved_at": "2026-10-12T06:02:27.044647+00:00",
+    "provider": "mock",
+    "full_content": null,
+    "publication_date": "2017-08-05"
+  }
+]

@@ -1,0 +1,145 @@
+{
+  "event_id": "evt_a17c592e3f65b271",
+  "product_id": "AVpf3_M4ilAPnD_xj0ph",
+  "product_name": "Russound - 150W Indoor/Outdoor Speaker (Each) - Black",
+  "merchant": "Bestbuy.com",
+  "current_price": 181.98,
+  "competitor_price": 181.98,
+  "our_assumed_price": 249.99,
+  "median_price_before": 249.99,
+  "cost": 199.99200000000002,
+  "chosen_action": "raise_2pct",
+  "profit_table": {
+    "hold": {
+      "no_response": 771.6579,
+      "match": 4999.8,
+      "undercut": 4514.7829
+    },
+    "match": {
+      "no_response": -1801.2,
+      "match": -1801.2,
+      "undercut": -1626.4704
+    },
+    "raise_2pct": {
+      "no_response": 739.8735,
+      "match": 5499.78,
+      "undercut": 4966.2612
+    },
+    "undercut_2pct": {
+      "no_response": -2392.8719,
+      "match": -2165.16,
+      "undercut": -1955.1237
+    },
+    "undercut_5pct": {
+      "no_response": -3481.1213,
+      "match": -2711.1,
+      "undercut": -2448.1035
+    }
+  },
+  "regret_table": {
+    "hold": {
+      "no_response": 0.0,
+      "match": 499.98,
+      "undercut": 451.4783
+    },
+    "match": {
+      "no_response": 2572.8579,
+      "match": 7300.98,
+      "undercut": 6592.7316
+    },
+    "raise_2pct": {
+      "no_response": 31.7844,
+      "match": 0.0,
+      "undercut": 0.0
+    },
+    "undercut_2pct": {
+      "no_response": 3164.5298,
+      "match": 7664.94,
+      "undercut": 6921.3849
+    },
+    "undercut_5pct": {
+      "no_response": 4252.7792,
+      "match": 8210.88,
+      "undercut": 7414.3647
+    }
+  },
+  "expected_profit_ranking": [
+    [
+      "raise_2pct",
+      3735.3049
+    ],
+    [
+      "hold",
+      3428.7469
+    ],
+    [
+      "match",
+      -1742.9568
+    ],
+    [
+      "undercut_2pct",
+      -2171.0519
+    ],
+    [
+      "undercut_5pct",
+      -2880.1083
+    ]
+  ],
+  "scenario_probabilities": {
+    "no_response": 0.3333333333333333,
+    "match": 0.3333333333333333,
+    "undercut": 0.3333333333333333,
+    "sample_size": 1,
+    "confidence": "LOW_DATA",
+    "reason": "fewer than 5 events",
+    "response_days": 7
+  },
+  "sensitivity": {
+    "2.0": {
+      "0.7": "raise_2pct",
+      "0.8": "raise_2pct",
+      "0.9": "raise_2pct"
+    },
+    "5.0": {
+      "0.7": "raise_2pct",
+      "0.8": "raise_2pct",
+      "0.9": "raise_2pct"
+    },
+    "8.0": {
+      "0.7": "raise_2pct",
+      "0.8": "raise_2pct",
+      "0.9": "raise_2pct"
+    }
+  },
+  "assumptions": [
+    "our_price = 249.99  (pre-event price; NOT our actual listing price)",
+    "competitor_price = 181.98  (the observed market price after change)",
+    "median_price_before = 249.99  (median market price before the event)",
+    "cost = 199.99  = cost_ratio (0.8) x median_price_before \u2014 CONSTANT for this event",
+    "beta = 5.0  (demand sensitivity; default 5 \u2014 ASSUMPTION, not estimated from data)",
+    "base_demand = 100.0  (relative units at price parity; not actual sales volume)",
+    "Demand = base_demand * exp(-beta * (our_price - comp_price) / comp_price)",
+    "Actions: hold, match, raise_2pct, undercut_2pct, undercut_5pct",
+    "Competitor scenarios: no_response (stays at comp_price), match (mirrors our price), undercut (2% below ours)",
+    "*** MODEL-ASSUMPTION DEMO: cost, beta, and base_demand are not estimated from data. ***"
+  ],
+  "investigation_verdicts": [
+    {
+      "hypothesis": "PROMOTION",
+      "support_level": "CONSISTENT_WITH"
+    },
+    {
+      "hypothesis": "PRODUCT_EVENT",
+      "support_level": "CONSISTENT_WITH"
+    },
+    {
+      "hypothesis": "INVENTORY_LIQUIDATION",
+      "support_level": "CONTRADICTS"
+    },
+    {
+      "hypothesis": "SEASONAL_EVENT",
+      "support_level": "CONSISTENT_WITH"
+    }
+  ],
+  "generated_at": "2026-10-19T17:45:17.914750+00:00"
+}

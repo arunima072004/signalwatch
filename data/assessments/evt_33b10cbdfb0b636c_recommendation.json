@@ -1,0 +1,141 @@
+{
+  "event_id": "evt_33b10cbdfb0b636c",
+  "product_id": "AVqkGbtyU2_QcyX9O0XN",
+  "product_name": "AudioQuest NightOwl Carbon Closed-Back Around-the-Ear Headphones",
+  "merchant": "Bestbuy.com",
+  "current_price": 499.98,
+  "competitor_price": 499.98,
+  "our_assumed_price": 699.98,
+  "median_price_before": 699.98,
+  "cost": 559.984,
+  "chosen_action": "raise_2pct",
+  "profit_table": {
+    "hold": {
+      "no_response": 1894.4883,
+      "match": 13999.6,
+      "undercut": 12641.5365
+    },
+    "match": {
+      "no_response": -6000.4,
+      "match": -6000.4,
+      "undercut": -5418.3174
+    },
+    "raise_2pct": {
+      "no_response": 1811.685,
+      "match": 15399.56,
+      "undercut": 13905.6902
+    },
+    "undercut_2pct": {
+      "no_response": -7736.5943,
+      "match": -7000.36,
+      "undercut": -6321.2739
+    },
+    "undercut_5pct": {
+      "no_response": -10914.6012,
+      "match": -8500.3,
+      "undercut": -7675.7088
+    }
+  },
+  "regret_table": {
+    "hold": {
+      "no_response": 0.0,
+      "match": 1399.96,
+      "undercut": 1264.1537
+    },
+    "match": {
+      "no_response": 7894.8883,
+      "match": 21399.96,
+      "undercut": 19324.0076
+    },
+    "raise_2pct": {
+      "no_response": 82.8033,
+      "match": 0.0,
+      "undercut": 0.0
+    },
+    "undercut_2pct": {
+      "no_response": 9631.0826,
+      "match": 22399.92,
+      "undercut": 20226.9641
+    },
+    "undercut_5pct": {
+      "no_response": 12809.0895,
+      "match": 23899.86,
+      "undercut": 21581.399
+    }
+  },
+  "expected_profit_ranking": [
+    [
+      "raise_2pct",
+      10372.3117
+    ],
+    [
+      "hold",
+      9511.8749
+    ],
+    [
+      "match",
+      -5806.3725
+    ],
+    [
+      "undercut_2pct",
+      -7019.4094
+    ],
+    [
+      "undercut_5pct",
+      -9030.2033
+    ]
+  ],
+  "scenario_probabilities": {
+    "no_response": 0.3333333333333333,
+    "match": 0.3333333333333333,
+    "undercut": 0.3333333333333333,
+    "sample_size": 1,
+    "confidence": "LOW_DATA",
+    "reason": "fewer than 5 events",
+    "response_days": 7
+  },
+  "sensitivity": {
+    "2.0": {
+      "0.7": "raise_2pct",
+      "0.8": "raise_2pct",
+      "0.9": "raise_2pct"
+    },
+    "5.0": {
+      "0.7": "raise_2pct",
+      "0.8": "raise_2pct",
+      "0.9": "raise_2pct"
+    },
+    "8.0": {
+      "0.7": "raise_2pct",
+      "0.8": "raise_2pct",
+      "0.9": "raise_2pct"
+    }
+  },
+  "assumptions": [
+    "our_price = 699.98  (pre-event price; NOT our actual listing price)",
+    "competitor_price = 499.98  (the observed market price after change)",
+    "median_price_before = 699.98  (median market price before the event)",
+    "cost = 559.98  = cost_ratio (0.8) x median_price_before \u2014 CONSTANT for this event",
+    "beta = 5.0  (demand sensitivity; default 5 \u2014 ASSUMPTION, not estimated from data)",
+    "base_demand = 100.0  (relative units at price parity; not actual sales volume)",
+    "Demand = base_demand * exp(-beta * (our_price - comp_price) / comp_price)",
+    "Actions: hold, match, raise_2pct, undercut_2pct, undercut_5pct",
+    "Competitor scenarios: no_response (stays at comp_price), match (mirrors our price), undercut (2% below ours)",
+    "*** MODEL-ASSUMPTION DEMO: cost, beta, and base_demand are not estimated from data. ***"
+  ],
+  "investigation_verdicts": [
+    {
+      "hypothesis": "PROMOTION",
+      "support_level": "CONTRADICTS"
+    },
+    {
+      "hypothesis": "INVENTORY_LIQUIDATION",
+      "support_level": "CONTRADICTS"
+    },
+    {
+      "hypothesis": "PRODUCT_EVENT",
+      "support_level": "CONTRADICTS"
+    }
+  ],
+  "generated_at": "2026-10-19T17:45:16.163863+00:00"
+}

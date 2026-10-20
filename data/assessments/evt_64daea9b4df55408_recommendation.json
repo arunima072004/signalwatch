@@ -1,0 +1,141 @@
+{
+  "event_id": "evt_64daea9b4df55408",
+  "product_id": "AVqVGUFCv8e3D1O-ldFF",
+  "product_name": "Refurbished Samsung Curved 65 4K (2160P) Smart QLED TV (2017 Model) + 1 Year Extended Warranty (QN65Q7CAMFXZA)\"",
+  "merchant": "Walmart.com",
+  "current_price": 3497.99,
+  "competitor_price": 3497.99,
+  "our_assumed_price": 1999.99,
+  "median_price_before": 1999.99,
+  "cost": 1599.9920000000002,
+  "chosen_action": "undercut_5pct",
+  "profit_table": {
+    "hold": {
+      "no_response": 340394.1231,
+      "match": 39999.8,
+      "undercut": 36119.5272
+    },
+    "match": {
+      "no_response": 189799.8,
+      "match": 189799.8,
+      "undercut": 171387.8327
+    },
+    "raise_2pct": {
+      "no_response": 353625.6632,
+      "match": 43999.78,
+      "undercut": 39731.4799
+    },
+    "undercut_2pct": {
+      "no_response": 202029.4656,
+      "match": 182803.82,
+      "undercut": 165070.5139
+    },
+    "undercut_5pct": {
+      "no_response": 221250.2269,
+      "match": 172309.85,
+      "undercut": 155594.5357
+    }
+  },
+  "regret_table": {
+    "hold": {
+      "no_response": 13231.5401,
+      "match": 149800.0,
+      "undercut": 135268.3055
+    },
+    "match": {
+      "no_response": 163825.8632,
+      "match": 0.0,
+      "undercut": 0.0
+    },
+    "raise_2pct": {
+      "no_response": 0.0,
+      "match": 145800.02,
+      "undercut": 131656.3528
+    },
+    "undercut_2pct": {
+      "no_response": 151596.1976,
+      "match": 6995.98,
+      "undercut": 6317.3188
+    },
+    "undercut_5pct": {
+      "no_response": 132375.4363,
+      "match": 17489.95,
+      "undercut": 15793.297
+    }
+  },
+  "expected_profit_ranking": [
+    [
+      "match",
+      183662.4776
+    ],
+    [
+      "undercut_2pct",
+      183301.2665
+    ],
+    [
+      "undercut_5pct",
+      183051.5375
+    ],
+    [
+      "raise_2pct",
+      145785.641
+    ],
+    [
+      "hold",
+      138837.8168
+    ]
+  ],
+  "scenario_probabilities": {
+    "no_response": 0.3333333333333333,
+    "match": 0.3333333333333333,
+    "undercut": 0.3333333333333333,
+    "sample_size": 1,
+    "confidence": "LOW_DATA",
+    "reason": "fewer than 5 events",
+    "response_days": 7
+  },
+  "sensitivity": {
+    "2.0": {
+      "0.7": "match",
+      "0.8": "match",
+      "0.9": "match"
+    },
+    "5.0": {
+      "0.7": "raise_2pct",
+      "0.8": "undercut_5pct",
+      "0.9": "undercut_2pct"
+    },
+    "8.0": {
+      "0.7": "raise_2pct",
+      "0.8": "raise_2pct",
+      "0.9": "raise_2pct"
+    }
+  },
+  "assumptions": [
+    "our_price = 1999.99  (pre-event price; NOT our actual listing price)",
+    "competitor_price = 3497.99  (the observed market price after change)",
+    "median_price_before = 1999.99  (median market price before the event)",
+    "cost = 1599.99  = cost_ratio (0.8) x median_price_before \u2014 CONSTANT for this event",
+    "beta = 5.0  (demand sensitivity; default 5 \u2014 ASSUMPTION, not estimated from data)",
+    "base_demand = 100.0  (relative units at price parity; not actual sales volume)",
+    "Demand = base_demand * exp(-beta * (our_price - comp_price) / comp_price)",
+    "Actions: hold, match, raise_2pct, undercut_2pct, undercut_5pct",
+    "Competitor scenarios: no_response (stays at comp_price), match (mirrors our price), undercut (2% below ours)",
+    "*** MODEL-ASSUMPTION DEMO: cost, beta, and base_demand are not estimated from data. ***"
+  ],
+  "investigation_verdicts": [
+    {
+      "hypothesis": "PROMOTION",
+      "support_level": "CONTRADICTS"
+    },
+    {
+      "hypothesis": "PRODUCT_EVENT",
+      "support_level": "CONTRADICTS"
+    },
+    {
+      "hypothesis": "DATA_ISSUE",
+      "support_level": "INSUFFICIENT_EVIDENCE"
+    }
+  ],
+  "generated_at": "2026-10-19T17:44:55.424095+00:00"
+}

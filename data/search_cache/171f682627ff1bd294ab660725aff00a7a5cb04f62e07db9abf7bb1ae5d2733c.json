@@ -1,0 +1,28 @@
+[
+  {
+    "result_id": "res_d7787e002f8a",
+    "query_id": "q_5dd005cff0",
+    "event_id": "evt_728c4dccf7f8bdb0",
+    "title": "Apple MacBook 12 Discounted at Best Buy",
+    "url": "https://9to5mac.com/2017/08/macbook-discount-bestbuy",
+    "snippet": "Best Buy is discounting the Apple MacBook 12-inch (MLHF2LL/A) by $400, bringing the price to $1099.99.",
+    "source_domain": "9to5mac.com",
+    "retrieved_at": "2026-10-12T06:02:27.051992+00:00",
+    "provider": "mock",
+    "full_content": null,
+    "publication_date": "2017-08-15"
+  },
+  {
+    "result_id": "res_f98d9e4ec2ae",
+    "query_id": "q_5dd005cff0",
+    "event_id": "evt_728c4dccf7f8bdb0",
+    "title": "Best Buy Site-Wide Summer Sale Event 2017",
+    "url": "https://www.bestbuy.com/promotions/summer-sale-2017",
+    "snippet": "Best Buy is hosting a site-wide summer sale event with storewide discounts from August 10-20, 2017.",
+    "source_domain": "bestbuy.com",
+    "retrieved_at": "2026-10-12T06:02:27.051992+00:00",
+    "provider": "mock",
+    "full_content": null,
+    "publication_date": "2017-08-10"
+  }
+]

@@ -1,0 +1,145 @@
+{
+  "event_id": "evt_b426e555973a4b0b",
+  "product_id": "AVpiLlubilAPnD_xBoTa",
+  "product_name": "House of Marley Smile Jamaica In-Ear Earbuds",
+  "merchant": "Bestbuy.com",
+  "current_price": 16.99,
+  "competitor_price": 16.99,
+  "our_assumed_price": 24.99,
+  "median_price_before": 24.99,
+  "cost": 19.992,
+  "chosen_action": "raise_2pct",
+  "profit_table": {
+    "hold": {
+      "no_response": 47.4597,
+      "match": 499.8,
+      "undercut": 451.3157
+    },
+    "match": {
+      "no_response": -300.2,
+      "match": -300.2,
+      "undercut": -271.0784
+    },
+    "raise_2pct": {
+      "no_response": 45.065,
+      "match": 549.78,
+      "undercut": 496.4473
+    },
+    "undercut_2pct": {
+      "no_response": -369.326,
+      "match": -334.18,
+      "undercut": -301.7621
+    },
+    "undercut_5pct": {
+      "no_response": -494.5424,
+      "match": -385.15,
+      "undercut": -347.7876
+    }
+  },
+  "regret_table": {
+    "hold": {
+      "no_response": 0.0,
+      "match": 49.98,
+      "undercut": 45.1316
+    },
+    "match": {
+      "no_response": 347.6597,
+      "match": 849.98,
+      "undercut": 767.5257
+    },
+    "raise_2pct": {
+      "no_response": 2.3947,
+      "match": 0.0,
+      "undercut": 0.0
+    },
+    "undercut_2pct": {
+      "no_response": 416.7857,
+      "match": 883.96,
+      "undercut": 798.2094
+    },
+    "undercut_5pct": {
+      "no_response": 542.0021,
+      "match": 934.93,
+      "undercut": 844.2349
+    }
+  },
+  "expected_profit_ranking": [
+    [
+      "raise_2pct",
+      363.7641
+    ],
+    [
+      "hold",
+      332.8585
+    ],
+    [
+      "match",
+      -290.4928
+    ],
+    [
+      "undercut_2pct",
+      -335.0894
+    ],
+    [
+      "undercut_5pct",
+      -409.16
+    ]
+  ],
+  "scenario_probabilities": {
+    "no_response": 0.3333333333333333,
+    "match": 0.3333333333333333,
+    "undercut": 0.3333333333333333,
+    "sample_size": 1,
+    "confidence": "LOW_DATA",
+    "reason": "fewer than 5 events",
+    "response_days": 7
+  },
+  "sensitivity": {
+    "2.0": {
+      "0.7": "raise_2pct",
+      "0.8": "raise_2pct",
+      "0.9": "raise_2pct"
+    },
+    "5.0": {
+      "0.7": "raise_2pct",
+      "0.8": "raise_2pct",
+      "0.9": "raise_2pct"
+    },
+    "8.0": {
+      "0.7": "raise_2pct",
+      "0.8": "raise_2pct",
+      "0.9": "raise_2pct"
+    }
+  },
+  "assumptions": [
+    "our_price = 24.99  (pre-event price; NOT our actual listing price)",
+    "competitor_price = 16.99  (the observed market price after change)",
+    "median_price_before = 24.99  (median market price before the event)",
+    "cost = 19.99  = cost_ratio (0.8) x median_price_before \u2014 CONSTANT for this event",
+    "beta = 5.0  (demand sensitivity; default 5 \u2014 ASSUMPTION, not estimated from data)",
+    "base_demand = 100.0  (relative units at price parity; not actual sales volume)",
+    "Demand = base_demand * exp(-beta * (our_price - comp_price) / comp_price)",
+    "Actions: hold, match, raise_2pct, undercut_2pct, undercut_5pct",
+    "Competitor scenarios: no_response (stays at comp_price), match (mirrors our price), undercut (2% below ours)",
+    "*** MODEL-ASSUMPTION DEMO: cost, beta, and base_demand are not estimated from data. ***"
+  ],
+  "investigation_verdicts": [
+    {
+      "hypothesis": "PROMOTION",
+      "support_level": "CONTRADICTS"
+    },
+    {
+      "hypothesis": "PRODUCT_EVENT",
+      "support_level": "CONTRADICTS"
+    },
+    {
+      "hypothesis": "INVENTORY_LIQUIDATION",
+      "support_level": "CONTRADICTS"
+    },
+    {
+      "hypothesis": "SEASONAL_EVENT",
+      "support_level": "CONTRADICTS"
+    }
+  ],
+  "generated_at": "2026-10-19T17:44:56.873395+00:00"
+}

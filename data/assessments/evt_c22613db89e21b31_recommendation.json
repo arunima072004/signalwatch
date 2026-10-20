@@ -1,0 +1,145 @@
+{
+  "event_id": "evt_c22613db89e21b31",
+  "product_id": "AVpe7Jc6ilAPnD_xQ_GS",
+  "product_name": "MH30 Foldable On-Ear Headphones (Gunmetal)",
+  "merchant": "bhphotovideo.com",
+  "current_price": 169.66,
+  "competitor_price": 169.66,
+  "our_assumed_price": 299.0,
+  "median_price_before": 299.0,
+  "cost": 239.20000000000002,
+  "chosen_action": "raise_2pct",
+  "profit_table": {
+    "hold": {
+      "no_response": 132.2157,
+      "match": 5980.0,
+      "undercut": 5399.8963
+    },
+    "match": {
+      "no_response": -6954.0,
+      "match": -6954.0,
+      "undercut": -6279.4112
+    },
+    "raise_2pct": {
+      "no_response": 121.9377,
+      "match": 6578.0,
+      "undercut": 5939.8859
+    },
+    "undercut_2pct": {
+      "no_response": -8060.3652,
+      "match": -7293.32,
+      "undercut": -6585.8147
+    },
+    "undercut_5pct": {
+      "no_response": -10018.3515,
+      "match": -7802.3,
+      "undercut": -7045.4199
+    }
+  },
+  "regret_table": {
+    "hold": {
+      "no_response": 0.0,
+      "match": 598.0,
+      "undercut": 539.9896
+    },
+    "match": {
+      "no_response": 7086.2157,
+      "match": 13532.0,
+      "undercut": 12219.2971
+    },
+    "raise_2pct": {
+      "no_response": 10.278,
+      "match": 0.0,
+      "undercut": 0.0
+    },
+    "undercut_2pct": {
+      "no_response": 8192.5809,
+      "match": 13871.32,
+      "undercut": 12525.7006
+    },
+    "undercut_5pct": {
+      "no_response": 10150.5672,
+      "match": 14380.3,
+      "undercut": 12985.3058
+    }
+  },
+  "expected_profit_ranking": [
+    [
+      "raise_2pct",
+      4213.2745
+    ],
+    [
+      "hold",
+      3837.3707
+    ],
+    [
+      "match",
+      -6729.1371
+    ],
+    [
+      "undercut_2pct",
+      -7313.1666
+    ],
+    [
+      "undercut_5pct",
+      -8288.6905
+    ]
+  ],
+  "scenario_probabilities": {
+    "no_response": 0.3333333333333333,
+    "match": 0.3333333333333333,
+    "undercut": 0.3333333333333333,
+    "sample_size": 1,
+    "confidence": "LOW_DATA",
+    "reason": "fewer than 5 events",
+    "response_days": 7
+  },
+  "sensitivity": {
+    "2.0": {
+      "0.7": "raise_2pct",
+      "0.8": "raise_2pct",
+      "0.9": "raise_2pct"
+    },
+    "5.0": {
+      "0.7": "raise_2pct",
+      "0.8": "raise_2pct",
+      "0.9": "raise_2pct"
+    },
+    "8.0": {
+      "0.7": "raise_2pct",
+      "0.8": "raise_2pct",
+      "0.9": "raise_2pct"
+    }
+  },
+  "assumptions": [
+    "our_price = 299.00  (pre-event price; NOT our actual listing price)",
+    "competitor_price = 169.66  (the observed market price after change)",
+    "median_price_before = 299.00  (median market price before the event)",
+    "cost = 239.20  = cost_ratio (0.8) x median_price_before \u2014 CONSTANT for this event",
+    "beta = 5.0  (demand sensitivity; default 5 \u2014 ASSUMPTION, not estimated from data)",
+    "base_demand = 100.0  (relative units at price parity; not actual sales volume)",
+    "Demand = base_demand * exp(-beta * (our_price - comp_price) / comp_price)",
+    "Actions: hold, match, raise_2pct, undercut_2pct, undercut_5pct",
+    "Competitor scenarios: no_response (stays at comp_price), match (mirrors our price), undercut (2% below ours)",
+    "*** MODEL-ASSUMPTION DEMO: cost, beta, and base_demand are not estimated from data. ***"
+  ],
+  "investigation_verdicts": [
+    {
+      "hypothesis": "PROMOTION",
+      "support_level": "CONTRADICTS"
+    },
+    {
+      "hypothesis": "PRODUCT_EVENT",
+      "support_level": "INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "hypothesis": "INVENTORY_LIQUIDATION",
+      "support_level": "INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "hypothesis": "SEASONAL_EVENT",
+      "support_level": "INSUFFICIENT_EVIDENCE"
+    }
+  ],
+  "generated_at": "2026-10-19T17:45:17.730037+00:00"
+}

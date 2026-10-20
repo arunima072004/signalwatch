@@ -1,0 +1,141 @@
+{
+  "event_id": "evt_4d1d716640ebf4ee",
+  "product_id": "AVs4UxXXnnc1JgDc4wO5",
+  "product_name": "Sony 65 Class 4K (2160P) Smart OLED TV (XBR65A1E)\"",
+  "merchant": "Amazon.com",
+  "current_price": 3998.0,
+  "competitor_price": 3998.0,
+  "our_assumed_price": 5499.99,
+  "median_price_before": 5499.99,
+  "cost": 4399.992,
+  "chosen_action": "raise_2pct",
+  "profit_table": {
+    "hold": {
+      "no_response": 16811.3093,
+      "match": 109999.8,
+      "undercut": 99329.0157
+    },
+    "match": {
+      "no_response": -40199.2,
+      "match": -40199.2,
+      "undercut": -36299.5839
+    },
+    "raise_2pct": {
+      "no_response": 16115.6924,
+      "match": 120999.78,
+      "undercut": 109261.9173
+    },
+    "undercut_2pct": {
+      "no_response": -53263.9334,
+      "match": -48195.2,
+      "undercut": -43519.9135
+    },
+    "undercut_5pct": {
+      "no_response": -77284.4626,
+      "match": -60189.2,
+      "undercut": -54350.4079
+    }
+  },
+  "regret_table": {
+    "hold": {
+      "no_response": 0.0,
+      "match": 10999.98,
+      "undercut": 9932.9016
+    },
+    "match": {
+      "no_response": 57010.5093,
+      "match": 161198.98,
+      "undercut": 145561.5012
+    },
+    "raise_2pct": {
+      "no_response": 695.6169,
+      "match": 0.0,
+      "undercut": 0.0
+    },
+    "undercut_2pct": {
+      "no_response": 70075.2427,
+      "match": 169194.98,
+      "undercut": 152781.8308
+    },
+    "undercut_5pct": {
+      "no_response": 94095.7719,
+      "match": 181188.98,
+      "undercut": 163612.3252
+    }
+  },
+  "expected_profit_ranking": [
+    [
+      "raise_2pct",
+      82125.7966
+    ],
+    [
+      "hold",
+      75380.0417
+    ],
+    [
+      "match",
+      -38899.328
+    ],
+    [
+      "undercut_2pct",
+      -48326.349
+    ],
+    [
+      "undercut_5pct",
+      -63941.3568
+    ]
+  ],
+  "scenario_probabilities": {
+    "no_response": 0.3333333333333333,
+    "match": 0.3333333333333333,
+    "undercut": 0.3333333333333333,
+    "sample_size": 1,
+    "confidence": "LOW_DATA",
+    "reason": "fewer than 5 events",
+    "response_days": 7
+  },
+  "sensitivity": {
+    "2.0": {
+      "0.7": "raise_2pct",
+      "0.8": "raise_2pct",
+      "0.9": "raise_2pct"
+    },
+    "5.0": {
+      "0.7": "raise_2pct",
+      "0.8": "raise_2pct",
+      "0.9": "raise_2pct"
+    },
+    "8.0": {
+      "0.7": "raise_2pct",
+      "0.8": "raise_2pct",
+      "0.9": "raise_2pct"
+    }
+  },
+  "assumptions": [
+    "our_price = 5499.99  (pre-event price; NOT our actual listing price)",
+    "competitor_price = 3998.00  (the observed market price after change)",
+    "median_price_before = 5499.99  (median market price before the event)",
+    "cost = 4399.99  = cost_ratio (0.8) x median_price_before \u2014 CONSTANT for this event",
+    "beta = 5.0  (demand sensitivity; default 5 \u2014 ASSUMPTION, not estimated from data)",
+    "base_demand = 100.0  (relative units at price parity; not actual sales volume)",
+    "Demand = base_demand * exp(-beta * (our_price - comp_price) / comp_price)",
+    "Actions: hold, match, raise_2pct, undercut_2pct, undercut_5pct",
+    "Competitor scenarios: no_response (stays at comp_price), match (mirrors our price), undercut (2% below ours)",
+    "*** MODEL-ASSUMPTION DEMO: cost, beta, and base_demand are not estimated from data. ***"
+  ],
+  "investigation_verdicts": [
+    {
+      "hypothesis": "PROMOTION",
+      "support_level": "CONTRADICTS"
+    },
+    {
+      "hypothesis": "INVENTORY_LIQUIDATION",
+      "support_level": "PARTIALLY_SUPPORTS"
+    },
+    {
+      "hypothesis": "PRODUCT_EVENT",
+      "support_level": "CONTRADICTS"
+    }
+  ],
+  "generated_at": "2026-10-19T17:45:16.559459+00:00"
+}

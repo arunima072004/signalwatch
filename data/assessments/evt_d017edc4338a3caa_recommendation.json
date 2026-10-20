@@ -1,0 +1,141 @@
+{
+  "event_id": "evt_d017edc4338a3caa",
+  "product_id": "AV1YDJTZvKc47QAVgpci",
+  "product_name": "NETGEAR - AC600 Dual-Band WiFi USB Mini Adapter - Black",
+  "merchant": "Walmart.com",
+  "current_price": 45.07,
+  "competitor_price": 45.07,
+  "our_assumed_price": 26.43,
+  "median_price_before": 26.43,
+  "cost": 21.144000000000002,
+  "chosen_action": "undercut_5pct",
+  "profit_table": {
+    "hold": {
+      "no_response": 4180.2502,
+      "match": 528.6,
+      "undercut": 477.3219
+    },
+    "match": {
+      "no_response": 2392.6,
+      "match": 2392.6,
+      "undercut": 2160.5003
+    },
+    "raise_2pct": {
+      "no_response": 4336.3769,
+      "match": 581.46,
+      "undercut": 525.0541
+    },
+    "undercut_2pct": {
+      "no_response": 2544.6118,
+      "match": 2302.46,
+      "undercut": 2079.1046
+    },
+    "undercut_5pct": {
+      "no_response": 2782.8041,
+      "match": 2167.25,
+      "undercut": 1957.0109
+    }
+  },
+  "regret_table": {
+    "hold": {
+      "no_response": 156.1267,
+      "match": 1864.0,
+      "undercut": 1683.1784
+    },
+    "match": {
+      "no_response": 1943.7769,
+      "match": 0.0,
+      "undercut": 0.0
+    },
+    "raise_2pct": {
+      "no_response": 0.0,
+      "match": 1811.14,
+      "undercut": 1635.4462
+    },
+    "undercut_2pct": {
+      "no_response": 1791.7651,
+      "match": 90.14,
+      "undercut": 81.3957
+    },
+    "undercut_5pct": {
+      "no_response": 1553.5728,
+      "match": 225.35,
+      "undercut": 203.4894
+    }
+  },
+  "expected_profit_ranking": [
+    [
+      "match",
+      2315.2334
+    ],
+    [
+      "undercut_2pct",
+      2308.7255
+    ],
+    [
+      "undercut_5pct",
+      2302.355
+    ],
+    [
+      "raise_2pct",
+      1814.297
+    ],
+    [
+      "hold",
+      1728.724
+    ]
+  ],
+  "scenario_probabilities": {
+    "no_response": 0.3333333333333333,
+    "match": 0.3333333333333333,
+    "undercut": 0.3333333333333333,
+    "sample_size": 1,
+    "confidence": "LOW_DATA",
+    "reason": "fewer than 5 events",
+    "response_days": 7
+  },
+  "sensitivity": {
+    "2.0": {
+      "0.7": "match",
+      "0.8": "match",
+      "0.9": "match"
+    },
+    "5.0": {
+      "0.7": "raise_2pct",
+      "0.8": "undercut_5pct",
+      "0.9": "undercut_2pct"
+    },
+    "8.0": {
+      "0.7": "raise_2pct",
+      "0.8": "raise_2pct",
+      "0.9": "raise_2pct"
+    }
+  },
+  "assumptions": [
+    "our_price = 26.43  (pre-event price; NOT our actual listing price)",
+    "competitor_price = 45.07  (the observed market price after change)",
+    "median_price_before = 26.43  (median market price before the event)",
+    "cost = 21.14  = cost_ratio (0.8) x median_price_before \u2014 CONSTANT for this event",
+    "beta = 5.0  (demand sensitivity; default 5 \u2014 ASSUMPTION, not estimated from data)",
+    "base_demand = 100.0  (relative units at price parity; not actual sales volume)",
+    "Demand = base_demand * exp(-beta * (our_price - comp_price) / comp_price)",
+    "Actions: hold, match, raise_2pct, undercut_2pct, undercut_5pct",
+    "Competitor scenarios: no_response (stays at comp_price), match (mirrors our price), undercut (2% below ours)",
+    "*** MODEL-ASSUMPTION DEMO: cost, beta, and base_demand are not estimated from data. ***"
+  ],
+  "investigation_verdicts": [
+    {
+      "hypothesis": "PROMOTION",
+      "support_level": "CONSISTENT_WITH"
+    },
+    {
+      "hypothesis": "DATA_ISSUE",
+      "support_level": "INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "hypothesis": "PRODUCT_EVENT",
+      "support_level": "CONTRADICTS"
+    }
+  ],
+  "generated_at": "2026-10-19T17:45:16.357377+00:00"
+}

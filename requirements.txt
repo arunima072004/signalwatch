@@ -1,34 +1,38 @@
-# SignalWatch — Competitive Pricing Intelligence System
-# Pin to versions confirmed present in this environment.
+﻿# SignalWatch — Competitive Pricing Intelligence System
+# Pinned to versions tested on Python 3.13 (Windows/Linux).
+# Upper bounds prevent silent breakage from major upgrades.
 # Install with: pip install -r requirements.txt
 
 # Core data processing
-pandas>=2.2.2
-numpy>=1.26.4
-
-# Scientific computing (pre-built wheel required on Windows without MSVC)
-scipy>=1.13.0
+pandas>=2.2.3,<2.3
+numpy>=1.26.4,<2.3
+scipy>=1.13.0,<2.0
 
 # Visualisation
-matplotlib>=3.9.0
-seaborn>=0.13.2
+matplotlib>=3.9.0,<4.0
+seaborn>=0.13.2,<1.0
+altair>=5.0.0,<7.0
+
+# Dashboard
+streamlit>=1.18.0,<2.0
 
 # Progress bars
-tqdm>=4.66.0
+tqdm>=4.66.0,<5.0
 
 # Jupyter notebooks
 jupyter>=1.0.0
 ipykernel>=6.29.0
 nbformat>=5.10.0
+nbconvert>=7.0.0
 
 # Testing
-pytest>=8.2.0
+pytest>=8.2.0,<10.0
 pytest-cov>=5.0.0
 
 # Utilities
 python-dateutil>=2.9.0
 pytz>=2024.1
 
-# Real search provider (Step 1)
-tavily-python>=0.5.0
+# Real search provider
+tavily-python>=0.5.0,<1.0
 python-dotenv>=1.0.0
