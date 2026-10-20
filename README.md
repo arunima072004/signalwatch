@@ -1,5 +1,7 @@
 # SignalWatch
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 Competitive pricing intelligence: detect unusual price changes, investigate their causes, and generate pricing recommendations.
 
 ---
@@ -236,3 +238,17 @@ Datafiniti CSV via python scripts/preprocess.py):
 - 	ests/adapters/test_adapters.py::TestCsvAdapter::test_csv_adapter_is_sale_not_false_when_missing
 - 	ests/adapters/test_adapters.py::TestCsvAdapter::test_csv_adapter_watchlist_filter
 - 	ests/bocpd/test_incremental.py::TestBatchEquivalence::test_equivalence_on_historical_series
+---
+
+## License
+
+**Code** (src/, scripts/, 	ests/, dashboard/): [MIT License](LICENSE) — Copyright (c) 2026 Arunima.
+
+**Data under data/**: derived from the
+[Datafiniti Electronics Products Pricing Dataset](https://www.kaggle.com/datasets/datafiniti/electronic-products-prices)
+and shared under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+for non-commercial use, in accordance with the source data license.
+This includes data/events/, data/assessments/, data/replay_demo.db, and data/search_cache/.
+
+**Search snippets** in data/search_cache/ belong to their original publishers
+and are cached solely for offline reproducibility (see Dataset section above).
